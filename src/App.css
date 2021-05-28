@@ -367,6 +367,33 @@ height: 120px;
   border-radius: 5px;
   text-align: center;
   color: white;
-  font-size: small;
+  font-size: .7em;
   background: #4d4d4d;
+}
+
+.unlock-user {
+  background-color: black;
+  text-align: left;
+  font-weight: bold;
+  border-radius: 20px;
+  font-size: .75em;
+  padding: 12px 10px;
+}
+
+.blue-box {
+  background-color: #210254;
+  border-radius: 20px;
+  color: white;
+  width: 110px;
+  margin: 0.5% !important;
+  padding: 5px;
+  border-radius: 20px;
+  text-align: left;
+  font-size: .75em;
+  padding: 10px 15px;
+
+}
+
+.green-score {
+  color: #52ac4f;
 }

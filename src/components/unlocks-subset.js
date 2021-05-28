@@ -1,14 +1,16 @@
-{/*
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-class Unlocks extends Component {
+class UnlocksSubset extends Component {
     state = {
         pins: []
     }
 
     async componentDidMount() {
         let search = "";
+        if (this.props.match.params.query != null) {
+            search = this.props.match.params.query;
+        } 
         const requestOptions = {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
@@ -31,14 +33,14 @@ class Unlocks extends Component {
                     </div>
                     <div class="unlock-second-column">
 <div class="five-columns">
-<div class="column-item unlock-user"><img width="25" src="user-icon.png"/>&nbsp;&nbsp;{(pin.serial.user.username == null) ? "Anonymous" : pin.serial.user.username} <span class="green-score">({pin.serial.user.collector_score.current_balance})</span></div>
-<div class="blue-box"><img width="18" src="collection-power-icon.png"/> &nbsp;&nbsp;&nbsp;{pin.serial.user.collection_power.current_balance}</div>
+<div class="column-item unlock-user"><img width="25" src="/user-icon.png"/>&nbsp;&nbsp;{(pin.serial.user.username == null) ? "Anonymous" : pin.serial.user.username} <span class="green-score">({pin.serial.user.collector_score.current_balance})</span></div>
+<div class="blue-box"><img width="18" src="/collection-power-icon.png"/> &nbsp;&nbsp;&nbsp;{pin.serial.user.collection_power.current_balance}</div>
 </div>
 <div class="five-columns">
 
 <div class="column-item unlock-user">
-    &nbsp;&nbsp;<img width="20" src={pin.story_action_type.name + ".png"}/>&nbsp;&nbsp;<Link to={"/pinDetail/"+pin.serial.figpin.number}>{pin.serial.figpin.name} ({pin.serial.figpin.number})</Link> - {pin.serial.edition} Ed. Lot {pin.serial.lot}</div>
-<div class="blue-box"><img width="12" src="figpin-power-icon.png"/> &nbsp;&nbsp;&nbsp;&nbsp;{pin.serial.power.current_balance}</div>
+&nbsp;&nbsp;<img width="20" src={"/" + pin.story_action_type.name + ".png"}/>&nbsp;&nbsp;<Link to={"/pinDetail/"+pin.serial.figpin.number}>{pin.serial.figpin.name} ({pin.serial.figpin.number})</Link> - {pin.serial.edition} Ed. Lot {pin.serial.lot}</div>
+<div class="blue-box"><img width="12" src="/figpin-power-icon.png"/> &nbsp;&nbsp;&nbsp;&nbsp;{pin.serial.power.current_balance}</div>
 </div>
 
 <div class="five-columns">
@@ -61,6 +63,4 @@ class Unlocks extends Component {
       }
 
 }
-export default Unlocks;
-
-*/}
+export default UnlocksSubset;

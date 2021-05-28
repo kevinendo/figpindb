@@ -7,6 +7,7 @@ import PinDetail from "./components/pin-detail";
 import PinsListSubset from "./components/pins-list-subset";
 import About from "./components/about";
 import Unlocks from "./components/unlocks";
+import UnlocksSubset from "./components/unlocks-subset";
 import { Helmet } from 'react-helmet';
 
 function App() {
@@ -16,7 +17,13 @@ function App() {
       <GlobalNav/>
       <div>
         <Switch>
-          <Route exact path={["/unlocks"]} component={Unlocks} />      
+          <Route exact path={["/unlocks"]} component={UnlocksSubset} />     
+          <Route 
+            path="/unlocks/:query"
+            render={(props) => (
+              <UnlocksSubset {...props} />
+            )}
+          />            
           <Route exact path={["/"]} component={PinsList} />      
           <Route 
             path="/pinDetail/:number"
