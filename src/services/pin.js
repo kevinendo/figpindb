@@ -4,25 +4,12 @@ class PinDataService {
     getAll(page) {
         return http.get(`/allPins?page=${page}`);
     }
-
-    get(pin_id) {
-        return http.get(`/pinDetail?pin_id=${pin_id}`);
+    get(number) {
+        return http.get(`/pinDetail?number=${number}`);
     } 
-
     find(by, query) {
         return http.get(`/pins?${by}=${query}`);
-    }
-
-    getCategory(query) {
-        return http.get(`/pins?category=${query}`);
-    }
-    getSet(query) {
-        return http.get(`/pins?set=${query}`);
-    }
-    getTags(query) {
-        return http.get(`/pins?tags=${query}`);
-    }
-
+    }    
 }
 
 export default new PinDataService();

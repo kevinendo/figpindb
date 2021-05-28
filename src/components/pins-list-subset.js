@@ -22,6 +22,7 @@ const PinsListSubset = props => {
   }, [props.match.params.by, props.match.params.query]);
 
   const pageTitle = props.match.params.query;
+  document.title = "FigPinDB | " + pageTitle;
 
   return(
     <div class="mw-content-ltr">
@@ -31,11 +32,10 @@ const PinsListSubset = props => {
           pins.map(pin => (
             <li class="gallerybox">
                 <div class="pinbox">
-                  <Link to={"/pinDetail/"+pin.pin_id.$numberInt}>
-                    <div class="thumb"><img width="100" src={"https://pinnydb.netlify.app/images/" + pin.category.replace(/ /g, '') + "/" + pin.main_img}/></div>
-                  
-                    <div class="pinname">{pin.pin_name}</div>
-                    <div class="pinset">{pin.set}</div></Link>
+                  <Link to={"/pinDetail/"+pin.number}>
+                    <div class="thumb"><img class="pinlist-image" src={pin.img_url_med}/></div>
+                    <div class="pinname">{pin.name}</div>
+                    </Link>
                 </div>
            </li>
           ))

@@ -1,44 +1,35 @@
 import React from "react";
 import { Switch, Route, Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-
-import PinsList from "./components/pins-list";
-import PinsListSubset from "./components/pins-list-subset";
-import PinDetail from "./components/pin-detail";
 import GlobalNav from "./components/global-nav";
+import PinsList from "./components/pins-list";
+import PinDetail from "./components/pin-detail";
+import PinsListSubset from "./components/pins-list-subset";
 import About from "./components/about";
-import ArticleList from "./components/article-list";
-import Article from "./components/article";
+import Unlocks from "./components/unlocks";
+import { Helmet } from 'react-helmet';
 
 function App() {
 
   return (
     <div>
-<GlobalNav/>
-
+      <GlobalNav/>
       <div>
         <Switch>
-          <Route exact path={["/"]} component={PinsList} />
-          <Route exact path={["/articles"]} component={ArticleList} />
+          <Route exact path={["/unlocks"]} component={Unlocks} />      
+          <Route exact path={["/"]} component={PinsList} />      
           <Route 
-            path="/article/:article_id"
-            render={(props) => (
-              <Article {...props} />
-            )}
-          />
-
-          <Route 
-            path="/pinDetail/:pin_id"
+            path="/pinDetail/:number"
             render={(props) => (
               <PinDetail {...props} />
             )}
-          />
+          />  
           <Route 
             path="/:by/:query"
             render={(props) => (
               <PinsListSubset {...props} />
             )}
-          />          
+          />                    
         </Switch>
       </div>
       <About/>

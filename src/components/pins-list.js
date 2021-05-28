@@ -21,9 +21,9 @@ let prevPage = "";
 let nextPage = "";
 
 if (parseInt(page) == 1)  {
-  prevPage = "/?page=13";
+  prevPage = "/?page=16";
   nextPage = "/?page=" + (parseInt(page)+1);
-} else if (parseInt(page) == 13) {
+} else if (parseInt(page) == 16) {
   prevPage = "/?page=" + (parseInt(page)-1);
   nextPage = "/?page=1";
 } else {
@@ -64,8 +64,8 @@ if (parseInt(page) == 1)  {
     retrievePins();
   };
 
-  const find = (query, by) => {
-    PinDataService.find(query, by)
+  const find = (by, query) => {
+    PinDataService.find(by, query)
       .then(response => {
         console.log(response.data);
         setPins(response.data);
@@ -77,32 +77,33 @@ if (parseInt(page) == 1)  {
 
   const findByName = e => {
     e.preventDefault();
-    find("pin_name", searchName)
+    find("name", searchName)
   };
-
 
 
   return(
     <div class="mw-content-ltr">
+    
             <form class="search-box">
               <input id="myInput" class="form-control me-2" type="search" placeholder="Search" aria-label="Search" placeHolder="Search by Name" value={searchName} onChange={onChangeSearchName} onKeyPress={handleKeypress}/>
               <button id ="myBtn" class="btn btn-outline-success" type="submit" onClick={findByName}>Search</button>
           </form>
+    
       <ul class="gallery mw-gallery-traditional">
       {
           pins.map(pin => (
             <li class="gallerybox">
                 <div class="pinbox">
-                  <Link to={"/pinDetail/"+pin.pin_id.$numberInt}>
-                    <div class="thumb"><img width="100" src={"https://pinnydb.netlify.app/images/" + pin.category.replace(/ /g, '') + "/" + pin.main_img}/></div>
-                  
-                    <div class="pinname">{pin.pin_name}</div>
-                    <div class="pinset">{pin.set}</div></Link>
+                  <Link to={"/pinDetail/"+pin.number}>
+                    <div class="thumb"><img class="pinlist-image" src={pin.img_url_med}/></div>
+                    <div class="pinname">{pin.name}</div>
+                    </Link>
                 </div>
            </li>
           ))
       }
       </ul>
+      <br/>
       <div class="center">
       <div class="pagination">
         <a href={prevPage}>&lt;</a>
@@ -119,6 +120,9 @@ if (parseInt(page) == 1)  {
         <a href="/?page=11">11</a>
         <a href="/?page=12">12</a>
         <a href="/?page=13">13</a>
+        <a href="/?page=14">14</a>
+        <a href="/?page=15">15</a>
+        <a href="/?page=16">16</a>
         <a href={nextPage}>&gt;</a>
         </div>
         </div>
