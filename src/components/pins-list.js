@@ -85,8 +85,8 @@ if (parseInt(page) == 1)  {
     <div class="mw-content-ltr">
     
             <form class="search-box">
-              <input id="myInput" class="form-control me-2" type="search" placeholder="Search" aria-label="Search" placeHolder="Search by Name" value={searchName} onChange={onChangeSearchName} onKeyPress={handleKeypress}/>
-              <button id ="myBtn" class="btn btn-outline-success" type="submit" onClick={findByName}>Search</button>
+              <input id="myInput" class="search-input" type="search" placeholder="Search" aria-label="Search" placeHolder="Search by Name" value={searchName} onChange={onChangeSearchName} onKeyPress={handleKeypress}/>
+              <button id ="myBtn" class="search-button" type="submit" onClick={findByName}>Search</button>
           </form>
     
       <ul class="gallery mw-gallery-traditional">

@@ -1,5 +1,9 @@
-import React, { Component } from "react";
+import React, { useState, Component } from "react";
 import { Link } from "react-router-dom";
+
+
+let params = new URLSearchParams(document.location.search.substring(1));
+let name = params.get("query");
 
 class UnlocksSubset extends Component {
     state = {
@@ -10,26 +14,32 @@ class UnlocksSubset extends Component {
         let search = "";
         if (this.props.match.params.query != null) {
             search = this.props.match.params.query;
-        } 
+        }  else if (name != null) {
+            search = name;
+        }
         const requestOptions = {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: `{"search_term": "${search}","offset": 0,"limit": 50}`
+            body: `{"search_term": "${search}","offset": 0,"limit": 20}`
         };
         const response = await fetch('https://api.figpinvault.com/api/v1/newsfeed/search', requestOptions)
         const data = await response.json();       
         this.setState({ pins: data["results"] })        
       }
- 
-      render() {
 
+      render() {
+        
         return (
            <div className="container">
                 <br/>
+                <form class="unlock-search">
+  <label><input class="unlock-search-input" type="text" name="query" /></label>
+  <input class="unlock-search-button" type="submit" value="Search" />
+</form>
             {this.state.pins.map((pin) => (
               <div class="unlock-row">
                     <div class="unlock-first-column">
-                    <img width="100" src={pin.serial.figpin.img_cutout_url}/>
+                    <img class="unlock-image" src={pin.serial.figpin.img_cutout_url}/>
                     </div>
                     <div class="unlock-second-column">
 <div class="five-columns">
@@ -44,11 +54,11 @@ class UnlocksSubset extends Component {
 </div>
 
 <div class="five-columns">
-<div class="column-item">{pin.serial.sequence_no}<br/>of<br/>{pin.serial.volume}</div>
-<div class="column-item">{pin.serial.unlock_position}th<br/>to<br/>Unlock</div>
-<div class="column-item">{pin.serial.boosts.length}<br/>Boost<br/>Count</div>
-<div class="column-item">{pin.serial.power.factory_score}<br/>Factory<br/>Score</div>
-<div class="column-item">{pin.serial.power.story_points_total}<br/>Story<br/>Score</div>
+<div class="column-item"><b>{pin.serial.sequence_no}</b><br/>of<br/><b>{pin.serial.volume}</b></div>
+<div class="column-item"><b>{pin.serial.unlock_position}</b><br/>Unlock<br/>Position</div>
+<div class="column-item"><b>{pin.serial.boosts.length}</b><br/>Boost<br/>Count</div>
+<div class="column-item"><b>{pin.serial.power.factory_score}</b><br/>Factory<br/>Score</div>
+<div class="column-item"><b>{pin.serial.power.story_points_total}</b><br/>Story<br/>Score</div>
 </div>
 
                 </div>
