@@ -251,8 +251,27 @@ function GlobalNav() {
               </ul>
             </li> 
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="/unlocks">Unlocks</a>
-            </li>               
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Unlocks
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="/calendar">Calendar</a></li>
+              <li><a class="dropdown-item" href="/unlocks">Recent Unlocks</a></li>
+              <li><a class="dropdown-item" href="/unlock-stories">Stories</a></li>
+              <li><a class="dropdown-item" href="/unlocks-filter?query=UNLOCK">Cohorts</a></li>
+              {/*}
+              <li><a class="dropdown-item" href="/unlocks-filter?query=AROUND_THE_SUN_BONUS">Around the Sun Bonus</a></li>
+              <li><a class="dropdown-item" href="/unlocks-filter?query=FIRST_OFF_THE_LINE_BONUS">First off the Line Bonus</a></li>
+              <li><a class="dropdown-item" href="/unlocks-filter?query=LAST_CHOPPER_OUT">Last Chopper Out Bonus</a></li>
+              <li><a class="dropdown-item" href="/unlocks-filter?query=MODEL_MATCH_BONUS">Super Match Bonus</a></li>
+              <li><a class="dropdown-item" href="/unlocks-filter?query=SET_BONUS">Set Bonus</a></li>
+              <li><a class="dropdown-item" href="/unlocks-filter?query=2_PACK_SET_BONUS">2-Pack Set Bonus</a></li>
+              <li><a class="dropdown-item" href="/unlocks-filter?query=DELUXE_SET_BONUS">Deluxe Set Bonus</a></li>
+              <li><a class="dropdown-item" href="/unlocks-filter?query=DELUXE_PLUS_SET_BONUS">Deluxe+ Set Bonus</a></li>
+              <li><a class="dropdown-item" href="/unlocks-filter?query=7_PACK_SET_BONUS">7-Pack Set Bonus</a></li>
+          */}
+              </ul>
+            </li>          
           </ul>
         </div>
       </div>

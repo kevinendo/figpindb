@@ -1,5 +1,5 @@
 body {
-  margin: 10px; 
+  margin: 2px; 
   margin-top: 55px;
   background-color:black;
 }
@@ -144,18 +144,18 @@ img {
 
 .tag-list {
   list-style-type: none;
-  margin-top: 10px;
-  margin-left: 10px;
+  margin-top: 0px;
   padding: 0;
   overflow: hidden;
 }
 .tag-list-item {
   float: left;
   margin-right: 15px;
+  margin-bottom: 5px;
   border: 0px solid black;
   border-radius: 10px;
   padding: 4px 10px 4px 10px;
-  background-color: #4d4d4d;
+  background-color: black;
 }
 
 .tag-list-item a {
@@ -252,16 +252,21 @@ img {
 .production-history {
   background-color: red;
   color: white;
-  width: 350px;
+  width: 320px;
   padding: 3px;
   text-align: center;
   font-size: 80%;
   font-family: 'Raleway', sans-serif;
+  border-radius: 10px; 
 }
+
 .edition {
-  border: 1px solid black;
-  width: 350px;
-  padding: 3px;
+  background-color: #4d4d4d;
+  border: 0px solid black;
+  width: 320px;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px 0px;
 }
 
 .edition-text-1 {
@@ -270,7 +275,7 @@ img {
 }
 
 .edition-text-2 {
-  font-size: 65%; 
+  font-size: 70%; 
   color: white;
 }
 
@@ -327,7 +332,8 @@ img {
 .unlock-row {
   background-color: gray;
   border-radius: 20px;
-  margin: 10px;
+  margin: 0px;
+  margin-top: 10px;
 }
 
 .unlock-name {
@@ -335,7 +341,7 @@ img {
 }
 
 .unlock-image {
-height: 220px;
+height: 180px;
 display: block;
 margin-left: auto;
 margin-right: auto;
@@ -398,6 +404,10 @@ margin-right: auto;
 
 }
 
+@media all and (max-width: 800px) {
+  .unlock-user { font-size: .65em; }
+}
+
 .green-score {
   color: #52ac4f;
 }
@@ -409,6 +419,7 @@ margin-right: auto;
 .unlock-search-input {
   background-color: #4d4d4d;
   color: white;
+  font-size: .7em;
   border: 0px;
   border-radius: 30px;
   padding: 7px 20px;
@@ -417,6 +428,7 @@ margin-right: auto;
 .unlock-search-button {
   color: white;
   font-weight: bold;
+  font-size: .7em;
   font-family: 'Raleway', sans-serif;
   background-color: #891a10;
   border: 0px;
@@ -428,19 +440,151 @@ margin-right: auto;
 .search-input {
   background-color: #4d4d4d;
   color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: .7em;
   border: 0px;
   border-radius: 30px;
   padding: 7px 20px;
-  margin-top: 3px;
+  margin-top: 8px;
 }
 .search-button {
   color: white;
   font-weight: bold;
   font-family: 'Raleway', sans-serif;
+  font-size: .7em;
   background-color: #891a10;
   border: 0px;
   border-radius: 30px;
   padding: 7px 20px;
   margin-left: 10px;
-  margin-top: 3px;
+  margin-top: 8px;
 }
+
+
+.tt {
+  position:relative; /* making the .tooltip span a container for the tooltip text */
+  border-bottom:1px dashed #000; /* little indicater to indicate it's hoverable */
+}
+
+.tt:before {
+  content: attr(data-text); /* here's the magic */
+  position:absolute;
+  
+  /* vertically center */
+  top:50%;
+  transform:translateY(-50%);
+  
+  /* move to right */
+  left:100%;
+  margin-left:15px; /* and add a small left margin */
+  
+  /* basic styles */
+  width:200px;
+  padding:10px;
+  border-radius:10px;
+  background:#000;
+  color: #fff;
+  text-align:center;
+
+  display:none; /* hide by default */
+}
+
+.tt:hover:before {
+  display:block;
+}
+
+.tt.left:before {
+  /* reset defaults */
+  left:initial;
+  margin:initial;
+
+  /* set new values */
+  top:100%;
+  right:20%;
+  margin-top:25px;
+}
+
+.cohort-row {
+  display: flex;
+  color: white;
+}
+
+.cohort-left-column {
+  flex: 66%;
+  color: white;
+  background-color: black;
+  text-align: left;
+  font-weight: bold;
+  border-radius: 20px;
+  font-size: .75em;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+.cohort-right-column {
+  flex: 34%;
+  color: white;
+  background-color: #210254;
+  border-radius: 20px;
+  color: white;
+  margin: 0.5% !important;
+  padding: 5px;
+  border-radius: 20px;
+  text-align: left;
+  font-size: .75em;
+  padding: 5px 10px;
+}
+
+.cohorts {
+  width: 320px;
+  padding: 0px;
+  background-color: gray;
+  border-radius: 10px;
+  margin: 5px 0px;
+  padding: 2px;
+}
+
+
+
+
+
+.flex-child {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+
+.flex-container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.stats-container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.stats-child {
+  float: left;
+  width: 33.33%;
+  padding: 0px;
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 1000px) {
+  .flex-child {
+    width: 100%;
+  }
+  .stats-child {
+    width: 100%;
+  }
+  .tag-list {
+    margin-top: 10px;
+  }
+  
+}
+
+

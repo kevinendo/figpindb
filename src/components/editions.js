@@ -22,7 +22,7 @@ useEffect(() => {
 }, [props.pinNumber]);
 
 return (
-    <div className="container">
+    <div class="flex-child">
      <div className="col-xs-12">
      <div class="production-history"><b>PRODUCTION HISTORY</b></div>
      {pinInfo.map((edition) => (

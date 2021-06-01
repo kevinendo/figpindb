@@ -5,38 +5,42 @@ import { Link } from "react-router-dom";
 let params = new URLSearchParams(document.location.search.substring(1));
 let name = params.get("query");
 
-class UnlocksSubset extends Component {
+class UnlocksFilter extends Component {
     state = {
         pins: []
     }
 
     async componentDidMount() {
+{/*}
         let search = "";
-        if (this.props.match.params.query != null) {
-            search = this.props.match.params.query;
-        }  else if (name != null) {
-            search = name;
-        }
-        const requestOptions = {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: `{"search_term": "${search}","offset": 0,"limit": 20}`
-        };
-        const response = await fetch('https://api.figpinvault.com/api/v1/newsfeed/search', requestOptions)
-        const data = await response.json();       
-        this.setState({ pins: data["results"] })        
+      if (this.props.match.params.query != null) {
+          search = this.props.match.params.query;
+      }  else if (name != null) {
+          search = name;
       }
+          */}
+      const requestOptions = {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: `{"search_term": "","offset": 0,"limit": 200}`
+      };
+
+      const response = await fetch('https://api.figpinvault.com/api/v1/newsfeed/search', requestOptions)
+      const data = await response.json();       
+      this.setState({ pins: data["results"] })        
+    }
+
 
       render() {
-        
+
         return (
+
+            
+
            <div className="container">
                 <br/>
-                <form class="unlock-search">
-  <input class="unlock-search-input" type="text" name="query" /><input class="unlock-search-button" type="submit" value="Search" placeHolder="Search for Unlocks"/>
-                </form>
 
-            {this.state.pins.map((pin) => (
+            {this.state.pins.filter(function (pin) { return pin.story_action_type.name.includes(name);}).map((pin) => (
               <div class="unlock-row">
                     <div class="unlock-first-column">
                     <img class="unlock-image" src={pin.serial.figpin.img_cutout_url}/>
@@ -65,7 +69,7 @@ class UnlocksSubset extends Component {
 
               </div>
             ))}
-
+         
            </div>
             
         );
@@ -73,4 +77,4 @@ class UnlocksSubset extends Component {
       }
 
 }
-export default UnlocksSubset;
+export default UnlocksFilter;

@@ -10,6 +10,16 @@ class PinDataService {
     find(by, query) {
         return http.get(`/pins?${by}=${query}`);
     }    
+    getCalendar() {
+        return http.get(`/calendar`);
+    }    
+    createPin(data) {
+        return http.post("/addPin", data);
+      }
+    
+    updatePin(data) {
+        return http.put("/editPin", data);
+      }
 }
 
 export default new PinDataService();

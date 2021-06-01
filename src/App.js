@@ -6,9 +6,17 @@ import PinsList from "./components/pins-list";
 import PinDetail from "./components/pin-detail";
 import PinsListSubset from "./components/pins-list-subset";
 import About from "./components/about";
-import Unlocks from "./components/unlocks";
 import UnlocksSubset from "./components/unlocks-subset";
-import { Helmet } from 'react-helmet';
+import UnlocksStories from "./components/unlocks-stories";
+import UnlocksFilter from "./components/unlocks-filter";
+
+import Calendar from "./components/calendar";
+
+const NoMatchPage = () => {
+  return (
+    <h3>404 - Not found</h3>
+  );
+};
 
 function App() {
 
@@ -18,13 +26,16 @@ function App() {
       <div>
         <Switch>
           <Route exact path={["/unlocks"]} component={UnlocksSubset} />     
+          <Route exact path={["/unlocks-filter"]} component={UnlocksFilter} />     
           <Route 
             path="/unlocks/:query"
             render={(props) => (
               <UnlocksSubset {...props} />
             )}
           />            
-          <Route exact path={["/"]} component={PinsList} />      
+          <Route exact path={["/"]} component={PinsList} />   
+          <Route exact path={["/calendar"]} component={Calendar} />      
+          <Route exact path={["/unlock-stories"]} component={UnlocksStories} />      
           <Route 
             path="/pinDetail/:number"
             render={(props) => (
@@ -36,7 +47,8 @@ function App() {
             render={(props) => (
               <PinsListSubset {...props} />
             )}
-          />                    
+          />       
+          <Route component={NoMatchPage} />             
         </Switch>
       </div>
       <About/>

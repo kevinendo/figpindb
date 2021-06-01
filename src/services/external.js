@@ -9,7 +9,7 @@ class ExtPinDataService {
     } 
     getNewsfeed() {
         return http.get(`/newsfeed`);
-    } 
+    }
 }
 
 

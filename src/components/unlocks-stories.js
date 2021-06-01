@@ -11,30 +11,27 @@ class UnlocksSubset extends Component {
     }
 
     async componentDidMount() {
-        let search = "";
-        if (this.props.match.params.query != null) {
-            search = this.props.match.params.query;
-        }  else if (name != null) {
-            search = name;
-        }
-        const requestOptions = {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: `{"search_term": "${search}","offset": 0,"limit": 20}`
-        };
-        const response = await fetch('https://api.figpinvault.com/api/v1/newsfeed/search', requestOptions)
-        const data = await response.json();       
-        this.setState({ pins: data["results"] })        
+      let search = "";
+      if (this.props.match.params.query != null) {
+          search = this.props.match.params.query;
+      }  else if (name != null) {
+          search = name;
       }
+      const requestOptions = {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: `{"search_term": "${search}","offset": 0,"limit": 100}`
+      };
+      const response = await fetch('https://api.figpinvault.com/api/v1/newsfeed?type=stories&offset=0&limit=10')
+      const data = await response.json();       
+      this.setState({ pins: data["results"] })        
+    }
 
       render() {
         
         return (
            <div className="container">
                 <br/>
-                <form class="unlock-search">
-  <input class="unlock-search-input" type="text" name="query" /><input class="unlock-search-button" type="submit" value="Search" placeHolder="Search for Unlocks"/>
-                </form>
 
             {this.state.pins.map((pin) => (
               <div class="unlock-row">
@@ -65,7 +62,7 @@ class UnlocksSubset extends Component {
 
               </div>
             ))}
-
+         
            </div>
             
         );
