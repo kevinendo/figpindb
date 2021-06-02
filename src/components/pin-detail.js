@@ -1,11 +1,10 @@
 import React, { useState, useEffect, Redirect } from "react";
 import PinDataService from "../services/pin";
 import Editions from "../components/editions";
-import Cohorts from "../components/cohorts";
+import CohortsNew from "../components/cohorts-new";
 import { Link } from "react-router-dom"
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
-import { Helmet } from 'react-helmet';
 
 const PinDetail = props => {
   const initialPinState = {
@@ -39,7 +38,6 @@ const PinDetail = props => {
 
 const [pinInfo, setPin] = useState(initialPinState);
 
-
 const getPin = pin_id => {
   PinDataService.get(pin_id)
     .then(response => {
@@ -51,7 +49,6 @@ const getPin = pin_id => {
     });
 };
 
-
 useEffect(() => {
   getPin(props.match.params.number);
 }, [props.match.params.number]);
@@ -61,7 +58,6 @@ if (pinInfo) {
 pinTags = pinInfo.tags.split(", ");
 document.title = "FigPinDB | " + pinInfo.name;
 } 
-
 
 const items = [
   <div class="image-gallery-column"><img width="300" src={pinInfo.img_cutout_url}/></div>,
@@ -77,25 +73,26 @@ const items = [
         <div>          
   <div class="detail-box">
   <h3>{pinInfo.name} ({pinInfo.number})</h3>
-    <div class="stats-container"> 
-      <div class="stats-child">
-        <div class="pin-text"><b>Property:</b> <Link to={"/property/"+pinInfo.property}>{pinInfo.property}</Link> (<Link to={"/licensor/"+pinInfo.licensor}>{pinInfo.licensor}</Link>)</div>    
-        { pinInfo.sale_date ? <div class="pin-text"><b>Sale Date:</b> {pinInfo.sale_date}</div> : <div></div> }
-        { pinInfo.unlock_date ? <div class="pin-text"><b>Unlock Date:</b> {pinInfo.unlock_date}</div> : <div></div> }
-        { pinInfo.availability ? <div class="pin-text"><b>Availability:</b> <Link to={"/availability/"+pinInfo.availability}>{pinInfo.availability}</Link></div> : <div></div> }
-        { (pinInfo.limited_edition != null) ? <div class="pin-text"><b>Limited Edition:</b> {pinInfo.limited_edition.$numberInt.toString()}</div> : <div></div>}
-        { pinInfo.type ? <div class="pin-text"><b>Type:</b> <Link to={"/type/"+pinInfo.type}>{pinInfo.type}</Link></div> : <div></div> }
-        { pinInfo.notes ? <div class="pin-text"><b>Notes:</b> {pinInfo.notes}</div> : <div></div> }
+    <div class="detail-top-container"> 
+      <div class="detail-top-child">
+        <div class="pin-text"><span class="pin-text-category">Property:</span> <Link to={"/property/"+pinInfo.property}>{pinInfo.property}</Link> (<Link to={"/licensor/"+pinInfo.licensor}>{pinInfo.licensor}</Link>)</div>          
+        { pinInfo.availability ? <div class="pin-text"><span class="pin-text-category">Availability:</span> <Link to={"/availability/"+pinInfo.availability}>{pinInfo.availability}</Link></div> : <div></div> }
+        { (pinInfo.limited_edition != null) ? <div class="pin-text"><span class="pin-text-category">Limited Edition:</span> {pinInfo.limited_edition.$numberInt.toString()}</div> : <div></div>}
+      </div><div class="detail-top-child">
+        { pinInfo.sale_date ? <div class="pin-text"><span class="pin-text-category">Sale Date:</span> {pinInfo.sale_date}</div> : <div></div> } 
+        { pinInfo.unlock_date ? <div class="pin-text"><span class="pin-text-category">Unlock Date:</span> {pinInfo.unlock_date}</div> : <div></div> }
+        { pinInfo.notes ? <div class="pin-text"><span class="pin-text-category">Notes:</span> {pinInfo.notes}</div> : <div></div> }
         </div>
-        <div class="stats-child">
+        <div class="detail-top-child">
          <ul class="tag-list">
+        { (pinInfo.type != 'Classic') ?  <li class="tag-list-item"><Link to={"/type/"+pinInfo.type}>{pinInfo.type}</Link></li> : <div></div> }
         { pinInfo.variant ? <li class="tag-list-item"><Link to={"/variant/"+pinInfo.variant}>{pinInfo.variant}</Link></li> : <div></div> }
         { (pinInfo.tags != "") ? (
     <div>
       {
         pinTags.map(tag => (
           <div>
-            <li class="tag-list-item"><Link to={"/tags/"+tag}>{tag}</Link></li>
+            <li class="tag-list-item"><Link title={tag} to={"/tags/"+tag}>{tag}</Link></li>
           </div>
         ))
       }
@@ -106,10 +103,10 @@ const items = [
 }
 </ul>
 </div>
-<div class="stats-child"></div>
 </div><div>
-<div class="flex-container">
-<div class="flex-child">
+<hr class="detail-divider"/>
+<div class="detail-bottom-container">
+<div class="detail-bottom-child">
 <div class="image-carousel">
 <AliceCarousel>
         <img width="300" className="sliderimg" src={pinInfo.img_cutout_url}/>
@@ -119,9 +116,10 @@ const items = [
 </AliceCarousel>
 </div>
 </div>
-
-        <Editions pinNumber={pinInfo.number}/>
-        <Cohorts pinName={pinInfo.name}/>
+<div class="detail-bottom-child">
+        <Editions pinNumber={pinInfo.number}/></div>
+        <div class="detail-bottom-child">
+        <CohortsNew pinNumber={pinInfo.number}/></div>
         </div>
     </div>
     </div>

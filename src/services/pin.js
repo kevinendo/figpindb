@@ -20,6 +20,9 @@ class PinDataService {
     updatePin(data) {
         return http.put("/editPin", data);
       }
+    getCohorts(number) {
+        return http.get(`/allCohorts?number=${number}`);
+    }
 }
 
 export default new PinDataService();

@@ -1,26 +1,20 @@
 import React, { useState, Component } from "react";
 import { Link } from "react-router-dom";
-
+import fetch from "../services/fetch-with-timeout"
 
 let params = new URLSearchParams(document.location.search.substring(1));
 let name = params.get("query");
 
+  
 class Cohorts extends Component {
     state = {
         pins: []
     }
 
     async componentDidMount() {
-{/*}
-        let search = "";
-      if (this.props.match.params.query != null) {
-          search = this.props.match.params.query;
-      }  else if (name != null) {
-          search = name;
-      }
-          */}
-let pinNumber = document.location.pathname.split("/")[2];
 
+let pinNumber = document.location.pathname.split("/")[2];
+          try {
       const requestOptions = {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
@@ -28,10 +22,16 @@ let pinNumber = document.location.pathname.split("/")[2];
       };
 
       const response = await fetch('https://api.figpinvault.com/api/v1/newsfeed/search', requestOptions)
-      const data = await response.json();       
-      this.setState({ pins: data["results"] })        
+      if (response.ok) {
+        const data = await response.json();       
+        this.setState({ pins: data["results"] })  
+      } else {
+          throw new Error('No response.')
+      }
+    } catch (error) {
+        return error
     }
-
+}
 
       render() {
         return (

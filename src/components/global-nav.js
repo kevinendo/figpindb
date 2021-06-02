@@ -155,7 +155,6 @@ function GlobalNav() {
               <li><a class="dropdown-item" href="/property/Bruce Lee">Bruce Lee</a></li>                
               <li><a class="dropdown-item" href="/property/David Bowie">David Bowie</a></li>    
               <li><a class="dropdown-item" href="/property/DesignerCon">DesignerCon</a></li>     
-              <li><a class="dropdown-item" href="/property/FiGPiN Logo Pin">FiGPiN Logo Pin</a></li>
               <li><a class="dropdown-item" href="/property/Gudetama">Gudetama</a></li>
               <li><a class="dropdown-item" href="/property/Hello Kitty">Hello Kitty</a></li>
               <li><a class="dropdown-item" href="/property/House of Blues">House of Blues</a></li>
@@ -246,10 +245,15 @@ function GlobalNav() {
               <li><a class="dropdown-item" href="/tags/ECCC">ECCC</a></li>
               <li><a class="dropdown-item" href="/tags/Halloween">Halloween</a></li>
               <li><a class="dropdown-item" href="/tags/LACC">LACC</a></li>
+              <li><a class="dropdown-item" href="/type/Logo">Logo</a></li>
+              <li><a class="dropdown-item" href="/type/Mini">Mini</a></li>
               <li><a class="dropdown-item" href="/tags/NYCC">NYCC</a></li>
               <li><a class="dropdown-item" href="/tags/SDCC">SDCC</a></li>
+              <li><a class="dropdown-item" href="/type/XL">XL</a></li>
               </ul>
             </li> 
+              {/*}
+   
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Unlocks
@@ -259,7 +263,6 @@ function GlobalNav() {
               <li><a class="dropdown-item" href="/unlocks">Recent Unlocks</a></li>
               <li><a class="dropdown-item" href="/unlock-stories">Stories</a></li>
               <li><a class="dropdown-item" href="/unlocks-filter?query=UNLOCK">Cohorts</a></li>
-              {/*}
               <li><a class="dropdown-item" href="/unlocks-filter?query=AROUND_THE_SUN_BONUS">Around the Sun Bonus</a></li>
               <li><a class="dropdown-item" href="/unlocks-filter?query=FIRST_OFF_THE_LINE_BONUS">First off the Line Bonus</a></li>
               <li><a class="dropdown-item" href="/unlocks-filter?query=LAST_CHOPPER_OUT">Last Chopper Out Bonus</a></li>
@@ -269,9 +272,10 @@ function GlobalNav() {
               <li><a class="dropdown-item" href="/unlocks-filter?query=DELUXE_SET_BONUS">Deluxe Set Bonus</a></li>
               <li><a class="dropdown-item" href="/unlocks-filter?query=DELUXE_PLUS_SET_BONUS">Deluxe+ Set Bonus</a></li>
               <li><a class="dropdown-item" href="/unlocks-filter?query=7_PACK_SET_BONUS">7-Pack Set Bonus</a></li>
-          */}
+          
               </ul>
-            </li>          
+            </li>        
+*/}
           </ul>
         </div>
       </div>

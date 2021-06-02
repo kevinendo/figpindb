@@ -91,10 +91,10 @@ if (parseInt(page) == 1)  {
     
       <ul class="gallery mw-gallery-traditional">
       {
-          pins.map(pin => (
+          pins.map (pin => (
             <li class="gallerybox">
                 <div class="pinbox">
-                  <Link to={"/pinDetail/"+pin.number}>
+                  <Link title={pin.name}  to={"/pinDetail/"+pin.number}>
                     <div class="thumb"><img class="pinlist-image" src={pin.img_url_med}/></div>
                     <div class="pinname">{pin.name}</div>
                     </Link>
