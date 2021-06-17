@@ -27,18 +27,18 @@ let pageTitle = "Calendar";
   document.title = "FigPinDB | " + pageTitle;
 
   return(
-    <div class="mw-content-ltr">
- <h3>Unlock Calendar</h3>
-      <ul class="gallery mw-gallery-traditional">
+    <div className="detail-box">
+ <h3 align="center">Unlock Calendar</h3>
+      <ul className="gallery mw-gallery-traditional">
       {
           pins.map(pin => (
-            <li class="gallerybox">
-                <div class="pinbox">
+            <li key={pin.number} className="gallerybox">
+                <div className="pinbox">
                   <Link to={"/pinDetail/"+pin.number}>
-                    <div class="thumb"><img class="pinlist-image" src={pin.img_url_med}/></div>
-                    <div class="pinname">{pin.name}</div>
-                    <div class="pinname">{pin.unlock_date}</div>
-                    <div class="pinname">{pin.unlock_time}</div>
+                    <div className="thumb"><img alt={pin.name} className="pinlist-image" src={pin.img_url_med}/></div>
+                    <div className="pinname">{pin.name}</div>
+                    <div className="pinname">{pin.unlock_date}</div>
+                    <div className="pinname">{pin.unlock_time}</div>
                     </Link>
                 </div>
            </li>

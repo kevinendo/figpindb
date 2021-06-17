@@ -1,5 +1,4 @@
-import React, { useState, Component } from "react";
-import { Link } from "react-router-dom";
+import React, { Component } from "react";
 import fetch from "../services/fetch-with-timeout"
 
 let params = new URLSearchParams(document.location.search.substring(1));

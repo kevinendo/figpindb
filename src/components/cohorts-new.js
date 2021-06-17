@@ -20,11 +20,11 @@ useEffect(() => {
 }, [props.pinNumber]);
 
 return (
-    <div class="flex-child">
-         <div class="production-history"><b>Cohorts</b></div>
+    <div className="center-wrapper">
+         <div className="production-history"><b>Cohorts</b></div>
              {pinInfo.map((cohort) => (
-                <div class="edition">
-                    <div class="edition-text-1"><img alt={cohort.story_action_type} class="edition-text-1" width="27" src={"/" + cohort.story_action_type + ".png"}/> <b>{cohort.edition} Edition</b> | Lot {cohort.lot} | Volume of {cohort.volume}</div>           
+                <div className="edition" key = {cohort.edition + cohort.volume}>
+                    <div className="edition-text-1"><img alt={cohort.story_action_type} className="edition-text-1" width="27" src={"/" + cohort.story_action_type + ".png"}/> <b>{cohort.edition} Edition</b> | Lot {cohort.lot} | Volume of {cohort.volume}</div>           
                 </div>
              ))}
      </div>    

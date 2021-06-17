@@ -33,7 +33,7 @@ class UnlocksSubset extends Component {
            <div className="container">
                 <br/>
                 <form class="unlock-search">
-  <input class="unlock-search-input" type="text" name="query" /><input class="unlock-search-button" type="submit" value="Search" placeHolder="Search for Unlocks"/>
+  <input class="unlock-search-input" type="text" name="query" /><input class="unlock-search-button" type="submit" value="Search" placeholder="Search for Unlocks"/>
                 </form>
 
             {this.state.pins.map((pin) => (

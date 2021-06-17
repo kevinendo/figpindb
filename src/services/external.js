@@ -2,7 +2,7 @@ import http from "../services/http-external";
 
 class ExtPinDataService {
     get(number) {
-        if (number == "421") {
+        if (number === "421") {
             number = "421 ";
         };
         return http.get(`/figpin/${number}/editions`);

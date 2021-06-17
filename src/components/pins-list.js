@@ -14,29 +14,22 @@ const values = queryString.parse(search);
 if (values.page != null) {
   page = values.page;
 } else {
-  page = 1;
+  page = 0;
 }
 
 let prevPage = "";
 let nextPage = "";
 
-if (parseInt(page) == 1)  {
-  prevPage = "/?page=16";
-  nextPage = "/?page=" + (parseInt(page)+1);
-} else if (parseInt(page) == 16) {
-  prevPage = "/?page=" + (parseInt(page)-1);
-  nextPage = "/?page=1";
+if (parseInt(page) === 0)  {
+  prevPage = "/pins?page=16";
+  nextPage = "/pins?page=" + (parseInt(page)+1);
+} else if (parseInt(page) === 16) {
+  prevPage = "/pins?page=" + (parseInt(page)-1);
+  nextPage = "/pins?page=0";
 } else {
-  prevPage = "/?page=" + (parseInt(page)-1);
-  nextPage = "/?page=" + (parseInt(page)+1);
+  prevPage = "/pins?page=" + (parseInt(page)-1);
+  nextPage = "/pins?page=" + (parseInt(page)+1);
 }
-
-
-
-
-  useEffect(() => {
-    retrievePins();
-  }, []);
 
   const onChangeSearchName = e => {
     const searchName = e.target.value;
@@ -60,9 +53,9 @@ if (parseInt(page) == 1)  {
       });
   };
 
-  const refreshList = () => {
-    retrievePins();
-  };
+useEffect(() => {
+  retrievePins();
+}, []);
 
   const find = (by, query) => {
     PinDataService.find(by, query)
@@ -77,26 +70,27 @@ if (parseInt(page) == 1)  {
 
   const findByName = e => {
     e.preventDefault();
+    document.getElementById('page-foot').style.display = 'none';
     find("name", searchName)
   };
 
 
   return(
-    <div class="mw-content-ltr">
-    
-            <form class="search-box">
-              <input id="myInput" class="search-input" type="search" placeholder="Search" aria-label="Search" placeHolder="Search by Name" value={searchName} onChange={onChangeSearchName} onKeyPress={handleKeypress}/>
-              <button id ="myBtn" class="search-button" type="submit" onClick={findByName}>Search</button>
+    <div className="detail-box">
+    {/*
+            <form className="search-box">
+              <input id="myInput" className="search-input" type="search" placeholder="Search" aria-label="Search" value={searchName} onChange={onChangeSearchName} onKeyPress={handleKeypress}/>
+              <button id ="myBtn" className="search-button" type="submit" onClick={findByName}>Search</button>
           </form>
-    
-      <ul class="gallery mw-gallery-traditional">
+    */}
+      <ul className="gallery mw-gallery-traditional">
       {
           pins.map (pin => (
-            <li class="gallerybox">
-                <div class="pinbox">
+            <li key={pin.number} className="gallerybox">
+                <div className="pinbox">
                   <Link title={pin.name}  to={"/pinDetail/"+pin.number}>
-                    <div class="thumb"><img class="pinlist-image" src={pin.img_url_med}/></div>
-                    <div class="pinname">{pin.name}</div>
+                    <div className="thumb"><img alt={pin.name} className="pinlist-image" src={pin.img_url_med.replace(/^http:\/\//i, 'https://')}/></div>
+                    <div className="pinname">{pin.name}</div>
                     </Link>
                 </div>
            </li>
@@ -104,25 +98,26 @@ if (parseInt(page) == 1)  {
       }
       </ul>
       <br/>
-      <div class="center">
-      <div class="pagination">
+      <div className="center">
+      <div id="page-foot" className="pagination">
         <a href={prevPage}>&lt;</a>
-        <a href="/?page=1">1</a>
-        <a href="/?page=2">2</a>
-        <a href="/?page=3">3</a>
-        <a href="/?page=4">4</a>
-        <a href="/?page=5">5</a>
-        <a href="/?page=6">6</a>
-        <a href="/?page=7">7</a>
-        <a href="/?page=8">8</a>
-        <a href="/?page=9">9</a>
-        <a href="/?page=10">10</a>
-        <a href="/?page=11">11</a>
-        <a href="/?page=12">12</a>
-        <a href="/?page=13">13</a>
-        <a href="/?page=14">14</a>
-        <a href="/?page=15">15</a>
-        <a href="/?page=16">16</a>
+        { (parseInt(page) === 0) ? (<a className="active" href="/pins?page=0">0</a>) : ( <a href="/pins?page=0">0</a>) }
+        { (parseInt(page) === 1) ? (<a className="active" href="/pins?page=1">1</a>) : ( <a href="/pins?page=1">1</a>) }
+        { (parseInt(page) === 2) ? (<a className="active" href="/pins?page=2">2</a>) : ( <a href="/pins?page=2">2</a>) }
+        { (parseInt(page) === 3) ? (<a className="active" href="/pins?page=3">3</a>) : ( <a href="/pins?page=3">3</a>) }
+        { (parseInt(page) === 4) ? (<a className="active" href="/pins?page=4">4</a>) : ( <a href="/pins?page=4">4</a>) }
+        { (parseInt(page) === 5) ? (<a className="active" href="/pins?page=5">5</a>) : ( <a href="/pins?page=5">5</a>) }
+        { (parseInt(page) === 6) ? (<a className="active" href="/pins?page=6">7</a>) : ( <a href="/pins?page=6">6</a>) }
+        { (parseInt(page) === 7) ? (<a className="active" href="/pins?page=7">7</a>) : ( <a href="/pins?page=7">7</a>) }
+        { (parseInt(page) === 8) ? (<a className="active" href="/pins?page=8">8</a>) : ( <a href="/pins?page=8">8</a>) }
+        { (parseInt(page) === 9) ? (<a className="active" href="/pins?page=9">9</a>) : ( <a href="/pins?page=9">9</a>) }
+        { (parseInt(page) === 10) ? (<a className="active" href="/pins?page=10">10</a>) : ( <a href="/pins?page=10">10</a>) }
+        { (parseInt(page) === 11) ? (<a className="active" href="/pins?page=11">11</a>) : ( <a href="/pins?page=11">11</a>) }
+        { (parseInt(page) === 12) ? (<a className="active" href="/pins?page=12">12</a>) : ( <a href="/pins?page=12">12</a>) }
+        { (parseInt(page) === 13) ? (<a className="active" href="/pins?page=13">13</a>) : ( <a href="/pins?page=13">13</a>) }
+        { (parseInt(page) === 14) ? (<a className="active" href="/pins?page=14">14</a>) : ( <a href="/pins?page=14">14</a>) }
+        { (parseInt(page) === 15) ? (<a className="active" href="/pins?page=15">15</a>) : ( <a href="/pins?page=15">15</a>) }
+        { (parseInt(page) === 16) ? (<a className="active" href="/pins?page=16">16</a>) : ( <a href="/pins?page=16">16</a>) }
         <a href={nextPage}>&gt;</a>
         </div>
         </div>

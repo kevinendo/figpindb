@@ -1,281 +1,254 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Search from '../components/search'
+import { Link } from "react-router-dom"
+import LoginButton from "../components/login-button"
+import LogoutButton from "../components/logout-button"
+import Profile from "../components/profile";
+import Nav from "../components/nav"
+import { useAuth0 } from "@auth0/auth0-react";
 
 function GlobalNav() {
+  const { user, user_id, isAuthenticated, isLoading } = useAuth0();
+  const { loginWithRedirect } = useAuth0();
+  const { logout } = useAuth0();
+
   return (
     <div className="App">
+ <Search/>
  
- <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="/"><img width="30" src="/fdb-logo.png"></img></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+ <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <div className="container-fluid">
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <Link className="navbar-brand" to="/"><img width="30" alt="FigpinDB" src="/fdb-logo.png"></img></Link>
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+          <li className="nav-item dropdown">
+              <Link className="nav-link dropdown-toggle" to="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Anime
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="/property/Astro Boy">Astro Boy</a></li>
-              <li><a class="dropdown-item" href="/property/Cannon Busters">Cannon Busters</a></li>
-              <li><a class="dropdown-item" href="/property/Demon Slayer">Demon Slayer</a></li>
-              <li><a class="dropdown-item" href="/property/Dr. Stone">Dr. Stone</a></li>
-              <li><a class="dropdown-item" href="/property/Dragon Ball">Dragon Ball</a></li>
-              <li><a class="dropdown-item" href="/property/Dragon Ball GT">Dragon Ball GT</a></li>
-              <li><a class="dropdown-item" href="/property/Dragon Ball Super">Dragon Ball Super</a></li>
-              <li><a class="dropdown-item" href="/property/Dragon Ball Super Broly Movie">Dragon Ball Super Broly Movie</a></li>
-              <li><a class="dropdown-item" href="/property/Dragon Ball Z">Dragon Ball Z</a></li>
-              <li><a class="dropdown-item" href="/property/Full Metal Alchemist">Full Metal Alchemist</a></li>
-              <li><a class="dropdown-item" href="/property/Mob Psycho">Mob Psycho</a></li>
-              <li><a class="dropdown-item" href="/property/My Hero Academia">My Hero Academia</a></li>
-              <li><a class="dropdown-item" href="/property/Naruto">Naruto</a></li>
-              <li><a class="dropdown-item" href="/property/Neon Genesis Evangelion">Neon Genesis Evangelion</a></li>
-              <li><a class="dropdown-item" href="/property/One Punch Man">One Punch Man</a></li>
-              <li><a class="dropdown-item" href="/property/Sanrio x My Hero Academia">Sanrio x My Hero Academia</a></li>              
+              </Link>
+              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><Link className="dropdown-item" to="/property/Astro Boy">Astro Boy</Link></li>
+              <li><Link className="dropdown-item" to="/property/Cannon Busters">Cannon Busters</Link></li>
+              <li><Link className="dropdown-item" to="/property/Demon Slayer">Demon Slayer</Link></li>
+              <li><Link className="dropdown-item" to="/property/Dr. Stone">Dr. Stone</Link></li>
+              <li><Link className="dropdown-item" to="/property/Dragon Ball">Dragon Ball</Link></li>
+              <li><Link className="dropdown-item" to="/property/Dragon Ball GT">Dragon Ball GT</Link></li>
+              <li><Link className="dropdown-item" to="/property/Dragon Ball Super">Dragon Ball Super</Link></li>
+              <li><Link className="dropdown-item" to="/property/Dragon Ball Super Broly Movie">Dragon Ball Super Broly Movie</Link></li>
+              <li><Link className="dropdown-item" to="/property/Dragon Ball Z">Dragon Ball Z</Link></li>
+              <li><Link className="dropdown-item" to="/property/Full Metal Alchemist">Full Metal Alchemist</Link></li>
+              <li><Link className="dropdown-item" to="/property/Mob Psycho">Mob Psycho</Link></li>
+              <li><Link className="dropdown-item" to="/property/My Hero Academia">My Hero Academia</Link></li>
+              <li><Link className="dropdown-item" to="/property/Naruto">Naruto</Link></li>
+              <li><Link className="dropdown-item" to="/property/Neon Genesis Evangelion">Neon Genesis Evangelion</Link></li>
+              <li><Link className="dropdown-item" to="/property/One Punch Man">One Punch Man</Link></li>
+              <li><Link className="dropdown-item" to="/property/Sanrio x My Hero Academia">Sanrio x My Hero Academia</Link></li>              
               </ul>
             </li>        
 
-          <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <li className="nav-item dropdown">
+              <Link className="nav-link dropdown-toggle" to="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Comics
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="/property/DC Comics: Classic Batman">DC Comics: Classic Batman</a></li>
-              <li><a class="dropdown-item" href="/property/DC Comics: Justice League">DC Comics: Justice League</a></li>
-              <li><a class="dropdown-item" href="/property/DC Comics: Rebirth">DC Comics: Rebirth</a></li>
-              <li><a class="dropdown-item" href="/property/Deadpool">Deadpool</a></li>
-              <li><a class="dropdown-item" href="/property/Marvel Comics Retro">Marvel Comics Retro</a></li>
-              <li><a class="dropdown-item" href="/property/Spider-Man: Maximum Venom">Spider-Man: Maximum Venom</a></li>
+              </Link>
+              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><Link className="dropdown-item" to="/property/DC Comics: Classic Batman">DC Comics: Classic Batman</Link></li>
+              <li><Link className="dropdown-item" to="/property/DC Comics: Justice League">DC Comics: Justice League</Link></li>
+              <li><Link className="dropdown-item" to="/property/DC Comics: Rebirth">DC Comics: Rebirth</Link></li>
+              <li><Link className="dropdown-item" to="/property/Deadpool">Deadpool</Link></li>
+              <li><Link className="dropdown-item" to="/property/Marvel Comics Retro">Marvel Comics Retro</Link></li>
+              <li><Link className="dropdown-item" to="/property/Spider-Man: Maximum Venom">Spider-Man: Maximum Venom</Link></li>
               </ul>
             </li>        
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <li className="nav-item dropdown">
+              <Link className="nav-link dropdown-toggle" to="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Games
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="/property/Assassin's Creed">Assassin's Creed</a></li>
-              <li><a class="dropdown-item" href="/property/Avengers">Avengers</a></li>              
-              <li><a class="dropdown-item" href="/property/Borderlands3">Borderlands3</a></li>
-              <li><a class="dropdown-item" href="/property/Call of Duty: Black Ops 4">Call of Duty: Black Ops 4</a></li>
-              <li><a class="dropdown-item" href="/property/Contest of Champions">Contest of Champions</a></li>
-              <li><a class="dropdown-item" href="/property/Crash Bandicoot">Crash Bandicoot</a></li>
-              <li><a class="dropdown-item" href="/property/Dark Souls">Dark Souls</a></li>
-              <li><a class="dropdown-item" href="/property/Dragon Ball FighterZ">Dragon Ball FighterZ</a></li>                
-              <li><a class="dropdown-item" href="/property/Fallout">Fallout</a></li> 
-              <li><a class="dropdown-item" href="/property/Gears of War">Gears of War</a></li>
-              <li><a class="dropdown-item" href="/property/God of War">God of War</a></li>                  
-              <li><a class="dropdown-item" href="/property/Half Life 2">Half Life 2</a></li>
-              <li><a class="dropdown-item" href="/property/Halo">Halo</a></li>
-              <li><a class="dropdown-item" href="/property/Hearthstone">Hearthstone</a></li>
-              <li><a class="dropdown-item" href="/property/Holy Diver">Holy Diver</a></li>
-              <li><a class="dropdown-item" href="/property/Injustice 2">Injustice 2</a></li>
-              <li><a class="dropdown-item" href="/property/Kingdom Hearts">Kingdom Hearts</a></li>     
-              <li><a class="dropdown-item" href="/property/Mass Effect">Mass Effect</a></li>
-              <li><a class="dropdown-item" href="/property/Mortal Kombat X">Mortal Kombat X</a></li>   
-              <li><a class="dropdown-item" href="/property/Ni No Kuni 2">Ni No Kuni 2</a></li>   
-              <li><a class="dropdown-item" href="/property/Overwatch">Overwatch</a></li>
-              <li><a class="dropdown-item" href="/property/Persona 5">Persona 5</a></li>
-              <li><a class="dropdown-item" href="/property/Portal 2">Portal 2</a></li>
-              <li><a class="dropdown-item" href="/property/PUBG">PUBG</a></li>
-              <li><a class="dropdown-item" href="/property/Rainbow6">Rainbow6</a></li>
-              <li><a class="dropdown-item" href="/property/Sonic The Hedgehog">Sonic The Hedgehog</a></li>   
-              <li><a class="dropdown-item" href="/property/Soul Calibur VI">Soul Calibur VI</a></li>                 
-              <li><a class="dropdown-item" href="/property/Spider-Man Game">Spider-Man Game</a></li> 
-              <li><a class="dropdown-item" href="/property/Spyro the Dragon">Spyro the Dragon</a></li> 
-              <li><a class="dropdown-item" href="/property/Tekken 7">Tekken 7</a></li>                                   
-              <li><a class="dropdown-item" href="/property/World of Warcraft">World of Warcraft</a></li>                    
+              </Link>
+              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><Link className="dropdown-item" to="/property/Assassin's Creed">Assassin's Creed</Link></li>
+              <li><Link className="dropdown-item" to="/property/Avengers">Avengers</Link></li>              
+              <li><Link className="dropdown-item" to="/property/Borderlands3">Borderlands3</Link></li>
+              <li><Link className="dropdown-item" to="/property/Call of Duty: Black Ops 4">Call of Duty: Black Ops 4</Link></li>
+              <li><Link className="dropdown-item" to="/property/Contest of Champions">Contest of Champions</Link></li>
+              <li><Link className="dropdown-item" to="/property/Crash Bandicoot">Crash Bandicoot</Link></li>
+              <li><Link className="dropdown-item" to="/property/Dark Souls">Dark Souls</Link></li>
+              <li><Link className="dropdown-item" to="/property/Dragon Ball FighterZ">Dragon Ball FighterZ</Link></li>                
+              <li><Link className="dropdown-item" to="/property/Fallout">Fallout</Link></li> 
+              <li><Link className="dropdown-item" to="/property/Gears of War">Gears of War</Link></li>
+              <li><Link className="dropdown-item" to="/property/God of War">God of War</Link></li>                  
+              <li><Link className="dropdown-item" to="/property/Half Life 2">Half Life 2</Link></li>
+              <li><Link className="dropdown-item" to="/property/Halo">Halo</Link></li>
+              <li><Link className="dropdown-item" to="/property/Hearthstone">Hearthstone</Link></li>
+              <li><Link className="dropdown-item" to="/property/Holy Diver">Holy Diver</Link></li>
+              <li><Link className="dropdown-item" to="/property/Injustice 2">Injustice 2</Link></li>
+              <li><Link className="dropdown-item" to="/property/Kingdom Hearts">Kingdom Hearts</Link></li>     
+              <li><Link className="dropdown-item" to="/property/Mass Effect">Mass Effect</Link></li>
+              <li><Link className="dropdown-item" to="/property/Mortal Kombat X">Mortal Kombat X</Link></li>   
+              <li><Link className="dropdown-item" to="/property/Ni No Kuni 2">Ni No Kuni 2</Link></li>   
+              <li><Link className="dropdown-item" to="/property/Overwatch">Overwatch</Link></li>
+              <li><Link className="dropdown-item" to="/property/Persona 5">Persona 5</Link></li>
+              <li><Link className="dropdown-item" to="/property/Portal 2">Portal 2</Link></li>
+              <li><Link className="dropdown-item" to="/property/PUBG">PUBG</Link></li>
+              <li><Link className="dropdown-item" to="/property/Rainbow6">Rainbow6</Link></li>
+              <li><Link className="dropdown-item" to="/property/Sonic The Hedgehog">Sonic The Hedgehog</Link></li>   
+              <li><Link className="dropdown-item" to="/property/Soul Calibur VI">Soul Calibur VI</Link></li>                 
+              <li><Link className="dropdown-item" to="/property/Spider-Man Game">Spider-Man Game</Link></li> 
+              <li><Link className="dropdown-item" to="/property/Spyro the Dragon">Spyro the Dragon</Link></li> 
+              <li><Link className="dropdown-item" to="/property/Tekken 7">Tekken 7</Link></li>                                   
+              <li><Link className="dropdown-item" to="/property/World of Warcraft">World of Warcraft</Link></li>                    
               </ul>
             </li>    
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <li className="nav-item dropdown">
+              <Link className="nav-link dropdown-toggle" to="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Movies
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="/property/Alice In Wonderland">Alice In Wonderland</a></li>
-              <li><a class="dropdown-item" href="/property/Avengers Endgame">Avengers Endgame</a></li>
-              <li><a class="dropdown-item" href="/property/Avengers Infinity War">Avengers Infinity War</a></li>
-              <li><a class="dropdown-item" href="/property/Big Hero 6">Big Hero 6</a></li>
-              <li><a class="dropdown-item" href="/property/Black Widow">Black Widow</a></li>
-              <li><a class="dropdown-item" href="/property/Captain Marvel">Captain Marvel</a></li>
-              <li><a class="dropdown-item" href="/property/Disney Classic">Disney Classic</a></li>
-              <li><a class="dropdown-item" href="/property/Disney Princesses">Disney Princesses</a></li>
-              <li><a class="dropdown-item" href="/property/Disney Villains">Disney Villains</a></li>
-              <li><a class="dropdown-item" href="/property/Fantasia">Fantasia</a></li>
-              <li><a class="dropdown-item" href="/property/Godzilla">Godzilla</a></li>
-              <li><a class="dropdown-item" href="/property/Harry Potter">Harry Potter</a></li>
-              <li><a class="dropdown-item" href="/property/Incredibles2">Incredibles2</a></li>
-              <li><a class="dropdown-item" href="/property/IT">IT</a></li>
-              <li><a class="dropdown-item" href="/property/Justice League 2017">Justice League 2017</a></li>
-              <li><a class="dropdown-item" href="/property/Lilo and Stitch">Lilo & Stitch</a></li>
-              <li><a class="dropdown-item" href="/property/Mickey Mouse and Friends">Mickey Mouse & Friends</a></li>
-              <li><a class="dropdown-item" href="/property/Nightmare Before Christmas">Nightmare Before Christmas</a></li>
-              <li><a class="dropdown-item" href="/property/Onward">Onward</a></li>
-              <li><a class="dropdown-item" href="/property/Raya and The Last Dragon">Raya and The Last Dragon</a></li>
-              <li><a class="dropdown-item" href="/property/Spider-Man: Into the Spider-Verse">Spider-Man: Into the Spider-Verse</a></li>
-              <li><a class="dropdown-item" href="/property/Star Wars">Star Wars</a></li>
-              <li><a class="dropdown-item" href="/property/Toy Story 4">Toy Story 4</a></li>
-              <li><a class="dropdown-item" href="/property/WALL-E">WALL-E</a></li>
+              </Link>
+              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><Link className="dropdown-item" to="/property/Alice In Wonderland">Alice In Wonderland</Link></li>
+              <li><Link className="dropdown-item" to="/property/Avengers Endgame">Avengers Endgame</Link></li>
+              <li><Link className="dropdown-item" to="/property/Avengers Infinity War">Avengers Infinity War</Link></li>
+              <li><Link className="dropdown-item" to="/property/Big Hero 6">Big Hero 6</Link></li>
+              <li><Link className="dropdown-item" to="/property/Black Widow">Black Widow</Link></li>
+              <li><Link className="dropdown-item" to="/property/Captain Marvel">Captain Marvel</Link></li>
+              <li><Link className="dropdown-item" to="/property/Disney Classic">Disney Classic</Link></li>
+              <li><Link className="dropdown-item" to="/property/Disney Princesses">Disney Princesses</Link></li>
+              <li><Link className="dropdown-item" to="/property/Disney Villains">Disney Villains</Link></li>
+              <li><Link className="dropdown-item" to="/property/Fantasia">Fantasia</Link></li>
+              <li><Link className="dropdown-item" to="/property/Godzilla">Godzilla</Link></li>
+              <li><Link className="dropdown-item" to="/property/Harry Potter">Harry Potter</Link></li>
+              <li><Link className="dropdown-item" to="/property/Incredibles2">Incredibles2</Link></li>
+              <li><Link className="dropdown-item" to="/property/IT">IT</Link></li>
+              <li><Link className="dropdown-item" to="/property/Justice League 2017">Justice League 2017</Link></li>
+              <li><Link className="dropdown-item" to="/property/Lilo and Stitch">Lilo & Stitch</Link></li>
+              <li><Link className="dropdown-item" to="/property/Mickey Mouse and Friends">Mickey Mouse & Friends</Link></li>
+              <li><Link className="dropdown-item" to="/property/Nightmare Before Christmas">Nightmare Before Christmas</Link></li>
+              <li><Link className="dropdown-item" to="/property/Onward">Onward</Link></li>
+              <li><Link className="dropdown-item" to="/property/Raya and The Last Dragon">Raya and The Last Dragon</Link></li>
+              <li><Link className="dropdown-item" to="/property/Spider-Man: Into the Spider-Verse">Spider-Man: Into the Spider-Verse</Link></li>
+              <li><Link className="dropdown-item" to="/property/Star Wars">Star Wars</Link></li>
+              <li><Link className="dropdown-item" to="/property/Toy Story 4">Toy Story 4</Link></li>
+              <li><Link className="dropdown-item" to="/property/WALL-E">WALL-E</Link></li>
               </ul>
             </li>        
 
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <li className="nav-item dropdown">
+              <Link className="nav-link dropdown-toggle" to="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 TV
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="/property/Aggretsuko">Aggretsuko</a></li>
-              <li><a class="dropdown-item" href="/property/Avatar The Last Airbender">Avatar The Last Airbender</a></li>
-              <li><a class="dropdown-item" href="/property/Batman The Animated Series">Batman The Animated Series</a></li>
-              <li><a class="dropdown-item" href="/property/Care Bears">Care Bears</a></li>
-              <li><a class="dropdown-item" href="/property/Looney Tunes">Looney Tunes</a></li>
-              <li><a class="dropdown-item" href="/property/MTV">MTV</a></li>
-              <li><a class="dropdown-item" href="/property/MTV Beavis and Butt-Head">MTV Beavis & Butt-Head</a></li>
-              <li><a class="dropdown-item" href="/property/Scooby-Doo!">Scooby-Doo!</a></li>
-              <li><a class="dropdown-item" href="/property/SpongeBob SquarePants">SpongeBob SquarePants</a></li>
-              <li><a class="dropdown-item" href="/property/Star Wars Clone Wars">Star Wars Clone Wars</a></li>
-              <li><a class="dropdown-item" href="/property/Star Wars The Bad Batch">Star Wars The Bad Batch</a></li>
-              <li><a class="dropdown-item" href="/property/Star Wars The Mandalorian">Star Wars The Mandalorian</a></li>
-              <li><a class="dropdown-item" href="/property/Stranger Things">Stranger Things</a></li>
-              <li><a class="dropdown-item" href="/property/Teenage Mutant Ninja Turtles Animated">Teenage Mutant Ninja Turtles Animated</a></li>        
-              <li><a class="dropdown-item" href="/property/The Falcon and the Winter Soldier">The Falcon and the Winter Soldier</a></li>
-              <li><a class="dropdown-item" href="/property/Transformers">Transformers</a></li>
-              <li><a class="dropdown-item" href="/property/WandaVision">WandaVision</a></li>
-              <li><a class="dropdown-item" href="/property/X-Men Animated">X-Men Animated</a></li>      
+              </Link>
+              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><Link className="dropdown-item" to="/property/Aggretsuko">Aggretsuko</Link></li>
+              <li><Link className="dropdown-item" to="/property/Avatar The Last Airbender">Avatar The Last Airbender</Link></li>
+              <li><Link className="dropdown-item" to="/property/Batman The Animated Series">Batman The Animated Series</Link></li>
+              <li><Link className="dropdown-item" to="/property/Care Bears">Care Bears</Link></li>
+              <li><Link className="dropdown-item" to="/property/Looney Tunes">Looney Tunes</Link></li>
+              <li><Link className="dropdown-item" to="/property/MTV">MTV</Link></li>
+              <li><Link className="dropdown-item" to="/property/MTV Beavis and Butt-Head">MTV Beavis & Butt-Head</Link></li>
+              <li><Link className="dropdown-item" to="/property/Scooby-Doo!">Scooby-Doo!</Link></li>
+              <li><Link className="dropdown-item" to="/property/SpongeBob SquarePants">SpongeBob SquarePants</Link></li>
+              <li><Link className="dropdown-item" to="/property/Star Wars Clone Wars">Star Wars Clone Wars</Link></li>
+              <li><Link className="dropdown-item" to="/property/Star Wars The Bad Batch">Star Wars The Bad Batch</Link></li>
+              <li><Link className="dropdown-item" to="/property/Star Wars The Mandalorian">Star Wars The Mandalorian</Link></li>
+              <li><Link className="dropdown-item" to="/property/Stranger Things">Stranger Things</Link></li>
+              <li><Link className="dropdown-item" to="/property/Teenage Mutant Ninja Turtles Animated">Teenage Mutant Ninja Turtles Animated</Link></li>        
+              <li><Link className="dropdown-item" to="/property/The Falcon and the Winter Soldier">The Falcon and the Winter Soldier</Link></li>
+              <li><Link className="dropdown-item" to="/property/Transformers">Transformers</Link></li>
+              <li><Link className="dropdown-item" to="/property/WandaVision">WandaVision</Link></li>
+              <li><Link className="dropdown-item" to="/property/X-Men Animated">X-Men Animated</Link></li>      
               </ul>
             </li>            
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <li className="nav-item dropdown">
+              <Link className="nav-link dropdown-toggle" to="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Misc
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="/property/ACDC High Voltage">AC/DC: High Voltage</a></li>
-              <li><a class="dropdown-item" href="/property/Alien Remix">Alien Remix</a></li>
-              <li><a class="dropdown-item" href="/property/Bruce Lee">Bruce Lee</a></li>                
-              <li><a class="dropdown-item" href="/property/David Bowie">David Bowie</a></li>    
-              <li><a class="dropdown-item" href="/property/DesignerCon">DesignerCon</a></li>     
-              <li><a class="dropdown-item" href="/property/Gudetama">Gudetama</a></li>
-              <li><a class="dropdown-item" href="/property/Hello Kitty">Hello Kitty</a></li>
-              <li><a class="dropdown-item" href="/property/House of Blues">House of Blues</a></li>
-              <li><a class="dropdown-item" href="/property/KISS">KISS</a></li>
-              <li><a class="dropdown-item" href="/property/New York Mets">New York Mets</a></li>
-              <li><a class="dropdown-item" href="/property/Philadelphia 76ers">Philadelphia 76ers</a></li>
-              <li><a class="dropdown-item" href="/property/San Francisco Giants">San Francisco Giants</a></li>
-              <li><a class="dropdown-item" href="/property/WWE: Legends">WWE: Legends</a></li>
-              <li><a class="dropdown-item" href="/property/WWE: Superstars">WWE: Superstars</a></li>
+              </Link>
+              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><Link className="dropdown-item" to="/property/ACDC High Voltage">AC/DC: High Voltage</Link></li>
+              <li><Link className="dropdown-item" to="/property/Alien Remix">Alien Remix</Link></li>
+              <li><Link className="dropdown-item" to="/property/Bruce Lee">Bruce Lee</Link></li>                
+              <li><Link className="dropdown-item" to="/property/David Bowie">David Bowie</Link></li>    
+              <li><Link className="dropdown-item" to="/property/DesignerCon">DesignerCon</Link></li>     
+              <li><Link className="dropdown-item" to="/property/Gudetama">Gudetama</Link></li>
+              <li><Link className="dropdown-item" to="/property/Hello Kitty">Hello Kitty</Link></li>
+              <li><Link className="dropdown-item" to="/property/House of Blues">House of Blues</Link></li>
+              <li><Link className="dropdown-item" to="/property/KISS">KISS</Link></li>
+              <li><Link className="dropdown-item" to="/property/New York Mets">New York Mets</Link></li>
+              <li><Link className="dropdown-item" to="/property/Philadelphia 76ers">Philadelphia 76ers</Link></li>
+              <li><Link className="dropdown-item" to="/property/San Francisco Giants">San Francisco Giants</Link></li>
+              <li><Link className="dropdown-item" to="/property/WWE: Legends">WWE: Legends</Link></li>
+              <li><Link className="dropdown-item" to="/property/WWE: Superstars">WWE: Superstars</Link></li>
               </ul>
             </li>   
-            {/*    
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Licensor
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="/licensor/Activision">Activision</a></li>
-<li><a class="dropdown-item" href="/licensor/Anime Limited">Anime Limited</a></li>
-<li><a class="dropdown-item" href="/licensor/Aniplex of America">Aniplex of America</a></li>
-<li><a class="dropdown-item" href="/licensor/Atlus">Atlus</a></li>
-<li><a class="dropdown-item" href="/licensor/Bandai Namco">Bandai Namco</a></li>
-<li><a class="dropdown-item" href="/licensor/Bethesda">Bethesda</a></li>
-<li><a class="dropdown-item" href="/licensor/BioWare">BioWare</a></li>
-<li><a class="dropdown-item" href="/licensor/Bruce Lee">Bruce Lee</a></li>
-<li><a class="dropdown-item" href="/licensor/Cloudco Entertainment">Cloudco Entertainment</a></li>
-<li><a class="dropdown-item" href="/licensor/Crunchyroll">Crunchyroll</a></li>
-<li><a class="dropdown-item" href="/licensor/DesignerCon">DesignerCon</a></li>
-<li><a class="dropdown-item" href="/licensor/Disney">Disney</a></li>
-<li><a class="dropdown-item" href="/licensor/Epic Rights">Epic Rights</a></li>
-<li><a class="dropdown-item" href="/licensor/FiGPiN">FiGPiN</a></li>
-<li><a class="dropdown-item" href="/licensor/Funimation">Funimation</a></li>
-<li><a class="dropdown-item" href="/licensor/Gearbox">Gearbox</a></li>
-<li><a class="dropdown-item" href="/licensor/Hasbro">Hasbro</a></li>
-<li><a class="dropdown-item" href="/licensor/Irem">Irem</a></li>
-<li><a class="dropdown-item" href="/licensor/Kobunsha">Kobunsha</a></li>
-<li><a class="dropdown-item" href="/licensor/LiveNation">LiveNation</a></li>
-<li><a class="dropdown-item" href="/licensor/Lucasfilm">Lucasfilm</a></li>
-<li><a class="dropdown-item" href="/licensor/Manga">Manga</a></li>
-<li><a class="dropdown-item" href="/licensor/Marvel">Marvel</a></li>
-<li><a class="dropdown-item" href="/licensor/Microsoft">Microsoft</a></li>
-<li><a class="dropdown-item" href="/licensor/MLB">MLB</a></li>
-<li><a class="dropdown-item" href="/licensor/NBA">NBA</a></li>
-<li><a class="dropdown-item" href="/licensor/Netflix">Netflix</a></li>
-<li><a class="dropdown-item" href="/licensor/Perryscope">Perryscope</a></li>
-<li><a class="dropdown-item" href="/licensor/PUBG Corporation">PUBG Corporation</a></li>
-<li><a class="dropdown-item" href="/licensor/Sanrio">Sanrio</a></li>
-<li><a class="dropdown-item" href="/licensor/Sega">Sega</a></li>
-<li><a class="dropdown-item" href="/licensor/Sony">Sony</a></li>
-<li><a class="dropdown-item" href="/licensor/Toho">Toho</a></li>
-<li><a class="dropdown-item" href="/licensor/Ubisoft">Ubisoft</a></li>
-<li><a class="dropdown-item" href="/licensor/Valve">Valve</a></li>
-<li><a class="dropdown-item" href="/licensor/Viacom">Viacom</a></li>
-<li><a class="dropdown-item" href="/licensor/Viz Media">Viz Media</a></li>
-<li><a class="dropdown-item" href="/licensor/Warner Bros.">Warner Bros.</a></li>
-<li><a class="dropdown-item" href="/licensor/WWE">WWE</a></li>
-              </ul>
-            </li>   
-            */}
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <li className="nav-item dropdown">
+              <Link className="nav-link dropdown-toggle" to="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Variants
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="/variant/Black and Gold">Black and Gold</a></li>
-              <li><a class="dropdown-item" href="/variant/Black Nickel">Black Nickel</a></li>
-              <li><a class="dropdown-item" href="/variant/Glitter">Glitter</a></li>
-              <li><a class="dropdown-item" href="/variant/Glow-in-the-Dark">Glow-in-the-Dark</a></li>
-              <li><a class="dropdown-item" href="/variant/Gold">Gold</a></li>
-              <li><a class="dropdown-item" href="/variant/Gold Plated">Gold Plated</a></li>
-              <li><a class="dropdown-item" href="/variant/Greyscale">Greyscale</a></li>
-              <li><a class="dropdown-item" href="/variant/Infinity Stone">Infinity Stone</a></li>
-              <li><a class="dropdown-item" href="/variant/Sepia Tone">Sepia Tone</a></li>
-              <li><a class="dropdown-item" href="/variant/Silver Plated">Silver Plated</a></li>
-              <li><a class="dropdown-item" href="/variant/White and Black Nickel">White and Black Nickel</a></li>
-              <li><a class="dropdown-item" href="/variant/White and Gold">White and Gold</a></li>
+              </Link>
+              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><Link className="dropdown-item" to="/variant/Black and Gold">Black and Gold</Link></li>
+              <li><Link className="dropdown-item" to="/variant/Black Nickel">Black Nickel</Link></li>
+              <li><Link className="dropdown-item" to="/variant/Glitter">Glitter</Link></li>
+              <li><Link className="dropdown-item" to="/variant/Glow-in-the-Dark">Glow-in-the-Dark</Link></li>
+              <li><Link className="dropdown-item" to="/variant/Gold">Gold</Link></li>
+              <li><Link className="dropdown-item" to="/variant/Gold Plated">Gold Plated</Link></li>
+              <li><Link className="dropdown-item" to="/variant/Greyscale">Greyscale</Link></li>
+              <li><Link className="dropdown-item" to="/variant/Infinity Stone">Infinity Stone</Link></li>
+              <li><Link className="dropdown-item" to="/variant/Sepia Tone">Sepia Tone</Link></li>
+              <li><Link className="dropdown-item" to="/variant/Silver Plated">Silver Plated</Link></li>
+              <li><Link className="dropdown-item" to="/variant/White and Black Nickel">White and Black Nickel</Link></li>
+              <li><Link className="dropdown-item" to="/variant/White and Gold">White and Gold</Link></li>
               </ul>
             </li>    
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <li className="nav-item dropdown">
+              <Link className="nav-link dropdown-toggle" to="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Tags
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="/tags/2-Pack">2-Pack</a></li>
-              <li><a class="dropdown-item" href="/tags/AwesomeFest">AwesomeFest</a></li>
-              <li><a class="dropdown-item" href="/tags/Chase">Chase</a></li>
-              <li><a class="dropdown-item" href="/tags/D23 Expo">D23 Expo</a></li>
-              <li><a class="dropdown-item" href="/tags/ECCC">ECCC</a></li>
-              <li><a class="dropdown-item" href="/tags/Halloween">Halloween</a></li>
-              <li><a class="dropdown-item" href="/tags/LACC">LACC</a></li>
-              <li><a class="dropdown-item" href="/type/Logo">Logo</a></li>
-              <li><a class="dropdown-item" href="/type/Mini">Mini</a></li>
-              <li><a class="dropdown-item" href="/tags/NYCC">NYCC</a></li>
-              <li><a class="dropdown-item" href="/tags/SDCC">SDCC</a></li>
-              <li><a class="dropdown-item" href="/type/XL">XL</a></li>
+              </Link>
+              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><Link className="dropdown-item" to="/pins">See All Pins</Link></li>
+              <li><Link className="dropdown-item" to="/tags/2-Pack">2-Pack</Link></li>
+              <li><Link className="dropdown-item" to="/tags/AwesomeFest">AwesomeFest</Link></li>
+              <li><Link className="dropdown-item" to="/tags/Chase">Chase</Link></li>
+              <li><Link className="dropdown-item" to="/tags/D23 Expo">D23 Expo</Link></li>
+              <li><Link className="dropdown-item" to="/tags/ECCC">ECCC</Link></li>
+              <li><Link className="dropdown-item" to="/tags/Halloween">Halloween</Link></li>
+              <li><Link className="dropdown-item" to="/tags/LACC">LACC</Link></li>
+              <li><Link className="dropdown-item" to="/type/Logo">Logo</Link></li>
+              <li><Link className="dropdown-item" to="/type/Mini">Mini</Link></li>
+              <li><Link className="dropdown-item" to="/tags/NYCC">NYCC</Link></li>
+              <li><Link className="dropdown-item" to="/tags/SDCC">SDCC</Link></li>
+              <li><Link className="dropdown-item" to="/type/XL">XL</Link></li>
               </ul>
             </li> 
-              {/*}
-   
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Unlocks
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="/calendar">Calendar</a></li>
-              <li><a class="dropdown-item" href="/unlocks">Recent Unlocks</a></li>
-              <li><a class="dropdown-item" href="/unlock-stories">Stories</a></li>
-              <li><a class="dropdown-item" href="/unlocks-filter?query=UNLOCK">Cohorts</a></li>
-              <li><a class="dropdown-item" href="/unlocks-filter?query=AROUND_THE_SUN_BONUS">Around the Sun Bonus</a></li>
-              <li><a class="dropdown-item" href="/unlocks-filter?query=FIRST_OFF_THE_LINE_BONUS">First off the Line Bonus</a></li>
-              <li><a class="dropdown-item" href="/unlocks-filter?query=LAST_CHOPPER_OUT">Last Chopper Out Bonus</a></li>
-              <li><a class="dropdown-item" href="/unlocks-filter?query=MODEL_MATCH_BONUS">Super Match Bonus</a></li>
-              <li><a class="dropdown-item" href="/unlocks-filter?query=SET_BONUS">Set Bonus</a></li>
-              <li><a class="dropdown-item" href="/unlocks-filter?query=2_PACK_SET_BONUS">2-Pack Set Bonus</a></li>
-              <li><a class="dropdown-item" href="/unlocks-filter?query=DELUXE_SET_BONUS">Deluxe Set Bonus</a></li>
-              <li><a class="dropdown-item" href="/unlocks-filter?query=DELUXE_PLUS_SET_BONUS">Deluxe+ Set Bonus</a></li>
-              <li><a class="dropdown-item" href="/unlocks-filter?query=7_PACK_SET_BONUS">7-Pack Set Bonus</a></li>
-          
+            <li className="nav-item dropdown">
+              <Link className="nav-link dropdown-toggle" to="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Info
+              </Link>
+              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><Link className="dropdown-item" to="/new">New Releases</Link></li>
+              <li><Link className="dropdown-item" to="/calendar">Unlock Calendar</Link></li>
+              <li><Link className="dropdown-item" to="/where">Where To Buy</Link></li>
               </ul>
-            </li>        
-*/}
+            </li>             
+            
+{/*
+            <li className="nav-item dropdown">
+              <Link className="nav-link dropdown-toggle" to="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+</svg>
+              </Link>
+              { isAuthenticated ? (
+              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li> <a className="dropdown-item" href="" onClick={() => logout({ returnTo: window.location.origin })}>Log Out</a></li>
+              <li><Link className="dropdown-item" to="/where">{user.name}'s Profile</Link></li>
+              </ul>
+              ) : (
+                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a className="dropdown-item" href="" onClick={() => loginWithRedirect()}>Log In</a></li>
+                </ul>
+              )}
+            </li>
+              */}
+
           </ul>
         </div>
       </div>
