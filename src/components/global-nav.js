@@ -184,6 +184,7 @@ function GlobalNav() {
               </Link>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><Link className="dropdown-item" to="/variant/Black and Gold">Black and Gold</Link></li>
+              <li><Link className="dropdown-item" to="/variant/Black and Silver">Black and Silver</Link></li>
               <li><Link className="dropdown-item" to="/variant/Black Nickel">Black Nickel</Link></li>
               <li><Link className="dropdown-item" to="/variant/Glitter">Glitter</Link></li>
               <li><Link className="dropdown-item" to="/variant/Glow-in-the-Dark">Glow-in-the-Dark</Link></li>

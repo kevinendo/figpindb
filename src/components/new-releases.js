@@ -7,6 +7,13 @@ function NewReleases() {
 <h3 align="center">New Releases</h3>
 
 <ul className="gallery mw-gallery-traditional-left">
+<li className="gallerybox"><div className="newrelease-header">Star Wars The Mandalorian<br/>6/23/21</div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/734"><img className="pinlist-image" src="/734_img_url_med.png"/></Link></div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/737"><img className="pinlist-image" src="/737_img_url_med.png"/><div className="pinname">Limited Edition</div></Link></div></li>
+
+</ul>
+
+<ul className="gallery mw-gallery-traditional-left">
 <li className="gallerybox"><div className="newrelease-header">Stranger Things<br/>6/16/21</div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/709"><div className="thumb"><img className="pinlist-image" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/3f/9e/a0/6231/6231.ce68e513.png"/></div><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/710"><div className="thumb"><img className="pinlist-image" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/58/e3/34/6236/6236.ce68e513.png"/></div><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
