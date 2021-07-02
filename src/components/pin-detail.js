@@ -73,7 +73,7 @@ return (
       <div className="detail-top-child">
         <div className="pin-text"><span className="pin-text-category">Property:</span> <Link to={"/property/"+pinInfo.property}>{pinInfo.property}</Link> (<Link to={"/licensor/"+pinInfo.licensor}>{pinInfo.licensor}</Link>)</div>          
         { pinInfo.availability ? <div className="pin-text"><span className="pin-text-category">Availability:</span> <Link to={"/availability/"+pinInfo.availability}>{pinInfo.availability}</Link></div> : <div></div> }
-        { (pinInfo.limited_edition != null) ? <div className="pin-text"><span className="pin-text-category">Limited Edition:</span> {pinInfo.limited_edition.toString()}</div> : <div></div>}
+        { (pinInfo.limited_edition != null) ? <div className="pin-text"><span className="pin-text-category">Limited Edition:</span> {pinInfo.limited_edition.$numberInt.toString()}</div> : <div></div>}
       </div><div className="detail-top-child">
         { pinInfo.sale_date ? <div className="pin-text"><span className="pin-text-category">Sale Date:</span> {pinInfo.sale_date}</div> : <div></div> } 
         { pinInfo.unlock_date ? <div className="pin-text"><span className="pin-text-category">Unlock Date:</span> {pinInfo.unlock_date}</div> : <div></div> }

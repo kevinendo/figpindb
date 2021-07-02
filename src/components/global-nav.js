@@ -43,6 +43,7 @@ function GlobalNav() {
               <li><Link className="dropdown-item" to="/property/Mob Psycho">Mob Psycho</Link></li>
               <li><Link className="dropdown-item" to="/property/My Hero Academia">My Hero Academia</Link></li>
               <li><Link className="dropdown-item" to="/property/Naruto">Naruto</Link></li>
+              <li><Link className="dropdown-item" to="/property/Naruto x Hello Kitty">Naruto x Hello Kitty</Link></li>
               <li><Link className="dropdown-item" to="/property/Neon Genesis Evangelion">Neon Genesis Evangelion</Link></li>
               <li><Link className="dropdown-item" to="/property/One Punch Man">One Punch Man</Link></li>
               <li><Link className="dropdown-item" to="/property/Sanrio x My Hero Academia">Sanrio x My Hero Academia</Link></li>              
@@ -145,6 +146,7 @@ function GlobalNav() {
               <li><Link className="dropdown-item" to="/property/MTV">MTV</Link></li>
               <li><Link className="dropdown-item" to="/property/MTV Beavis and Butt-Head">MTV Beavis & Butt-Head</Link></li>
               <li><Link className="dropdown-item" to="/property/Scooby-Doo!">Scooby-Doo!</Link></li>
+              <li><Link className="dropdown-item" to="/property/South Park">South Park</Link></li>
               <li><Link className="dropdown-item" to="/property/SpongeBob SquarePants">SpongeBob SquarePants</Link></li>
               <li><Link className="dropdown-item" to="/property/Star Wars Clone Wars">Star Wars Clone Wars</Link></li>
               <li><Link className="dropdown-item" to="/property/Star Wars The Bad Batch">Star Wars The Bad Batch</Link></li>

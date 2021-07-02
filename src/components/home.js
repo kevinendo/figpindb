@@ -96,6 +96,9 @@ function Home() {
         <Link title="Scooby-Doo!" to="/property/Scooby-Doo!"><img alt="Scooby-Doo!" className="where-image" src="logo_scooby.png"/></Link>
     </li>
     <li className="gallerybox">
+        <Link title="South Park" to="/property/South Park"><img alt="South Park" className="where-image" src="logo_southpark.png"/></Link>
+    </li>
+    <li className="gallerybox">
         <Link title="SpongeBob SquarePants" to="/property/SpongeBob SquarePants"><img alt="SpongeBob SquarePants" className="where-image" src="logo_spongebob.png"/></Link>
     </li>    
     <li className="gallerybox">
