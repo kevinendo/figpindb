@@ -138,6 +138,9 @@ function Home() {
     <div className="home-category">Store Exclusives</div>
     <ul className="gallery mw-gallery-traditional">
     <li className="gallerybox">
+        <Link title="FiGPiN Exclusive" to="/availability/FiGPiN Exclusive"><img alt="FiGPiN" className="where-image" src="logo_figpin.png"/></Link>
+    </li>          
+    <li className="gallerybox">
         <Link title="BAIT Exclusive" to="/availability/BAIT Exclusive"><img alt="BAIT" className="where-image" src="logo_bait.png"/></Link>
     </li>  
     <li className="gallerybox">
@@ -146,9 +149,6 @@ function Home() {
     <li className="gallerybox">
         <Link title="Entertainment Earth Exclusive" to="/availability/Entertainment Earth Exclusive"><img alt="EE" className="where-image" src="logo_ee.png"/></Link>
     </li>     
-    <li className="gallerybox">
-        <Link title="FiGPiN Exclusive" to="/availability/FiGPiN Exclusive"><img alt="FiGPiN" className="where-image" src="logo_figpin.png"/></Link>
-    </li>      
     <li className="gallerybox">
         <Link title="Fugitive Toys Exclusive" to="/availability/Fugitive Toys Exclusive"><img alt="Fugitive Toys" className="where-image" src="logo_fugitive.png"/></Link>
     </li>  
@@ -162,8 +162,14 @@ function Home() {
         <Link title="Hot Topic Exclusive" to="/availability/Hot Topic Exclusive"><img alt="Hot Topic" className="where-image" src="logo_hottopic.png"/></Link>
     </li>  
     <li className="gallerybox">
+        <Link title="Hot Topic Exclusive" to="/availability/Krakens Collection Exclusive"><img alt="Krakens Collection" className="where-image" src="logo_krakens.png"/></Link>
+    </li>  
+    <li className="gallerybox">
         <Link title="Pins on Fire Exclusive" to="/availability/Pins on Fire Exclusive"><img alt="Pins on Fire" className="where-image" src="logo_pinsonfire.png"/></Link>
     </li>  
+    <li className="gallerybox">
+        <Link title="Target Exclusive" to="/availability/Taggem Exclusive"><img alt="Taggem" className="where-image" src="logo_taggem.png"/></Link>
+    </li>      
     <li className="gallerybox">
         <Link title="Target Exclusive" to="/availability/Target Exclusive"><img alt="Target" className="where-image" src="logo_target.png"/></Link>
     </li>  

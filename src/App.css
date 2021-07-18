@@ -35,6 +35,12 @@ li.gallerybox {
   margin: 0px;
 }
 
+li.gallerybox-resources {
+  vertical-align: top;
+  display: inline-block;
+  margin: 0px;
+}
+
 .pinlist-image {
   float:left;
   width: 143px;
@@ -633,6 +639,12 @@ img.edition-text-1 {
 .edition-text-2 {
   font-size: 70%; 
   color: white;
+}
+
+.buy-text-1 {
+  font-size: 100%; 
+  color: white;
+  vertical-align: bottom;
 }
 
 

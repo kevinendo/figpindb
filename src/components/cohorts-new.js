@@ -21,7 +21,7 @@ useEffect(() => {
 
 return (
     <div className="center-wrapper">
-         <div className="production-history"><b>Cohorts</b></div>
+        {(pinInfo.length !== 0) ? <div className="production-history"><b>COHORTS</b></div> : <div></div>}
              {pinInfo.map((cohort) => (
                 <div className="edition" key = {cohort.edition + cohort.volume}>
                     <div className="edition-text-1"><img alt={cohort.story_action_type} className="edition-text-1" width="27" src={"/" + cohort.story_action_type + ".png"}/> <b>{cohort.edition} Edition</b> | Lot {cohort.lot} | Volume of {cohort.volume}</div>           

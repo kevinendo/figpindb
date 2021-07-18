@@ -2,6 +2,7 @@ import React, { useState, useEffect, Redirect } from "react";
 import PinDataService from "../services/pin";
 import Editions from "../components/editions";
 import CohortsNew from "../components/cohorts-new";
+import Links from "../components/links";
 import { Link } from "react-router-dom"
 import "react-alice-carousel/lib/alice-carousel.css";
 import Carousel from 'react-bootstrap/Carousel';
@@ -133,9 +134,10 @@ return (
   </div>
   <div className="detail-bottom-child">
     <Editions pinNumber={pinInfo.number}/>
+    <CohortsNew pinNumber={pinInfo.number}/>
   </div>
   <div className="detail-bottom-child">
-    <CohortsNew pinNumber={pinInfo.number}/>
+    <Links pinNumber={pinInfo.number}/>
   </div>
 </div>
 </div>

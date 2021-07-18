@@ -23,6 +23,9 @@ class PinDataService {
     getCohorts(number) {
         return http.get(`/allCohorts?number=${number}`);
     }
+    getLinks(number) {
+        return http.get(`/links?number=${number}`);
+    }
 }
 
 export default new PinDataService();

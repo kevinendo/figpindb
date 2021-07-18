@@ -211,6 +211,7 @@ function GlobalNav() {
               <li><Link className="dropdown-item" to="/tags/Chase">Chase</Link></li>
               <li><Link className="dropdown-item" to="/tags/D23 Expo">D23 Expo</Link></li>
               <li><Link className="dropdown-item" to="/tags/ECCC">ECCC</Link></li>
+              <li><Link className="dropdown-item" to="/tags/Grail">Grail</Link></li>
               <li><Link className="dropdown-item" to="/tags/Halloween">Halloween</Link></li>
               <li><Link className="dropdown-item" to="/tags/LACC">LACC</Link></li>
               <li><Link className="dropdown-item" to="/type/Logo">Logo</Link></li>
@@ -228,6 +229,7 @@ function GlobalNav() {
               <li><Link className="dropdown-item" to="/new">New Releases</Link></li>
               <li><Link className="dropdown-item" to="/calendar">Unlock Calendar</Link></li>
               <li><Link className="dropdown-item" to="/where">Where To Buy</Link></li>
+              <li><Link className="dropdown-item" to="/resources">Resources</Link></li>
               </ul>
             </li>             
             
