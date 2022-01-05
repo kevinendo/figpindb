@@ -27,6 +27,7 @@ const getPin = (by, query) => {
   return(
     <div className="detail-box">
     <h3 align="center">{pageTitle}</h3>
+
       <ul className="gallery mw-gallery-traditional">
       {
           pins.map(pin => (

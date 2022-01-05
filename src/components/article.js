@@ -1,11 +1,11 @@
 import React from "react";
 
-function About() {
+function Article() {
     return (
         <div>
-Article
+Article Test
         </div>
     );
 }
 
-export default About;
+export default Article;

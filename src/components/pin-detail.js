@@ -6,6 +6,7 @@ import Links from "../components/links";
 import { Link } from "react-router-dom"
 import "react-alice-carousel/lib/alice-carousel.css";
 import Carousel from 'react-bootstrap/Carousel';
+import NavbarCollapse from "react-bootstrap/esm/NavbarCollapse";
 
 
 const PinDetail = props => {
@@ -56,9 +57,11 @@ useEffect(() => {
 }, [props.match.params.number]);
 
 let pinTags = "";
+let pinArtists = "";
 if (pinInfo) {
 pinTags = pinInfo.tags.split(", ");
-document.title = "FigPinDB | " + pinInfo.name;
+pinArtists = pinInfo.artist_name.split(" / ");
+document.title = "FigpinDB | " + pinInfo.name;
 } 
 
 
@@ -75,6 +78,16 @@ return (
         <div className="pin-text"><span className="pin-text-category">Property:</span> <Link to={"/property/"+pinInfo.property}>{pinInfo.property}</Link> (<Link to={"/licensor/"+pinInfo.licensor}>{pinInfo.licensor}</Link>)</div>          
         { pinInfo.availability ? <div className="pin-text"><span className="pin-text-category">Availability:</span> <Link to={"/availability/"+pinInfo.availability}>{pinInfo.availability}</Link></div> : <div></div> }
         { (pinInfo.limited_edition != null) ? <div className="pin-text"><span className="pin-text-category">Limited Edition:</span> {pinInfo.limited_edition.$numberInt.toString()}</div> : <div></div>}
+       {/*
+        { pinInfo.artist_name ? <div className="pin-text"><span className="pin-text-category">Artist:</span> <Link to={"/artist/"+pinInfo.artist_name}>{pinInfo.artist_name}</Link></div> : <div></div> } 
+       */}
+        <span className="pin-text-category">Artist: </span>
+{ 
+  pinArtists.map(artist => (
+<><Link title={artist} to={"/artist/"+artist}> {artist} </Link> </>
+  ))
+}
+
       </div><div className="detail-top-child">
         { pinInfo.sale_date ? <div className="pin-text"><span className="pin-text-category">Sale Date:</span> {pinInfo.sale_date}</div> : <div></div> } 
         { pinInfo.unlock_date ? <div className="pin-text"><span className="pin-text-category">Unlock Date:</span> {pinInfo.unlock_date}</div> : <div></div> }
@@ -119,6 +132,9 @@ return (
         </Carousel.Item>
         <Carousel.Item>
         <img alt={pinInfo.name} width="300" className="sliderimg" src={pinInfo.img_card_back_url}/>
+        </Carousel.Item>
+        <Carousel.Item>
+        <img alt={pinInfo.name} width="300" className="sliderimg-white" src={pinInfo.img_background_url}/>
         </Carousel.Item>
       </Carousel>
 

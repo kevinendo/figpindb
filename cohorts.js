@@ -35,27 +35,27 @@ let pinNumber = document.location.pathname.split("/")[2];
       render() {
         return (
 
-           <div class="flex-child">
-<div class="production-history"><b>RECENT EVENTS</b></div>                
+           <div className="flex-child">
+<div className="production-history"><b>RECENT EVENTS</b></div>                
 {this.state.pins.filter(function (pin) { return pin.serial.figpin.number == document.location.pathname.split("/")[2];}).map((pin) => (
 <div>
 
-              <div class="cohorts">
-<div class="cohort-row">
-<div class="cohort-left-column">{(pin.serial.user.username == null) ? "Anonymous" : pin.serial.user.username}</div>
-<div class="cohort-right-column"><img width="10" src="/collection-power-icon.png"/> &nbsp;&nbsp;&nbsp; {pin.serial.user.collection_power.current_balance}</div>
+              <div className="cohorts">
+<div className="cohort-row">
+<div className="cohort-left-column">{(pin.serial.user.username == null) ? "Anonymous" : pin.serial.user.username}</div>
+<div className="cohort-right-column"><img width="10" src="/collection-power-icon.png"/> &nbsp;&nbsp;&nbsp; {pin.serial.user.collection_power.current_balance}</div>
 </div>
-<div class="cohort-row">
-<div class="cohort-left-column"><img width="20" src={"/" + pin.story_action_type.name + ".png"}/> {pin.serial.edition} Ed. Lot {pin.serial.lot}</div>
-<div class="cohort-right-column"><img width="8" src="/figpin-power-icon.png"/> &nbsp;&nbsp;&nbsp;&nbsp;{pin.serial.power.current_balance}</div>
+<div className="cohort-row">
+<div className="cohort-left-column"><img width="20" src={"/" + pin.story_action_type.name + ".png"}/> {pin.serial.edition} Ed. Lot {pin.serial.lot}</div>
+<div className="cohort-right-column"><img width="8" src="/figpin-power-icon.png"/> &nbsp;&nbsp;&nbsp;&nbsp;{pin.serial.power.current_balance}</div>
 </div>
 
-<div class="five-columns">
-<div class="column-item"><b>{pin.serial.sequence_no}</b><br/>of<br/><b>{pin.serial.volume}</b></div>
-<div class="column-item"><b>{pin.serial.unlock_position}</b><br/>Unlock<br/>Position</div>
-<div class="column-item"><b>{pin.serial.boosts.length}</b><br/>Boost<br/>Count</div>
-<div class="column-item"><b>{pin.serial.power.factory_score}</b><br/>Factory<br/>Score</div>
-<div class="column-item"><b>{pin.serial.power.story_points_total}</b><br/>Story<br/>Score</div>
+<div className="five-columns">
+<div className="column-item"><b>{pin.serial.sequence_no}</b><br/>of<br/><b>{pin.serial.volume}</b></div>
+<div className="column-item"><b>{pin.serial.unlock_position}</b><br/>Unlock<br/>Position</div>
+<div className="column-item"><b>{pin.serial.boosts.length}</b><br/>Boost<br/>Count</div>
+<div className="column-item"><b>{pin.serial.power.factory_score}</b><br/>Factory<br/>Score</div>
+<div className="column-item"><b>{pin.serial.power.story_points_total}</b><br/>Story<br/>Score</div>
 </div>
 
 </div>

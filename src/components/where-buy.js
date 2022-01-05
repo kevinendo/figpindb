@@ -97,7 +97,7 @@ function WhereToBuy() {
     <li className="gallerybox"><a title="Megamixx Toys" target="_blank" rel="noreferrer noopener" href="http://www.megamixxtoys.com">
         <img alt="Megamixx Toys" className="where-image" src="logo_megamixx.png"/></a>
     </li>
-
+  
     <li className="gallerybox"><a title="Pink a la Mode" target="_blank" rel="noreferrer noopener" href="http://www.pinkalamode.com">
         <img alt="Megamixx Toys" className="where-image" src="logo_pink.png"/></a>
     </li>
@@ -187,7 +187,17 @@ function WhereToBuy() {
         <a title="WY Super Rare" target="_blank" rel="noreferrer noopener" href="http://www.wysuperrare.com"><img alt="WY Super Rare" className="where-image" src="logo_wysuperrare.png"/></a>
     </li>
 
+</ul><br/>
+<h4 align="center">Canada</h4>
+<ul className="gallery mw-gallery-traditional">
+<li className="gallerybox"><a title="Fox & Dragon Hobbies" target="_blank" rel="noreferrer noopener" href="https://www.foxanddragonhobbies.ca/">
+        <img alt="Fox & Dragon Hobbies" className="where-image" src="logo_foxdragon.png"/></a>
+    </li>
+<li className="gallerybox"><a title="Nerds That Collect" target="_blank" rel="noreferrer noopener" href="https://nerdsthatcollect.com">
+        <img alt="Nerds That Collect" className="where-image" src="logo_nerds.png"/></a>
+    </li>
 </ul>
+
         </div>
     );
 }

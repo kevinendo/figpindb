@@ -25,12 +25,13 @@ return (
              {pinInfo.map((link) => (
                 <div className="edition" key = {link.store_name}>
                     <div className="buy-text">
-                    <a href={link.url} target="_blank">    
+                    <a href={link.url} target="_blank" rel="noreferrer">    
                     <img alt={link.store_name} className="buy-image" width="50" src={"../buy_" + link.store_id + ".png"}/> 
                     &nbsp;{link.store_name}</a></div>           
                 </div>
              ))}
-
+          {(pinInfo.length !== 0) ? <div className="declaration"><div className="footer-text">FigpinDB is user supported. When you purchase through links on our site, we may earn an affiliate commission.</div></div> : <div></div>}
+             
      </div>    
 );
 }

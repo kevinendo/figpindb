@@ -41,28 +41,28 @@ class UnlocksFilter extends Component {
                 <br/>
 
             {this.state.pins.filter(function (pin) { return pin.story_action_type.name.includes(name);}).map((pin) => (
-              <div class="unlock-row">
-                    <div class="unlock-first-column">
-                    <img class="unlock-image" src={pin.serial.figpin.img_cutout_url}/>
+              <div className="unlock-row">
+                    <div className="unlock-first-column">
+                    <img className="unlock-image" src={pin.serial.figpin.img_cutout_url}/>
                     </div>
-                    <div class="unlock-second-column">
-<div class="five-columns">
-<div class="column-item unlock-user"><img width="25" src="/user-icon.png"/>&nbsp;&nbsp;{(pin.serial.user.username == null) ? "Anonymous" : pin.serial.user.username} <span class="green-score">({pin.serial.user.collector_score.current_balance})</span></div>
-<div class="blue-box"><img width="18" src="/collection-power-icon.png"/> &nbsp;&nbsp;&nbsp;{pin.serial.user.collection_power.current_balance}</div>
+                    <div className="unlock-second-column">
+<div className="five-columns">
+<div className="column-item unlock-user"><img width="25" src="/user-icon.png"/>&nbsp;&nbsp;{(pin.serial.user.username == null) ? "Anonymous" : pin.serial.user.username} <span className="green-score">({pin.serial.user.collector_score.current_balance})</span></div>
+<div className="blue-box"><img width="18" src="/collection-power-icon.png"/> &nbsp;&nbsp;&nbsp;{pin.serial.user.collection_power.current_balance}</div>
 </div>
-<div class="five-columns">
+<div className="five-columns">
 
-<div class="column-item unlock-user">
+<div className="column-item unlock-user">
 &nbsp;&nbsp;<img width="20" src={"/" + pin.story_action_type.name + ".png"}/>&nbsp;&nbsp;<Link to={"/pinDetail/"+pin.serial.figpin.number}>{pin.serial.figpin.name} ({pin.serial.figpin.number})</Link> - {pin.serial.edition} Ed. Lot {pin.serial.lot}</div>
-<div class="blue-box"><img width="12" src="/figpin-power-icon.png"/> &nbsp;&nbsp;&nbsp;&nbsp;{pin.serial.power.current_balance}</div>
+<div className="blue-box"><img width="12" src="/figpin-power-icon.png"/> &nbsp;&nbsp;&nbsp;&nbsp;{pin.serial.power.current_balance}</div>
 </div>
 
-<div class="five-columns">
-<div class="column-item"><b>{pin.serial.sequence_no}</b><br/>of<br/><b>{pin.serial.volume}</b></div>
-<div class="column-item"><b>{pin.serial.unlock_position}</b><br/>Unlock<br/>Position</div>
-<div class="column-item"><b>{pin.serial.boosts.length}</b><br/>Boost<br/>Count</div>
-<div class="column-item"><b>{pin.serial.power.factory_score}</b><br/>Factory<br/>Score</div>
-<div class="column-item"><b>{pin.serial.power.story_points_total}</b><br/>Story<br/>Score</div>
+<div className="five-columns">
+<div className="column-item"><b>{pin.serial.sequence_no}</b><br/>of<br/><b>{pin.serial.volume}</b></div>
+<div className="column-item"><b>{pin.serial.unlock_position}</b><br/>Unlock<br/>Position</div>
+<div className="column-item"><b>{pin.serial.boosts.length}</b><br/>Boost<br/>Count</div>
+<div className="column-item"><b>{pin.serial.power.factory_score}</b><br/>Factory<br/>Score</div>
+<div className="column-item"><b>{pin.serial.power.story_points_total}</b><br/>Story<br/>Score</div>
 </div>
 
                 </div>

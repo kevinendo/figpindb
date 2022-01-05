@@ -10,6 +10,7 @@ import WhereToBuy from "./components/where-buy";
 import Home from "./components/home";
 import Calendar from "./components/calendar";
 import NewReleases from "./components/new-releases";
+import Preorders from "./components/preorders";
 import Releases2020 from "./components/releases-2020";
 import Resources from "./components/resources";
 
@@ -30,7 +31,8 @@ function App() {
           <Route exact path={["/pins"]} component={PinsList} />   
           <Route exact path={["/calendar"]} component={Calendar} />      
           <Route exact path={["/where"]} component={WhereToBuy} />      
-          <Route exact path={["/new"]} component={NewReleases} />     
+          <Route exact path={["/new"]} component={NewReleases} />    
+          <Route exact path={["/preorders"]} component={Preorders} />    
           <Route exact path={["/2020"]} component={Releases2020} />      
           <Route exact path={["/resources"]} component={Resources} />      
 

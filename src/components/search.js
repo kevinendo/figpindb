@@ -13,7 +13,7 @@ function Search() {
             <div>
             <form className="search" id="myForm">
               <input id="myInput" className="searchTerm" type="text" placeholder="Search"/>
-              <button id ="myBtn" className="searchButton" type="submit" onClick={findByName}><i class="fa fa-search"></i></button>
+              <button id ="myBtn" className="searchButton" type="submit" onClick={findByName}><i className="fa fa-search"></i></button>
             </form>
             </div>
         </div>

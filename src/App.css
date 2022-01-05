@@ -13,6 +13,11 @@ h3 {
   font-family: 'Raleway', sans-serif;
 }
 
+h4 {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
 a.hover {
   text-decoration: none;
   color: #000;
@@ -45,6 +50,7 @@ li.gallerybox-resources {
   float:left;
   width: 143px;
   padding: 0px;
+  margin: 0px 0px -15px 0px;
 }
 
 .pinbox {
@@ -567,6 +573,13 @@ hr.detail-divider {
   width: 100%;
   object-fit: cover
 }
+.sliderimg-white{
+  width: 100%;
+  object-fit: cover;
+  background: whitesmoke;
+  border: 2px solid black;
+  border-radius: 10px;
+}
 
 ul.alice-carousel__dots {
   position: absolute;
@@ -626,6 +639,15 @@ p.alice-carousel__next-btn-item {
   margin: 5px 0px;
 }
 
+.declaration {
+  background-color: #4d4d4d;
+  border: 1px solid darkgrey;
+  width: 320px;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px 0px;
+}
+
 .edition-text-1 {
   font-size: 85%; 
   color: white;
@@ -658,6 +680,7 @@ img.edition-text-1 {
   width: 120px;
   margin: 10px;
   border-radius: 20%;
+  border: 1px solid black;
 }
 
 .home-category {
@@ -814,6 +837,9 @@ img.edition-text-1 {
 .edition {
  width: 100%;
 }
+.declaration {
+  width: 100%;
+ }
 .image-carousel {
   width: 100%;
 }

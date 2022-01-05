@@ -20,13 +20,13 @@ function Resources() {
         <img alt="FiGPiN Official Facebook Page" className="where-image" src="fb_figpin.png"/></a>
         <div className="pinname">FiGPiN Official Facebook Page</div>
     </div></li>
-
+{/*
     <li className="gallerybox"><div className="pinbox">
         <a title="FiGPiN FANS Discord Group" href="https://discord.gg/xvDqjY2gQS" target="_blank" rel="noreferrer noopener">
         <img alt="FiGPiN FANS Discord Group" className="where-image" src="figpinfans.png"/></a>
         <div className="pinname">FiGPiN FANS Discord Group</div>
     </div></li>
-
+*/}
     <li className="gallerybox">
         <div className="pinbox">
         <a title="Taggem Discord Group" href="https://discord.gg/DDGnmZH" target="_blank" rel="noreferrer noopener">
@@ -74,9 +74,15 @@ function Resources() {
     </div></li>
   
     <li className="gallerybox"><div className="pinbox">
-        <a title="FiGPiN Hunter Instagram" href="   https://www.instagram.com/figpinhunter/" target="_blank" rel="noreferrer noopener">
+        <a title="FiGPiN Hunter Instagram" href="https://www.instagram.com/figpinhunter/" target="_blank" rel="noreferrer noopener">
         <img alt="FiGPiN Hunter Instagram" className="where-image" src="ig_figpinhunter.png"/></a>
         <div className="pinname">FiGPiN Hunter Instagram</div>
+    </div></li>
+
+    <li className="gallerybox"><div className="pinbox">
+        <a title="Toofu Instagram" href="https://www.instagram.com/im_toofu/" target="_blank" rel="noreferrer noopener">
+        <img alt="Toofu Instagram" className="where-image" src="ig_toofu.png"/></a>
+        <div className="pinname">Toofu Instagram</div>
     </div></li>
 
     <li className="gallerybox">
@@ -121,6 +127,20 @@ function Resources() {
         <div className="pinname">FiGPiN Watch Ranking Website</div>
     </div></li>
 
+    <li className="gallerybox">
+        <div className="pinbox">
+        <a title="FiGPiN Watch Ranking Website" href="https://pinhobby.com/" target="_blank" rel="noreferrer noopener">
+        <img alt="FiGPiN Watch Ranking Website" className="where-image" src="pinhobby.png"/></a>
+        <div className="pinname">Pin Hobby FiGPiN Fan Website</div>
+    </div></li>
+
+    <li className="gallerybox">
+        <div className="pinbox">
+        <a title="Curated Awesome YouTube Channel" href="https://www.youtube.com/channel/UCQWurWCZ_S9iatKrcpNfsOA" target="_blank" rel="noreferrer noopener">
+        <img alt="Curated Awesome YouTube Channel" className="where-image" src="yt_curatedawesome.png"/></a>
+        <div className="pinname">Curated Awesome YouTube Channel</div>
+    </div></li>
+    
     <li className="gallerybox">
         <div className="pinbox">
         <a title="Hero Complex (Displays)" href="https://www.herocomplexdisplays.com/collections/figpin" target="_blank" rel="noreferrer noopener">

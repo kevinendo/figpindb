@@ -19,7 +19,10 @@ function Home() {
     </li>   
     <li className="gallerybox">
         <Link title="Avatar The Last Airbender" to="/property/Avatar The Last Airbender"><img alt="Avatar The Last Airbender" className="where-image" src="logo_avatar.png"/></Link>
-    </li>       
+    </li> 
+    <li className="gallerybox">
+        <Link title="Disney" to="/licensor/Blizzard"><img alt="Blizzard" className="where-image" src="logo_blizz.png"/></Link>
+    </li>          
     <li className="gallerybox">
         <Link title="Borderlands3" to="/property/Borderlands3"><img alt="Borderlands3" className="where-image" src="logo_borderlands3.png"/></Link>
     </li>       
@@ -67,12 +70,18 @@ function Home() {
     </li>   
     <li className="gallerybox">
         <Link title="Godzilla" to="/property/Godzilla"><img alt="Godzilla" className="where-image" src="logo_godzilla.png"/></Link>
+    </li> 
+    <li className="gallerybox">
+        <Link title="Godzilla" to="/property/Gundam"><img alt="Gundam" className="where-image" src="logo_gundam.png"/></Link>
     </li>       
     <li className="gallerybox">
         <Link title="Halo" to="/property/Halo"><img alt="Halo" className="where-image" src="logo_halo.png"/></Link>
     </li>       
     <li className="gallerybox">
         <Link title="Harry Potter" to="/property/Harry Potter"><img alt="Harry Potter" className="where-image" src="logo_harrypotter.png"/></Link>
+    </li>     
+    <li className="gallerybox">
+        <Link title="Harry Potter" to="/property/Hunter x Hunter"><img alt="Hunter x Hunter" className="where-image" src="logo_hunter.png"/></Link>
     </li>       
     <li className="gallerybox">
         <Link title="Looney Tunes" to="/property/Looney Tunes"><img alt="Looney Tunes" className="where-image" src="logo_looneytunes.png"/></Link>
@@ -94,6 +103,9 @@ function Home() {
     </li>        
     <li className="gallerybox">
         <Link title="Scooby-Doo!" to="/property/Scooby-Doo!"><img alt="Scooby-Doo!" className="where-image" src="logo_scooby.png"/></Link>
+    </li>
+    <li className="gallerybox">
+        <Link title="The Simpsons" to="/property/The Simpsons"><img alt="The Simpsons" className="where-image" src="logo_simpsons.png"/></Link>
     </li>
     <li className="gallerybox">
         <Link title="South Park" to="/property/South Park"><img alt="South Park" className="where-image" src="logo_southpark.png"/></Link>
@@ -142,12 +154,33 @@ function Home() {
     </li>          
     <li className="gallerybox">
         <Link title="BAIT Exclusive" to="/availability/BAIT Exclusive"><img alt="BAIT" className="where-image" src="logo_bait.png"/></Link>
-    </li>  
+    </li> 
     <li className="gallerybox">
-        <Link title="BAIT Exclusive" to="/availability/Box Lunch Exclusive"><img alt="Box Lunch" className="where-image" src="logo_boxlunch.png"/></Link>
+        <Link title="Best Buy Exclusive" to="/availability/Best Buy Exclusive"><img alt="Best Buy" className="where-image" src="logo_bestbuy.png"/></Link>
+    </li>   
+    <li className="gallerybox">
+        <Link title="Big Apple Toys Exclusive" to="/availability/Big Apple Toys Exclusive"><img alt="Big Apple Toys" className="where-image" src="logo_bigapple.png"/></Link>
+    </li>   
+    <li className="gallerybox">
+        <Link title="Big Bad Toy Store Exclusive" to="/availability/Big Bad Toy Store Exclusive"><img alt="Big Bad Toy Store" className="where-image" src="logo_bbts.png"/></Link>
+    </li>   
+    <li className="gallerybox">
+        <Link title="Bethesda Exclusive" to="/availability/Bethesda Exclusive"><img alt="Bethesda" className="where-image" src="logo_bethesda.png"/></Link>
+    </li>   
+    <li className="gallerybox">
+        <Link title="Blizzard Exclusive" to="/availability/Blizzard Exclusive"><img alt="Blizzard" className="where-image" src="logo_blizzard.png"/></Link>
+    </li>   
+    <li className="gallerybox">
+        <Link title="Box Lunch Exclusive" to="/availability/Box Lunch Exclusive"><img alt="Box Lunch" className="where-image" src="logo_boxlunch.png"/></Link>
+    </li>       
+    <li className="gallerybox">
+        <Link title="Chalice Collectibles Exclusive" to="/availability/Chalice Collectibles Exclusive"><img alt="Chalice Collectibles" className="where-image" src="logo_chalice.png"/></Link>
     </li>             
     <li className="gallerybox">
         <Link title="Entertainment Earth Exclusive" to="/availability/Entertainment Earth Exclusive"><img alt="EE" className="where-image" src="logo_ee.png"/></Link>
+    </li>     
+    <li className="gallerybox">
+        <Link title="Ferrera Market Exclusive" to="/availability/Ferrera Market Exclusive"><img alt="Ferrera Market" className="where-image" src="logo_ferrera.png"/></Link>
     </li>     
     <li className="gallerybox">
         <Link title="Fugitive Toys Exclusive" to="/availability/Fugitive Toys Exclusive"><img alt="Fugitive Toys" className="where-image" src="logo_fugitive.png"/></Link>
@@ -156,22 +189,49 @@ function Home() {
         <Link title="Funimation Exclusive" to="/availability/Funimation Exclusive"><img alt="Funimation" className="where-image" src="logo_funimation.png"/></Link>
     </li>  
     <li className="gallerybox">
+        <Link title="FYE Exclusive" to="/availability/FYE Exclusive"><img alt="FYE" className="where-image" src="logo_fye.png"/></Link>
+    </li>  
+    <li className="gallerybox">
+        <Link title="Galactic Toys Exclusive" to="/availability/Galactic Toys Exclusive"><img alt="Galactic Toys" className="where-image" src="logo_galactic.png"/></Link>
+    </li>  
+    <li className="gallerybox">
         <Link title="GameStop Exclusive" to="/availability/GameStop Exclusive"><img alt="GameStop" className="where-image" src="logo_gamestop.png"/></Link>
     </li>  
     <li className="gallerybox">
         <Link title="Hot Topic Exclusive" to="/availability/Hot Topic Exclusive"><img alt="Hot Topic" className="where-image" src="logo_hottopic.png"/></Link>
     </li>  
     <li className="gallerybox">
-        <Link title="Hot Topic Exclusive" to="/availability/Krakens Collection Exclusive"><img alt="Krakens Collection" className="where-image" src="logo_krakens.png"/></Link>
+        <Link title="Krakens Collection Exclusive" to="/availability/Krakens Collection Exclusive"><img alt="Krakens Collection" className="where-image" src="logo_krakens.png"/></Link>
     </li>  
     <li className="gallerybox">
         <Link title="Pins on Fire Exclusive" to="/availability/Pins on Fire Exclusive"><img alt="Pins on Fire" className="where-image" src="logo_pinsonfire.png"/></Link>
     </li>  
     <li className="gallerybox">
-        <Link title="Target Exclusive" to="/availability/Taggem Exclusive"><img alt="Taggem" className="where-image" src="logo_taggem.png"/></Link>
+        <Link title="Poptopia Exclusive" to="/availability/Poptopia Exclusive"><img alt="Poptopia" className="where-image" src="logo_poptopia.png"/></Link>
+    </li>  
+    <li className="gallerybox">
+        <Link title="Shumi Toys Exclusive" to="/availability/Shumi Toys Exclusive"><img alt="Shumi Toys" className="where-image" src="logo_shumi.png"/></Link>
+    </li>  
+    <li className="gallerybox">
+        <Link title="Spastic Collectibles Exclusive" to="/availability/Spastic Collectibles Exclusive"><img alt="Spastic Collectibles" className="where-image" src="logo_spastic.png"/></Link>
+    </li>  
+    <li className="gallerybox">
+        <Link title="Taggem Exclusive" to="/availability/Taggem Exclusive"><img alt="Taggem" className="where-image" src="logo_taggem.png"/></Link>
     </li>      
     <li className="gallerybox">
         <Link title="Target Exclusive" to="/availability/Target Exclusive"><img alt="Target" className="where-image" src="logo_target.png"/></Link>
+    </li>  
+    <li className="gallerybox">
+        <Link title="The Might Hobby Exclusive" to="/availability/The Mighty Hobby Exclusive"><img alt="The Mighty Hobby" className="where-image" src="logo_mighty.png"/></Link>
+    </li>  
+    <li className="gallerybox">
+        <Link title="Toy Drops Exclusive" to="/availability/Toy Drops Exclusive"><img alt="Toy Drops" className="where-image" src="logo_toydrops.png"/></Link>
+    </li>  
+    <li className="gallerybox">
+        <Link title="Toy Temple Exclusive" to="/availability/Toy Temple Exclusive"><img alt="Toy Temple" className="where-image" src="logo_toytemple.png"/></Link>
+    </li>  
+    <li className="gallerybox">
+        <Link title="Toynk Exclusive" to="/availability/Toynk Exclusive"><img alt="Toynk" className="where-image" src="logo_toynk.png"/></Link>
     </li>  
     <li className="gallerybox">
         <Link title="Walgreens Exclusive" to="/availability/Walgreens Exclusive"><img alt="Walgreens" className="where-image" src="logo_walgreens.png"/></Link>
