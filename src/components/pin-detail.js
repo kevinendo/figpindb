@@ -81,13 +81,19 @@ return (
        {/*
         { pinInfo.artist_name ? <div className="pin-text"><span className="pin-text-category">Artist:</span> <Link to={"/artist/"+pinInfo.artist_name}>{pinInfo.artist_name}</Link></div> : <div></div> } 
        */}
+{/*} 
         <span className="pin-text-category">Artist: </span>
+
 { 
   pinArtists.map(artist => (
-<><Link title={artist} to={"/artist/"+artist}> {artist} </Link> </>
+<><Link title={artist} to={"/artist/"+artist}> {artist}</Link></>
   ))
 }
-
+*/}
+<div className="pin-text">
+<span className="pin-text-category">Artist: </span>
+{ (pinArtists.length == 2) ? <><Link title={pinArtists[0]} to={"/artist/"+pinArtists[0]}> {pinArtists[0]}</Link> / <Link title={pinArtists[1]} to={"/artist/"+pinArtists[1]}> {pinArtists[1]}</Link></> : <><Link title={pinArtists[0]} to={"/artist/"+pinArtists[0]}> {pinArtists[0]}</Link></> }
+</div>
       </div><div className="detail-top-child">
         { pinInfo.sale_date ? <div className="pin-text"><span className="pin-text-category">Sale Date:</span> {pinInfo.sale_date}</div> : <div></div> } 
         { pinInfo.unlock_date ? <div className="pin-text"><span className="pin-text-category">Unlock Date:</span> {pinInfo.unlock_date}</div> : <div></div> }

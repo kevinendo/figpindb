@@ -165,16 +165,19 @@ function Home() {
         <Link title="Big Bad Toy Store Exclusive" to="/availability/Big Bad Toy Store Exclusive"><img alt="Big Bad Toy Store" className="where-image" src="logo_bbts.png"/></Link>
     </li>   
     <li className="gallerybox">
-        <Link title="Bethesda Exclusive" to="/availability/Bethesda Exclusive"><img alt="Bethesda" className="where-image" src="logo_bethesda.png"/></Link>
+        <Link title="Bethesda Exclusive" to="/availability/Bethesda Exclusive"><img alt="Bethesda Exclusive" className="where-image" src="logo_bethesda.png"/></Link>
     </li>   
     <li className="gallerybox">
-        <Link title="Blizzard Exclusive" to="/availability/Blizzard Exclusive"><img alt="Blizzard" className="where-image" src="logo_blizzard.png"/></Link>
+        <Link title="Blizzard Exclusive" to="/availability/Blizzard Exclusive"><img alt="Blizzard Exclusive" className="where-image" src="logo_blizzard.png"/></Link>
     </li>   
     <li className="gallerybox">
-        <Link title="Box Lunch Exclusive" to="/availability/Box Lunch Exclusive"><img alt="Box Lunch" className="where-image" src="logo_boxlunch.png"/></Link>
+        <Link title="Box Lunch Exclusive" to="/availability/Box Lunch Exclusive"><img alt="Box Lunch Exclusive" className="where-image" src="logo_boxlunch.png"/></Link>
     </li>       
     <li className="gallerybox">
         <Link title="Chalice Collectibles Exclusive" to="/availability/Chalice Collectibles Exclusive"><img alt="Chalice Collectibles" className="where-image" src="logo_chalice.png"/></Link>
+    </li>
+    <li className="gallerybox">
+        <Link title="Disney" to="/availability/Disney Exclusive"><img alt="Disney Exclusive" className="where-image" src="logo_disney.png"/></Link>
     </li>             
     <li className="gallerybox">
         <Link title="Entertainment Earth Exclusive" to="/availability/Entertainment Earth Exclusive"><img alt="EE" className="where-image" src="logo_ee.png"/></Link>

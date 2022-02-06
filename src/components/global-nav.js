@@ -123,6 +123,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/property/Big Hero 6">Big Hero 6</a></li>
               <li><a className="dropdown-item" href="/property/Black Widow">Black Widow</a></li>
               <li><a className="dropdown-item" href="/property/Captain Marvel">Captain Marvel</a></li>
+              <li><a className="dropdown-item" href="/property/Disney Classics">Disney Classics</a></li>
               <li><a className="dropdown-item" href="/property/Disney Princesses">Disney Princesses</a></li>
               <li><a className="dropdown-item" href="/property/Disney Villains">Disney Villains</a></li>
               <li><a className="dropdown-item" href="/property/Fantasia">Fantasia</a></li>
@@ -179,18 +180,18 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/property/ACDC High Voltage">AC/DC: High Voltage</a></li>
               <li><a className="dropdown-item" href="/property/Alien Remix">Alien Remix</a></li>
               <li><a className="dropdown-item" href="/property/Bruce Lee">Bruce Lee</a></li>                
+              <li><a className="dropdown-item" href="/property/Cities">Cities</a></li>
               <li><a className="dropdown-item" href="/property/David Bowie">David Bowie</a></li>    
-              <li><a className="dropdown-item" href="/property/DesignerCon">DesignerCon</a></li>     
+              <li><a className="dropdown-item" href="/property/DesignerCon">DesignerCon</a></li>
+              <li><a className="dropdown-item" href="/property/Disney Parks">Disney Parks</a></li>     
               <li><a className="dropdown-item" href="/property/Gudetama">Gudetama</a></li>
               <li><a className="dropdown-item" href="/property/Hello Kitty">Hello Kitty</a></li>
               <li><a className="dropdown-item" href="/property/House of Blues">House of Blues</a></li>
-              <li><a className="dropdown-item" href="/property/KISS">KISS</a></li>
-              <li><a className="dropdown-item" href="/property/Monuments">Monuments</a></li>
+              <li><a className="dropdown-item" href="/property/KISS">KISS</a></li>              
               <li><a className="dropdown-item" href="/property/New York Mets">New York Mets</a></li>
               <li><a className="dropdown-item" href="/property/Philadelphia 76ers">Philadelphia 76ers</a></li>
               <li><a className="dropdown-item" href="/availability/SF%20Giants%20Exclusive">San Francisco Giants</a></li>
-              <li><a className="dropdown-item" href="/property/WWE: Legends">WWE: Legends</a></li>
-              <li><a className="dropdown-item" href="/property/WWE: Superstars">WWE: Superstars</a></li>
+              <li><a className="dropdown-item" href="/licensor/WWE">WWE</a></li>
               </ul>
             </li>   
             <li className="nav-item dropdown">
@@ -206,7 +207,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/variant/Gold">Gold</a></li>
               <li><a className="dropdown-item" href="/variant/Gold Plated">Gold Plated</a></li>
               <li><a className="dropdown-item" href="/variant/Greyscale">Greyscale</a></li>
-              <li><a className="dropdown-item" href="/variant/Infinity Stone">Infinity Stone</a></li>
+              <li><a className="dropdown-item" href="/variant/Rainbow Plated">Rainbow Plated</a></li>
               <li><a className="dropdown-item" href="/variant/Sepia Tone">Sepia Tone</a></li>
               <li><a className="dropdown-item" href="/variant/Silver Plated">Silver Plated</a></li>
               <li><a className="dropdown-item" href="/variant/White and Black Nickel">White and Black Nickel</a></li>

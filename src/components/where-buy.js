@@ -55,10 +55,6 @@ function WhereToBuy() {
     </li>        
 
     <li className="gallerybox">
-        <a title="Brew City Collectibles" target="_blank" rel="noreferrer noopener" href="http://www.brewcitycollectibles.com"><img alt="Brew City Collectibles" className="where-image" src="logo_brewcity.png"/></a>
-    </li>
-
-    <li className="gallerybox">
         <a title="Chalice Collectibles" target="_blank" rel="noreferrer noopener" href="https://www.chalicecollectibles.com/"><img alt="Chalice Collectibles" className="where-image" src="logo_chalice.png"/></a>
     </li>        
 
