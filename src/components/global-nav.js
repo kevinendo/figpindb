@@ -163,6 +163,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/property/SpongeBob SquarePants">SpongeBob SquarePants</a></li>
               <li><a className="dropdown-item" href="/property/Star Wars Clone Wars">Star Wars Clone Wars</a></li>
               <li><a className="dropdown-item" href="/property/Star Wars The Bad Batch">Star Wars The Bad Batch</a></li>
+              <li><a className="dropdown-item" href="/property/Star Wars The Book of Boba Fett">Star Wars The Book of Boba Fett</a></li>
               <li><a className="dropdown-item" href="/property/Star Wars The Mandalorian">Star Wars The Mandalorian</a></li>
               <li><a className="dropdown-item" href="/property/Stranger Things">Stranger Things</a></li>
               <li><a className="dropdown-item" href="/property/Teenage Mutant Ninja Turtles Animated">Teenage Mutant Ninja Turtles Animated</a></li>        
@@ -188,9 +189,8 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/property/Hello Kitty">Hello Kitty</a></li>
               <li><a className="dropdown-item" href="/property/House of Blues">House of Blues</a></li>
               <li><a className="dropdown-item" href="/property/KISS">KISS</a></li>              
-              <li><a className="dropdown-item" href="/property/New York Mets">New York Mets</a></li>
-              <li><a className="dropdown-item" href="/property/Philadelphia 76ers">Philadelphia 76ers</a></li>
-              <li><a className="dropdown-item" href="/availability/SF%20Giants%20Exclusive">San Francisco Giants</a></li>
+              <li><a className="dropdown-item" href="/licensor/MLB">MLB</a></li>
+              <li><a className="dropdown-item" href="/licensor/NBA">NBA</a></li>
               <li><a className="dropdown-item" href="/licensor/WWE">WWE</a></li>
               </ul>
             </li>   

@@ -5,38 +5,83 @@ function NewReleases() {
     return (
         <div className="detail-box">
 <h3 align="center">New Releases</h3>
+
 <ul className="gallery mw-gallery-traditional-left">
-<li className="gallerybox"><div className="newrelease-header">Disney<br/>Early February</div></li>
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/646">
-    <img className="pinlist-image" src="/646_img_url_med.png"/><div className="pinname">Disney Exclusive</div></Link></div></li> 
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/623">
-    <img className="pinlist-image" src="/623_img_url_med.png"/><div className="pinname">Disney Exclusive</div></Link></div></li> 
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/772">
-    <img className="pinlist-image" src="/772_img_url_med.png"/><div className="pinname">Disney Exclusive</div></Link></div></li> 
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/773">
-    <img className="pinlist-image" src="/773_img_url_med.png"/><div className="pinname">Disney Exclusive</div></Link></div></li>     
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/774">
-    <img className="pinlist-image" src="/774_img_url_med.png"/><div className="pinname">Disney Exclusive</div></Link></div></li> 
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/775">
-    <img className="pinlist-image" src="/775_img_url_med.png"/><div className="pinname">Disney Exclusive</div></Link></div></li> 
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/685">
-    <img className="pinlist-image" src="/685_img_url_med.png"/><div className="pinname">Disney Exclusive</div></Link></div></li>     
+<li className="gallerybox"><div className="newrelease-header">NBA<br/>2/16/22</div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/S7">
+    <img className="pinlist-image" src="/S7_img_url_med.png"/><div className="pinname">FiGPiN Chase</div></Link></div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/S8">
+    <img className="pinlist-image" src="/S8_img_url_med.png"/><div className="pinname">FiGPiN Chase</div></Link></div></li>    
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/S9">
+    <img className="pinlist-image" src="/S9_img_url_med.png"/><div className="pinname">FiGPiN Chase</div></Link></div></li> 
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/S10">
+    <img className="pinlist-image" src="/S10_img_url_med.png"/><div className="pinname">FiGPiN Chase</div></Link></div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/S11">
+    <img className="pinlist-image" src="/S11_img_url_med.png"/><div className="pinname">FiGPiN Chase</div></Link></div></li>    
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/S12">
+    <img className="pinlist-image" src="/S12_img_url_med.png"/><div className="pinname">FiGPiN Chase</div></Link></div></li> 
 </ul>
 
 <ul className="gallery mw-gallery-traditional-left">
-<li className="gallerybox"><div className="newrelease-header">Disney<br/>Early February</div></li>
+<li className="gallerybox"><div className="newrelease-header">NBA<br/>2/16/22</div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/S1">
+    <img className="pinlist-image" src="/S1_img_url_med.png"/></Link></div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/S2">
+    <img className="pinlist-image" src="/S2_img_url_med.png"/></Link></div></li>    
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/S3">
+    <img className="pinlist-image" src="/S3_img_url_med.png"/></Link></div></li> 
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/S4">
+    <img className="pinlist-image" src="/S4_img_url_med.png"/></Link></div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/S5">
+    <img className="pinlist-image" src="/S5_img_url_med.png"/></Link></div></li>    
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/S6">
+    <img className="pinlist-image" src="/S6_img_url_med.png"/></Link></div></li> 
+</ul>
+
+<ul className="gallery mw-gallery-traditional-left">
+<li className="gallerybox"><div className="newrelease-header">Star Wars The Book of Boba Fett<br/>2/8/22</div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/859">
+    <img className="pinlist-image" src="/859_img_url_med.png"/></Link></div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/860">
+    <img className="pinlist-image" src="/860_img_url_med.png"/></Link></div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/861">
+    <img className="pinlist-image" src="/861_img_url_med.png"/></Link></div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/907">
+    <img className="pinlist-image" src="/907_img_url_med.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>                
+</ul>
+
+<ul className="gallery mw-gallery-traditional-left">
+<li className="gallerybox"><div className="newrelease-header">Disney<br/>2/8/22</div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/646">
+    <img className="pinlist-image" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/76/53/22/7084/7084.ce68e513.png"/><div className="pinname">Disney Exclusive</div></Link></div></li> 
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/623">
+    <img className="pinlist-image" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/39/fe/9f/7069/7069.ce68e513.png"/><div className="pinname">Disney Exclusive</div></Link></div></li> 
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/772">
+    <img className="pinlist-image" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/be/0e/35/7109/7109.ce68e513.png"/><div className="pinname">Disney Exclusive</div></Link></div></li> 
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/773">
+    <img className="pinlist-image" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/8c/6a/49/7115/7115.ce68e513.png"/><div className="pinname">Disney Exclusive</div></Link></div></li>     
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/774">
+    <img className="pinlist-image" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/1e/c9/eb/7120/7120.ce68e513.png"/><div className="pinname">Disney Exclusive</div></Link></div></li> 
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/775">
+    <img className="pinlist-image" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/d0/58/99/7124/7124.ce68e513.png"/><div className="pinname">Disney Exclusive</div></Link></div></li> 
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/685">
+    <img className="pinlist-image" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/7c/d7/fc/7104/7104.ce68e513.png"/><div className="pinname">Disney Exclusive</div></Link></div></li>     
+</ul>
+
+<ul className="gallery mw-gallery-traditional-left">
+<li className="gallerybox"><div className="newrelease-header">Disney<br/>2/8/22</div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/683">
-    <img className="pinlist-image" src="/683_img_url_med.png"/><div className="pinname">Disney Exclusive</div></Link></div></li>
+    <img className="pinlist-image" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/f0/41/7d/7095/7095.ce68e513.png"/><div className="pinname">Disney Exclusive</div></Link></div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/684">
-    <img className="pinlist-image" src="/684_img_url_med.png"/><div className="pinname">Disney Exclusive</div></Link></div></li>    
+    <img className="pinlist-image" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/ed/6c/dc/7100/7100.ce68e513.png"/><div className="pinname">Disney Exclusive</div></Link></div></li>    
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/647">
-    <img className="pinlist-image" src="/647_img_url_med.png"/><div className="pinname">Disney Exclusive</div></Link></div></li> 
+    <img className="pinlist-image" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/e7/24/a0/7090/7090.ce68e513.png"/><div className="pinname">Disney Exclusive</div></Link></div></li> 
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/644">
-    <img className="pinlist-image" src="/644_img_url_med.png"/><div className="pinname">Disney Exclusive</div></Link></div></li>
+    <img className="pinlist-image" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/b2/d0/bf/7075/7075.ce68e513.png"/><div className="pinname">Disney Exclusive</div></Link></div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/645">
-    <img className="pinlist-image" src="/645_img_url_med.png"/><div className="pinname">Disney Exclusive</div></Link></div></li>    
+    <img className="pinlist-image" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/5b/26/2a/7080/7080.ce68e513.png"/><div className="pinname">Disney Exclusive</div></Link></div></li>    
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/450">
-    <img className="pinlist-image" src="/450_img_url_med.png"/><div className="pinname">Disney Exclusive</div></Link></div></li> 
+    <img className="pinlist-image" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/07/fa/d9/7066/7066.ce68e513.png"/><div className="pinname">Disney Exclusive</div></Link></div></li> 
 </ul>
 
 <ul className="gallery mw-gallery-traditional-left">

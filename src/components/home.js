@@ -90,11 +90,17 @@ function Home() {
         <Link title="Marvel" to="/licensor/Marvel"><img alt="Marvel" className="where-image" src="logo_marvel.png"/></Link>
     </li>
     <li className="gallerybox">
+        <Link title="MLB" to="/licensor/MLB"><img alt="MLB" className="where-image" src="logo_mlb.png"/></Link>
+    </li> 
+    <li className="gallerybox">
         <Link title="My Hero Academia" to="/property/My Hero Academia"><img alt="My Hero Academia" className="where-image" src="logo_mha.png"/></Link>
     </li>
     <li className="gallerybox">
         <Link title="Naruto" to="/property/Naruto"><img alt="Naruto" className="where-image" src="logo_naruto.png"/></Link>
     </li>    
+    <li className="gallerybox">
+        <Link title="NBA" to="/licensor/NBA"><img alt="NBA" className="where-image" src="logo_nba.png"/></Link>
+    </li> 
     <li className="gallerybox">
         <Link title="Neon Genesis Evangelion" to="/property/Neon Genesis Evangelion"><img alt="Neon Genesis Evangelion" className="where-image" src="logo_evangelion.png"/></Link>
     </li>   
