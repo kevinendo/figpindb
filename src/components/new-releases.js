@@ -25,17 +25,17 @@ function NewReleases() {
 <ul className="gallery mw-gallery-traditional-left">
 <li className="gallerybox"><div className="newrelease-header">NBA<br/>2/16/22</div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/S1">
-    <img className="pinlist-image" src="/S1_img_url_med.png"/></Link></div></li>
+    <img className="pinlist-image" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/70/d7/b4/7316/7316.ce68e513.png"/></Link></div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/S2">
-    <img className="pinlist-image" src="/S2_img_url_med.png"/></Link></div></li>    
+    <img className="pinlist-image" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/dc/24/37/7329/7329.ce68e513.png"/></Link></div></li>    
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/S3">
-    <img className="pinlist-image" src="/S3_img_url_med.png"/></Link></div></li> 
+    <img className="pinlist-image" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/f5/68/0d/7333/7333.ce68e513.png"/></Link></div></li> 
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/S4">
-    <img className="pinlist-image" src="/S4_img_url_med.png"/></Link></div></li>
+    <img className="pinlist-image" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/26/ac/1e/7339/7339.ce68e513.png"/></Link></div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/S5">
-    <img className="pinlist-image" src="/S5_img_url_med.png"/></Link></div></li>    
+    <img className="pinlist-image" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/37/48/81/7344/7344.ce68e513.png"/></Link></div></li>    
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/S6">
-    <img className="pinlist-image" src="/S6_img_url_med.png"/></Link></div></li> 
+    <img className="pinlist-image" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/2c/4c/fd/7367/7367.ce68e513.png"/></Link></div></li> 
 </ul>
 
 <ul className="gallery mw-gallery-traditional-left">
