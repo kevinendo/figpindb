@@ -19,6 +19,20 @@ function Preorders() {
 */}
 
 <ul className="gallery mw-gallery-traditional-left">
+<li className="gallerybox"><div className="newrelease-header">Demon Slayer<br/>Late March 2022</div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/809">
+    <img className="pinlist-image" src="/809_img_url_med.png"/></Link></div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/810">
+    <img className="pinlist-image" src="/810_img_url_med.png"/></Link></div></li>    
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/811">
+    <img className="pinlist-image" src="/811_img_url_med.png"/></Link></div></li> 
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/812">
+    <img className="pinlist-image" src="/812_img_url_med.png"/></Link></div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/813">
+    <img className="pinlist-image" src="/813_img_url_med.png"/></Link></div></li>    
+</ul>
+
+<ul className="gallery mw-gallery-traditional-left">
 <li className="gallerybox"><div className="newrelease-header">Star Wars The Book of Boba Fett<br/>Summer 2022</div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/859">
     <img className="pinlist-image" src="/859_img_url_med.png"/></Link></div></li>

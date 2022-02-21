@@ -51,11 +51,12 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/property/Hunter x Hunter">Hunter x Hunter</a></li>
               <li><a className="dropdown-item" href="/property/Mob Psycho">Mob Psycho</a></li>
               <li><a className="dropdown-item" href="/property/My Hero Academia">My Hero Academia</a></li>
+              <li><a className="dropdown-item" href="/property/My Hero Academia x Hello Kitty">My Hero Academia x Hello Kitty</a></li>   
               <li><a className="dropdown-item" href="/property/Naruto">Naruto</a></li>
               <li><a className="dropdown-item" href="/property/Naruto x Hello Kitty">Naruto x Hello Kitty</a></li>
               <li><a className="dropdown-item" href="/property/Neon Genesis Evangelion">Neon Genesis Evangelion</a></li>
               <li><a className="dropdown-item" href="/property/One Punch Man">One Punch Man</a></li>
-              <li><a className="dropdown-item" href="/property/Sanrio x My Hero Academia">Sanrio x My Hero Academia</a></li>   
+              
               </ul>
             </li>     
  
@@ -225,14 +226,15 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/tags/Chase">Chase</a></li>
               <li><a className="dropdown-item" href="/tags/D23 Expo">D23 Expo</a></li>
               <li><a className="dropdown-item" href="/tags/ECCC">ECCC</a></li>
-              <li><a className="dropdown-item" href="/tags/Grail">Grail</a></li>
               <li><a className="dropdown-item" href="/tags/Halloween">Halloween</a></li>
+              <li><a className="dropdown-item" href="/tags/Hard to Find">Hard To Find</a></li>
               <li><a className="dropdown-item" href="/tags/LACC">LACC</a></li>
               <li><a className="dropdown-item" href="/availability/Limited%20Edition">Limited Edition</a></li>
               <li><a className="dropdown-item" href="/type/Logo">Logo</a></li>
               <li><a className="dropdown-item" href="/type/Mini">Mini</a></li>
               <li><a className="dropdown-item" href="/tags/NYCC">NYCC</a></li>
               <li><a className="dropdown-item" href="/tags/SDCC">SDCC</a></li>
+              <li><a className="dropdown-item" href="/tags/Very Hard To Find">Very Hard To Find</a></li>
               <li><a className="dropdown-item" href="/type/XL">XL</a></li>
               </ul>
             </li> 
@@ -242,6 +244,8 @@ function GlobalNav() {
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a className="dropdown-item" href="/new">New Releases</a></li>
+              <li><a className="dropdown-item" href="/2021">2021 Releases</a></li>
+              <li><a className="dropdown-item" href="/2020">2020 Releases</a></li>
               <li><a className="dropdown-item" href="/preorders">Preorders</a></li>
               <li><a className="dropdown-item" href="/calendar">Unlock Calendar</a></li>
               <li><a className="dropdown-item" href="/where">Where To Buy</a></li>

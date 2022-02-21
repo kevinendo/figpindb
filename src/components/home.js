@@ -259,12 +259,37 @@ function Home() {
     </li>         
     <li className="gallerybox">
         <Link title="XL" to="/type/XL"><img alt="XL" className="where-image" src="logo_xls.png"/></Link>
+    </li>     
+    <li className="gallerybox">
+        <Link title="Limited Edition" to="/availability/Limited Edition"><img alt="Limited Edition" className="where-image" src="logo_limited.png"/></Link>
     </li>         
+    <li className="gallerybox">
+        <Link title="Very Hard To Find" to="/tags/Very Hard To Find"><img alt="Very Hard To Find" className="where-image" src="logo_vhtf.png"/></Link>
+    </li>         
+    <li className="gallerybox">
+        <Link title="Hard To Find" to="/tags/Hard to Find"><img alt="Hard To Find" className="where-image" src="logo_htf.png"/></Link>
+    </li>         \
     <li className="gallerybox">
         <Link title="See All" to="/pins"><img alt="ALL" className="where-image" src="logo_seeall.png"/></Link>
     </li>         
-
 </ul>
+
+<div className="home-category">Run Sizes</div>
+<ul className="gallery mw-gallery-traditional">
+    <li className="gallerybox"><Link title="1-249" to="/tags/1-249"><img alt="1-249" className="where-image" src="volume_1.png"/></Link></li>     
+    <li className="gallerybox"><Link title="250-499" to="/tags/250-499"><img alt="250-499" className="where-image" src="volume_250.png"/></Link></li>     
+    <li className="gallerybox"><Link title="500-749" to="/tags/500-749"><img alt="500-749" className="where-image" src="volume_500.png"/></Link></li>     
+    <li className="gallerybox"><Link title="750-999" to="/tags/750-999"><img alt="750-999" className="where-image" src="volume_750.png"/></Link></li>     
+    <li className="gallerybox"><Link title="1000-1499" to="/tags/1000-1499"><img alt="1000-1499" className="where-image" src="volume_1000.png"/></Link></li>     
+    <li className="gallerybox"><Link title="1500-1999" to="/tags/1500-1999"><img alt="1500-1999" className="where-image" src="volume_1500.png"/></Link></li>     
+    <li className="gallerybox"><Link title="2000-2999" to="/tags/2000-2999"><img alt="2000-2999" className="where-image" src="volume_2000.png"/></Link></li>     
+    <li className="gallerybox"><Link title="3000-4999" to="/tags/3000-4999"><img alt="3000-4999" className="where-image" src="volume_3000.png"/></Link></li>     
+    <li className="gallerybox"><Link title="5000-9999" to="/tags/5000-9999"><img alt="5000-9999" className="where-image" src="volume_5000.png"/></Link></li>     
+    <li className="gallerybox"><Link title="10000-19999" to="/tags/10000-19999"><img alt="10000-19999" className="where-image" src="volume_10000.png"/></Link></li>     
+    <li className="gallerybox"><Link title="20000" to="/tags/%E2%89%A520000"><img alt="20000" className="where-image" src="volume_20000.png"/></Link></li>     
+</ul>
+
+
         </div>
     );
 }
