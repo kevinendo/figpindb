@@ -14,6 +14,9 @@ function Home() {
 <h3 align="center">Welcome to FigpinDB</h3>
 
 <ul className="gallery mw-gallery-traditional">
+<li className="gallerybox">
+        <Link title="New Releases" to="/new"><img alt="New Releases" className="where-image" src="logo_new.png"/></Link>
+    </li>   
     <li className="gallerybox">
         <Link title="Assassin's Creed" to="/property/Assassin's Creed"><img alt="Assassin's Creed" className="where-image" src="logo_assassinscreed.png"/></Link>
     </li>   

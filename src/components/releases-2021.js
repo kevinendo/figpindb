@@ -92,11 +92,6 @@ function NewReleases() {
     <img className="pinlist-image" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/d7/2f/55/6850/6850.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>    
 </ul>
 
-<ul className="gallery mw-gallery-traditional-left">
-<li className="gallerybox"><div className="newrelease-header">Marvel Classic Comics</div></li>
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/800">
-    <img className="pinlist-image" src="/800_img_url_med.png"/><div className="pinname">Target Exclusive - Release Date Unknown</div></Link></div></li>
-</ul>
 
 <ul className="gallery mw-gallery-traditional-left">
 <li className="gallerybox"><div className="newrelease-header">Disney Villains</div></li>
