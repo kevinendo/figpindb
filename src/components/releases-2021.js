@@ -127,8 +127,6 @@ function NewReleases() {
     <img className="pinlist-image" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/a7/b2/34/6588/6588.ce68e513.png"/></Link></div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/706">
     <img className="pinlist-image" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/61/3c/1b/6593/6593.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/707">
-    <img className="pinlist-image" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/d9/39/80/6598/6598.ce68e513.png"/><div className="pinname">Target Exclusive - Release Date Unknown</div></Link></div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/708">
     <img className="pinlist-image" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/c9/23/12/6603/6603.ce68e513.png"/></Link></div></li>
 </ul>

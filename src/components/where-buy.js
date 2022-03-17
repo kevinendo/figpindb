@@ -47,6 +47,10 @@ function WhereToBuy() {
     </li>
 
     <li className="gallerybox">
+        <a title="Beehive Collectibles" target="_blank" rel="noreferrer noopener" href="https://beehivecollectibles.com"><img alt="Beehive Collectibles" className="where-image" src="logo_beehive.png"/></a>
+    </li>
+
+    <li className="gallerybox">
         <a title="Big Apple Collectibles" target="_blank" rel="noreferrer noopener" href="https://www.bigapplecollectibles.com/"><img alt="Big Apple Collectibles" className="where-image" src="logo_bigapple.png"/></a>
     </li>        
 
@@ -56,6 +60,10 @@ function WhereToBuy() {
 
     <li className="gallerybox">
         <a title="Chalice Collectibles" target="_blank" rel="noreferrer noopener" href="https://www.chalicecollectibles.com/"><img alt="Chalice Collectibles" className="where-image" src="logo_chalice.png"/></a>
+    </li>        
+
+    <li className="gallerybox">
+        <a title="Deep Discount" target="_blank" rel="noreferrer noopener" href="https://www.deepdiscount.com/"><img alt="Deep Discount" className="where-image" src="logo_deepdiscount.png"/></a>
     </li>        
 
     <li className="gallerybox">
@@ -76,6 +84,10 @@ function WhereToBuy() {
 
     <li className="gallerybox"><a title="Gamer Oasis" target="_blank" rel="noreferrer noopener" href="http://www.gameroasis.com">
         <img alt="Gamer Oasis" className="where-image" src="logo_gameroasis.png"/></a>
+    </li>
+
+    <li className="gallerybox"><a title="Grotto Treasures" target="_blank" rel="noreferrer noopener" href="https://grottotreasures.com">
+        <img alt="Grotto Treasures" className="where-image" src="logo_grotto.png"/></a>
     </li>
 
     <li className="gallerybox"><a title="Hatcher's Collectibles" target="_blank" rel="noreferrer noopener" href="https://www.hatcherscollectibles.com/">
@@ -139,9 +151,14 @@ function WhereToBuy() {
         <img alt="Stack Em Pops" className="where-image" src="logo_stackempops.png"/></a>
     </li>
 
+    <li className="gallerybox">
+        <a title="Sweet Baby Collectibles" target="_blank" rel="noreferrer noopener" href="https://www.sweetbabycollectibles.com"><img alt="Sweet Baby Collectibles" className="where-image" src="logo_sweetbaby.png"/></a>
+    </li>        
+
     <li className="gallerybox"><a title="Taggem" target="_blank" rel="noreferrer noopener" href="https://www.shoptaggem.com/">
         <img alt="Taggem" className="where-image" src="logo_taggem.png"/></a>
     </li>        
+
 
     <li className="gallerybox"><a title="The Mighty Hobby" target="_blank" rel="noreferrer noopener" href="https://www.themightyhobby.com/">
         <img alt="The Mighty Hobby" className="where-image" src="logo_mighty.png"/></a>

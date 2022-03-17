@@ -183,6 +183,22 @@ function Resources() {
     </div></li>    
 </ul>
 
+<div className="home-category">TikTok</div>
+
+<ul className="gallery mw-gallery-traditional">
+<li className="gallerybox">
+        <div className="pinbox">
+        <a title="FiGPiN Official TikTok" href="https://www.tiktok.com/@figpinofficial" target="_blank" rel="noreferrer noopener">
+        <img alt="FiGPiN Official TikTok" className="where-image" src="logo_figpin.png"/></a>
+        <div className="pinname">FiGPiN Official TikTok</div>
+    </div></li>
+   
+<li className="gallerybox"><div className="pinbox">
+        <a title="FiGPiN FAN TikTok" href="https://www.tiktok.com/@figpinfan" target="_blank" rel="noreferrer noopener">
+        <img alt="FiGPiN FAN TikTok" className="where-image" src="ig_figpinfan.png"/></a>
+        <div className="pinname">FiGPiN FAN TikTok</div>
+    </div></li>
+</ul>
 
 <div className="home-category">Other</div>
 

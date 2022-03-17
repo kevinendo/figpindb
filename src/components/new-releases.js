@@ -7,6 +7,26 @@ function NewReleases() {
 <h3 align="center">New Releases</h3>
 
 <ul className="gallery mw-gallery-traditional-left">
+<li className="gallerybox"><div className="newrelease-header">FiGPiN Logo<br/>3/17/22</div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/L49">
+    <img className="pinlist-image" src="/L49_img_url_med.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
+</ul>
+
+<ul className="gallery mw-gallery-traditional-left">
+<li className="gallerybox"><div className="newrelease-header">Demon Slayer<br/>3/9/22</div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/814">
+    <img className="pinlist-image" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/ed/31/76/7059/7059.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>    
+</ul>
+
+<ul className="gallery mw-gallery-traditional-left">
+<li className="gallerybox"><div className="newrelease-header">Target<br/>3/7/22</div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/800">
+    <img className="pinlist-image" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/57/ee/f1/6678/6678.ce68e513.png"/><div className="pinname">Target Exclusive</div></Link></div></li>
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/707">
+    <img className="pinlist-image" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/d9/39/80/6598/6598.ce68e513.png"/><div className="pinname">Target Exclusive</div></Link></div></li>
+</ul>
+
+<ul className="gallery mw-gallery-traditional-left">
 <li className="gallerybox"><div className="newrelease-header">Dragon Ball Super<br/>3/2/22</div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/834">
     <img className="pinlist-image" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/ad/2c/bc/7210/7210.ce68e513.png"/></Link></div></li>
@@ -169,11 +189,7 @@ function NewReleases() {
     <img className="pinlist-image" src="/471_img_url_med.png"/><div className="pinname">Walmart Exclusive - Release Date Unknown</div></Link></div></li>
 </ul>
 
-<ul className="gallery mw-gallery-traditional-left">
-<li className="gallerybox"><div className="newrelease-header">Marvel Classic Comics</div></li>
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/800">
-    <img className="pinlist-image" src="/800_img_url_med.png"/><div className="pinname">Target Exclusive - Release Date Unknown</div></Link></div></li>
-</ul>
+
 
         </div>
     );
