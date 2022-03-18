@@ -18,19 +18,7 @@ function Preorders() {
 </ul>
 */}
 
-<ul className="gallery mw-gallery-traditional-left">
-<li className="gallerybox"><div className="newrelease-header">Demon Slayer<br/>Late March 2022</div></li>
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/809">
-    <img className="pinlist-image" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/05/3b/83/7383/7383.ce68e513.png"/></Link></div></li>
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/810">
-    <img className="pinlist-image" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/d7/f8/20/7045/7045.ce68e513.png"/></Link></div></li>    
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/811">
-    <img className="pinlist-image" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/a6/a8/09/7049/7049.ce68e513.png"/></Link></div></li> 
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/812">
-    <img className="pinlist-image" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/9f/f5/0a/7390/7390.ce68e513.png"/></Link></div></li>
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/813">
-    <img className="pinlist-image" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/3b/e0/67/7056/7056.ce68e513.png"/></Link></div></li>    
-</ul>
+
 
 <ul className="gallery mw-gallery-traditional-left">
 <li className="gallerybox"><div className="newrelease-header">Dragon Ball Super<br/>Late March 2022</div></li>
@@ -52,6 +40,28 @@ function Preorders() {
     <img className="pinlist-image" src="/863_img_url_med.png"/><div className="pinname">Alliance Exclusive</div></Link></div></li>    
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/864">
     <img className="pinlist-image" src="/864_img_url_med.png"/><div className="pinname">The Mighty Hobby Exclusive</div></Link></div></li>         
+</ul>
+
+<ul className="gallery mw-gallery-traditional-left">
+<li className="gallerybox"><div className="newrelease-header">My Hero Academia<br/>Early/Mid April 2022</div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/840">
+    <img className="pinlist-image" src="/840_img_url_med.png"/></Link></div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/841">
+    <img className="pinlist-image" src="/841_img_url_med.png"/></Link></div></li>    
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/842">
+    <img className="pinlist-image" src="/842_img_url_med.png"/></Link></div></li> 
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/876">
+    <img className="pinlist-image" src="/876_img_url_med.png"/></Link></div><div className="pinname">FiGPiN Chase</div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/877">
+    <img className="pinlist-image" src="/877_img_url_med.png"/></Link></div><div className="pinname">FiGPiN Chase</div></li>    
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/878">
+    <img className="pinlist-image" src="/878_img_url_med.png"/></Link></div><div className="pinname">FiGPiN Chase</div></li>        
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/898">
+    <img className="pinlist-image" src="/898_img_url_med.png"/><div className="pinname">Retail Exclusive - Release Date Unknown</div></Link></div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/899">
+    <img className="pinlist-image" src="/899_img_url_med.png"/><div className="pinname">Retail Exclusive - Release Date Unknown</div></Link></div></li>    
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/900">
+    <img className="pinlist-image" src="/900_img_url_med.png"/><div className="pinname">Retail Exclusive - Release Date Unknown</div></Link></div></li>     
 </ul>
 
 <ul className="gallery mw-gallery-traditional-left">

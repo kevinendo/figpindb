@@ -7,9 +7,31 @@ function NewReleases() {
 <h3 align="center">New Releases</h3>
 
 <ul className="gallery mw-gallery-traditional-left">
+<li className="gallerybox"><div className="newrelease-header">My Hero Academia<br/>3/23/22</div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/840">
+    <img className="pinlist-image" src="/840_img_url_med.png"/></Link></div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/841">
+    <img className="pinlist-image" src="/841_img_url_med.png"/></Link></div></li>    
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/842">
+    <img className="pinlist-image" src="/842_img_url_med.png"/></Link></div></li> 
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/876">
+    <img className="pinlist-image" src="/876_img_url_med.png"/></Link></div><div className="pinname">FiGPiN Chase</div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/877">
+    <img className="pinlist-image" src="/877_img_url_med.png"/></Link></div><div className="pinname">FiGPiN Chase</div></li>    
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/878">
+    <img className="pinlist-image" src="/878_img_url_med.png"/></Link></div><div className="pinname">FiGPiN Chase</div></li>        
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/898">
+    <img className="pinlist-image" src="/898_img_url_med.png"/><div className="pinname">Retail Exclusive - Release Date Unknown</div></Link></div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/899">
+    <img className="pinlist-image" src="/899_img_url_med.png"/><div className="pinname">Retail Exclusive - Release Date Unknown</div></Link></div></li>    
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/900">
+    <img className="pinlist-image" src="/900_img_url_med.png"/><div className="pinname">Retail Exclusive - Release Date Unknown</div></Link></div></li>     
+</ul>
+
+<ul className="gallery mw-gallery-traditional-left">
 <li className="gallerybox"><div className="newrelease-header">FiGPiN Logo<br/>3/17/22</div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/L49">
-    <img className="pinlist-image" src="/L49_img_url_med.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
+    <img className="pinlist-image" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/b2/48/70/7279/7279.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
 </ul>
 
 <ul className="gallery mw-gallery-traditional-left">
