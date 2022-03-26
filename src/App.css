@@ -669,6 +669,17 @@ img.edition-text-1 {
   vertical-align: bottom;
 }
 
+/* Sets */
+.box-image {
+  width: 200px;
+  margin: 10px;
+  border-radius: 10%;
+  border: 1px solid black;
+}
+.setbox {
+  width: 200px;
+  margin: 10px;
+}
 
 /* Where to Buy */
 .wherebox {
@@ -850,6 +861,15 @@ img.edition-text-1 {
   width: 70px; 
   margin: 2px; 
   padding: 0px
+}
+.box-image { 
+  width: 100px; 
+  margin: 1px; 
+  padding: 0px
+}
+.setbox {
+  width: 100px;
+  margin: 5px;
 }
 .name-box {
   font-size: 95%;

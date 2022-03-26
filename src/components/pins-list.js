@@ -7,7 +7,7 @@ import queryString from 'query-string'
 
 const PinsList = props => {
   const [pins, setPins] = useState([]);
-  const [searchName, setSearchName ] = useState("");
+  {/* const [searchName] = useState("");*/}
 let page = 0;
 const { search } = useLocation();
 const values = queryString.parse(search);
@@ -30,7 +30,7 @@ if (parseInt(page) === 0)  {
   prevPage = "/pins?page=" + (parseInt(page)-1);
   nextPage = "/pins?page=" + (parseInt(page)+1);
 }
-
+{/*
   const onChangeSearchName = e => {
     const searchName = e.target.value;
     setSearchName(searchName);
@@ -41,6 +41,7 @@ if (parseInt(page) === 0)  {
     findByName();
   }
 };
+*/}
 
   const retrievePins = () => {
     PinDataService.getAll(page)
@@ -57,6 +58,7 @@ useEffect(() => {
   retrievePins();
 }, []);
 
+  {/*
   const find = (by, query) => {
     PinDataService.find(by, query)
       .then(response => {
@@ -73,6 +75,7 @@ useEffect(() => {
     document.getElementById('page-foot').style.display = 'none';
     find("name", searchName)
   };
+*/}
 
 
   return(

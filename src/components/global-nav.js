@@ -162,6 +162,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/property/The Simpsons">The Simpsons</a></li>
               <li><a className="dropdown-item" href="/property/South Park">South Park</a></li>
               <li><a className="dropdown-item" href="/property/SpongeBob SquarePants">SpongeBob SquarePants</a></li>
+              <li><a className="dropdown-item" href="/property/Squid Game">Squid Game</a></li>
               <li><a className="dropdown-item" href="/property/Star Wars Clone Wars">Star Wars Clone Wars</a></li>
               <li><a className="dropdown-item" href="/property/Star Wars The Bad Batch">Star Wars The Bad Batch</a></li>
               <li><a className="dropdown-item" href="/property/Star Wars The Book of Boba Fett">Star Wars The Book of Boba Fett</a></li>
@@ -247,6 +248,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/2021">2021 Releases</a></li>
               <li><a className="dropdown-item" href="/2020">2020 Releases</a></li>
               <li><a className="dropdown-item" href="/preorders">Preorders</a></li>
+              <li><a className="dropdown-item" href="/sets">Sets</a></li>
               <li><a className="dropdown-item" href="/calendar">Unlock Calendar</a></li>
               <li><a className="dropdown-item" href="/where">Where To Buy</a></li>
               <li><a className="dropdown-item" href="/resources">Resources</a></li>

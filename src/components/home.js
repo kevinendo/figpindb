@@ -21,6 +21,9 @@ function Home() {
         <Link title="Assassin's Creed" to="/property/Assassin's Creed"><img alt="Assassin's Creed" className="where-image" src="logo_assassinscreed.png"/></Link>
     </li>   
     <li className="gallerybox">
+        <Link title="Astro Boy" to="/property/Astro Boy"><img alt="Astro Boy" className="where-image" src="logo_astroboy.png"/></Link>
+    </li>   
+    <li className="gallerybox">
         <Link title="Avatar The Last Airbender" to="/property/Avatar The Last Airbender"><img alt="Avatar The Last Airbender" className="where-image" src="logo_avatar.png"/></Link>
     </li> 
     <li className="gallerybox">
@@ -87,6 +90,9 @@ function Home() {
         <Link title="Harry Potter" to="/property/Hunter x Hunter"><img alt="Hunter x Hunter" className="where-image" src="logo_hunter.png"/></Link>
     </li>       
     <li className="gallerybox">
+        <Link title="KISS" to="/property/KISS"><img alt="KISS" className="where-image" src="logo_kiss.png"/></Link>
+    </li>       
+    <li className="gallerybox">
         <Link title="Looney Tunes" to="/property/Looney Tunes"><img alt="Looney Tunes" className="where-image" src="logo_looneytunes.png"/></Link>
     </li>    
     <li className="gallerybox">
@@ -123,6 +129,9 @@ function Home() {
         <Link title="SpongeBob SquarePants" to="/property/SpongeBob SquarePants"><img alt="SpongeBob SquarePants" className="where-image" src="logo_spongebob.png"/></Link>
     </li>    
     <li className="gallerybox">
+        <Link title="Squid Game" to="/property/Squid Game"><img alt="Squid Game" className="where-image" src="logo_squidgame.png"/></Link>
+    </li>    
+    <li className="gallerybox">
         <Link title="Star Wars" to="/licensor/Lucasfilm"><img alt="Star Wars" className="where-image" src="logo_starwars.png"/></Link>
     </li> 
     <li className="gallerybox">
@@ -130,6 +139,9 @@ function Home() {
     </li>     
     <li className="gallerybox">
         <Link title="Teenage Mutant Ninja Turtles Animated" to="/property/Teenage Mutant Ninja Turtles Animated"><img alt="Teenage Mutant Ninja Turtles Animated" className="where-image" src="logo_tmnt.png"/></Link>
+    </li>     
+    <li className="gallerybox">
+        <Link title="Tekken" to="/property/Tekken 7"><img alt="Tekken" className="where-image" src="logo_tekken.png"/></Link>
     </li>     
     <li className="gallerybox">
         <Link title="Transformers" to="/property/Transformers"><img alt="Transformers" className="where-image" src="logo_transformers.png"/></Link>

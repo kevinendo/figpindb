@@ -1,13 +1,11 @@
 import React, { useState, useEffect, Redirect } from "react";
 import PinDataService from "../services/pin";
-import Editions from "../components/editions";
+import Editions from "../components/editions-new";
 import CohortsNew from "../components/cohorts-new";
 import Links from "../components/links";
 import { Link } from "react-router-dom"
 import "react-alice-carousel/lib/alice-carousel.css";
 import Carousel from 'react-bootstrap/Carousel';
-import NavbarCollapse from "react-bootstrap/esm/NavbarCollapse";
-
 
 const PinDetail = props => {
   const initialPinState = {
@@ -92,7 +90,7 @@ return (
 */}
 <div className="pin-text">
 <span className="pin-text-category">Artist: </span>
-{ (pinArtists.length == 2) ? <><Link title={pinArtists[0]} to={"/artist/"+pinArtists[0]}> {pinArtists[0]}</Link> / <Link title={pinArtists[1]} to={"/artist/"+pinArtists[1]}> {pinArtists[1]}</Link></> : <><Link title={pinArtists[0]} to={"/artist/"+pinArtists[0]}> {pinArtists[0]}</Link></> }
+{ (pinArtists.length === 2) ? <><Link title={pinArtists[0]} to={"/artist/"+pinArtists[0]}> {pinArtists[0]}</Link> / <Link title={pinArtists[1]} to={"/artist/"+pinArtists[1]}> {pinArtists[1]}</Link></> : <><Link title={pinArtists[0]} to={"/artist/"+pinArtists[0]}> {pinArtists[0]}</Link></> }
 </div>
       </div><div className="detail-top-child">
         { pinInfo.sale_date ? <div className="pin-text"><span className="pin-text-category">Sale Date:</span> {pinInfo.sale_date}</div> : <div></div> } 
@@ -107,7 +105,7 @@ return (
     <div>
       {
         pinTags.map(tag => (
-          <div>
+          <div key={tag}>
             <li className="tag-list-item"><Link title={tag} to={"/tags/"+tag}>{tag}</Link></li>
           </div>
         ))
