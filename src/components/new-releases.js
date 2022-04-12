@@ -7,6 +7,22 @@ function NewReleases() {
 <h3 align="center">New Releases</h3>
 
 <ul className="gallery mw-gallery-traditional-left">
+<li className="gallerybox"><div className="newrelease-header">My Hero Academia<br/>4/6/22</div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/802">
+    <img className="pinlist-image" alt="840" src="/802_img_url_med.png"/></Link></div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/803">
+    <img className="pinlist-image" alt="841" src="/803_img_url_med.png"/></Link></div></li>    
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/786">
+    <img className="pinlist-image" alt="862" src="/786_img_url_med.png"/><div className="pinname">GameStop Exclusive - Release Date Unknown</div></Link></div></li>    
+</ul>
+
+<ul className="gallery mw-gallery-traditional-left">
+<li className="gallerybox"><div className="newrelease-header">WonderCon<br/>4/1/22</div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/L57">
+    <img className="pinlist-image" alt="L49" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/c8/0c/03/7460/7460.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
+</ul>
+
+<ul className="gallery mw-gallery-traditional-left">
 <li className="gallerybox"><div className="newrelease-header">Squid Game<br/>3/24/22</div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/911">
     <img className="pinlist-image" alt="911" src="/911_img_url_med.png"/></Link></div><div className="pinname">Walmart Exclusive</div></li>

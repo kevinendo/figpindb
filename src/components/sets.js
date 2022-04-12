@@ -144,6 +144,13 @@ function Sets() {
 
     <li className="gallerybox">
         <div className="setbox">
+        <a title="Deku * All Might" href="/tags/Deku%20All%20Might%202-Pack">
+        <img alt="Deku * All Might" className="box-image" src="box_deku_allmight.png"/></a>
+        <div className="pinname">Deku & All Might</div>
+    </div></li>
+
+    <li className="gallerybox">
+        <div className="setbox">
         <a title="SSGSS Goku & SSGSS Vegeta (ECCC 2019 & GameStop Exclusive)" href="/tags/Goku%20Vegeta%202-Pack">
         <img alt="SSGSS Goku & SSGSS Vegeta (ECCC 2019 & GameStop Exclusive)" className="box-image" src="box_goku_vegeta.png"/></a>
         <div className="pinname">SSGSS Goku & SSGSS Vegeta</div>
@@ -189,6 +196,12 @@ function Sets() {
             <img alt="Toy Story 4 Collection" className="box-image" src="box_toystory.png"/></a>
             <div className="pinname">Toy Story 4 Collection</div>
         </div></li>  
+        <li className="gallerybox">
+            <div className="setbox">
+            <a title="Incredibles 2 Set" href="/tags/Incredibles%20Set">
+            <img alt="Incredibles 2 Set" className="box-image" src="box_incredibles.png"/></a>
+            <div className="pinname">Incredibles 2 Set</div>
+        </div></li>          
     </ul>
         </div>
     );

@@ -26,12 +26,12 @@ return (
         {pinInfo.map((edition) => (
           <div className="edition" key={edition.edition + edition.volume.$numberInt.toString()}>
             <div className="edition-text-2"><b>{edition.product.product_family.name}</b> | <b>{edition.edition} Edition</b> | <b>{edition.product.rarity.toUpperCase()}</b></div>
-            <div className="edition-text-2">Lot {edition.lot} | Volume of {edition.volume.$numberInt.toString()} | {edition.manufacture_date} | {edition.product.packaging}</div>          
+            <div className="edition-text-2">Lot {edition.lot} | Volume of {edition.volume.$numberInt.toString()} | {edition.edition_release} | {edition.product.packaging}</div>          
             <div className="edition-text-2">Status: {edition.product.lifecycle_stage} | {edition.channel_name} | {edition.destination_name}</div>
          </div>
      ))}
 
-     {(pinInfo.length === 0) ? <div className="edition"><div className="edition-text-2">Production history not available.</div></div> : <div>Hello</div>}
+     {(pinInfo.length === 0) ? <div className="edition"><div className="edition-text-2">Production history not available.</div></div> : <div className="breck">HELLO BRECK BUY MORE FIGPINS</div>}
 
 
      </>

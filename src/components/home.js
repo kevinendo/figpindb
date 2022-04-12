@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 
 
 function Home() {
-
+{/*}
     const response =  fetch('https://figpindb-backend.herokuapp.com/api/v1/figpindb/calendar')
     if (response.ok) {
       console.log("data loaded")
       }
-
+    */}
     return (
         <div className="detail-box">      
 <h3 align="center">Welcome to FigpinDB</h3>

@@ -21,19 +21,7 @@ function Preorders() {
 
 
 <ul className="gallery mw-gallery-traditional-left">
-<li className="gallerybox"><div className="newrelease-header">Dragon Ball Super<br/>Late March 2022</div></li>
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/834">
-    <img className="pinlist-image" alt="834" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/ad/2c/bc/7210/7210.ce68e513.png"/></Link></div></li>
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/835">
-    <img className="pinlist-image" alt="835" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/09/c5/e6/7214/7214.ce68e513.png"/></Link></div></li>    
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/836">
-    <img className="pinlist-image" alt="836" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/13/84/ac/7221/7221.ce68e513.png"/></Link></div></li> 
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/837">
-    <img className="pinlist-image" alt="837" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/82/98/27/7226/7226.ce68e513.png"/></Link></div></li>
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/838">
-    <img className="pinlist-image" alt="838" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/18/fd/3c/7231/7231.ce68e513.png"/></Link></div></li>    
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/839">
-    <img className="pinlist-image" alt="839" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/a7/53/5a/7234/7234.ce68e513.png"/></Link></div></li>             
+<li className="gallerybox"><div className="newrelease-header">Dragon Ball Super</div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/862">
     <img className="pinlist-image" alt="862" src="/862_img_url_med.png"/><div className="pinname">GameStop Exclusive</div></Link></div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/863">
