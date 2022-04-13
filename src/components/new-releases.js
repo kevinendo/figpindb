@@ -9,11 +9,11 @@ function NewReleases() {
 <ul className="gallery mw-gallery-traditional-left">
 <li className="gallerybox"><div className="newrelease-header">My Hero Academia<br/>4/6/22</div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/802">
-    <img className="pinlist-image" alt="840" src="/802_img_url_med.png"/></Link></div></li>
+    <img className="pinlist-image" alt="802" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/32/da/a9/7464/7464.ce68e513.png"/></Link></div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/803">
-    <img className="pinlist-image" alt="841" src="/803_img_url_med.png"/></Link></div></li>    
+    <img className="pinlist-image" alt="803" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/89/9c/88/7467/7467.ce68e513.png"/></Link></div></li>    
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/786">
-    <img className="pinlist-image" alt="862" src="/786_img_url_med.png"/><div className="pinname">GameStop Exclusive - Release Date Unknown</div></Link></div></li>    
+    <img className="pinlist-image" alt="786" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/00/8b/9c/7433/7433.ce68e513.png"/><div className="pinname">GameStop Exclusive - Release Date Unknown</div></Link></div></li>    
 </ul>
 
 <ul className="gallery mw-gallery-traditional-left">
