@@ -7,13 +7,19 @@ function NewReleases() {
 <h3 align="center">New Releases</h3>
 
 <ul className="gallery mw-gallery-traditional-left">
+<li className="gallerybox"><div className="newrelease-header">FiGPiN Logo<br/>4/19/22</div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/L53">
+    <img className="pinlist-image" alt="L53" src="/L53_img_url_med.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
+</ul>
+
+<ul className="gallery mw-gallery-traditional-left">
 <li className="gallerybox"><div className="newrelease-header">My Hero Academia<br/>4/6/22</div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/802">
     <img className="pinlist-image" alt="802" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/32/da/a9/7464/7464.ce68e513.png"/></Link></div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/803">
     <img className="pinlist-image" alt="803" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/89/9c/88/7467/7467.ce68e513.png"/></Link></div></li>    
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/786">
-    <img className="pinlist-image" alt="786" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/00/8b/9c/7433/7433.ce68e513.png"/><div className="pinname">GameStop Exclusive - Release Date Unknown</div></Link></div></li>    
+    <img className="pinlist-image" alt="786" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/00/8b/9c/7433/7433.ce68e513.png"/><div className="pinname">GameStop Exclusive</div></Link></div></li>    
 </ul>
 
 <ul className="gallery mw-gallery-traditional-left">
@@ -37,17 +43,17 @@ function NewReleases() {
 <ul className="gallery mw-gallery-traditional-left">
 <li className="gallerybox"><div className="newrelease-header">My Hero Academia<br/>3/23/22</div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/840">
-    <img className="pinlist-image" alt="840" src="/840_img_url_med.png"/></Link></div></li>
+    <img className="pinlist-image" alt="840" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/d1/03/8c/7171/7171.ce68e513.png"/></Link></div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/841">
-    <img className="pinlist-image" alt="841" src="/841_img_url_med.png"/></Link></div></li>    
+    <img className="pinlist-image" alt="841" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/e9/56/26/7134/7134.ce68e513.png"/></Link></div></li>    
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/842">
-    <img className="pinlist-image" alt="842" src="/842_img_url_med.png"/></Link></div></li> 
+    <img className="pinlist-image" alt="842" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/af/a2/e1/7179/7179.ce68e513.png"/></Link></div></li> 
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/876">
-    <img className="pinlist-image" alt="876" src="/876_img_url_med.png"/></Link></div><div className="pinname">FiGPiN Chase</div></li>
+    <img className="pinlist-image" alt="876" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/ea/d7/4c/7185/7185.ce68e513.png"/></Link></div><div className="pinname">FiGPiN Chase</div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/877">
-    <img className="pinlist-image" alt="877" src="/877_img_url_med.png"/></Link></div><div className="pinname">FiGPiN Chase</div></li>    
+    <img className="pinlist-image" alt="877" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/7e/38/ca/7189/7189.ce68e513.png"/></Link></div><div className="pinname">FiGPiN Chase</div></li>    
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/878">
-    <img className="pinlist-image" alt="878" src="/878_img_url_med.png"/></Link></div><div className="pinname">FiGPiN Chase</div></li>        
+    <img className="pinlist-image" alt="878" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/d2/af/17/7194/7194.ce68e513.png"/></Link></div><div className="pinname">FiGPiN Chase</div></li>        
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/898">
     <img className="pinlist-image" alt="898" src="/898_img_url_med.png"/><div className="pinname">Retail Exclusive - Release Date Unknown</div></Link></div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/899">
