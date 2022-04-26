@@ -227,6 +227,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/tags/Chase">Chase</a></li>
               <li><a className="dropdown-item" href="/tags/D23 Expo">D23 Expo</a></li>
               <li><a className="dropdown-item" href="/tags/ECCC">ECCC</a></li>
+              <li><a className="dropdown-item" href="/availability/FiGPiN%20Ultra">FiGPiN Ultra</a></li>
               <li><a className="dropdown-item" href="/tags/Halloween">Halloween</a></li>
               <li><a className="dropdown-item" href="/tags/Hard to Find">Hard To Find</a></li>
               <li><a className="dropdown-item" href="/tags/LACC">LACC</a></li>
@@ -234,7 +235,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/type/Logo">Logo</a></li>
               <li><a className="dropdown-item" href="/type/Mini">Mini</a></li>
               <li><a className="dropdown-item" href="/tags/NYCC">NYCC</a></li>
-              <li><a className="dropdown-item" href="/tags/SDCC">SDCC</a></li>
+              <li><a className="dropdown-item" href="/tags/SDCC">SDCC</a></li>              
               <li><a className="dropdown-item" href="/tags/Very Hard To Find">Very Hard To Find</a></li>
               <li><a className="dropdown-item" href="/type/XL">XL</a></li>
               </ul>

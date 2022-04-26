@@ -6,6 +6,20 @@ function NewReleases() {
         <div className="detail-box">
 <h3 align="center">New Releases</h3>
 
+
+
+<ul className="gallery mw-gallery-traditional-left">
+<li className="gallerybox"><div className="newrelease-header">Star Wars<br/>4/27/22</div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/U1">
+    <img className="pinlist-image" alt="U1" src="/U1_img_url_med.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
+</ul>
+
+<ul className="gallery mw-gallery-traditional-left">
+<li className="gallerybox"><div className="newrelease-header">FiGPiN Logo<br/>4/22/22</div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/L52">
+    <img className="pinlist-image" alt="L52" src="/L52_img_url_med.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
+</ul>
+
 <ul className="gallery mw-gallery-traditional-left">
 <li className="gallerybox"><div className="newrelease-header">FiGPiN Logo<br/>4/19/22</div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/L53">
