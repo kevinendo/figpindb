@@ -11,7 +11,7 @@ function NewReleases() {
 <ul className="gallery mw-gallery-traditional-left">
 <li className="gallerybox"><div className="newrelease-header">Star Wars<br/>4/27/22</div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/U1">
-    <img className="pinlist-image" alt="U1" src="/U1_img_url_med.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
+    <img className="pinlist-image" alt="U1" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/06/5d/fe/7687/7687.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
 </ul>
 
 <ul className="gallery mw-gallery-traditional-left">

@@ -31,28 +31,6 @@ function Preorders() {
 </ul>
 
 <ul className="gallery mw-gallery-traditional-left">
-<li className="gallerybox"><div className="newrelease-header">My Hero Academia<br/>Early/Mid April 2022</div></li>
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/840">
-    <img className="pinlist-image" alt="840" src="/840_img_url_med.png"/></Link></div></li>
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/841">
-    <img className="pinlist-image" alt="841" src="/841_img_url_med.png"/></Link></div></li>    
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/842">
-    <img className="pinlist-image" alt="842" src="/842_img_url_med.png"/></Link></div></li> 
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/876">
-    <img className="pinlist-image" alt="876" src="/876_img_url_med.png"/></Link></div><div className="pinname">FiGPiN Chase</div></li>
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/877">
-    <img className="pinlist-image" alt="877" src="/877_img_url_med.png"/></Link></div><div className="pinname">FiGPiN Chase</div></li>    
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/878">
-    <img className="pinlist-image" alt="878" src="/878_img_url_med.png"/></Link></div><div className="pinname">FiGPiN Chase</div></li>        
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/898">
-    <img className="pinlist-image" alt="898" src="/898_img_url_med.png"/><div className="pinname">Retail Exclusive - Release Date Unknown</div></Link></div></li>
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/899">
-    <img className="pinlist-image" alt="899" src="/899_img_url_med.png"/><div className="pinname">Retail Exclusive - Release Date Unknown</div></Link></div></li>    
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/900">
-    <img className="pinlist-image" alt="900" src="/900_img_url_med.png"/><div className="pinname">Retail Exclusive - Release Date Unknown</div></Link></div></li>     
-</ul>
-
-<ul className="gallery mw-gallery-traditional-left">
 <li className="gallerybox"><div className="newrelease-header">Star Wars The Book of Boba Fett<br/>Summer 2022</div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/859">
     <img className="pinlist-image" alt="859" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/34/66/95/7394/7394.ce68e513.png"/></Link></div></li>

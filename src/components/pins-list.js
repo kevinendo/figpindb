@@ -110,7 +110,7 @@ useEffect(() => {
         { (parseInt(page) === 3) ? (<a className="active" href="/pins?page=3">3</a>) : ( <a href="/pins?page=3">3</a>) }
         { (parseInt(page) === 4) ? (<a className="active" href="/pins?page=4">4</a>) : ( <a href="/pins?page=4">4</a>) }
         { (parseInt(page) === 5) ? (<a className="active" href="/pins?page=5">5</a>) : ( <a href="/pins?page=5">5</a>) }
-        { (parseInt(page) === 6) ? (<a className="active" href="/pins?page=6">7</a>) : ( <a href="/pins?page=6">6</a>) }
+        { (parseInt(page) === 6) ? (<a className="active" href="/pins?page=6">6</a>) : ( <a href="/pins?page=6">6</a>) }
         { (parseInt(page) === 7) ? (<a className="active" href="/pins?page=7">7</a>) : ( <a href="/pins?page=7">7</a>) }
         { (parseInt(page) === 8) ? (<a className="active" href="/pins?page=8">8</a>) : ( <a href="/pins?page=8">8</a>) }
         { (parseInt(page) === 9) ? (<a className="active" href="/pins?page=9">9</a>) : ( <a href="/pins?page=9">9</a>) }
