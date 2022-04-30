@@ -17,13 +17,13 @@ function NewReleases() {
 <ul className="gallery mw-gallery-traditional-left">
 <li className="gallerybox"><div className="newrelease-header">FiGPiN Logo<br/>4/22/22</div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/L52">
-    <img className="pinlist-image" alt="L52" src="/L52_img_url_med.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
+    <img className="pinlist-image" alt="L52" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/12/99/3c/7294/7294.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
 </ul>
 
 <ul className="gallery mw-gallery-traditional-left">
 <li className="gallerybox"><div className="newrelease-header">FiGPiN Logo<br/>4/19/22</div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/L53">
-    <img className="pinlist-image" alt="L53" src="/L53_img_url_med.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
+    <img className="pinlist-image" alt="L53" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/8f/ed/71/7299/7299.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
 </ul>
 
 <ul className="gallery mw-gallery-traditional-left">

@@ -2,7 +2,7 @@ import http from "../services/http-common-new";
 
 class NewPinDataService {
     getEditions(number) {
-        return http.get(`/editions?number=${number}`);
+        return http.get(`/newEditions?number=${number}`);
     } 
 }
 
