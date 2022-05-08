@@ -250,7 +250,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/2020">2020 Releases</a></li>
               <li><a className="dropdown-item" href="/preorders">Preorders</a></li>
               <li><a className="dropdown-item" href="/sets">Sets</a></li>
-              <li><a className="dropdown-item" href="/calendar">Unlock Calendar</a></li>
+              <li><a className="dropdown-item" href="/calendar">Launch Calendar</a></li>
               <li><a className="dropdown-item" href="/where">Where To Buy</a></li>
               <li><a className="dropdown-item" href="/resources">Resources</a></li>
               </ul>

@@ -28,7 +28,7 @@ let pageTitle = "Calendar";
 
   return(
     <div className="detail-box">
- <h3 align="center">Unlock Calendar</h3>
+ <h3 align="center">Launch Calendar</h3>
       <ul className="gallery mw-gallery-traditional">
       {
           pins.map(pin => (
@@ -38,7 +38,7 @@ let pageTitle = "Calendar";
                     <div className="thumb"><img alt={pin.name} className="pinlist-image" src={pin.img_url_med}/></div>
                     <div className="pinname">{pin.name}</div>
                     <div className="pinname">{pin.unlock_date}</div>
-                    <div className="pinname">{pin.unlock_time}</div>
+                  
                     </Link>
                 </div>
            </li>

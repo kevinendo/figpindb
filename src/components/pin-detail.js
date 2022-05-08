@@ -94,7 +94,7 @@ return (
 </div>
       </div><div className="detail-top-child">
         { pinInfo.sale_date ? <div className="pin-text"><span className="pin-text-category">Sale Date:</span> {pinInfo.sale_date}</div> : <div></div> } 
-        { pinInfo.unlock_date ? <div className="pin-text"><span className="pin-text-category">Unlock Date:</span> {pinInfo.unlock_date}</div> : <div></div> }
+        { pinInfo.unlock_date ? <div className="pin-text"><span className="pin-text-category">Launch Date:</span> {pinInfo.unlock_date}</div> : <div></div> }
         { pinInfo.notes ? <div className="pin-text"><span className="pin-text-category">Notes:</span> {pinInfo.notes}</div> : <div></div> }
         </div>
         <div className="detail-top-child">
