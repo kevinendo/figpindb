@@ -22,8 +22,6 @@ function Preorders() {
 
 <ul className="gallery mw-gallery-traditional-left">
 <li className="gallerybox"><div className="newrelease-header">Dragon Ball Super</div></li>
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/862">
-    <img className="pinlist-image" alt="862" src="/862_img_url_med.png"/><div className="pinname">GameStop Exclusive</div></Link></div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/863">
     <img className="pinlist-image" alt="863" src="/863_img_url_med.png"/><div className="pinname">Alliance Exclusive</div></Link></div></li>    
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/864">

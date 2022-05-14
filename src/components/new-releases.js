@@ -11,7 +11,7 @@ function NewReleases() {
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/501">
     <img className="pinlist-image" alt="501" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/52/09/a9/6807/6807.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/L41">
-    <img className="pinlist-image" alt="862" src="/L41_img_url_med.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>    
+    <img className="pinlist-image" alt="862" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/dd/ee/5d/6800/6800.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>    
 </ul>
 
 <ul className="gallery mw-gallery-traditional-left">
@@ -79,7 +79,7 @@ function NewReleases() {
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/899">
     <img className="pinlist-image" alt="899" src="/899_img_url_med.png"/><div className="pinname">Retail Exclusive - Release Date Unknown</div></Link></div></li>    
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/900">
-    <img className="pinlist-image" alt="900" src="/900_img_url_med.png"/><div className="pinname">Retail Exclusive - Release Date Unknown</div></Link></div></li>     
+    <img className="pinlist-image" alt="900" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/50/ba/b7/7165/7165.ce68e513.png"/><div className="pinname">GameStop Exclusive</div></Link></div></li>     
 </ul>
 
 <ul className="gallery mw-gallery-traditional-left">
@@ -117,7 +117,7 @@ function NewReleases() {
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/839">
     <img className="pinlist-image" alt="839" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/a7/53/5a/7234/7234.ce68e513.png"/></Link></div></li>        
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/862">
-    <img className="pinlist-image" alt="862" src="/862_img_url_med.png"/><div className="pinname">GameStop Exclusive - Release Date Unknown</div></Link></div></li>
+    <img className="pinlist-image" alt="862" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/04/2f/30/7239/7239.ce68e513.png"/><div className="pinname">GameStop Exclusive</div></Link></div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/863">
     <img className="pinlist-image" alt="863" src="/863_img_url_med.png"/><div className="pinname">Alliance Exclusive - Release Date Unknown</div></Link></div></li>    
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/864">
