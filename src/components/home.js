@@ -166,6 +166,9 @@ function Home() {
     </li>        
     <li className="gallerybox">
         <Link title="SDCC" to="/tags/SDCC"><img alt="SDCC" className="where-image" src="logo_sdcc.png"/></Link>
+    </li>    
+    <li className="gallerybox">
+        <Link title="SWC" to="/tags/Star Wars Celebration"><img alt="SWC" className="where-image" src="logo_swc.png"/></Link>
     </li>        
     </ul>
     <div className="home-category">Store Exclusives</div>

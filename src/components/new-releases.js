@@ -7,6 +7,30 @@ function NewReleases() {
 <h3 align="center">New Releases</h3>
 
 <ul className="gallery mw-gallery-traditional-left">
+<li className="gallerybox"><div className="newrelease-header">Star Wars Celebration<br/>5/26/22</div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/733">
+    <img className="pinlist-image" alt="733" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/a1/74/7a/6988/6988.ce68e513.png"/><div className="pinname">Pins on Fire Exclusive</div></Link></div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/995">
+    <img className="pinlist-image" alt="995" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/e1/1a/d5/7853/7853.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/794">
+    <img className="pinlist-image" alt="794" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/7f/47/2a/7427/7427.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/793">
+    <img className="pinlist-image" alt="793" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/a5/63/37/7422/7422.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/930">
+    <img className="pinlist-image" alt="930" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/1a/b5/44/7777/7777.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/927">
+    <img className="pinlist-image" alt="927" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/c4/3d/dd/7782/7782.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>    
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/828">
+    <img className="pinlist-image" alt="828" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/cd/d2/7a/6928/6928.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>    
+</ul>
+
+<ul className="gallery mw-gallery-traditional-left">
+<li className="gallerybox"><div className="newrelease-header">Full Metal Alchemist<br/>5/17/22</div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/471">
+    <img className="pinlist-image" alt="471" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/df/49/a3/5718/5718.ce68e513.png"/><div className="pinname">Walmart Exclusive</div></Link></div></li>
+</ul>
+
+<ul className="gallery mw-gallery-traditional-left">
 <li className="gallerybox"><div className="newrelease-header">Star Wars<br/>5/4/22</div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/501">
     <img className="pinlist-image" alt="501" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/52/09/a9/6807/6807.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
@@ -75,7 +99,7 @@ function NewReleases() {
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/878">
     <img className="pinlist-image" alt="878" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/d2/af/17/7194/7194.ce68e513.png"/></Link></div><div className="pinname">FiGPiN Chase</div></li>        
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/898">
-    <img className="pinlist-image" alt="898" src="/898_img_url_med.png"/><div className="pinname">Retail Exclusive - Release Date Unknown</div></Link></div></li>
+    <img className="pinlist-image" alt="898" src="/898_img_url_med.png"/><div className="pinname">Walmart Exclusive</div></Link></div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/899">
     <img className="pinlist-image" alt="899" src="/899_img_url_med.png"/><div className="pinname">Retail Exclusive - Release Date Unknown</div></Link></div></li>    
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/900">
@@ -259,11 +283,6 @@ function NewReleases() {
     <img className="pinlist-image" alt="L55" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/7a/16/11/7309/7309.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>    
 </ul>
 
-<ul className="gallery mw-gallery-traditional-left">
-<li className="gallerybox"><div className="newrelease-header">Full Metal Alchemist</div></li>
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/471">
-    <img className="pinlist-image" alt="471" src="/471_img_url_med.png"/><div className="pinname">Walmart Exclusive - Release Date Unknown</div></Link></div></li>
-</ul>
 
 
 

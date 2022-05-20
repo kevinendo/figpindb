@@ -21,9 +21,7 @@ function Preorders() {
 
 
 <ul className="gallery mw-gallery-traditional-left">
-<li className="gallerybox"><div className="newrelease-header">Dragon Ball Super</div></li>
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/863">
-    <img className="pinlist-image" alt="863" src="/863_img_url_med.png"/><div className="pinname">Alliance Exclusive</div></Link></div></li>    
+<li className="gallerybox"><div className="newrelease-header">Dragon Ball Super<br/>June 2022</div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/864">
     <img className="pinlist-image" alt="864" src="/864_img_url_med.png"/><div className="pinname">The Mighty Hobby Exclusive</div></Link></div></li>         
 </ul>
@@ -39,6 +37,13 @@ function Preorders() {
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/907">
     <img className="pinlist-image" alt="907" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/60/cf/6a/7413/7413.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>                
 </ul>
+
+<ul className="gallery mw-gallery-traditional-left">
+<li className="gallerybox"><div className="newrelease-header">My Hero Academia<br/>August 2022</div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/898">
+    <img className="pinlist-image" alt="898" src="/898_img_url_med.png"/><div className="pinname">Walmart Exclusive</div></Link></div></li>
+</ul>
+
 
 <ul className="gallery mw-gallery-traditional-left">
 <li className="gallerybox"><div className="newrelease-header">Squid Game<br/>October 2022</div></li>

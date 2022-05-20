@@ -24,9 +24,9 @@ return (
     <>
       <div className="production-history"><b>PRODUCTION HISTORY</b></div>
         {pinInfo.map((edition) => (
-          <div className="edition" key={edition.edition + edition.volume.$numberInt.toString()}>
+          <div className="edition" key={edition.edition + edition.volume}>
             <div className="edition-text-2"><b>{edition.product.product_family.name}</b> | <b>{edition.edition} Edition</b> | <b>{edition.product.rarity.toUpperCase()}</b></div>
-            <div className="edition-text-2">Lot {edition.lot} | Volume of {edition.volume.$numberInt.toString()} | {edition.edition_release} | {edition.product.packaging}</div>          
+            <div className="edition-text-2">Lot {edition.lot} | Volume of {edition.volume} | {edition.edition_release} | {edition.product.packaging}</div>          
             <div className="edition-text-2">Status: {edition.product.lifecycle_stage} | {edition.channel_name} | {edition.destination_name}</div>
          </div>
      ))}
