@@ -20,8 +20,10 @@ function NewReleases() {
     <img className="pinlist-image" alt="930" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/1a/b5/44/7777/7777.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/927">
     <img className="pinlist-image" alt="927" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/c4/3d/dd/7782/7782.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/828">
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/828">
     <img className="pinlist-image" alt="828" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/cd/d2/7a/6928/6928.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>    
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/906">
+    <img className="pinlist-image" alt="906" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/84/48/52/7407/7407.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
 </ul>
 
 <ul className="gallery mw-gallery-traditional-left">
@@ -99,7 +101,7 @@ function NewReleases() {
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/878">
     <img className="pinlist-image" alt="878" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/d2/af/17/7194/7194.ce68e513.png"/></Link></div><div className="pinname">FiGPiN Chase</div></li>        
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/898">
-    <img className="pinlist-image" alt="898" src="/898_img_url_med.png"/><div className="pinname">Walmart Exclusive</div></Link></div></li>
+    <img className="pinlist-image" alt="898" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/32/7c/e6/7158/7158.ce68e513.png"/><div className="pinname">Walmart Exclusive</div></Link></div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/899">
     <img className="pinlist-image" alt="899" src="/899_img_url_med.png"/><div className="pinname">Retail Exclusive - Release Date Unknown</div></Link></div></li>    
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/900">
