@@ -24,6 +24,12 @@ function NewReleases() {
     <img className="pinlist-image" alt="828" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/cd/d2/7a/6928/6928.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>    
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/906">
     <img className="pinlist-image" alt="906" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/84/48/52/7407/7407.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/889">
+    <img className="pinlist-image" alt="889" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/bc/d3/4c/7447/7447.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/999">
+    <img className="pinlist-image" alt="999" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/dd/4f/b8/7868/7868.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/L50">
+    <img className="pinlist-image" alt="L50" src="/L50_img_url_med.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
 </ul>
 
 <ul className="gallery mw-gallery-traditional-left">
