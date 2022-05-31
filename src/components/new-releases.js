@@ -31,7 +31,7 @@ function NewReleases() {
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/999">
     <img className="pinlist-image" alt="999" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/dd/4f/b8/7868/7868.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/L50">
-    <img className="pinlist-image" alt="L50" src="/L50_img_url_med.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
+    <img className="pinlist-image" alt="L50" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/af/ff/12/7284/7284.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
 </ul>
 
 <ul className="gallery mw-gallery-traditional-left">

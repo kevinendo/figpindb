@@ -41,7 +41,7 @@ function Preorders() {
 <ul className="gallery mw-gallery-traditional-left">
 <li className="gallerybox"><div className="newrelease-header">My Hero Academia<br/>August 2022</div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/898">
-    <img className="pinlist-image" alt="898" src="/898_img_url_med.png"/><div className="pinname">Walmart Exclusive</div></Link></div></li>
+    <img className="pinlist-image" alt="898" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/32/7c/e6/7158/7158.ce68e513.png"/><div className="pinname">Walmart Exclusive</div></Link></div></li>
 </ul>
 
 

@@ -214,6 +214,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/variant/Silver Plated">Silver Plated</a></li>
               <li><a className="dropdown-item" href="/variant/White and Black Nickel">White and Black Nickel</a></li>
               <li><a className="dropdown-item" href="/variant/White and Gold">White and Gold</a></li>
+              <li><a className="dropdown-item" href="/variant/White and Silver">White and Silver</a></li>
               </ul>
             </li>    
             <li className="nav-item dropdown">
@@ -235,7 +236,8 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/type/Logo">Logo</a></li>
               <li><a className="dropdown-item" href="/type/Mini">Mini</a></li>
               <li><a className="dropdown-item" href="/tags/NYCC">NYCC</a></li>
-              <li><a className="dropdown-item" href="/tags/SDCC">SDCC</a></li>              
+              <li><a className="dropdown-item" href="/tags/SDCC">SDCC</a></li>
+              <li><a className="dropdown-item" href="/tags/Star Wars Celebration">Star Wars Celebration</a></li>              
               <li><a className="dropdown-item" href="/tags/Very Hard To Find">Very Hard To Find</a></li>
               <li><a className="dropdown-item" href="/type/XL">XL</a></li>
               </ul>
@@ -253,6 +255,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/calendar">Launch Calendar</a></li>
               <li><a className="dropdown-item" href="/where">Where To Buy</a></li>
               <li><a className="dropdown-item" href="/resources">Resources</a></li>
+              <li><a className="dropdown-item" href="/app-basics">App Basics</a></li>
               </ul>
             </li>             
             
