@@ -255,7 +255,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/calendar">Launch Calendar</a></li>
               <li><a className="dropdown-item" href="/where">Where To Buy</a></li>
               <li><a className="dropdown-item" href="/resources">Resources</a></li>
-              <li><a className="dropdown-item" href="/app-basics">App Basics</a></li>
+              <li><a className="dropdown-item" href="/app-breakdown">App Breakdown</a></li>
               </ul>
             </li>             
             

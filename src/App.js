@@ -15,7 +15,7 @@ import Releases2020 from "./components/releases-2020";
 import Releases2021 from "./components/releases-2021";
 import Resources from "./components/resources";
 import Sets from "./components/sets";
-import AppBasics from "./components/app-basics";
+import AppBasics from "./components/app-breakdown";
 
 
 const NoMatchPage = () => {
@@ -41,7 +41,7 @@ function App() {
           <Route exact path={["/2021"]} component={Releases2021} />      
           <Route exact path={["/resources"]} component={Resources} />      
           <Route exact path={["/sets"]} component={Sets} />      
-          <Route exact path={["/app-basics"]} component={AppBasics} />      
+          <Route exact path={["/app-breakdown"]} component={AppBasics} />      
           <Route 
             path="/pinDetail/:number"
             render={(props) => (

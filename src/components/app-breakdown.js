@@ -6,7 +6,7 @@ function Resources() {
     return (
         <div className="detail-box">
 
-<h3 align="center">App Basics</h3>
+<h3 align="center">App Breakdown</h3>
 
 <div className="home-category">This is a collection of videos created by <a title="ImToofu YouTube Channel" href="https://www.youtube.com/channel/UCGlSUCK8Q2rNcg4kQtbPzBA" target="_blank" rel="noreferrer noopener">ImToofu</a>.</div>
 <ul className="gallery mw-gallery-traditional">
