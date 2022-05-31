@@ -914,6 +914,9 @@ img.edition-text-1 {
   height: 120px;
   width: 80px;
   padding: 3px;
-  
+}
+.videobox {
+  width: 300px;
+  margin: 5px;
 }
 }
