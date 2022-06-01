@@ -7,6 +7,16 @@ function NewReleases() {
 <h3 align="center">New Releases</h3>
 
 <ul className="gallery mw-gallery-traditional-left">
+<li className="gallerybox"><div className="newrelease-header">Disney<br/>5/31/22</div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/731">
+    <img className="pinlist-image" alt="731" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/dc/9c/6a/7609/7609.ce68e513.png"/><div className="pinname">Disney Exclusive</div></Link></div></li> 
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/732">
+    <img className="pinlist-image" alt="732" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/7a/05/c2/7612/7612.ce68e513.png"/><div className="pinname">Disney Exclusive</div></Link></div></li> 
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/890">
+    <img className="pinlist-image" alt="890" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/29/20/29/7515/7515.ce68e513.png"/><div className="pinname">Disney Exclusive</div></Link></div></li>  
+</ul>
+
+<ul className="gallery mw-gallery-traditional-left">
 <li className="gallerybox"><div className="newrelease-header">Star Wars Celebration<br/>5/26/22</div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/733">
     <img className="pinlist-image" alt="733" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/a1/74/7a/6988/6988.ce68e513.png"/><div className="pinname">Pins on Fire Exclusive</div></Link></div></li>
