@@ -134,6 +134,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/property/IT">IT</a></li>
               <li><a className="dropdown-item" href="/property/Justice League 2017">Justice League 2017</a></li>
               <li><a className="dropdown-item" href="/property/Lilo and Stitch">Lilo & Stitch</a></li>
+              <li><a className="dropdown-item" href="/property/The Lion King">The Lion King</a></li>
               <li><a className="dropdown-item" href="/property/Mickey Mouse and Friends">Mickey Mouse & Friends</a></li>
               <li><a className="dropdown-item" href="/property/Nightmare Before Christmas">Nightmare Before Christmas</a></li>
               <li><a className="dropdown-item" href="/property/Onward">Onward</a></li>
@@ -224,10 +225,10 @@ function GlobalNav() {
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a className="dropdown-item" href="/pins">See All Pins</a></li>
               <li><a className="dropdown-item" href="/tags/2-Pack">2-Pack</a></li>
-              <li><a className="dropdown-item" href="/tags/AwesomeFest">AwesomeFest</a></li>
               <li><a className="dropdown-item" href="/tags/Chase">Chase</a></li>
               <li><a className="dropdown-item" href="/tags/D23 Expo">D23 Expo</a></li>
               <li><a className="dropdown-item" href="/tags/ECCC">ECCC</a></li>
+              <li><a className="dropdown-item" href="/tags/FiGPiN%20Event">FiGPiN Event</a></li>
               <li><a className="dropdown-item" href="/availability/FiGPiN%20Ultra">FiGPiN Ultra</a></li>
               <li><a className="dropdown-item" href="/tags/Halloween">Halloween</a></li>
               <li><a className="dropdown-item" href="/tags/Hard to Find">Hard To Find</a></li>

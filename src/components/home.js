@@ -150,14 +150,21 @@ function Home() {
         <Link title="WWE" to="/licensor/WWE"><img alt="WWE" className="where-image" src="logo_wwe.png"/></Link>
     </li>    
     </ul>
-    <div className="home-category">Con Exclusives</div>
+    <div className="home-category">Event Exclusives</div>
     <ul className="gallery mw-gallery-traditional">
     <li className="gallerybox">
-        <Link title="AwesomeFest" to="/tags/AwesomeFest"><img alt="AwesomeFest" className="where-image" src="logo_awesomefest.png"/></Link>
+        <Link title="AwesomeFest" to="/tags/FiGPiN%20Event"><img alt="FiGPiN Event" className="where-image" src="logo_figpin.png"/></Link>
     </li>    
+    <li className="gallerybox">
+        <Link title="Anime Expo" to="/tags/Anime Expo"><img alt="Anime Expo" className="where-image" src="logo_animeexpo.png"/></Link>
+    </li>      
     <li className="gallerybox">
         <Link title="D23 Expo" to="/tags/D23 Expo"><img alt="D23 Expo" className="where-image" src="logo_d23.png"/></Link>
     </li>        
+    <li className="gallerybox">
+        <Link title="DCON" to="/tags/DesignerCon"><img alt="DCON" className="where-image" src="logo_dcon.png"/></Link>
+    </li>        
+
     <li className="gallerybox">
         <Link title="ECCC" to="/tags/ECCC"><img alt="ECCC" className="where-image" src="logo_eccc.png"/></Link>
     </li>        
@@ -169,6 +176,9 @@ function Home() {
     </li>    
     <li className="gallerybox">
         <Link title="SWC" to="/tags/Star Wars Celebration"><img alt="SWC" className="where-image" src="logo_swc.png"/></Link>
+    </li>  
+    <li className="gallerybox">
+        <Link title="SWC" to="/tags/WonderCon"><img alt="WonderCon" className="where-image" src="logo_wondercon.png"/></Link>
     </li>        
     </ul>
     <div className="home-category">Store Exclusives</div>

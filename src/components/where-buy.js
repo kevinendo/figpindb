@@ -17,11 +17,11 @@ function WhereToBuy() {
     <li className="gallerybox">
         <a title="Best Buy" target="_blank" rel="noreferrer noopener" href="http://www.bestbuy.com"><img alt="Best Buy" className="where-image" src="logo_bestbuy.png"/></a>
     </li>
-
+{/*
     <li className="gallerybox">
         <a title="Box Lunch" target="_blank" rel="noreferrer noopener" href="https://www.boxlunch.com/"><img alt="Box Lunch" className="where-image" src="logo_boxlunch.png"/></a>
     </li>        
-
+    */}
     <li className="gallerybox">
         <a title="FYE" target="_blank" rel="noreferrer noopener" href="https://www.fye.com/"><img alt="FYE" className="where-image" src="logo_fye.png"/></a>
     </li>        
@@ -29,11 +29,11 @@ function WhereToBuy() {
     <li className="gallerybox">
         <a title="GameStop" target="_blank" rel="noreferrer noopener" href="https://www.gamestop.com/"><img alt="GameStop" className="where-image" src="logo_gamestop.png"/></a>
     </li>        
-
+{/*
     <li className="gallerybox">
         <a title="Hot Topic" target="_blank" rel="noreferrer noopener" href="https://www.hottopic.com/"><img alt="Hot Topic" className="where-image" src="logo_hottopic.png"/></a>
     </li>        
-
+*/}
     <li className="gallerybox">
         <a title="Target" target="_blank" rel="noreferrer noopener" href="https://www.target.com/"><img alt="Target" className="where-image" src="logo_target.png"/></a>
     </li>        
@@ -57,11 +57,11 @@ function WhereToBuy() {
     <li className="gallerybox">
         <a title="Big Bad Toy Store" target="_blank" rel="noreferrer noopener" href="https://www.bigbadtoystore.com/"><img alt="Big Bad Toy Store" className="where-image" src="logo_bbts.png"/></a>
     </li>        
-
+{/*
     <li className="gallerybox">
         <a title="Chalice Collectibles" target="_blank" rel="noreferrer noopener" href="https://www.chalicecollectibles.com/"><img alt="Chalice Collectibles" className="where-image" src="logo_chalice.png"/></a>
     </li>        
-
+    */}
     <li className="gallerybox">
         <a title="Deep Discount" target="_blank" rel="noreferrer noopener" href="https://www.deepdiscount.com/"><img alt="Deep Discount" className="where-image" src="logo_deepdiscount.png"/></a>
     </li>        
@@ -113,11 +113,11 @@ function WhereToBuy() {
     <li className="gallerybox"><a title="Pins on Fire" target="_blank" rel="noreferrer noopener" href="https://www.pinsonfire.com/">
         <img alt="Pins on Fire" className="where-image" src="logo_pinsonfire.png"/></a>
     </li>        
-
+{/*
     <li className="gallerybox"><a title="POPnBeards" target="_blank" rel="noreferrer noopener" href="http://www.popnbeards.com">
         <img alt="POPnBeards" className="where-image" src="logo_popnbeards.png"/></a>
     </li>
-
+    */}
     <li className="gallerybox"><a title="Poptopia" target="_blank" rel="noreferrer noopener" href="https://www.poptopia.us/">
         <img alt="Poptopia" className="where-image" src="logo_poptopia.png"/></a>
     </li>        
@@ -146,11 +146,11 @@ function WhereToBuy() {
     <li className="gallerybox"><a title="Stack Em Pops" target="_blank" rel="noreferrer noopener" href="http://www.stackempops.com">
         <img alt="Stack Em Pops" className="where-image" src="logo_stackempops.png"/></a>
     </li>
-
+{/*
     <li className="gallerybox">
         <a title="Sweet Baby Collectibles" target="_blank" rel="noreferrer noopener" href="https://www.sweetbabycollectibles.com"><img alt="Sweet Baby Collectibles" className="where-image" src="logo_sweetbaby.png"/></a>
     </li>        
-
+    */}
     <li className="gallerybox"><a title="Taggem" target="_blank" rel="noreferrer noopener" href="https://www.shoptaggem.com/">
         <img alt="Taggem" className="where-image" src="logo_taggem.png"/></a>
     </li>        
@@ -163,15 +163,15 @@ function WhereToBuy() {
     <li className="gallerybox"><a title="Three If By Space" target="_blank" rel="noreferrer noopener" href="https://www.threeifbyspace.net/">
         <img alt="Three If By Space" className="where-image" src="logo_tibs.png"/></a>
     </li>        
-
+{/*
     <li className="gallerybox"><a title="Toy Drops" target="_blank" rel="noreferrer noopener" href="https://www.toydrops.com/">
         <img alt="Toy Drops" className="where-image" src="logo_toydrops.png"/></a>
     </li>        
-
+    
     <li className="gallerybox"><a title="Toy Temple" target="_blank" rel="noreferrer noopener" href="https://www.thetoytemple.com/">
         <img alt="Toy Temple" className="where-image" src="logo_toytemple.png"/></a>
     </li>        
-
+*/}
     <li className="gallerybox"><a title="Toynk" target="_blank" rel="noreferrer noopener" href="https://www.toynk.com/">
         <img alt="Toynk" className="where-image" src="logo_toynk.png"/></a>
     </li>        
