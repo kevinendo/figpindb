@@ -6,10 +6,30 @@ function NewReleases() {
         <div className="detail-box">
 <h3 align="center">New Releases</h3>
 
+
 <ul className="gallery mw-gallery-traditional-left">
 <li className="gallerybox"><div className="newrelease-header">Anime Expo<br/>7/1/22</div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/L64">
     <img className="pinlist-image" alt="L64" src="/L64_img_url_med.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
+</ul>
+
+<ul className="gallery mw-gallery-traditional-left">
+<li className="gallerybox"><div className="newrelease-header">FWAP<br/>6/25/22</div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/982">
+    <img className="pinlist-image" alt="982" src="/982_img_url_med.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/L67">
+    <img className="pinlist-image" alt="L67" src="/L67_img_url_med.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
+</ul>
+
+<ul className="gallery mw-gallery-traditional-left">
+<li className="gallerybox"><div className="newrelease-header">Spider-Man: No Way Home<br/>6/24/22</div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/908">
+    <img className="pinlist-image" alt="908" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/2c/81/53/7619/7619.ce68e513.png"/></Link></div></li>  
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/909">
+    <img className="pinlist-image" alt="909" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/86/09/b5/7623/7623.ce68e513.png"/></Link></div></li>  
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/910">
+    <img className="pinlist-image" alt="910" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/80/41/07/7628/7628.ce68e513.png"/></Link></div></li>  
+  
 </ul>
 
 <ul className="gallery mw-gallery-traditional-left">
