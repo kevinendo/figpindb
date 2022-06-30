@@ -10,15 +10,23 @@ function NewReleases() {
 <ul className="gallery mw-gallery-traditional-left">
 <li className="gallerybox"><div className="newrelease-header">Anime Expo<br/>7/1/22</div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/L64">
-    <img className="pinlist-image" alt="L64" src="/L64_img_url_med.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
+    <img className="pinlist-image" alt="L64" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/b9/19/2e/7896/7896.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
+</ul>
+
+<ul className="gallery mw-gallery-traditional-left">
+<li className="gallerybox"><div className="newrelease-header">Obi-Wan Kenobi<br/>6/29/22</div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1049">
+    <img className="pinlist-image" alt="1049" src="/1049_img_url_med.png"/></Link></div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1050">
+    <img className="pinlist-image" alt="1050" src="/1050_img_url_med.png"/></Link></div></li>    
 </ul>
 
 <ul className="gallery mw-gallery-traditional-left">
 <li className="gallerybox"><div className="newrelease-header">FWAP<br/>6/25/22</div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/982">
-    <img className="pinlist-image" alt="982" src="/982_img_url_med.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
+    <img className="pinlist-image" alt="982" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/84/65/dc/7889/7889.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/L67">
-    <img className="pinlist-image" alt="L67" src="/L67_img_url_med.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
+    <img className="pinlist-image" alt="L67" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/bb/26/a0/7884/7884.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
 </ul>
 
 <ul className="gallery mw-gallery-traditional-left">

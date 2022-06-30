@@ -62,6 +62,13 @@ function Preorders() {
     <img className="pinlist-image" alt="898" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/32/7c/e6/7158/7158.ce68e513.png"/><div className="pinname">Walmart Exclusive</div></Link></div></li>
 </ul>
 
+<ul className="gallery mw-gallery-traditional-left">
+<li className="gallerybox"><div className="newrelease-header">Obi-Wan Kenobi<br/>Fall 2022</div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1049">
+    <img className="pinlist-image" alt="1049" src="/1049_img_url_med.png"/></Link></div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1050">
+    <img className="pinlist-image" alt="1050" src="/1050_img_url_med.png"/></Link></div></li>    
+</ul>
 
         </div>
     );

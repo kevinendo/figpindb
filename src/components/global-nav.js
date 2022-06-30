@@ -123,6 +123,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/property/Avengers Infinity War">Avengers Infinity War</a></li>
               <li><a className="dropdown-item" href="/property/Big Hero 6">Big Hero 6</a></li>
               <li><a className="dropdown-item" href="/property/Black Widow">Black Widow</a></li>
+              <li><a className="dropdown-item" href="/property/The Blues Brothers">The Blues Brothers</a></li>
               <li><a className="dropdown-item" href="/property/Captain Marvel">Captain Marvel</a></li>
               <li><a className="dropdown-item" href="/property/Disney Classics">Disney Classics</a></li>
               <li><a className="dropdown-item" href="/property/Disney Princesses">Disney Princesses</a></li>
@@ -169,6 +170,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/property/Star Wars The Bad Batch">Star Wars The Bad Batch</a></li>
               <li><a className="dropdown-item" href="/property/Star Wars The Book of Boba Fett">Star Wars The Book of Boba Fett</a></li>
               <li><a className="dropdown-item" href="/property/Star Wars The Mandalorian">Star Wars The Mandalorian</a></li>
+              <li><a className="dropdown-item" href="/property/Star Wars Obi-Wan Kenobi">Star Wars Obi-Wan Kenobi</a></li>
               <li><a className="dropdown-item" href="/property/Stranger Things">Stranger Things</a></li>
               <li><a className="dropdown-item" href="/property/Teenage Mutant Ninja Turtles Animated">Teenage Mutant Ninja Turtles Animated</a></li>        
               <li><a className="dropdown-item" href="/property/Transformers">Transformers</a></li>
@@ -191,7 +193,6 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/property/Disney Parks">Disney Parks</a></li>     
               <li><a className="dropdown-item" href="/property/Gudetama">Gudetama</a></li>
               <li><a className="dropdown-item" href="/property/Hello Kitty">Hello Kitty</a></li>
-              <li><a className="dropdown-item" href="/property/House of Blues">House of Blues</a></li>
               <li><a className="dropdown-item" href="/property/KISS">KISS</a></li>              
               <li><a className="dropdown-item" href="/licensor/MLB">MLB</a></li>
               <li><a className="dropdown-item" href="/licensor/NBA">NBA</a></li>
