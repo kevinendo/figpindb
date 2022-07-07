@@ -234,7 +234,6 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/availability/FiGPiN%20Ultra">FiGPiN Ultra</a></li>
               <li><a className="dropdown-item" href="/tags/Halloween">Halloween</a></li>
               <li><a className="dropdown-item" href="/tags/Hard to Find">Hard To Find</a></li>
-              <li><a className="dropdown-item" href="/tags/LACC">LACC</a></li>
               <li><a className="dropdown-item" href="/availability/Limited%20Edition">Limited Edition</a></li>
               <li><a className="dropdown-item" href="/type/Logo">Logo</a></li>
               <li><a className="dropdown-item" href="/type/Mini">Mini</a></li>

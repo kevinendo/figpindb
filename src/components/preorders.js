@@ -23,25 +23,7 @@ function Preorders() {
 <ul className="gallery mw-gallery-traditional-left">
 <li className="gallerybox"><div className="newrelease-header">Dragon Ball Super<br/>June 2022</div></li>
     <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/863">
-    <img className="pinlist-image" alt="863" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/d3/12/87/7451/7451.ce68e513.png"/><div className="pinname">Alliance Exclusive</div></Link></div></li>              
-</ul>
-
-<ul className="gallery mw-gallery-traditional-left">
-<li className="gallerybox"><div className="newrelease-header">The Lion King<br/>July 2022</div></li>
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/851">
-    <img className="pinlist-image" alt="851" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/14/52/f3/7473/7473.ce68e513.png"/></Link></div></li>  
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/852">
-    <img className="pinlist-image" alt="852" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/b8/b2/3b/7478/7478.ce68e513.png"/></Link></div></li>  
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/853">
-    <img className="pinlist-image" alt="853" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/40/e7/e1/7483/7483.ce68e513.png"/></Link></div></li>  
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/854">
-    <img className="pinlist-image" alt="854" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/08/87/51/7488/7488.ce68e513.png"/></Link></div></li>  
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/855">
-    <img className="pinlist-image" alt="855" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/40/cc/8d/7493/7493.ce68e513.png"/></Link></div></li>  
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/856">
-    <img className="pinlist-image" alt="856" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/53/1a/51/7498/7498.ce68e513.png"/></Link></div></li>  
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/857">
-    <img className="pinlist-image" alt="857" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/d9/de/11/7503/7503.ce68e513.png"/></Link></div></li>  
+    <img className="pinlist-image" alt="863" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/d3/12/87/7451/7451.ce68e513.png"/><div className="pinname">Alliance Exclusive</div></Link></div></li>            
 </ul>
 
 <ul className="gallery mw-gallery-traditional-left">

@@ -6,6 +6,30 @@ function NewReleases() {
         <div className="detail-box">
 <h3 align="center">New Releases</h3>
 
+<ul className="gallery mw-gallery-traditional-left">
+<li className="gallerybox"><div className="newrelease-header">SDCC<br/>7/20/22</div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/883">
+    <img className="pinlist-image" alt="883" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/07/e7/26/7244/7244.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/884">
+    <img className="pinlist-image" alt="884" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/25/42/80/7249/7249.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>              
+</ul>
+
+
+<ul className="gallery mw-gallery-traditional-left">
+<li className="gallerybox"><div className="newrelease-header">X-Men Animated<br/>7/6/22</div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/915">
+    <img className="pinlist-image" alt="915" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/57/60/42/7543/7543.ce68e513.png"/></Link></div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/916">
+    <img className="pinlist-image" alt="916" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/67/d1/cb/7548/7548.ce68e513.png"/></Link></div></li>    
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/917">
+    <img className="pinlist-image" alt="917" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/51/6a/a4/7553/7553.ce68e513.png"/></Link></div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/918">
+    <img className="pinlist-image" alt="918" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/ab/11/4b/7558/7558.ce68e513.png"/></Link></div></li>    
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/919">
+    <img className="pinlist-image" alt="919" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/84/45/75/7563/7563.ce68e513.png"/></Link></div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/920">
+    <img className="pinlist-image" alt="920" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/25/5e/3d/7569/7569.ce68e513.png"/></Link></div></li>    
+</ul>
 
 <ul className="gallery mw-gallery-traditional-left">
 <li className="gallerybox"><div className="newrelease-header">Anime Expo<br/>7/1/22</div></li>
