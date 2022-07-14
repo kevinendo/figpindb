@@ -253,6 +253,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/2021">2021 Releases</a></li>
               <li><a className="dropdown-item" href="/2020">2020 Releases</a></li>
               <li><a className="dropdown-item" href="/preorders">Preorders</a></li>
+              <li><a className="dropdown-item" href="/events">Events</a></li>
               <li><a className="dropdown-item" href="/sets">Sets</a></li>
               <li><a className="dropdown-item" href="/calendar">Launch Calendar</a></li>
               <li><a className="dropdown-item" href="/where">Where To Buy</a></li>
