@@ -56,6 +56,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/property/Naruto x Hello Kitty">Naruto x Hello Kitty</a></li>
               <li><a className="dropdown-item" href="/property/Neon Genesis Evangelion">Neon Genesis Evangelion</a></li>
               <li><a className="dropdown-item" href="/property/One Punch Man">One Punch Man</a></li>
+              <li><a className="dropdown-item" href="/property/The Seven Deadly Sins">The Seven Deadly Sins</a></li>
               
               </ul>
             </li>     
@@ -143,6 +144,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/property/Spider-Man: Into the Spider-Verse">Spider-Man: Into the Spider-Verse</a></li>
               <li><a className="dropdown-item" href="/property/Spider-Man: No Way Home">Spider-Man: No Way Home</a></li>
               <li><a className="dropdown-item" href="/property/Star Wars">Star Wars</a></li>
+              <li><a className="dropdown-item" href="/property/Star Wars The Force Awakens">Star Wars The Force Awakens</a></li>
               <li><a className="dropdown-item" href="/property/Toy Story">Toy Story</a></li>
               <li><a className="dropdown-item" href="/property/WALL-E">WALL-E</a></li>
               </ul>

@@ -10,10 +10,13 @@ function Home() {
 <div className="home-category">2022</div>
     <ul className="gallery mw-gallery-traditional">
     <li className="gallerybox">
+        <Link title="Crunchyroll Expo" to="/tags/Crunchyroll Expo"><img alt="Crunchyroll Expo" className="where-image" src="logo_crx.png"/><br/><div className="pinname"><b>Crunchyroll Expo 2022</b><br/>8/5/22</div></Link>
+    </li>    
+    <li className="gallerybox">
         <Link title="SDCC" to="/tags/SDCC%202022"><img alt="SDCC" className="where-image" src="logo_sdcc.png"/><br/><div className="pinname"><b>SDCC 2022</b><br/>7/20/22</div></Link>
     </li>    
     <li className="gallerybox">
-        <Link title="Anime Expo" to="/pinDetail/L64"><img alt="Anime Expo" className="where-image" src="logo_animeexpo.png"/><br/><div className="pinname"><b>Anime Expo 2022</b><br/>7/1/22</div></Link>
+        <Link title="Anime Expo" to="/tags/Anime Expo 2022"><img alt="Anime Expo" className="where-image" src="logo_animeexpo.png"/><br/><div className="pinname"><b>Anime Expo 2022</b><br/>7/1/22</div></Link>
     </li>      
     <li className="gallerybox">
         <Link title="FiGPiN Event" to="/tags/FWAP%202022%20Set"><img alt="FiGPiN Event" className="where-image" src="logo_figpin.png"/><br/><div className="pinname"><b>FWAP 2022</b><br/>6/25/22</div></Link>
@@ -22,7 +25,7 @@ function Home() {
         <Link title="SWC" to="/tags/Star Wars Celebration"><img alt="SWC" className="where-image" src="logo_swc.png"/><br/><div className="pinname"><b>SWC 2022</b><br/>5/26/22</div></Link>
     </li>  
     <li className="gallerybox">
-        <Link title="SWC" to="/pinDetail/L57"><img alt="WonderCon" className="where-image" src="logo_wondercon.png"/><br/><div className="pinname"><b>WonderCon 2022</b><br/>4/1/22</div></Link>
+        <Link title="SWC" to="/tags/WonderCon"><img alt="WonderCon" className="where-image" src="logo_wondercon.png"/><br/><div className="pinname"><b>WonderCon 2022</b><br/>4/1/22</div></Link>
     </li>       
     </ul>
     
@@ -61,7 +64,7 @@ function Home() {
         <Link title="DCON" to="/tags/DesignerCon"><img alt="DCON" className="where-image" src="logo_dcon.png"/><br/><div className="pinname"><b>DCON 2019</b><br/>11/22/19</div></Link>
     </li>        
     <li className="gallerybox">
-        <Link title="LACC" to="/pinDetail/278"><img alt="LACC" className="where-image" src="logo_lacc.png"/><br/><div className="pinname"><b>LACC 2019</b><br/>10/11/19</div></Link>
+        <Link title="LACC" to="/tags/LACC"><img alt="LACC" className="where-image" src="logo_lacc.png"/><br/><div className="pinname"><b>LACC 2019</b><br/>10/11/19</div></Link>
     </li>     
     <li className="gallerybox">
         <Link title="NYCC" to="/tags/NYCC%202019"><img alt="NYCC" className="where-image" src="logo_nycc.png"/><br/><div className="pinname"><b>NYCC 2019</b><br/>10/3/19</div></Link>
@@ -73,7 +76,7 @@ function Home() {
         <Link title="SDCC" to="/tags/SDCC%202019"><img alt="SDCC" className="where-image" src="logo_sdcc.png"/><br/><div className="pinname"><b>SDCC 2019</b><br/>7/21/19</div></Link>
     </li>    
     <li className="gallerybox">
-        <Link title="Anime Expo" to="/pinDetail/213"><img alt="Anime Expo" className="where-image" src="logo_animeexpo.png"/><br/><div className="pinname"><b>Anime Expo 2019</b><br/>7/3/19</div></Link>
+        <Link title="Anime Expo" to="/tags/Anime Expo 2019"><img alt="Anime Expo" className="where-image" src="logo_animeexpo.png"/><br/><div className="pinname"><b>Anime Expo 2019</b><br/>7/3/19</div></Link>
     </li>   
     <li className="gallerybox">
         <Link title="ECCC" to="/tags/ECCC%202019"><img alt="ECCC" className="where-image" src="logo_eccc.png"/><br/><div className="pinname"><b>ECCC 2019</b><br/>3/14/19</div></Link>

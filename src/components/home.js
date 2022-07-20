@@ -120,6 +120,9 @@ function Home() {
         <Link title="Scooby-Doo!" to="/property/Scooby-Doo!"><img alt="Scooby-Doo!" className="where-image" src="logo_scooby.png"/></Link>
     </li>
     <li className="gallerybox">
+        <Link title="The Seven Deadly Sins" to="/property/The Seven Deadly Sins"><img alt="The Seven Deadly Sins" className="where-image" src="logo_tsds.png"/></Link>
+    </li>
+    <li className="gallerybox">
         <Link title="The Simpsons" to="/property/The Simpsons"><img alt="The Simpsons" className="where-image" src="logo_simpsons.png"/></Link>
     </li>
     <li className="gallerybox">
@@ -157,6 +160,9 @@ function Home() {
     </li>    
     <li className="gallerybox">
         <Link title="Anime Expo" to="/tags/Anime Expo"><img alt="Anime Expo" className="where-image" src="logo_animeexpo.png"/></Link>
+    </li>      
+    <li className="gallerybox">
+        <Link title="Crunchyroll Expo" to="/tags/Crunchyroll Expo"><img alt="Crunchyroll Expo" className="where-image" src="logo_crx.png"/></Link>
     </li>      
     <li className="gallerybox">
         <Link title="D23 Expo" to="/tags/D23 Expo"><img alt="D23 Expo" className="where-image" src="logo_d23.png"/></Link>

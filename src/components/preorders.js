@@ -19,13 +19,6 @@ function Preorders() {
 */}
 
 
-
-<ul className="gallery mw-gallery-traditional-left">
-<li className="gallerybox"><div className="newrelease-header">Dragon Ball Super<br/>June 2022</div></li>
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/863">
-    <img className="pinlist-image" alt="863" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/d3/12/87/7451/7451.ce68e513.png"/><div className="pinname">Alliance Exclusive</div></Link></div></li>            
-</ul>
-
 <ul className="gallery mw-gallery-traditional-left">
 <li className="gallerybox"><div className="newrelease-header">Disney Villains<br/>August 2022</div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/950">
