@@ -13,6 +13,16 @@ function NewReleases() {
 </ul>
 
 <ul className="gallery mw-gallery-traditional-left">
+<li className="gallerybox"><div className="newrelease-header">Lilo & Stitch<br/>8/3/22</div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/947">
+    <img className="pinlist-image" alt="947" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/f6/e9/90/7945/7945.ce68e513.png"/></Link></div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/948">
+    <img className="pinlist-image" alt="948" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/34/14/4f/7950/7950.ce68e513.png"/></Link></div></li>   
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/949">
+    <img className="pinlist-image" alt="949" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/27/ab/9f/7955/7955.ce68e513.png"/></Link></div></li>        
+</ul>
+
+<ul className="gallery mw-gallery-traditional-left">
 <li className="gallerybox"><div className="newrelease-header">SDCC<br/>7/20/22</div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/883">
     <img className="pinlist-image" alt="883" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/07/e7/26/7244/7244.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
@@ -247,13 +257,13 @@ function NewReleases() {
 <ul className="gallery mw-gallery-traditional-left">
 <li className="gallerybox"><div className="newrelease-header">Squid Game<br/>3/24/22</div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/911">
-    <img className="pinlist-image" alt="911" src="/911_img_url_med.png"/></Link></div><div className="pinname">Walmart Exclusive</div></li>
+    <img className="pinlist-image" alt="911" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/a2/83/fa/7523/7523.ce68e513.png"/></Link></div><div className="pinname">Walmart Exclusive</div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/912">
-    <img className="pinlist-image" alt="912" src="/912_img_url_med.png"/></Link></div><div className="pinname">Walmart Exclusive</div></li>    
+    <img className="pinlist-image" alt="912" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/04/45/35/7528/7528.ce68e513.png"/></Link></div><div className="pinname">Walmart Exclusive</div></li>    
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/913">
-    <img className="pinlist-image" alt="913" src="/913_img_url_med.png"/></Link></div><div className="pinname">Walmart Exclusive</div></li> 
+    <img className="pinlist-image" alt="913" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/a2/c3/66/7533/7533.ce68e513.png"/></Link></div><div className="pinname">Walmart Exclusive</div></li> 
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/914">
-    <img className="pinlist-image" alt="914" src="/914_img_url_med.png"/></Link></div><div className="pinname">Walmart Exclusive</div></li>
+    <img className="pinlist-image" alt="914" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/6e/c5/2e/7538/7538.ce68e513.png"/></Link></div><div className="pinname">Walmart Exclusive</div></li>
 </ul>
 
 <ul className="gallery mw-gallery-traditional-left">
