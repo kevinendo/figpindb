@@ -154,7 +154,7 @@ return (
   </div>
   <div className="detail-bottom-child">
    <Editions pinNumber={pinInfo.number}/>
-    <CohortsNew pinNumber={pinInfo.number}/>
+ {/*   <CohortsNew pinNumber={pinInfo.number}/>*/}
   </div>
   <div className="detail-bottom-child">
     <Links pinNumber={pinInfo.number}/>
