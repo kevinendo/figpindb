@@ -29,6 +29,7 @@ const getPin = (by, query) => {
     <h3 align="center">{pageTitle}</h3>
 
       <ul className="gallery mw-gallery-traditional">
+{ pins.length == 1 ? <p class="results">{pins.length} result</p> : <p class="results">{pins.length} results</p>}
       {
           pins.map(pin => (
             <li key={pin.number} className="gallerybox">

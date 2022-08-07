@@ -11,15 +11,9 @@ function Sets() {
 <ul className="gallery mw-gallery-traditional">
 <li className="gallerybox">
         <div className="setbox">
-        <a title="Disney Princess 2021" href="/tags/Princess%202021%20Box%20Set">
-        <img alt="Disney Princess 2021" className="box-image" src="box_princess2021.png"/></a>
-        <div className="pinname"><b>Princess 2021</b><br/>Deluxe Box Set Bonus: 20<br/>Deluxe+ Box Set Bonus: 25</div>
-    </div></li>
-<li className="gallerybox">
-        <div className="setbox">
-        <a title="Disney Princess 2019" href="/tags/Princess%202019%20Box%20Set">
-        <img alt="Disney Princess 2019" className="box-image" src="box_princess2019.png"/></a>
-        <div className="pinname"><b>Princess 2019</b><br/>Deluxe Box Set Bonus: 20<br/>Deluxe+ Box Set Bonus: 25</div>
+        <a title="Batman" href="/tags/Batman%20Box%20Set">
+        <img alt="Batman" className="box-image" src="box_batman.png"/></a>
+        <div className="pinname"><b>Batman</b></div>
     </div></li>
     <li className="gallerybox">
         <div className="setbox">
@@ -27,6 +21,19 @@ function Sets() {
         <img alt="FiGPiN.KiNGPiN Instagram" className="box-image" src="box_villains.png"/></a>
         <div className="pinname"><b>Villains 2021</b><br/>Deluxe Box Set Bonus: 20<br/>Deluxe+ Box Set Bonus: 25</div>
     </div></li>
+    <li className="gallerybox">
+        <div className="setbox">
+        <a title="Disney Princess 2021" href="/tags/Princess%202021%20Box%20Set">
+        <img alt="Disney Princess 2021" className="box-image" src="box_princess2021.png"/></a>
+        <div className="pinname"><b>Princess 2021</b><br/>Deluxe Box Set Bonus: 20<br/>Deluxe+ Box Set Bonus: 25</div>
+    </div></li>
+    <li className="gallerybox">
+        <div className="setbox">
+        <a title="FiGPiN.KiNGPiN Instagram" href="/tags/Stranger%20Things%20Box%20Set">
+        <img alt="FiGPiN.KiNGPiN Instagram" className="box-image" src="box_stranger.png"/></a>
+        <div className="pinname"><b>Stranger Things</b><br/>Deluxe Box Set Bonus: 20<br/>Deluxe+ Box Set Bonus: 25</div>
+    </div></li>
+
     <li className="gallerybox">
         <div className="setbox">
         <a title="The Mandalorian" href="/tags/Mandalorian%20Box%20Set">
@@ -41,15 +48,15 @@ function Sets() {
     </div></li>
     <li className="gallerybox">
         <div className="setbox">
-        <a title="FiGPiN.KiNGPiN Instagram" href="/tags/Stranger%20Things%20Box%20Set">
-        <img alt="FiGPiN.KiNGPiN Instagram" className="box-image" src="box_stranger.png"/></a>
-        <div className="pinname"><b>Stranger Things</b><br/>Deluxe Box Set Bonus: 20<br/>Deluxe+ Box Set Bonus: 25</div>
-    </div></li>
-    <li className="gallerybox">
-        <div className="setbox">
         <a title="FiGPiN.KiNGPiN Instagram" href="/tags/Black%20Spider-Verse%20Box%20Set">
         <img alt="FiGPiN.KiNGPiN Instagram" className="box-image" src="box_spiderverse7.png"/></a>
         <div className="pinname"><b>Into The Spider-Verse (Black)</b><br/>Deluxe Box Set Bonus: 10<br/>Deluxe+ Box Set Bonus: 25</div>
+    </div></li>
+<li className="gallerybox">
+        <div className="setbox">
+        <a title="Disney Princess 2019" href="/tags/Princess%202019%20Box%20Set">
+        <img alt="Disney Princess 2019" className="box-image" src="box_princess2019.png"/></a>
+        <div className="pinname"><b>Princess 2019</b><br/>Deluxe Box Set Bonus: 20<br/>Deluxe+ Box Set Bonus: 25</div>
     </div></li>
     <li className="gallerybox">
         <div className="setbox">
@@ -144,7 +151,7 @@ function Sets() {
 
     <li className="gallerybox">
         <div className="setbox">
-        <a title="Batman & The Joker (SDCC 2019 Exclusive)" href="/tags/Batman%20&%20The%20Joker%202-Pack">
+        <a title="Batman & The Joker (SDCC 2019 Exclusive)" href="/tags/Batman%20and%20The%20Joker%202-Pack">
         <img alt="Batman & The Joker (SDCC 2019 Exclusive)" className="box-image" src="box_batman_joker.png"/></a>
         <div className="pinname"><b>Batman & The Joker (Glitter)</b><br/>2-Pack Set Bonus: 10</div>
     </div></li>

@@ -10,6 +10,9 @@ function Home() {
 <div className="home-category">2022</div>
     <ul className="gallery mw-gallery-traditional">
     <li className="gallerybox">
+        <Link title="ECCC" to="/tags/ECCC%202022"><img alt="ECCC" className="where-image" src="logo_eccc.png"/><br/><div className="pinname"><b>ECCC 2022</b><br/>8/18/22</div></Link>
+    </li>   
+    <li className="gallerybox">
         <Link title="Crunchyroll Expo" to="/tags/Crunchyroll Expo"><img alt="Crunchyroll Expo" className="where-image" src="logo_crx.png"/><br/><div className="pinname"><b>Crunchyroll Expo 2022</b><br/>8/5/22</div></Link>
     </li>    
     <li className="gallerybox">

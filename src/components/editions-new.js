@@ -25,7 +25,7 @@ return (
       <div className="production-history"><b>PRODUCTION HISTORY</b></div>
         {pinInfo.map((edition) => (
           <div className="edition" key={edition.edition + edition.volume}>
-            <div className="edition-text-2"><b>{edition.product.product_family.name}</b> | <b>{edition.edition} Edition</b> | <b>{edition.product.rarity.toUpperCase()}</b></div>
+            <div className="edition-text-2"><b>{edition.product.product_family.name}</b> | <b>{edition.edition} Edition</b> | {edition.product.rarity == null ? <b></b> : <b>{edition.product.rarity.toUpperCase()}</b>}</div>
             <div className="edition-text-2">Lot {edition.lot} | Volume of {edition.volume} | {edition.edition_release} | {edition.product.packaging}</div>          
             <div className="edition-text-2">Status: {edition.product.lifecycle_stage} | {edition.channel_name} | {edition.destination_name}</div>
             <div className="edition-text-2">Qty Claimed: {edition.claimed_count ? <b>{edition.claimed_count}</b> : <b>0 Claimed</b>} | {Math.ceil((edition.volume*.1*(Math.ceil(edition.claimed_count/edition.volume*10)))-edition.claimed_count)} claim(s) until Cohort {10*(Math.ceil(edition.claimed_count/edition.volume*10))}%</div>

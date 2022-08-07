@@ -7,6 +7,33 @@ function NewReleases() {
 <h3 align="center">New Releases</h3>
 
 <ul className="gallery mw-gallery-traditional-left">
+<li className="gallerybox"><div className="newrelease-header">ECCC<br/>8/18/22</div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/882">
+    <img className="pinlist-image" alt="882" src="/882_img_url_med.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/885">
+    <img className="pinlist-image" alt="885" src="/885_img_url_med.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li> 
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/905">
+    <img className="pinlist-image" alt="905" src="/905_img_url_med.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>        
+</ul>
+
+<ul className="gallery mw-gallery-traditional-left">
+<li className="gallerybox"><div className="newrelease-header">Batman<br/>8/10/22</div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/787">
+    <img className="pinlist-image" alt="787" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/22/01/5a/7784/7784.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/788">
+    <img className="pinlist-image" alt="788" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/56/f7/5b/7788/7788.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/789">
+    <img className="pinlist-image" alt="789" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/73/b5/19/7793/7793.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/790">
+    <img className="pinlist-image" alt="790" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/04/cc/5a/7798/7798.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/791">
+    <img className="pinlist-image" alt="791" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/74/4c/77/7803/7803.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/L63">
+    <img className="pinlist-image" alt="L63" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/2e/ec/67/8177/8177.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>    
+</ul>
+
+
+<ul className="gallery mw-gallery-traditional-left">
 <li className="gallerybox"><div className="newrelease-header">Crunchyroll Expo<br/>8/5/22</div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/L72">
     <img className="pinlist-image" alt="L72" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/a1/0b/fd/8074/8074.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>

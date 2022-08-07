@@ -18,6 +18,20 @@ h4 {
   font-family: 'Raleway', sans-serif;
 }
 
+h5 {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+.results {
+  font-size: small;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-style: italic;
+  text-align: right;
+  margin-right: 30px;
+}
+
 a.hover {
   text-decoration: none;
   color: #000;
