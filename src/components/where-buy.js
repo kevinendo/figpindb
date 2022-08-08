@@ -78,7 +78,7 @@ function WhereToBuy() {
         <img alt="Fugitive Toys" className="where-image" src="logo_fugitive.png"/></a>
     </li>        
 
-    <li className="gallerybox"><a title="Funimation" target="_blank" rel="noreferrer noopener" href="https://www.funimation.com/">
+    <li className="gallerybox"><a title="Funimation" target="_blank" rel="noreferrer noopener" href="https://store.crunchyroll.com/">
         <img alt="Funimation" className="where-image" src="logo_funimation.png"/></a>
     </li>        
 
@@ -121,11 +121,11 @@ function WhereToBuy() {
     <li className="gallerybox"><a title="Poptopia" target="_blank" rel="noreferrer noopener" href="https://www.poptopia.us/">
         <img alt="Poptopia" className="where-image" src="logo_poptopia.png"/></a>
     </li>        
-
+{/*
     <li className="gallerybox"><a title="Radar Toys" target="_blank" rel="noreferrer noopener" href="https://www.radartoys.com/">
         <img alt="Radar Toys" className="where-image" src="logo_radar.png"/></a>
     </li>        
-    
+*/} 
     <li className="gallerybox"><a title="Red Panda Collect" target="_blank" rel="noreferrer noopener" href="http://www.redpandacollect.com">
         <img alt="Red Panda Collect" className="where-image" src="logo_redpanda.png"/></a>
     </li>
@@ -179,11 +179,11 @@ function WhereToBuy() {
     <li className="gallerybox"><a title="Toy Shnip" target="_blank" rel="noreferrer noopener" href="https://www.toyshnip.com/">
         <img alt="Toy Shnip" className="where-image" src="logo_toyshnip.png"/></a>
     </li>        
-
+{/*
     <li className="gallerybox"><a title="ToyWiz" target="_blank" rel="noreferrer noopener" href="http://www.toywiz.com">
         <img alt="ToyWiz" className="where-image" src="logo_toywiz.png"/></a>
     </li>
-
+*/}
     <li className="gallerybox">
         <a title="VLTD" target="_blank" rel="noreferrer noopener" href="https://www.vltd.co/"><img alt="VLTD" className="where-image" src="logo_vltd.png"/></a>
     </li>        
@@ -191,11 +191,11 @@ function WhereToBuy() {
     <li className="gallerybox">
         <a title="vRareStore" target="_blank" rel="noreferrer noopener" href="http://www.vrarestore.com"><img alt="vRareStore" className="where-image" src="logo_vrarestore.png"/></a>
     </li>
-
+{/*
     <li className="gallerybox">
         <a title="WY Super Rare" target="_blank" rel="noreferrer noopener" href="http://www.wysuperrare.com"><img alt="WY Super Rare" className="where-image" src="logo_wysuperrare.png"/></a>
     </li>
-
+*/}
 </ul><br/>
 <h4 align="center">Canada</h4>
 <ul className="gallery mw-gallery-traditional">

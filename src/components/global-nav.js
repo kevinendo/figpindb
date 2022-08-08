@@ -261,6 +261,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/where">Where To Buy</a></li>
               <li><a className="dropdown-item" href="/resources">Resources</a></li>
               <li><a className="dropdown-item" href="/app-breakdown">App Breakdown</a></li>
+              <li><a className="dropdown-item" href="/scoring">Scoring</a></li>
               </ul>
             </li>             
             
