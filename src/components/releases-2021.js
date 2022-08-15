@@ -176,7 +176,7 @@ function NewReleases() {
 <ul className="gallery mw-gallery-traditional-left">
 <li className="gallerybox"><div className="newrelease-header">Blizzard<br/>9/23/21</div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/170">
-    <img className="pinlist-image" alt="" src="/170_img_url_med.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
+    <img className="pinlist-image" alt="" src="https://figpindb.com/170_img_url_med.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
 </ul>
 
 <ul className="gallery mw-gallery-traditional-left">

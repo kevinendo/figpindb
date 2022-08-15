@@ -37,6 +37,7 @@ function GlobalNav() {
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a className="dropdown-item" href="/property/Astro Boy">Astro Boy</a></li>
+              <li><a className="dropdown-item" href="/property/Attack on Titan">Attack on Titan</a></li>
               <li><a className="dropdown-item" href="/property/Cannon Busters">Cannon Busters</a></li>
               <li><a className="dropdown-item" href="/property/Demon Slayer">Demon Slayer</a></li>
               <li><a className="dropdown-item" href="/property/Dr. Stone">Dr. Stone</a></li>
@@ -56,6 +57,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/property/Naruto x Hello Kitty">Naruto x Hello Kitty</a></li>
               <li><a className="dropdown-item" href="/property/Neon Genesis Evangelion">Neon Genesis Evangelion</a></li>
               <li><a className="dropdown-item" href="/property/One Punch Man">One Punch Man</a></li>
+              <li><a className="dropdown-item" href="/property/Sailor Moon">Sailor Moon</a></li>
               <li><a className="dropdown-item" href="/property/The Seven Deadly Sins">The Seven Deadly Sins</a></li>
               
               </ul>

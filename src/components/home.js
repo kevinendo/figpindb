@@ -24,6 +24,9 @@ function Home() {
         <Link title="Astro Boy" to="/property/Astro Boy"><img alt="Astro Boy" className="where-image" src="logo_astroboy.png"/></Link>
     </li>   
     <li className="gallerybox">
+        <Link title="Attack on Titan" to="/property/Attack on Titan"><img alt="Attack on Titan" className="where-image" src="logo_attackontitan.png"/></Link>
+    </li>   
+    <li className="gallerybox">
         <Link title="Avatar The Last Airbender" to="/property/Avatar The Last Airbender"><img alt="Avatar The Last Airbender" className="where-image" src="logo_avatar.png"/></Link>
     </li> 
     <li className="gallerybox">
@@ -113,6 +116,9 @@ function Home() {
     <li className="gallerybox">
         <Link title="Neon Genesis Evangelion" to="/property/Neon Genesis Evangelion"><img alt="Neon Genesis Evangelion" className="where-image" src="logo_evangelion.png"/></Link>
     </li>   
+    <li className="gallerybox">
+        <Link title="Sailor Moon" to="/property/Sailor Moon"><img alt="Sailor Moon" className="where-image" src="logo_sailormoon.png"/></Link>
+    </li>    
     <li className="gallerybox">
         <Link title="Sanrio" to="/licensor/Sanrio"><img alt="Sanrio" className="where-image" src="logo_sanrio.png"/></Link>
     </li>        
