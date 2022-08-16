@@ -19,7 +19,9 @@ function NewReleases() {
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/925">
     <img className="pinlist-image" alt="925" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/ea/7d/b7/8100/8100.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>   
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1022">
-    <img className="pinlist-image" alt="1022" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/de/18/5a/8105/8105.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>         
+    <img className="pinlist-image" alt="1022" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/de/18/5a/8105/8105.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>        
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/L73">
+    <img className="pinlist-image" alt="L73" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/1a/b0/85/8110/8110.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>         
 </ul>
 
 <ul className="gallery mw-gallery-traditional-left">
@@ -78,10 +80,8 @@ function NewReleases() {
     <img className="pinlist-image" alt="790" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/04/cc/5a/7798/7798.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/791">
     <img className="pinlist-image" alt="791" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/74/4c/77/7803/7803.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
-{/*
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/L63">
     <img className="pinlist-image" alt="L63" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/2e/ec/67/8177/8177.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>    
-    */}
 </ul>
 
 
