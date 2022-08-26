@@ -217,6 +217,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/variant/Gold Plated">Gold Plated</a></li>
               <li><a className="dropdown-item" href="/variant/Greyscale">Greyscale</a></li>
               <li><a className="dropdown-item" href="/variant/Rainbow Plated">Rainbow Plated</a></li>
+              <li><a className="dropdown-item" href="/variant/Raw Gold">Raw Gold</a></li>
               <li><a className="dropdown-item" href="/variant/Sepia Tone">Sepia Tone</a></li>
               <li><a className="dropdown-item" href="/variant/Silver Plated">Silver Plated</a></li>
               <li><a className="dropdown-item" href="/variant/White and Black Nickel">White and Black Nickel</a></li>

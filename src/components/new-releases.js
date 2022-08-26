@@ -25,6 +25,12 @@ function NewReleases() {
 </ul>
 
 <ul className="gallery mw-gallery-traditional-left">
+<li className="gallerybox"><div className="newrelease-header">Star Wars The Force Awakens<br/>8/17/22</div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/888">
+    <img className="pinlist-image" alt="888" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/2b/d4/02/7443/7443.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
+</ul>
+
+<ul className="gallery mw-gallery-traditional-left">
 <li className="gallerybox"><div className="newrelease-header">MLB</div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/S22">
     <img className="pinlist-image" alt="S22" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/34/19/1f/8029/8029.ce68e513.png"/><div className="pinname">FiGPiN Chase</div></Link></div></li>
