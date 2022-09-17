@@ -11,14 +11,20 @@ function Sets() {
 <ul className="gallery mw-gallery-traditional">
 <li className="gallerybox">
         <div className="setbox">
+        <a title="Villains 2022" href="/tags/Villains%202022%20Box%20Set">
+        <img alt="Villains 2022" className="box-image" src="box_villains_2022.png"/></a>
+        <div className="pinname"><b>Villains 2022</b><br/>Deluxe Box Set Bonus: 20<br/>Deluxe+ Box Set Bonus: 25</div>
+    </div></li>
+<li className="gallerybox">
+        <div className="setbox">
         <a title="Batman" href="/tags/Batman%20Box%20Set">
         <img alt="Batman" className="box-image" src="box_batman.png"/></a>
-        <div className="pinname"><b>Batman</b></div>
+        <div className="pinname"><b>Batman</b><br/>Deluxe Box Set Bonus: 20<br/>Deluxe+ Box Set Bonus: 25</div>
     </div></li>
     <li className="gallerybox">
         <div className="setbox">
-        <a title="FiGPiN.KiNGPiN Instagram" href="/tags/Villains%20Box%20Set">
-        <img alt="FiGPiN.KiNGPiN Instagram" className="box-image" src="box_villains.png"/></a>
+        <a title="Villains 2021" href="/tags/Villains%202021%20Box%20Set">
+        <img alt="Villains 2021" className="box-image" src="box_villains.png"/></a>
         <div className="pinname"><b>Villains 2021</b><br/>Deluxe Box Set Bonus: 20<br/>Deluxe+ Box Set Bonus: 25</div>
     </div></li>
     <li className="gallerybox">
@@ -29,8 +35,8 @@ function Sets() {
     </div></li>
     <li className="gallerybox">
         <div className="setbox">
-        <a title="FiGPiN.KiNGPiN Instagram" href="/tags/Stranger%20Things%20Box%20Set">
-        <img alt="FiGPiN.KiNGPiN Instagram" className="box-image" src="box_stranger.png"/></a>
+        <a title="Stranger Things" href="/tags/Stranger%20Things%20Box%20Set">
+        <img alt="Stranger Things" className="box-image" src="box_stranger.png"/></a>
         <div className="pinname"><b>Stranger Things</b><br/>Deluxe Box Set Bonus: 20<br/>Deluxe+ Box Set Bonus: 25</div>
     </div></li>
 
@@ -48,8 +54,8 @@ function Sets() {
     </div></li>
     <li className="gallerybox">
         <div className="setbox">
-        <a title="FiGPiN.KiNGPiN Instagram" href="/tags/Black%20Spider-Verse%20Box%20Set">
-        <img alt="FiGPiN.KiNGPiN Instagram" className="box-image" src="box_spiderverse7.png"/></a>
+        <a title="Spider-Verse 7" href="/tags/Black%20Spider-Verse%20Box%20Set">
+        <img alt="Spider-Verse 7" className="box-image" src="box_spiderverse7.png"/></a>
         <div className="pinname"><b>Into The Spider-Verse (Black)</b><br/>Deluxe Box Set Bonus: 10<br/>Deluxe+ Box Set Bonus: 25</div>
     </div></li>
 <li className="gallerybox">
@@ -60,8 +66,8 @@ function Sets() {
     </div></li>
     <li className="gallerybox">
         <div className="setbox">
-        <a title="FiGPiN.KiNGPiN Instagram" href="/tags/Silver%20Spider-Verse%20Box%20Set">
-        <img alt="FiGPiN.KiNGPiN Instagram" className="box-image" src="box_spiderverse5.png"/></a>
+        <a title="Spider-Verse 5" href="/tags/Silver%20Spider-Verse%20Box%20Set">
+        <img alt="Spider-Verse 5" className="box-image" src="box_spiderverse5.png"/></a>
         <div className="pinname"><b>Into The Spider-Verse (Silver)</b><br/>Deluxe Box Set Bonus: 15<br/>Deluxe+ Box Set Bonus: 25</div>
     </div></li>
 

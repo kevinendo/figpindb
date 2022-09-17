@@ -18,6 +18,7 @@ import Sets from "./components/sets";
 import AppBasics from "./components/app-breakdown";
 import Events from "./components/events";
 import Scoring from "./components/scoring";
+import IGLinks from "./components/ig-links";
 
 const NoMatchPage = () => {
   return (
@@ -45,6 +46,7 @@ function App() {
           <Route exact path={["/app-breakdown"]} component={AppBasics} />     
           <Route exact path={["/events"]} component={Events} />      
           <Route exact path={["/scoring"]} component={Scoring} />      
+          <Route exact path={["/iglinks"]} component={IGLinks} />      
           <Route 
             path="/pinDetail/:number"
             render={(props) => (

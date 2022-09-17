@@ -140,6 +140,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/property/Lilo and Stitch">Lilo & Stitch</a></li>
               <li><a className="dropdown-item" href="/property/The Lion King">The Lion King</a></li>
               <li><a className="dropdown-item" href="/property/Mickey Mouse and Friends">Mickey Mouse & Friends</a></li>
+              <li><a className="dropdown-item" href="/property/Monsters, Inc.">Monsters, Inc.</a></li>
               <li><a className="dropdown-item" href="/property/Nightmare Before Christmas">Nightmare Before Christmas</a></li>
               <li><a className="dropdown-item" href="/property/Onward">Onward</a></li>
               <li><a className="dropdown-item" href="/property/Raya and The Last Dragon">Raya and The Last Dragon</a></li>
@@ -149,6 +150,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/property/Star Wars The Force Awakens">Star Wars The Force Awakens</a></li>
               <li><a className="dropdown-item" href="/property/Toy Story">Toy Story</a></li>
               <li><a className="dropdown-item" href="/property/WALL-E">WALL-E</a></li>
+              <li><a className="dropdown-item" href="/property/Winnie the Pooh">Winnie the Pooh</a></li>
               </ul>
             </li>        
 
@@ -168,6 +170,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/property/Scooby-Doo!">Scooby-Doo!</a></li>
               <li><a className="dropdown-item" href="/property/The Simpsons">The Simpsons</a></li>
               <li><a className="dropdown-item" href="/property/South Park">South Park</a></li>
+              <li><a className="dropdown-item" href="/property/Spider-Man Animated">Spider-Man Animated</a></li>
               <li><a className="dropdown-item" href="/property/SpongeBob SquarePants">SpongeBob SquarePants</a></li>
               <li><a className="dropdown-item" href="/property/Squid Game">Squid Game</a></li>
               <li><a className="dropdown-item" href="/property/Star Wars Clone Wars">Star Wars Clone Wars</a></li>
@@ -265,6 +268,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/resources">Resources</a></li>
               <li><a className="dropdown-item" href="/app-breakdown">App Breakdown</a></li>
               <li><a className="dropdown-item" href="/scoring">Scoring</a></li>
+              <li><a className="dropdown-item" href="/iglinks">Instagram Links</a></li>
               </ul>
             </li>             
             

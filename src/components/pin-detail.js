@@ -32,6 +32,7 @@ const PinDetail = props => {
     sale_date: "",
     availability: "",
     variant: "",
+    variant_ids: "",
     type: "",
     tags: "",
     notes: ""
@@ -56,12 +57,15 @@ useEffect(() => {
 
 let pinTags = "";
 let pinArtists = "";
+let pinVariants = "";
 if (pinInfo) {
 pinTags = pinInfo.tags.split(", ");
+  if (pinInfo.variant_ids) {
+    pinVariants = pinInfo.variant_ids.split(", ");
+  }
 pinArtists = pinInfo.artist_name.split(" / ");
 document.title = "FigpinDB | " + pinInfo.name;
 } 
-
 
 return (
     <div>
@@ -76,18 +80,7 @@ return (
         <div className="pin-text"><span className="pin-text-category">Property:</span> <Link to={"/property/"+pinInfo.property}>{pinInfo.property}</Link> (<Link to={"/licensor/"+pinInfo.licensor}>{pinInfo.licensor}</Link>)</div>          
         { pinInfo.availability ? <div className="pin-text"><span className="pin-text-category">Availability:</span> <Link to={"/availability/"+pinInfo.availability}>{pinInfo.availability}</Link></div> : <div></div> }
         { (pinInfo.limited_edition != null) ? <div className="pin-text"><span className="pin-text-category">Limited Edition:</span> {pinInfo.limited_edition.$numberInt.toString()}</div> : <div></div>}
-       {/*
-        { pinInfo.artist_name ? <div className="pin-text"><span className="pin-text-category">Artist:</span> <Link to={"/artist/"+pinInfo.artist_name}>{pinInfo.artist_name}</Link></div> : <div></div> } 
-       */}
-{/*} 
-        <span className="pin-text-category">Artist: </span>
 
-{ 
-  pinArtists.map(artist => (
-<><Link title={artist} to={"/artist/"+artist}> {artist}</Link></>
-  ))
-}
-*/}
 <div className="pin-text">
 <span className="pin-text-category">Artist: </span>
 { (pinArtists.length === 2) ? <><Link title={pinArtists[0]} to={"/artist/"+pinArtists[0]}> {pinArtists[0]}</Link> / <Link title={pinArtists[1]} to={"/artist/"+pinArtists[1]}> {pinArtists[1]}</Link></> : <><Link title={pinArtists[0]} to={"/artist/"+pinArtists[0]}> {pinArtists[0]}</Link></> }
@@ -95,7 +88,15 @@ return (
       </div><div className="detail-top-child">
         { pinInfo.sale_date ? <div className="pin-text"><span className="pin-text-category">Sale Date:</span> {pinInfo.sale_date}</div> : <div></div> } 
         { pinInfo.unlock_date ? <div className="pin-text"><span className="pin-text-category">Launch Date:</span> {pinInfo.unlock_date}</div> : <div></div> }
-        { pinInfo.notes ? <div className="pin-text"><span className="pin-text-category">Notes:</span> {pinInfo.notes}</div> : <div></div> }
+        
+        { pinInfo.variant_ids ? <div className="pin-text"><span className="pin-text-category">Variants:</span>
+      {
+        pinVariants.map(v => (
+          <span key={v}> <Link title={v} to={"/pinDetail/"+v}>{v}</Link></span>
+        ))
+      }
+    </div> : <div></div> }
+    { pinInfo.notes ? <div className="pin-text"><span className="pin-text-category">Notes:</span> {pinInfo.notes}</div> : <div></div> }
         </div>
         <div className="detail-top-child">
          <ul className="tag-list">

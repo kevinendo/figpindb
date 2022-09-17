@@ -71,7 +71,7 @@ function WhereToBuy() {
     </li>
 
     <li className="gallerybox">
-        <a title="Entertainment Earth" target="_blank" rel="noreferrer noopener" href="https://www.entertainmentearth.com/"><img alt="Entertainment Earth" className="where-image" src="logo_ee.png"/></a>
+        <a title="Entertainment Earth" target="_blank" rel="noreferrer noopener" href="https://www.entertainmentearth.com/?id=P0MJ53HDFA"><img alt="Entertainment Earth" className="where-image" src="logo_ee.png"/></a>
     </li>        
 
     <li className="gallerybox"><a title="Fugitive Toys" target="_blank" rel="noreferrer noopener" href="https://www.fugitivetoys.com/">
@@ -90,7 +90,7 @@ function WhereToBuy() {
         <img alt="Grotto Treasures" className="where-image" src="logo_grotto.png"/></a>
     </li>
 
-    <li className="gallerybox"><a title="Hatcher's Collectibles" target="_blank" rel="noreferrer noopener" href="https://www.hatcherscollectibles.com/">
+    <li className="gallerybox"><a title="Hatcher's Collectibles" target="_blank" rel="noreferrer noopener" href="https://www.hatcherscollectibles.com/?sca_ref=989810.3RBFrS78Vw">
         <img alt="Hatcher's Collectibles" className="where-image" src="logo_hatchers.png"/></a>
     </li>        
 
@@ -126,6 +126,10 @@ function WhereToBuy() {
         <img alt="Radar Toys" className="where-image" src="logo_radar.png"/></a>
     </li>        
 */} 
+    <li className="gallerybox"><a title="Ralphie's Funhouse" target="_blank" rel="noreferrer noopener" href="https://ralphiesfunhouse.com/?ref=z6ju5rg3js">
+        <img alt="Ralphie's Funhouse" className="where-image" src="logo_ralphies.png"/></a>
+    </li>    
+
     <li className="gallerybox"><a title="Red Panda Collect" target="_blank" rel="noreferrer noopener" href="http://www.redpandacollect.com">
         <img alt="Red Panda Collect" className="where-image" src="logo_redpanda.png"/></a>
     </li>
@@ -139,9 +143,7 @@ function WhereToBuy() {
         <img alt="Shumi" className="where-image" src="logo_shumi.png"/></a>
     </li>        
 
-    <li className="gallerybox"><a title="Spastic Collectibles" target="_blank" rel="noreferrer noopener" href="https://www.spasticcollectibles.com/">
-        <img alt="Spastic Collectibles" className="where-image" src="logo_spastic.png"/></a>
-    </li>        
+    
 
     <li className="gallerybox"><a title="Stack Em Pops" target="_blank" rel="noreferrer noopener" href="http://www.stackempops.com">
         <img alt="Stack Em Pops" className="where-image" src="logo_stackempops.png"/></a>
@@ -160,7 +162,7 @@ function WhereToBuy() {
         <img alt="The Mighty Hobby" className="where-image" src="logo_mighty.png"/></a>
     </li>        
 
-    <li className="gallerybox"><a title="Three If By Space" target="_blank" rel="noreferrer noopener" href="https://www.threeifbyspace.net/">
+    <li className="gallerybox"><a title="Three If By Space" target="_blank" rel="noreferrer noopener" href="https://www.threeifbyspace.net/shop/?ref=515">
         <img alt="Three If By Space" className="where-image" src="logo_tibs.png"/></a>
     </li>        
 {/*
@@ -189,7 +191,7 @@ function WhereToBuy() {
     </li>        
 
     <li className="gallerybox">
-        <a title="vRareStore" target="_blank" rel="noreferrer noopener" href="http://www.vrarestore.com"><img alt="vRareStore" className="where-image" src="logo_vrarestore.png"/></a>
+        <a title="vRareStore" target="_blank" rel="noreferrer noopener" href="http://www.vrarestore.com?ref=figpindb"><img alt="vRareStore" className="where-image" src="logo_vrarestore.png"/></a>
     </li>
 {/*
     <li className="gallerybox">
@@ -206,7 +208,8 @@ function WhereToBuy() {
         <img alt="Nerds That Collect" className="where-image" src="logo_nerds.png"/></a>
     </li>
 </ul>
-
+<br/>
+<p align="center" classname="pinname">FigpinDB is user supported. When you purchase through links on our site, we may earn an affiliate commission.</p>
         </div>
     );
 }

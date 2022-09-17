@@ -18,6 +18,9 @@ function Home() {
         <Link title="New Releases" to="/new"><img alt="New Releases" className="where-image" src="logo_new.png"/></Link>
     </li>   
     <li className="gallerybox">
+    <a title="FiGPiN Official Instagram" href="https://www.instagram.com/figpindb/" target="_blank" rel="noreferrer noopener"><img alt="figpindb Instagram" className="where-image" src="logo_fdb_ig.png"/></a>
+    </li>       
+    <li className="gallerybox">
         <Link title="Assassin's Creed" to="/property/Assassin's Creed"><img alt="Assassin's Creed" className="where-image" src="logo_assassinscreed.png"/></Link>
     </li>   
     <li className="gallerybox">
@@ -262,7 +265,7 @@ function Home() {
         <Link title="Shumi Toys Exclusive" to="/availability/Shumi Toys Exclusive"><img alt="Shumi Toys" className="where-image" src="logo_shumi.png"/></Link>
     </li>  
     <li className="gallerybox">
-        <Link title="Spastic Collectibles Exclusive" to="/availability/Spastic Collectibles Exclusive"><img alt="Spastic Collectibles" className="where-image" src="logo_spastic.png"/></Link>
+        <Link title="Ralphie's Funhouse Exclusive" to="/availability/Ralphie’s%20Funhouse%20Exclusive"><img alt="Ralphie's Funhouse" className="where-image" src="logo_ralphies.png"/></Link>
     </li>  
     <li className="gallerybox">
         <Link title="Taggem Exclusive" to="/availability/Taggem Exclusive"><img alt="Taggem" className="where-image" src="logo_taggem.png"/></Link>
