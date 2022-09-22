@@ -173,9 +173,9 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/property/Spider-Man Animated">Spider-Man Animated</a></li>
               <li><a className="dropdown-item" href="/property/SpongeBob SquarePants">SpongeBob SquarePants</a></li>
               <li><a className="dropdown-item" href="/property/Squid Game">Squid Game</a></li>
-              <li><a className="dropdown-item" href="/property/Star Wars Clone Wars">Star Wars Clone Wars</a></li>
               <li><a className="dropdown-item" href="/property/Star Wars The Bad Batch">Star Wars The Bad Batch</a></li>
               <li><a className="dropdown-item" href="/property/Star Wars The Book of Boba Fett">Star Wars The Book of Boba Fett</a></li>
+              <li><a className="dropdown-item" href="/property/Star Wars The Clone Wars">Star Wars The Clone Wars</a></li>
               <li><a className="dropdown-item" href="/property/Star Wars The Mandalorian">Star Wars The Mandalorian</a></li>
               <li><a className="dropdown-item" href="/property/Star Wars Obi-Wan Kenobi">Star Wars Obi-Wan Kenobi</a></li>
               <li><a className="dropdown-item" href="/property/Stranger Things">Stranger Things</a></li>

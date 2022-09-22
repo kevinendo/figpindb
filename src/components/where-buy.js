@@ -118,6 +118,12 @@ function WhereToBuy() {
         <img alt="POPnBeards" className="where-image" src="logo_popnbeards.png"/></a>
     </li>
     */}
+    <li className="gallerybox"><a title="Poptopia" target="_blank" rel="noreferrer noopener" href="https://www.plasticempire.com">
+        <img alt="Plastic Empire" className="where-image" src="logo_pe.png"/></a>
+    </li>        
+    <li className="gallerybox"><a title="Poptopia" target="_blank" rel="noreferrer noopener" href="https://www.popsandpins.com/?ref=WBPMzPaO">
+        <img alt="Pops and Pins" className="where-image" src="logo_popsandpins.png"/></a>
+    </li>     
     <li className="gallerybox"><a title="Poptopia" target="_blank" rel="noreferrer noopener" href="https://www.poptopia.us/">
         <img alt="Poptopia" className="where-image" src="logo_poptopia.png"/></a>
     </li>        

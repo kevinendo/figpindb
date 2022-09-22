@@ -259,6 +259,12 @@ function Home() {
         <Link title="Pins on Fire Exclusive" to="/availability/Pins on Fire Exclusive"><img alt="Pins on Fire" className="where-image" src="logo_pinsonfire.png"/></Link>
     </li>  
     <li className="gallerybox">
+        <Link title="Plastic Empire Exclusive" to="/availability/Plastic Empire Exclusive"><img alt="Plastic Empire" className="where-image" src="logo_pe.png"/></Link>
+    </li>  
+    <li className="gallerybox">
+        <Link title="Pops and Pins Exclusive" to="/availability/Pops and Pins Exclusive"><img alt="Pops and Pins" className="where-image" src="logo_popsandpins.png"/></Link>
+    </li>  
+    <li className="gallerybox">
         <Link title="Poptopia Exclusive" to="/availability/Poptopia Exclusive"><img alt="Poptopia" className="where-image" src="logo_poptopia.png"/></Link>
     </li>  
     <li className="gallerybox">

@@ -30,8 +30,8 @@ useEffect(() => {
           pins.map (pin => (
             <li key={pin.date} className="gallerybox">
         <div className="setbox">
-        <a title="" href={pin.url}>
-        <img alt="image" className="box-image" src={pin.img.replace(/^http:\/\//i, 'https://')}/>{pin.title}</a>
+        <a target="_blank" rel="noreferrer noopener" href={pin.url}>
+        <img alt={pin.title} className="box-image" src={pin.img.replace(/^http:\/\//i, 'https://')}/>{pin.title}</a>
         </div>
            </li>
           ))

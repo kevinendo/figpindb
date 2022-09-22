@@ -611,7 +611,7 @@ function NewReleases() {
 </ul>
 
 <ul className="gallery mw-gallery-traditional-left">
-<li className="gallerybox"><div className="newrelease-header">Star Wars Clone Wars<br/>2/17/21</div></li>
+<li className="gallerybox"><div className="newrelease-header">Star Wars The Clone Wars<br/>2/17/21</div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/570">
     <img className="pinlist-image" alt="" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/64/b9/a5/5493/5493.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/571">

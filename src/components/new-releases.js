@@ -6,6 +6,32 @@ function NewReleases() {
         <div className="detail-box">
 <h3 align="center">New Releases</h3>
 
+
+
+<ul className="gallery mw-gallery-traditional-left">
+<li className="gallerybox"><div className="newrelease-header">NYCC<br/>10/6/22</div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1023">
+    <img className="pinlist-image" alt="1023" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/64/0a/67/8321/8321.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1014">
+    <img className="pinlist-image" alt="1014" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/3f/c9/fa/8331/8331.ce68e513.png"/><div className="pinname">Plastic Empire Exclusive</div></Link></div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1015">
+    <img className="pinlist-image" alt="1015" src="/1015_img_url_med.png"/><div className="pinname">BAIT Exclusive</div></Link></div></li>
+</ul>
+
+<ul className="gallery mw-gallery-traditional-left">
+<li className="gallerybox"><div className="newrelease-header">Star Wars The Clone Wars<br/>9/28/22</div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/993">
+    <img className="pinlist-image" alt="993" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/a4/de/db/7844/7844.ce68e513.png"/><div className="pinname">Chalice Collectibles Exclusive</div></Link></div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/994">
+    <img className="pinlist-image" alt="994" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/b4/7d/af/7848/7848.ce68e513.png"/><div className="pinname">Pins on Fire Exclusive</div></Link></div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/996">
+    <img className="pinlist-image" alt="996" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/f2/3b/3d/8131/8131.ce68e513.png"/><div className="pinname">Pops and Pins Exclusive</div></Link></div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/997">
+    <img className="pinlist-image" alt="997" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/6c/64/39/7859/7859.ce68e513.png"/></Link></div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/998">
+    <img className="pinlist-image" alt="998" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/df/5b/4e/7863/7863.ce68e513.png"/></Link></div></li>    
+</ul>
+
 <ul className="gallery mw-gallery-traditional-left">
 <li className="gallerybox"><div className="newrelease-header">Batman<br/>9/21/22</div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/820">
