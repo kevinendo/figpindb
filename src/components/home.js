@@ -232,6 +232,9 @@ function Home() {
         <Link title="Entertainment Earth Exclusive" to="/availability/Entertainment Earth Exclusive"><img alt="EE" className="where-image" src="logo_ee.png"/></Link>
     </li>     
     <li className="gallerybox">
+        <Link title="eVend Earth Exclusive" to="/availability/eVend Exclusive"><img alt="eVend" className="where-image" src="logo_eVend.png"/></Link>
+    </li>     
+    <li className="gallerybox">
         <Link title="Ferrera Market Exclusive" to="/availability/Ferrera Market Exclusive"><img alt="Ferrera Market" className="where-image" src="logo_ferrera.png"/></Link>
     </li>     
     <li className="gallerybox">
