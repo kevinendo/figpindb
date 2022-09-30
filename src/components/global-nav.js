@@ -59,7 +59,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/property/One Punch Man">One Punch Man</a></li>
               <li><a className="dropdown-item" href="/property/Sailor Moon">Sailor Moon</a></li>
               <li><a className="dropdown-item" href="/property/The Seven Deadly Sins">The Seven Deadly Sins</a></li>
-              
+              <li><a className="dropdown-item" href="/property/Yu-Gi-Oh">Yu-Gi-Oh</a></li>
               </ul>
             </li>     
  

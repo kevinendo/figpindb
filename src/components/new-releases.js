@@ -16,6 +16,16 @@ function NewReleases() {
     <img className="pinlist-image" alt="945" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/db/d0/e4/8222/8222.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1102">
     <img className="pinlist-image" alt="1102" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/3c/5e/f1/8311/8311.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1100">
+    <img className="pinlist-image" alt="1100" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/51/3a/d9/8227/8227.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>    
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1082">
+    <img className="pinlist-image" alt="1082" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/31/1e/4e/8316/8316.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>    
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/972">
+    <img className="pinlist-image" alt="972" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/d4/da/ad/8466/8466.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>    
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/904">
+    <img className="pinlist-image" alt="904" src="/904_img_url_med.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>    
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/921">
+    <img className="pinlist-image" alt="921" src="/921_img_url_med.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>    
 </ul>
 
 <ul className="gallery mw-gallery-traditional-left">
@@ -29,7 +39,7 @@ function NewReleases() {
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1012">
     <img className="pinlist-image" alt="1012" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/3e/65/c1/8341/8341.ce68e513.png"/><div className="pinname">eVend Exclusive</div></Link></div></li>        
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1103">
-    <img className="pinlist-image" alt="1103" src="/1103_img_url_med.png"/><div className="pinname">Chalice Collectibles Exclusive</div></Link></div></li>    
+    <img className="pinlist-image" alt="1103" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/6b/da/49/8306/8306.ce68e513.png"/><div className="pinname">Chalice Collectibles Exclusive</div></Link></div></li>    
 </ul>
 
 <ul className="gallery mw-gallery-traditional-left">

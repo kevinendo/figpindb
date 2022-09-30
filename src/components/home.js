@@ -161,6 +161,9 @@ function Home() {
     <li className="gallerybox">
         <Link title="WWE" to="/licensor/WWE"><img alt="WWE" className="where-image" src="logo_wwe.png"/></Link>
     </li>    
+    <li className="gallerybox">
+        <Link title="Yu-Gi-Oh" to="/property/Yu-Gi-Oh"><img alt="Yu-Gi-Oh" className="where-image" src="logo_yugioh.png"/></Link>
+    </li>    
     </ul>
     <div className="home-category">Event Exclusives</div>
     <ul className="gallery mw-gallery-traditional">
