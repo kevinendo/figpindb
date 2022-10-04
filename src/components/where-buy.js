@@ -5,6 +5,31 @@ function WhereToBuy() {
         <div className="detail-box">      
 <h3 align="center">Where To Buy</h3>
 
+<h4 align="center">Affiliates</h4>
+<ul className="gallery mw-gallery-traditional">
+<li className="gallerybox">
+        <a title="Entertainment Earth" target="_blank" rel="noreferrer noopener" href="https://www.entertainmentearth.com/?id=P0MJ53HDFA"><img alt="Entertainment Earth" className="where-image" src="logo_ee.png"/></a>
+    </li>    
+<li className="gallerybox"><a title="Hatcher's Collectibles" target="_blank" rel="noreferrer noopener" href="https://www.hatcherscollectibles.com/?sca_ref=989810.3RBFrS78Vw">
+        <img alt="Hatcher's Collectibles" className="where-image" src="logo_hatchers.png"/></a>
+    </li>     
+    <li className="gallerybox"><a title="Poptopia" target="_blank" rel="noreferrer noopener" href="https://www.popsandpins.com/?ref=WBPMzPaO">
+        <img alt="Pops and Pins" className="where-image" src="logo_popsandpins.png"/></a>
+    </li>    
+    <li className="gallerybox"><a title="Ralphie's Funhouse" target="_blank" rel="noreferrer noopener" href="https://ralphiesfunhouse.com/?ref=z6ju5rg3js">
+        <img alt="Ralphie's Funhouse" className="where-image" src="logo_ralphies.png"/></a>
+    </li>    
+    <li className="gallerybox"><a title="Three If By Space" target="_blank" rel="noreferrer noopener" href="https://www.threeifbyspace.net/shop/?ref=515">
+        <img alt="Three If By Space" className="where-image" src="logo_tibs.png"/></a>
+    </li>   
+    <li className="gallerybox">
+        <a title="vRareStore" target="_blank" rel="noreferrer noopener" href="http://www.vrarestore.com?ref=figpindb"><img alt="vRareStore" className="where-image" src="logo_vrarestore.png"/></a>
+    </li>  
+</ul>
+
+
+
+<h4 align="center">Others</h4>
 <ul className="gallery mw-gallery-traditional">
     <li className="gallerybox">
         <a title="FiGPiN" target="_blank" rel="noreferrer noopener" href="http://www.figpin.com"><img alt="FiGPiN" className="where-image" src="logo_figpin.png"/></a>
@@ -70,9 +95,7 @@ function WhereToBuy() {
         <a title="Dragon Eye Gaming" target="_blank" rel="noreferrer noopener" href="http://www.dragoneyegaming.com"><img alt="Dragon Eye Gaming" className="where-image" src="logo_dragoneye.png"/></a>
     </li>
 
-    <li className="gallerybox">
-        <a title="Entertainment Earth" target="_blank" rel="noreferrer noopener" href="https://www.entertainmentearth.com/?id=P0MJ53HDFA"><img alt="Entertainment Earth" className="where-image" src="logo_ee.png"/></a>
-    </li>        
+    
 
     <li className="gallerybox"><a title="Fugitive Toys" target="_blank" rel="noreferrer noopener" href="https://www.fugitivetoys.com/">
         <img alt="Fugitive Toys" className="where-image" src="logo_fugitive.png"/></a>
@@ -89,10 +112,6 @@ function WhereToBuy() {
     <li className="gallerybox"><a title="Grotto Treasures" target="_blank" rel="noreferrer noopener" href="https://grottotreasures.com">
         <img alt="Grotto Treasures" className="where-image" src="logo_grotto.png"/></a>
     </li>
-
-    <li className="gallerybox"><a title="Hatcher's Collectibles" target="_blank" rel="noreferrer noopener" href="https://www.hatcherscollectibles.com/?sca_ref=989810.3RBFrS78Vw">
-        <img alt="Hatcher's Collectibles" className="where-image" src="logo_hatchers.png"/></a>
-    </li>        
 
     <li className="gallerybox"><a title="I am Retro" target="_blank" rel="noreferrer noopener" href="http://www.iamretro.com">
         <img alt="I am Retro" className="where-image" src="logo_iamretro.png"/></a>
@@ -121,9 +140,7 @@ function WhereToBuy() {
     <li className="gallerybox"><a title="Poptopia" target="_blank" rel="noreferrer noopener" href="https://www.plasticempire.com">
         <img alt="Plastic Empire" className="where-image" src="logo_pe.png"/></a>
     </li>        
-    <li className="gallerybox"><a title="Poptopia" target="_blank" rel="noreferrer noopener" href="https://www.popsandpins.com/?ref=WBPMzPaO">
-        <img alt="Pops and Pins" className="where-image" src="logo_popsandpins.png"/></a>
-    </li>     
+
     <li className="gallerybox"><a title="Poptopia" target="_blank" rel="noreferrer noopener" href="https://www.poptopia.us/">
         <img alt="Poptopia" className="where-image" src="logo_poptopia.png"/></a>
     </li>        
@@ -132,9 +149,7 @@ function WhereToBuy() {
         <img alt="Radar Toys" className="where-image" src="logo_radar.png"/></a>
     </li>        
 */} 
-    <li className="gallerybox"><a title="Ralphie's Funhouse" target="_blank" rel="noreferrer noopener" href="https://ralphiesfunhouse.com/?ref=z6ju5rg3js">
-        <img alt="Ralphie's Funhouse" className="where-image" src="logo_ralphies.png"/></a>
-    </li>    
+
 
     <li className="gallerybox"><a title="Red Panda Collect" target="_blank" rel="noreferrer noopener" href="http://www.redpandacollect.com">
         <img alt="Red Panda Collect" className="where-image" src="logo_redpanda.png"/></a>
@@ -168,9 +183,7 @@ function WhereToBuy() {
         <img alt="The Mighty Hobby" className="where-image" src="logo_mighty.png"/></a>
     </li>        
 
-    <li className="gallerybox"><a title="Three If By Space" target="_blank" rel="noreferrer noopener" href="https://www.threeifbyspace.net/shop/?ref=515">
-        <img alt="Three If By Space" className="where-image" src="logo_tibs.png"/></a>
-    </li>        
+    
 {/*
     <li className="gallerybox"><a title="Toy Drops" target="_blank" rel="noreferrer noopener" href="https://www.toydrops.com/">
         <img alt="Toy Drops" className="where-image" src="logo_toydrops.png"/></a>
@@ -196,9 +209,7 @@ function WhereToBuy() {
         <a title="VLTD" target="_blank" rel="noreferrer noopener" href="https://www.vltd.co/"><img alt="VLTD" className="where-image" src="logo_vltd.png"/></a>
     </li>        
 
-    <li className="gallerybox">
-        <a title="vRareStore" target="_blank" rel="noreferrer noopener" href="http://www.vrarestore.com?ref=figpindb"><img alt="vRareStore" className="where-image" src="logo_vrarestore.png"/></a>
-    </li>
+
 {/*
     <li className="gallerybox">
         <a title="WY Super Rare" target="_blank" rel="noreferrer noopener" href="http://www.wysuperrare.com"><img alt="WY Super Rare" className="where-image" src="logo_wysuperrare.png"/></a>

@@ -31,7 +31,7 @@ useEffect(() => {
             <li key={pin.date} className="gallerybox">
         <div className="setbox">
         <a target="_blank" rel="noreferrer noopener" href={pin.url}>
-        <img alt={pin.title} className="box-image" src={pin.img.replace(/^http:\/\//i, 'https://')}/>{pin.title}</a>
+        <img alt={pin.title} className="box-image" src={pin.img.replace(/^http:\/\//i, 'https://')}/><div className="pinname">{pin.title}</div></a>
         </div>
            </li>
           ))
