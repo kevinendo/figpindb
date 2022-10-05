@@ -27,7 +27,11 @@ function NewReleases() {
     <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/921">
     <img className="pinlist-image" alt="921" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/4d/af/40/7633/7633.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>    
     <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/881">
-    <img className="pinlist-image" alt="881" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/63/a6/da/7599/7599.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>    
+    <img className="pinlist-image" alt="881" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/63/a6/da/7599/7599.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>   
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/923">
+    <img className="pinlist-image" alt="923" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/79/d0/e4/8257/8257.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>   
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/L75">
+    <img className="pinlist-image" alt="L75" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/42/75/ed/8398/8398.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>    
 </ul>
 
 <ul className="gallery mw-gallery-traditional-left">
