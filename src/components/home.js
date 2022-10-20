@@ -120,6 +120,9 @@ function Home() {
         <Link title="Neon Genesis Evangelion" to="/property/Neon Genesis Evangelion"><img alt="Neon Genesis Evangelion" className="where-image" src="logo_evangelion.png"/></Link>
     </li>   
     <li className="gallerybox">
+        <Link title="One Piece" to="/property/One Piece"><img alt="One Piece" className="where-image" src="logo_onepiece.png"/></Link>
+    </li>    
+    <li className="gallerybox">
         <Link title="Sailor Moon" to="/property/Sailor Moon"><img alt="Sailor Moon" className="where-image" src="logo_sailormoon.png"/></Link>
     </li>    
     <li className="gallerybox">

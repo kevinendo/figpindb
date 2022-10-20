@@ -10,6 +10,12 @@ function Home() {
 <div className="home-category">2022</div>
     <ul className="gallery mw-gallery-traditional">
     <li className="gallerybox">
+        <Link title="LACC" to="/tags/LACC%202022"><img alt="LACC" className="where-image" src="logo_lacc.png"/><br/><div className="pinname"><b>LACC 2022</b><br/>12/2/22</div></Link>
+    </li>   
+    <li className="gallerybox">
+        <Link title="Anime NYC" to="/tags/Anime%20NYC%202022"><img alt="Anime NYC" className="where-image" src="logo_animenyc.png"/><br/><div className="pinname"><b>Anime NYC 2022</b><br/>11/18/22</div></Link>
+    </li>        
+    <li className="gallerybox">
         <Link title="NYCC" to="/tags/NYCC%202022"><img alt="NYCC" className="where-image" src="logo_nycc.png"/><br/><div className="pinname"><b>NYCC 2022</b><br/>10/6/22</div></Link>
     </li>        
     <li className="gallerybox">
@@ -73,7 +79,7 @@ function Home() {
         <Link title="DCON" to="/tags/DesignerCon"><img alt="DCON" className="where-image" src="logo_dcon.png"/><br/><div className="pinname"><b>DCON 2019</b><br/>11/22/19</div></Link>
     </li>        
     <li className="gallerybox">
-        <Link title="LACC" to="/tags/LACC"><img alt="LACC" className="where-image" src="logo_lacc.png"/><br/><div className="pinname"><b>LACC 2019</b><br/>10/11/19</div></Link>
+        <Link title="LACC" to="/tags/LACC%202019"><img alt="LACC" className="where-image" src="logo_lacc.png"/><br/><div className="pinname"><b>LACC 2019</b><br/>10/11/19</div></Link>
     </li>     
     <li className="gallerybox">
         <Link title="NYCC" to="/tags/NYCC%202019"><img alt="NYCC" className="where-image" src="logo_nycc.png"/><br/><div className="pinname"><b>NYCC 2019</b><br/>10/3/19</div></Link>

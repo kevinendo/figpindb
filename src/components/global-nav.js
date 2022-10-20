@@ -56,6 +56,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/property/Naruto">Naruto</a></li>
               <li><a className="dropdown-item" href="/property/Naruto x Hello Kitty">Naruto x Hello Kitty</a></li>
               <li><a className="dropdown-item" href="/property/Neon Genesis Evangelion">Neon Genesis Evangelion</a></li>
+              <li><a className="dropdown-item" href="/property/One Piece">One Piece</a></li>
               <li><a className="dropdown-item" href="/property/One Punch Man">One Punch Man</a></li>
               <li><a className="dropdown-item" href="/property/Sailor Moon">Sailor Moon</a></li>
               <li><a className="dropdown-item" href="/property/The Seven Deadly Sins">The Seven Deadly Sins</a></li>
@@ -238,10 +239,12 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/tags/Chase">Chase</a></li>
               <li><a className="dropdown-item" href="/tags/D23 Expo">D23 Expo</a></li>
               <li><a className="dropdown-item" href="/tags/ECCC">ECCC</a></li>
+              <li><a className="dropdown-item" href="/tags/Eligible%20for%20chase">Eligible For Chase</a></li>
+              <li><a className="dropdown-item" href="/tags/FiGPiN.com">FiGPiN.com</a></li>
               <li><a className="dropdown-item" href="/tags/FiGPiN%20Event">FiGPiN Event</a></li>
               <li><a className="dropdown-item" href="/availability/FiGPiN%20Ultra">FiGPiN Ultra</a></li>
-              <li><a className="dropdown-item" href="/tags/Halloween">Halloween</a></li>
               <li><a className="dropdown-item" href="/tags/Hard to Find">Hard To Find</a></li>
+              <li><a className="dropdown-item" href="/tags/Holiday">Holiday</a></li>
               <li><a className="dropdown-item" href="/availability/Limited%20Edition">Limited Edition</a></li>
               <li><a className="dropdown-item" href="/type/Logo">Logo</a></li>
               <li><a className="dropdown-item" href="/type/Mini">Mini</a></li>
