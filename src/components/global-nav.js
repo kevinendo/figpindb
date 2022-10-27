@@ -149,6 +149,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/property/Spider-Man: No Way Home">Spider-Man: No Way Home</a></li>
               <li><a className="dropdown-item" href="/property/Star Wars">Star Wars</a></li>
               <li><a className="dropdown-item" href="/property/Star Wars The Force Awakens">Star Wars The Force Awakens</a></li>
+              <li><a className="dropdown-item" href="/property/Thor Love and Thunder">Thor Love & Thunder</a></li>
               <li><a className="dropdown-item" href="/property/Toy Story">Toy Story</a></li>
               <li><a className="dropdown-item" href="/property/WALL-E">WALL-E</a></li>
               <li><a className="dropdown-item" href="/property/Winnie the Pooh">Winnie the Pooh</a></li>

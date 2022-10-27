@@ -6,7 +6,32 @@ function NewReleases() {
         <div className="detail-box">
 <h3 align="center">New Releases</h3>
 
+<div className="videotitle">Thor Love & Thunder - 11/2/22</div>
+<ul className="gallery mw-gallery-traditional-left">
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1045">
+    <img className="pinlist-image" alt="1045" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/15/77/94/8247/8247.ce68e513.png"/></Link></div></li>    
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1046">
+    <img className="pinlist-image" alt="1046" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/19/8b/b1/8242/8242.ce68e513.png"/><div className="pinname">Chalice Collectibles Exclusive</div></Link></div></li>    
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1047">
+    <img className="pinlist-image" alt="1047" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/66/89/26/8237/8237.ce68e513.png"/></Link></div></li>    
+    </ul>
 
+<br/>
+<div className="videotitle">Sailor Moon - 10/28/22</div>
+<ul className="gallery mw-gallery-traditional-left">
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/865">
+    <img className="pinlist-image" alt="865" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/d5/02/48/8282/8282.ce68e513.png"/></Link></div></li>    
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/866">
+    <img className="pinlist-image" alt="866" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/71/a8/de/8278/8278.ce68e513.png"/><div className="pinname">Chalice Collectibles Exclusive</div></Link></div></li>    
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/867">
+    <img className="pinlist-image" alt="867" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/53/37/54/8272/8272.ce68e513.png"/><div className="pinname">Chalice Collectibles Exclusive</div></Link></div></li>    
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/868">
+    <img className="pinlist-image" alt="868" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/86/79/e3/8267/8267.ce68e513.png"/><div className="pinname">Chalice Collectibles Exclusive</div></Link></div></li>    
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/869">
+    <img className="pinlist-image" alt="869" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/1d/14/6b/8262/8262.ce68e513.png"/><div className="pinname">Chalice Collectibles Exclusive</div></Link></div></li>    
+</ul>
+
+<br/>
 <div className="videotitle">The Simpsons - 10/26/22</div>
 <ul className="gallery mw-gallery-traditional-left">
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1034">
