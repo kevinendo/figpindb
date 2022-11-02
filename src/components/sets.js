@@ -11,6 +11,12 @@ function Sets() {
 <ul className="gallery mw-gallery-traditional">
 <li className="gallerybox">
         <div className="setbox">
+        <a title="Stranger Things (Greyscale)" href="/tags/Stranger Things Greyscale Box Set">
+        <img alt="Stranger Things (Greyscale)" className="box-image" src="box_strangerthings_greyscale.png"/></a>
+        <div className="pinname"><b>Stranger Things (Greyscale)</b></div>
+    </div></li>
+<li className="gallerybox">
+        <div className="setbox">
         <a title="Villains 2022" href="/tags/Villains%202022%20Box%20Set">
         <img alt="Villains 2022" className="box-image" src="box_villains_2022.png"/></a>
         <div className="pinname"><b>Villains 2022</b><br/>Deluxe Box Set Bonus: 20<br/>Deluxe+ Box Set Bonus: 25</div>
@@ -187,6 +193,12 @@ function Sets() {
 
 <div className="home-category">Special Sets</div>
     <ul className="gallery mw-gallery-traditional">
+    <li className="gallerybox">
+            <div className="setbox">
+            <a title="Hello Kitty Halloween" href="/tags/Hello Kitty Halloween Set">
+            <img alt="Hello Kitty Halloween" className="box-image" src="box_hellokitty_halloween.png"/></a>
+            <div className="pinname"><b>Hello Kitty Halloween</b></div>
+        </div></li>  
     <li className="gallerybox">
             <div className="setbox">
             <a title="FWAP 2022" href="/tags/FWAP%202022%20Set">

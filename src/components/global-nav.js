@@ -201,7 +201,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/property/DesignerCon">DesignerCon</a></li>
               <li><a className="dropdown-item" href="/property/Disney Parks">Disney Parks</a></li>     
               <li><a className="dropdown-item" href="/property/Gudetama">Gudetama</a></li>
-              <li><a className="dropdown-item" href="/property/Hello Kitty">Hello Kitty</a></li>
+              <li><a className="dropdown-item" href="/property/Hello Kitty and Friends">Hello Kitty and Friends</a></li>
               <li><a className="dropdown-item" href="/property/KISS">KISS</a></li>              
               <li><a className="dropdown-item" href="/licensor/MLB">MLB</a></li>
               <li><a className="dropdown-item" href="/licensor/NBA">NBA</a></li>

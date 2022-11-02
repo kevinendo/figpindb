@@ -16,6 +16,9 @@ function Home() {
         <Link title="Anime NYC" to="/tags/Anime%20NYC%202022"><img alt="Anime NYC" className="where-image" src="logo_animenyc.png"/><br/><div className="pinname"><b>Anime NYC 2022</b><br/>11/18/22</div></Link>
     </li>        
     <li className="gallerybox">
+        <Link title="YCS" to="/tags/YCS Pasadena"><img alt="YCS" className="where-image" src="logo_ycs.png"/><br/><div className="pinname"><b>YCS Pasadena 2022</b><br/>11/5/22</div></Link>
+    </li>  
+    <li className="gallerybox">
         <Link title="NYCC" to="/tags/NYCC%202022"><img alt="NYCC" className="where-image" src="logo_nycc.png"/><br/><div className="pinname"><b>NYCC 2022</b><br/>10/6/22</div></Link>
     </li>        
     <li className="gallerybox">
