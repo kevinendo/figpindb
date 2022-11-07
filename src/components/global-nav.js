@@ -126,6 +126,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/property/Avengers Endgame">Avengers Endgame</a></li>
               <li><a className="dropdown-item" href="/property/Avengers Infinity War">Avengers Infinity War</a></li>
               <li><a className="dropdown-item" href="/property/Big Hero 6">Big Hero 6</a></li>
+              <li><a className="dropdown-item" href="/property/Black Panther Wakanda Forever">Black Panther Wakanda Forever</a></li>
               <li><a className="dropdown-item" href="/property/Black Widow">Black Widow</a></li>
               <li><a className="dropdown-item" href="/property/The Blues Brothers">The Blues Brothers</a></li>
               <li><a className="dropdown-item" href="/property/Captain Marvel">Captain Marvel</a></li>

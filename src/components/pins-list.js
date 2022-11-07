@@ -21,9 +21,9 @@ let prevPage = "";
 let nextPage = "";
 
 if (parseInt(page) === 0)  {
-  prevPage = "/pins?page=23";
+  prevPage = "/pins?page=24";
   nextPage = "/pins?page=" + (parseInt(page)+1);
-} else if (parseInt(page) === 23) {
+} else if (parseInt(page) === 24) {
   prevPage = "/pins?page=" + (parseInt(page)-1);
   nextPage = "/pins?page=0";
 } else {
@@ -128,6 +128,8 @@ useEffect(() => {
         { (parseInt(page) === 21) ? (<a className="active" href="/pins?page=21">21</a>) : ( <a href="/pins?page=21">21</a>) }
         { (parseInt(page) === 22) ? (<a className="active" href="/pins?page=22">22</a>) : ( <a href="/pins?page=22">22</a>) }
         { (parseInt(page) === 23) ? (<a className="active" href="/pins?page=23">23</a>) : ( <a href="/pins?page=23">23</a>) }
+        { (parseInt(page) === 24) ? (<a className="active" href="/pins?page=24">24</a>) : ( <a href="/pins?page=24">24</a>) }
+
 
         <a href={nextPage}>&gt;</a>
         </div>

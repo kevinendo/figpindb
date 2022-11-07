@@ -82,11 +82,11 @@ function WhereToBuy() {
     <li className="gallerybox">
         <a title="Big Bad Toy Store" target="_blank" rel="noreferrer noopener" href="https://www.bigbadtoystore.com/"><img alt="Big Bad Toy Store" className="where-image" src="logo_bbts.png"/></a>
     </li>        
-{/*
+
     <li className="gallerybox">
         <a title="Chalice Collectibles" target="_blank" rel="noreferrer noopener" href="https://www.chalicecollectibles.com/"><img alt="Chalice Collectibles" className="where-image" src="logo_chalice.png"/></a>
     </li>        
-    */}
+    
     <li className="gallerybox">
         <a title="Deep Discount" target="_blank" rel="noreferrer noopener" href="https://www.deepdiscount.com/"><img alt="Deep Discount" className="where-image" src="logo_deepdiscount.png"/></a>
     </li>        
@@ -95,7 +95,9 @@ function WhereToBuy() {
         <a title="Dragon Eye Gaming" target="_blank" rel="noreferrer noopener" href="http://www.dragoneyegaming.com"><img alt="Dragon Eye Gaming" className="where-image" src="logo_dragoneye.png"/></a>
     </li>
 
-    
+    <li className="gallerybox">
+        <a title="Fry Guy Pins" target="_blank" rel="noreferrer noopener" href="http://www.fryguypins.com"><img alt="Fry Guy Pins" className="where-image" src="logo_fryguy.png"/></a>
+    </li>
 
     <li className="gallerybox"><a title="Fugitive Toys" target="_blank" rel="noreferrer noopener" href="https://www.fugitivetoys.com/">
         <img alt="Fugitive Toys" className="where-image" src="logo_fugitive.png"/></a>

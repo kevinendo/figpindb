@@ -242,6 +242,9 @@ function Home() {
     </li>     
     <li className="gallerybox">
         <Link title="Ferrera Market Exclusive" to="/availability/Ferrera Market Exclusive"><img alt="Ferrera Market" className="where-image" src="logo_ferrera.png"/></Link>
+    </li>    
+    <li className="gallerybox">
+        <Link title="Fry Guy Pins" to="/availability/Fry Guy Pins Exclusive"><img alt="Fry Guy Pins" className="where-image" src="logo_fryguy.png"/></Link>
     </li>     
     <li className="gallerybox">
         <Link title="Fugitive Toys Exclusive" to="/availability/Fugitive Toys Exclusive"><img alt="Fugitive Toys" className="where-image" src="logo_fugitive.png"/></Link>

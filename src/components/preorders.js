@@ -6,8 +6,9 @@ function Preorders() {
         <div className="detail-box">
 <h3 align="center">Preorders</h3>
 
-<h4 align="center">There are no FiGPiNs on preorder at this time.</h4>
+
 {/*
+<h4 align="center">There are no FiGPiNs on preorder at this time.</h4>
 <h4 align="center">No Preorders at this time.</h4>
 <ul className="gallery mw-gallery-traditional-left">
 <li className="gallerybox"><div className="newrelease-header">Star Wars<br/>Jan 2022</div></li>
@@ -18,6 +19,11 @@ function Preorders() {
 </ul>
 */}
 
+<div className="videotitle">Black Panther Wakanda Forever - Jan 2023</div>
+<ul className="gallery mw-gallery-traditional-left">
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1128">
+    <img className="pinlist-image" alt="1128" src="/1128_img_url_med.png"/><div className="pinname">AMC Theatres Exclusive</div></Link></div></li>    
+</ul>
 
 
         </div>

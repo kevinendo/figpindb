@@ -141,6 +141,10 @@ return (
         <Carousel.Item>
         <img alt={pinInfo.name} width="300" className="sliderimg-white" src={pinInfo.img_background_url}/>
         </Carousel.Item>
+        { pinInfo.img_photo_1 ? <Carousel.Item><img alt={pinInfo.name} width="300" className="sliderimg-white" src={pinInfo.img_photo_1}/></Carousel.Item> : null  } 
+        { pinInfo.img_photo_2 ? <Carousel.Item><img alt={pinInfo.name} width="300" className="sliderimg-white" src={pinInfo.img_photo_2}/></Carousel.Item> : null  } 
+        { pinInfo.img_photo_3 ? <Carousel.Item><img alt={pinInfo.name} width="300" className="sliderimg-white" src={pinInfo.img_photo_3}/></Carousel.Item> : null  } 
+        { pinInfo.img_photo_4 ? <Carousel.Item><img alt={pinInfo.name} width="300" className="sliderimg-white" src={pinInfo.img_photo_4}/></Carousel.Item> : null  } 
       </Carousel>
 
 {/*
