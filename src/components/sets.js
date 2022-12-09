@@ -11,6 +11,18 @@ function Sets() {
 <ul className="gallery mw-gallery-traditional">
 <li className="gallerybox">
         <div className="setbox">
+        <a title="Sailor Moon" href="/tags/SailorMoon%20Box%20Set">
+        <img alt="Sailor Moon" className="box-image" src="box_sailormoon.png"/></a>
+        <div className="pinname"><b>Sailor Moon</b><br/>Deluxe Box Set Bonus: 20<br/>Deluxe+ Box Set Bonus: 25</div>
+    </div></li>
+<li className="gallerybox">
+        <div className="setbox">
+        <a title="One Piece" href="/tags/One%20Piece%20Box%20Set">
+        <img alt="One Piece" className="box-image" src="box_onepiece.png"/></a>
+        <div className="pinname"><b>One Piece</b><br/>Deluxe Box Set Bonus: 20<br/>Deluxe+ Box Set Bonus: 25</div>
+    </div></li>
+<li className="gallerybox">
+        <div className="setbox">
         <a title="Stranger Things (Greyscale)" href="/tags/Stranger Things Greyscale Box Set">
         <img alt="Stranger Things (Greyscale)" className="box-image" src="box_strangerthings_greyscale.png"/></a>
         <div className="pinname"><b>Stranger Things (Greyscale)</b></div>
@@ -195,7 +207,7 @@ function Sets() {
     <ul className="gallery mw-gallery-traditional">
     <li className="gallerybox">
             <div className="setbox">
-            <a title="Hello Kitty Halloween" href="/tags/Hello Kitty Halloween Set">
+            <a title="Hello Kitty Halloween" href="/tags/HelloKitty Halloween Set">
             <img alt="Hello Kitty Halloween" className="box-image" src="box_hellokitty_halloween.png"/></a>
             <div className="pinname"><b>Hello Kitty Halloween</b></div>
         </div></li>  

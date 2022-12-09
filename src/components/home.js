@@ -105,6 +105,9 @@ function Home() {
         <Link title="Marvel" to="/licensor/Marvel"><img alt="Marvel" className="where-image" src="logo_marvel.png"/></Link>
     </li>
     <li className="gallerybox">
+        <Link title="MotU" to="/property/Masters of the Universe"><img alt="MotU" className="where-image" src="logo_motu.png"/></Link>
+    </li>
+    <li className="gallerybox">
         <Link title="MLB" to="/licensor/MLB"><img alt="MLB" className="where-image" src="logo_mlb.png"/></Link>
     </li> 
     <li className="gallerybox">
@@ -177,6 +180,9 @@ function Home() {
         <Link title="Anime Expo" to="/tags/Anime Expo"><img alt="Anime Expo" className="where-image" src="logo_animeexpo.png"/></Link>
     </li>      
     <li className="gallerybox">
+        <Link title="Anime NYC" to="/tags/Anime%20NYC"><img alt="Anime NYC" className="where-image" src="logo_animenyc.png"/></Link>
+    </li>      
+    <li className="gallerybox">
         <Link title="Crunchyroll Expo" to="/tags/Crunchyroll Expo"><img alt="Crunchyroll Expo" className="where-image" src="logo_crx.png"/></Link>
     </li>      
     <li className="gallerybox">
@@ -185,10 +191,12 @@ function Home() {
     <li className="gallerybox">
         <Link title="DCON" to="/tags/DesignerCon"><img alt="DCON" className="where-image" src="logo_dcon.png"/></Link>
     </li>        
-
     <li className="gallerybox">
         <Link title="ECCC" to="/tags/ECCC"><img alt="ECCC" className="where-image" src="logo_eccc.png"/></Link>
     </li>        
+    <li className="gallerybox">
+        <Link title="LACC" to="/tags/LACC"><img alt="LACC" className="where-image" src="logo_lacc.png"/></Link>
+    </li>   
     <li className="gallerybox">
         <Link title="NYCC" to="/tags/NYCC"><img alt="NYCC" className="where-image" src="logo_nycc.png"/></Link>
     </li>        

@@ -38,11 +38,11 @@ function WhereToBuy() {
     <li className="gallerybox">
         <a title="Barnes & Noble" target="_blank" rel="noreferrer noopener" href="http://www.barnesandnoble.com"><img alt="Barnes & Noble" className="where-image" src="logo_bn.png"/></a>
     </li>
-
+{/*
     <li className="gallerybox">
         <a title="Best Buy" target="_blank" rel="noreferrer noopener" href="http://www.bestbuy.com"><img alt="Best Buy" className="where-image" src="logo_bestbuy.png"/></a>
     </li>
-{/*
+
     <li className="gallerybox">
         <a title="Box Lunch" target="_blank" rel="noreferrer noopener" href="https://www.boxlunch.com/"><img alt="Box Lunch" className="where-image" src="logo_boxlunch.png"/></a>
     </li>        

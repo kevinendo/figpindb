@@ -32,9 +32,10 @@ return (
          </div>
          
      ))}
-
+ <div className="declaration"><div className="footer-text">Please note, the quanitity claimed information is not updated in real time. This is updated approximately once a day.</div></div>
+ {/*
      {(pinInfo.length === 0) ? <div className="edition"><div className="edition-text-2">Production history not available.</div></div> :   <div className="declaration"><div className="footer-text">Please note, the quanitity claimed information is not updated in real time. This is updated approximately once a day.</div></div>}
-
+        */}
 
      </>
  );

@@ -55,14 +55,14 @@ function Resources() {
 <p><img class="scoring" src="/scoring_chrono.png" alt="Chrono"/><b>CHRONO</b>: 10+ (This FiGPiN has celebrated one trip around the sun! For each additional year that passes, it will receive an additional 10 points.)</p>
 <p><b>CHASE DAY</b></p>
 <ul>
-  <li class="scoring"><img class="scoring" src="/scoring_chase.png" alt="Chase"/>Loss: 1+ (1 addition point for each losing week.)</li>
+  <li class="scoring"><img class="scoring" src="/scoring_chase.png" alt="Chase"/>Loss: 1+ (1 addition points for each losing week.)</li>
   <li class="scoring"><img class="scoring" src="/scoring_chase.png" alt="Chase"/>Win: 5 (5 points when a CHASE is won.)</li>
 </ul>
 <p><img class="scoring" src="/scoring_insight.png" alt="Insight"/><b>INSIGHT</b>: 20 (From a survey on Disney Parks FiGPiNs)</p>
 <p><b>COLLECTOR</b></p>
 <ul>
-  <li class="scoring"><img class="scoring" src="/scoring_deluxe_box.png" alt="Deluxe"/>Deluxe Box Set: 10-20</li>
-  <li class="scoring"><img class="scoring" src="/scoring_deluxe_plus.png" alt="Deluxe+"/>Deluxe+ Box Set: 25-50 (Set with FiGPiN Logo)</li>
+  <li class="scoring"><img class="scoring" src="/scoring_deluxe_box.png" alt="Deluxe"/>Deluxe Box Set: 10, 15 or 20</li>
+  <li class="scoring"><img class="scoring" src="/scoring_deluxe_plus.png" alt="Deluxe+"/>Deluxe+ Box Set: 25 or 50 (Set with FiGPiN Logo)</li>
   <li class="scoring"><img class="scoring" src="/scoring_2_pack.png" alt="2-Pack"/>2-Pack: 10</li>
   <li class="scoring"><img class="scoring" src="/scoring_set.png" alt="Set"/>Set: 10</li>
 </ul>

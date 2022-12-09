@@ -141,7 +141,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/property/Justice League 2017">Justice League 2017</a></li>
               <li><a className="dropdown-item" href="/property/Lilo and Stitch">Lilo & Stitch</a></li>
               <li><a className="dropdown-item" href="/property/The Lion King">The Lion King</a></li>
-              <li><a className="dropdown-item" href="/property/Mickey Mouse and Friends">Mickey Mouse & Friends</a></li>
+              <li><a className="dropdown-item" href="/property/Mickey and Friends">Mickey and Friends</a></li>
               <li><a className="dropdown-item" href="/property/Monsters, Inc.">Monsters, Inc.</a></li>
               <li><a className="dropdown-item" href="/property/Nightmare Before Christmas">Nightmare Before Christmas</a></li>
               <li><a className="dropdown-item" href="/property/Onward">Onward</a></li>
@@ -168,6 +168,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/property/Care Bears">Care Bears</a></li>
               <li><a className="dropdown-item" href="/property/The Falcon and the Winter Soldier">The Falcon and the Winter Soldier</a></li>
               <li><a className="dropdown-item" href="/property/Looney Tunes">Looney Tunes</a></li>
+              <li><a className="dropdown-item" href="/property/Masters of the Universe">Masters of the Universe</a></li>
               <li><a className="dropdown-item" href="/property/MTV">MTV</a></li>
               <li><a className="dropdown-item" href="/property/MTV Beavis and Butt-Head">MTV Beavis & Butt-Head</a></li>
               <li><a className="dropdown-item" href="/property/Scooby-Doo!">Scooby-Doo!</a></li>
@@ -226,6 +227,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/variant/Raw Gold">Raw Gold</a></li>
               <li><a className="dropdown-item" href="/variant/Sepia Tone">Sepia Tone</a></li>
               <li><a className="dropdown-item" href="/variant/Silver Plated">Silver Plated</a></li>
+              <li><a className="dropdown-item" href="/variant/Transparent Enamel">Transparent Enamel</a></li>
               <li><a className="dropdown-item" href="/variant/White and Black Nickel">White and Black Nickel</a></li>
               <li><a className="dropdown-item" href="/variant/White and Gold">White and Gold</a></li>
               <li><a className="dropdown-item" href="/variant/White and Silver">White and Silver</a></li>
@@ -239,7 +241,6 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/pins">See All Pins</a></li>
               <li><a className="dropdown-item" href="/tags/2-Pack">2-Pack</a></li>
               <li><a className="dropdown-item" href="/tags/Chase">Chase</a></li>
-              <li><a className="dropdown-item" href="/tags/D23 Expo">D23 Expo</a></li>
               <li><a className="dropdown-item" href="/tags/ECCC">ECCC</a></li>
               <li><a className="dropdown-item" href="/tags/Eligible%20for%20chase">Eligible For Chase</a></li>
               <li><a className="dropdown-item" href="/tags/FiGPiN.com">FiGPiN.com</a></li>
@@ -251,8 +252,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/type/Logo">Logo</a></li>
               <li><a className="dropdown-item" href="/type/Mini">Mini</a></li>
               <li><a className="dropdown-item" href="/tags/NYCC">NYCC</a></li>
-              <li><a className="dropdown-item" href="/tags/SDCC">SDCC</a></li>
-              <li><a className="dropdown-item" href="/tags/Star Wars Celebration">Star Wars Celebration</a></li>              
+              <li><a className="dropdown-item" href="/tags/SDCC">SDCC</a></li>      
               <li><a className="dropdown-item" href="/tags/Very Hard To Find">Very Hard To Find</a></li>
               <li><a className="dropdown-item" href="/type/XL">XL</a></li>
               </ul>
@@ -265,7 +265,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/new">New Releases</a></li>
               <li><a className="dropdown-item" href="/2021">2021 Releases</a></li>
               <li><a className="dropdown-item" href="/2020">2020 Releases</a></li>
-              <li><a className="dropdown-item" href="/preorders">Preorders</a></li>
+              <li><a className="dropdown-item" href="/preorders">Upcoming/Preorders</a></li>
               <li><a className="dropdown-item" href="/events">Events</a></li>
               <li><a className="dropdown-item" href="/sets">Sets</a></li>
               <li><a className="dropdown-item" href="/calendar">Launch Calendar</a></li>
