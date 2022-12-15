@@ -25,7 +25,7 @@ function Sets() {
         <div className="setbox">
         <a title="Stranger Things (Greyscale)" href="/tags/Stranger Things Greyscale Box Set">
         <img alt="Stranger Things (Greyscale)" className="box-image" src="box_strangerthings_greyscale.png"/></a>
-        <div className="pinname"><b>Stranger Things (Greyscale)</b></div>
+        <div className="pinname"><b>Stranger Things (Greyscale)</b><br/>Box Set Bonus: 15</div>
     </div></li>
 <li className="gallerybox">
         <div className="setbox">
@@ -98,7 +98,7 @@ function Sets() {
         <div className="setbox">
         <a title="Squid Game" href="/tags/Squid%20Game%20Box%20Set">
         <img alt="Squid Game" className="box-image" src="box_squidgame.png"/></a>
-        <div className="pinname"><b>Squid Game</b></div>
+        <div className="pinname"><b>Squid Game</b><br/>Box Set Bonus: 10</div>
     </div></li>
 <li className="gallerybox">
         <div className="setbox">
@@ -205,6 +205,14 @@ function Sets() {
 
 <div className="home-category">Special Sets</div>
     <ul className="gallery mw-gallery-traditional">
+        
+    <li className="gallerybox">
+            <div className="setbox">
+            <a title="Yami Yugi" href="/tags/Yami Yugi">
+            <img alt="Yami Yugi" className="box-image" src="box_yamiyugi.png"/></a>
+            <div className="pinname"><b>Yami Yugi</b><br/>Set Bonus: 10</div>
+        </div></li>  
+ 
     <li className="gallerybox">
             <div className="setbox">
             <a title="Hello Kitty Halloween" href="/tags/HelloKitty Halloween Set">
