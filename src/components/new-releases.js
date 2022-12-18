@@ -86,7 +86,7 @@ function NewReleases() {
     <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1163">
     <img className="pinlist-image" alt="1163" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/46/6a/44/9072/9072.ce68e513.png"/><div className="pinname">Fugitive Toys Exclusive (12/9 Release Date)</div></Link></div></li>    
     <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1164">
-    <img className="pinlist-image" alt="1164" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/6a/4c/fa/9077/9077.ce68e513.png"/><div className="pinname">Chalice Collectibles Exclusive (Release Date Unknown)</div></Link></div></li>        
+    <img className="pinlist-image" alt="1164" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/6a/4c/fa/9077/9077.ce68e513.png"/><div className="pinname">Chalice Collectibles Exclusive (12/18 Release Date)</div></Link></div></li>        
 </ul>
 
 <br/>

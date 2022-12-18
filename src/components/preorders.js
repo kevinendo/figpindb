@@ -22,12 +22,6 @@ function Preorders() {
 <div className="home-category">Upcoming</div>
 
 <br/>
-<div className="videotitle">Assassin's Creed - 12/16/22</div>
-<ul className="gallery mw-gallery-traditional-left">
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/U2">
-    <img className="pinlist-image" alt="U2" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/dd/e7/b9/8852/8852.ce68e513.png"/><div className="pinname">FiGPiN Ultra</div></Link></div></li>    
-</ul>
-<br/>
 <div className="videotitle">Star Wars The Book of Boba Fett - 12/21/22</div>
 <ul className="gallery mw-gallery-traditional-left">
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1121">
@@ -53,8 +47,6 @@ function Preorders() {
     <img className="pinlist-image" alt="1130" src="/1130_img_url_med.png"/><div className="pinname">Chalice Collectibles Exclusive</div></Link></div></li>    
     <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1030">
     <img className="pinlist-image" alt="1030" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/54/be/9c/8792/8792.ce68e513.png"/><div className="pinname">Disney Exclusive</div></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1164">
-    <img className="pinlist-image" alt="1164" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/6a/4c/fa/9077/9077.ce68e513.png"/><div className="pinname">Chalice Collectibles Exclusive</div></Link></div></li>        
     <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/903">
     <img className="pinlist-image" alt="903" src="/903_img_url_med.png"/></Link></div></li>    
 </ul>

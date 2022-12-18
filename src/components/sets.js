@@ -205,14 +205,14 @@ function Sets() {
 
 <div className="home-category">Special Sets</div>
     <ul className="gallery mw-gallery-traditional">
-        
+        {/*
     <li className="gallerybox">
             <div className="setbox">
             <a title="Yami Yugi" href="/tags/Yami Yugi">
             <img alt="Yami Yugi" className="box-image" src="box_yamiyugi.png"/></a>
             <div className="pinname"><b>Yami Yugi</b><br/>Set Bonus: 10</div>
         </div></li>  
- 
+    */} 
     <li className="gallerybox">
             <div className="setbox">
             <a title="Hello Kitty Halloween" href="/tags/HelloKitty Halloween Set">
