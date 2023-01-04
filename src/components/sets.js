@@ -11,6 +11,12 @@ function Sets() {
 <ul className="gallery mw-gallery-traditional">
 <li className="gallerybox">
         <div className="setbox">
+        <a title="Assassin's Creed" href="/tags/Assassin's%20Creed%20Box%20Set">
+        <img alt="Assassin's Creed" className="box-image" src="box_ac.png"/></a>
+        <div className="pinname"><b>Assassin's Creed</b></div>
+    </div></li>
+<li className="gallerybox">
+        <div className="setbox">
         <a title="Sailor Moon" href="/tags/SailorMoon%20Box%20Set">
         <img alt="Sailor Moon" className="box-image" src="box_sailormoon.png"/></a>
         <div className="pinname"><b>Sailor Moon</b><br/>Deluxe Box Set Bonus: 20<br/>Deluxe+ Box Set Bonus: 25</div>

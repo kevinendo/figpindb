@@ -6,6 +6,35 @@ function NewReleases() {
         <div className="detail-box">
 <h3 align="center">New Releases</h3>
 
+<div className="videotitle">Assassin's Creed - 12/28/22</div>
+<ul className="gallery mw-gallery-traditional-left">
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1000">
+    <img className="pinlist-image" alt="849" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/d9/fd/7c/8601/8601.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>    
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1001">
+    <img className="pinlist-image" alt="847" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/9f/af/4c/8606/8606.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>    
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1002">
+    <img className="pinlist-image" alt="846" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/46/87/a1/8611/8611.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>    
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1003">
+    <img className="pinlist-image" alt="848" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/0c/1c/6d/8616/8616.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>    
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1004">
+    <img className="pinlist-image" alt="850" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/dd/f9/a2/8621/8621.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>    
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/L68">
+    <img className="pinlist-image" alt="L70" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/70/54/8e/8857/8857.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>    
+</ul>
+<br/>
+
+<div className="videotitle">Black Panther Wakanda Forever - 12/23/22</div>
+<ul className="gallery mw-gallery-traditional-left">
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1127">
+    <img className="pinlist-image" alt="1127" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/ad/d7/fa/8994/8994.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>    
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1129">
+    <img className="pinlist-image" alt="1129" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/4e/49/ce/9004/9004.ce68e513.png"/><div className="pinname">Chalice Collectibles Exclusive</div></Link></div></li>    
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1130">
+    <img className="pinlist-image" alt="1130" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/27/e2/28/9009/9009.ce68e513.png"/><div className="pinname">Chalice Collectibles Exclusive</div></Link></div></li>    
+  </ul>
+
+<br/>
+
 <div className="videotitle">Star Wars The Book of Boba Fett - 12/21/22</div>
 <ul className="gallery mw-gallery-traditional-left">
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1121">
@@ -15,7 +44,15 @@ function NewReleases() {
 </ul>
 
 <br/>
+<div className="videotitle">Hello Kitty and Friends - 12/19/22</div>
+<ul className="gallery mw-gallery-traditional-left">
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/896">
+    <img className="pinlist-image" alt="896" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/2e/f3/25/7965/7965.ce68e513.png"/><div className="pinname">Limited Edition</div></Link></div></li>    
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/897">
+    <img className="pinlist-image" alt="897" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/cf/11/8d/8090/8090.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>    
+</ul>
 
+<br/>
 <div className="videotitle">Assassin's Creed  - 12/16/22</div>
 <ul className="gallery mw-gallery-traditional-left">
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/U2">
@@ -155,18 +192,6 @@ function NewReleases() {
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1033">
     <img className="pinlist-image" alt="1033" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/e6/f3/3e/8526/8526.ce68e513.png"/><div className="pinname">Ralphie's Funhouse Exclusive</div></Link></div></li>    
 </ul>
-
-<br/>
-<div className="videotitle">Black Panther Wakanda Forever</div>
-<ul className="gallery mw-gallery-traditional-left">
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1127">
-    <img className="pinlist-image" alt="1127" src="/1127_img_url_med.png"/><div className="pinname">FiGPiN Exclusive (Release Date Unknown)</div></Link></div></li>    
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1129">
-    <img className="pinlist-image" alt="1129" src="/1129_img_url_med.png"/><div className="pinname">Chalice Collectibles Exclusive (Release Date Unknown)</div></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1130">
-    <img className="pinlist-image" alt="1130" src="/1130_img_url_med.png"/><div className="pinname">Chalice Collectibles Exclusive (Release Date Unknown)</div></Link></div></li>    
-  </ul>
-
 
 <br/>
 <div className="videotitle">Dragon Ball Z - 11/23/22</div>
