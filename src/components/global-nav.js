@@ -183,7 +183,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/property/Star Wars The Mandalorian">Star Wars The Mandalorian</a></li>
               <li><a className="dropdown-item" href="/property/Star Wars Obi-Wan Kenobi">Star Wars Obi-Wan Kenobi</a></li>
               <li><a className="dropdown-item" href="/property/Stranger Things">Stranger Things</a></li>
-              <li><a className="dropdown-item" href="/property/Teenage Mutant Ninja Turtles Animated">Teenage Mutant Ninja Turtles Animated</a></li>        
+              <li><a className="dropdown-item" href="/property/Teenage Mutant Ninja Turtles">Teenage Mutant Ninja Turtles</a></li>        
               <li><a className="dropdown-item" href="/property/Transformers">Transformers</a></li>
               <li><a className="dropdown-item" href="/property/WandaVision">WandaVision</a></li>
               <li><a className="dropdown-item" href="/property/What If">What If...?</a></li>
@@ -263,9 +263,11 @@ function GlobalNav() {
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a className="dropdown-item" href="/new">New Releases</a></li>
+              <li><a className="dropdown-item" href="/2022">2022 Releases</a></li>
               <li><a className="dropdown-item" href="/2021">2021 Releases</a></li>
               <li><a className="dropdown-item" href="/2020">2020 Releases</a></li>
               <li><a className="dropdown-item" href="/preorders">Upcoming/Preorders</a></li>
+              <li><a className="dropdown-item" href="/characters">Characters</a></li>
               <li><a className="dropdown-item" href="/events">Events</a></li>
               <li><a className="dropdown-item" href="/sets">Sets</a></li>
               <li><a className="dropdown-item" href="/calendar">Launch Calendar</a></li>

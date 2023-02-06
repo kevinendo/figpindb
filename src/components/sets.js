@@ -181,7 +181,7 @@ function Sets() {
 
     <li className="gallerybox">
         <div className="setbox">
-        <a title="Batman & The Joker (SDCC 2019 Exclusive)" href="/tags/Batman%20and%20The%20Joker%202-Pack">
+        <a title="Batman & The Joker (SDCC 2019 Exclusive)" href="/tags/Batman%20and%20Joker%202-Pack">
         <img alt="Batman & The Joker (SDCC 2019 Exclusive)" className="box-image" src="box_batman_joker.png"/></a>
         <div className="pinname"><b>Batman & The Joker (Glitter)</b><br/>2-Pack Set Bonus: 10</div>
     </div></li>

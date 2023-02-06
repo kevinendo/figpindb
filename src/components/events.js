@@ -7,6 +7,13 @@ function Home() {
     return (
         <div className="detail-box">      
 <h3 align="center">Events</h3>
+<div className="home-category">2023</div>
+    <ul className="gallery mw-gallery-traditional">
+    <li className="gallerybox">
+        <Link title="ECCC" to="/tags/ECCC%202023"><img alt="ECCC" className="where-image" src="logo_eccc.png"/><br/><div className="pinname"><b>ECCC 2023</b><br/>3/2/23</div></Link>
+    </li>   
+    </ul>
+
 <div className="home-category">2022</div>
     <ul className="gallery mw-gallery-traditional">
     <li className="gallerybox">

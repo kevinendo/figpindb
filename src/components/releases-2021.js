@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function NewReleases() {
+function Releases2021() {
     return (
         <div className="detail-box">
 <h3 align="center">2021 Releases</h3>
@@ -753,6 +753,6 @@ function NewReleases() {
     );
 }
 
-export default NewReleases;
+export default Releases2021;
 
 

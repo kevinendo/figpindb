@@ -156,7 +156,7 @@ function Home() {
         <Link title="Stranger Things" to="/property/Stranger Things"><img alt="Stranger Things" className="where-image" src="logo_strangerthings.png"/></Link>
     </li>     
     <li className="gallerybox">
-        <Link title="Teenage Mutant Ninja Turtles Animated" to="/property/Teenage Mutant Ninja Turtles Animated"><img alt="Teenage Mutant Ninja Turtles Animated" className="where-image" src="logo_tmnt.png"/></Link>
+        <Link title="Teenage Mutant Ninja Turtles" to="/property/Teenage Mutant Ninja Turtles"><img alt="Teenage Mutant Ninja Turtles" className="where-image" src="logo_tmnt.png"/></Link>
     </li>     
     <li className="gallerybox">
         <Link title="Tekken" to="/property/Tekken 7"><img alt="Tekken" className="where-image" src="logo_tekken.png"/></Link>
