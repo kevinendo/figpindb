@@ -51,6 +51,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/property/Gundam x Hello Kitty">Gundam x Hello Kitty</a></li>
               <li><a className="dropdown-item" href="/property/Hunter x Hunter">Hunter x Hunter</a></li>
               <li><a className="dropdown-item" href="/property/Mob Psycho">Mob Psycho</a></li>
+              <li><a className="dropdown-item" href="/property/Jujutsu Kaisen">Jujutsu Kaisen</a></li>
               <li><a className="dropdown-item" href="/property/My Hero Academia">My Hero Academia</a></li>
               <li><a className="dropdown-item" href="/property/My Hero Academia x Hello Kitty">My Hero Academia x Hello Kitty</a></li>   
               <li><a className="dropdown-item" href="/property/Naruto">Naruto</a></li>
@@ -101,6 +102,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/property/Injustice 2">Injustice 2</a></li>
               <li><a className="dropdown-item" href="/property/Kingdom Hearts">Kingdom Hearts</a></li>     
               <li><a className="dropdown-item" href="/property/Mass Effect">Mass Effect</a></li>
+              <li><a className="dropdown-item" href="/property/Minecraft">Minecraft</a></li>
               <li><a className="dropdown-item" href="/property/Mortal Kombat X">Mortal Kombat X</a></li>   
               <li><a className="dropdown-item" href="/property/Ni No Kuni 2">Ni No Kuni 2</a></li>   
               <li><a className="dropdown-item" href="/property/Overwatch">Overwatch</a></li>
@@ -136,7 +138,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/property/Fantasia">Fantasia</a></li>
               <li><a className="dropdown-item" href="/property/Godzilla">Godzilla</a></li>
               <li><a className="dropdown-item" href="/property/Harry Potter">Harry Potter</a></li>
-              <li><a className="dropdown-item" href="/property/Incredibles2">Incredibles2</a></li>
+              <li><a className="dropdown-item" href="/property/Incredibles 2">Incredibles 2</a></li>
               <li><a className="dropdown-item" href="/property/IT">IT</a></li>
               <li><a className="dropdown-item" href="/property/Justice League 2017">Justice League 2017</a></li>
               <li><a className="dropdown-item" href="/property/Lilo and Stitch">Lilo & Stitch</a></li>
@@ -145,6 +147,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/property/Monsters, Inc.">Monsters, Inc.</a></li>
               <li><a className="dropdown-item" href="/property/Nightmare Before Christmas">Nightmare Before Christmas</a></li>
               <li><a className="dropdown-item" href="/property/Onward">Onward</a></li>
+              <li><a className="dropdown-item" href="/property/Oswald the Lucky Rabbit">Oswald the Lucky Rabbit</a></li>
               <li><a className="dropdown-item" href="/property/Raya and The Last Dragon">Raya and The Last Dragon</a></li>
               <li><a className="dropdown-item" href="/property/Spider-Man: Into the Spider-Verse">Spider-Man: Into the Spider-Verse</a></li>
               <li><a className="dropdown-item" href="/property/Spider-Man: No Way Home">Spider-Man: No Way Home</a></li>
@@ -167,6 +170,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/property/Batman The Animated Series">Batman The Animated Series</a></li>
               <li><a className="dropdown-item" href="/property/Care Bears">Care Bears</a></li>
               <li><a className="dropdown-item" href="/property/The Falcon and the Winter Soldier">The Falcon and the Winter Soldier</a></li>
+              <li><a className="dropdown-item" href="/property/The Legend of Korra">The Legend of Korra</a></li>
               <li><a className="dropdown-item" href="/property/Looney Tunes">Looney Tunes</a></li>
               <li><a className="dropdown-item" href="/property/Masters of the Universe">Masters of the Universe</a></li>
               <li><a className="dropdown-item" href="/property/MTV">MTV</a></li>
@@ -182,6 +186,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/property/Star Wars The Clone Wars">Star Wars The Clone Wars</a></li>
               <li><a className="dropdown-item" href="/property/Star Wars The Mandalorian">Star Wars The Mandalorian</a></li>
               <li><a className="dropdown-item" href="/property/Star Wars Obi-Wan Kenobi">Star Wars Obi-Wan Kenobi</a></li>
+              <li><a className="dropdown-item" href="/property/Star Wars Rebels">Star Wars Rebels</a></li>
               <li><a className="dropdown-item" href="/property/Stranger Things">Stranger Things</a></li>
               <li><a className="dropdown-item" href="/property/Teenage Mutant Ninja Turtles">Teenage Mutant Ninja Turtles</a></li>        
               <li><a className="dropdown-item" href="/property/Transformers">Transformers</a></li>
@@ -275,6 +280,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/resources">Resources</a></li>
               <li><a className="dropdown-item" href="/app-breakdown">App Breakdown</a></li>
               <li><a className="dropdown-item" href="/scoring">Scoring</a></li>
+              <li><a className="dropdown-item" href="/arenas">Arenas</a></li>
               <li><a className="dropdown-item" href="/iglinks">Instagram Links</a></li>
               </ul>
             </li>             

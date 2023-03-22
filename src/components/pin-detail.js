@@ -102,6 +102,8 @@ return (
          <ul className="tag-list">
         { (pinInfo.type !== 'Classic') ?  <li className="tag-list-item"><Link to={"/type/"+pinInfo.type}>{pinInfo.type}</Link></li> : <div></div> }
         { pinInfo.variant ? <li className="tag-list-item"><Link to={"/variant/"+pinInfo.variant}>{pinInfo.variant}</Link></li> : <div></div> }
+        { pinInfo.set ? <li className="tag-list-item"><Link to={"/set/"+pinInfo.set}>{pinInfo.set}</Link></li> : <div></div> }
+
         { (pinInfo.tags !== "") ? (
     <div>
       {
@@ -125,7 +127,7 @@ return (
 
 <div className="image-carousel">
 
-    <Carousel>
+    <Carousel indicators>
         <Carousel.Item interval={50000}>
         <img alt={pinInfo.name} width="300" className="sliderimg" src={pinInfo.img_cutout_url}/>
         </Carousel.Item>
@@ -146,7 +148,7 @@ return (
         { pinInfo.img_photo_3 ? <Carousel.Item><img alt={pinInfo.name} width="300" className="sliderimg-white" src={pinInfo.img_photo_3}/></Carousel.Item> : null  } 
         { pinInfo.img_photo_4 ? <Carousel.Item><img alt={pinInfo.name} width="300" className="sliderimg-white" src={pinInfo.img_photo_4}/></Carousel.Item> : null  } 
       </Carousel>
-
+  
 {/*
       <AliceCarousel swipeDisabled>
         <img width="300" className="sliderimg" src={pinInfo.img_cutout_url}/>

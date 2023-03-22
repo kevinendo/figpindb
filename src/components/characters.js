@@ -21,6 +21,9 @@ function Characters() {
     <li className="gallerybox"><Link title="Tsuyu Asui" to="/tags/Tsuyu%20Asui"><img alt="Tsuyu Asui" className="where-image" src="char_tsuyu.png"/><br/><div className="pinname"><b>Tsuyu Asui</b></div></Link></li>   
     <li className="gallerybox"><Link title="Ochaco Uraraka" to="/tags/Ochaco%20Uraraka"><img alt="Ochaco Uraraka" className="where-image" src="char_ochaco.png"/><br/><div className="pinname"><b>Ochaco Uraraka</b></div></Link></li>   
     <li className="gallerybox"><Link title="All Might" to="/tags/All%20Might"><img alt="All Might" className="where-image" src="char_allmight.png"/><br/><div className="pinname"><b>All Might</b></div></Link></li>   
+    <li className="gallerybox"><Link title="Naruto" to="/tags/Naruto"><img alt="Shenron" className="where-image" src="char_naruto.png"/><br/><div className="pinname"><b>Naruto</b></div></Link></li>   
+    <li className="gallerybox"><Link title="Kakashi" to="/tags/Kakashi"><img alt="Kakashi" className="where-image" src="char_kakashi.png"/><br/><div className="pinname"><b>Kakashi</b></div></Link></li>   
+    <li className="gallerybox"><Link title="Sasuke" to="/tags/Sasuke"><img alt="Sasuke" className="where-image" src="char_sasuke.png"/><br/><div className="pinname"><b>Sasuke</b></div></Link></li>   
     <li className="gallerybox"><Link title="Monkey D. Luffy" to="/tags/Monkey%20D.%20Luffy"><img alt="Monkey D. Luffy" className="where-image" src="char_luffy.png"/><br/><div className="pinname"><b>Monkey D. Luffy</b></div></Link></li>      
     <li className="gallerybox"><Link title="Sailor Moon" to="/tags/Sailor%20Moon"><img alt="Sailor Moon" className="where-image" src="char_sailormoon.png"/><br/><div className="pinname"><b>Sailor Moon</b></div></Link></li>      
 </ul>

@@ -8,6 +8,9 @@ function WhereToBuy() {
 <h4 align="center">Affiliates</h4>
 <ul className="gallery mw-gallery-traditional">
 <li className="gallerybox">
+        <a title="FiGPiN" target="_blank" rel="noreferrer noopener" href="https://figpin.com/?ref=figpindb"><img alt="FiGPiN" className="where-image" src="logo_figpin.png"/></a>
+    </li>
+<li className="gallerybox">
         <a title="Entertainment Earth" target="_blank" rel="noreferrer noopener" href="https://www.entertainmentearth.com/?id=P0MJ53HDFA"><img alt="Entertainment Earth" className="where-image" src="logo_ee.png"/></a>
     </li>    
 <li className="gallerybox"><a title="Hatcher's Collectibles" target="_blank" rel="noreferrer noopener" href="https://www.hatcherscollectibles.com/?sca_ref=989810.3RBFrS78Vw">
@@ -31,14 +34,12 @@ function WhereToBuy() {
 
 <h4 align="center">Others</h4>
 <ul className="gallery mw-gallery-traditional">
-    <li className="gallerybox">
-        <a title="FiGPiN" target="_blank" rel="noreferrer noopener" href="http://www.figpin.com"><img alt="FiGPiN" className="where-image" src="logo_figpin.png"/></a>
-    </li>
 
+{/*
     <li className="gallerybox">
         <a title="Barnes & Noble" target="_blank" rel="noreferrer noopener" href="http://www.barnesandnoble.com"><img alt="Barnes & Noble" className="where-image" src="logo_bn.png"/></a>
     </li>
-{/*
+
     <li className="gallerybox">
         <a title="Best Buy" target="_blank" rel="noreferrer noopener" href="http://www.bestbuy.com"><img alt="Best Buy" className="where-image" src="logo_bestbuy.png"/></a>
     </li>
@@ -74,11 +75,11 @@ function WhereToBuy() {
     <li className="gallerybox">
         <a title="Beehive Collectibles" target="_blank" rel="noreferrer noopener" href="https://beehivecollectibles.com"><img alt="Beehive Collectibles" className="where-image" src="logo_beehive.png"/></a>
     </li>
-
+{/*
     <li className="gallerybox">
         <a title="Big Apple Collectibles" target="_blank" rel="noreferrer noopener" href="https://www.bigapplecollectibles.com/"><img alt="Big Apple Collectibles" className="where-image" src="logo_bigapple.png"/></a>
     </li>        
-
+*/}
     <li className="gallerybox">
         <a title="Big Bad Toy Store" target="_blank" rel="noreferrer noopener" href="https://www.bigbadtoystore.com/"><img alt="Big Bad Toy Store" className="where-image" src="logo_bbts.png"/></a>
     </li>        
@@ -118,11 +119,11 @@ function WhereToBuy() {
     <li className="gallerybox"><a title="I am Retro" target="_blank" rel="noreferrer noopener" href="http://www.iamretro.com">
         <img alt="I am Retro" className="where-image" src="logo_iamretro.png"/></a>
     </li>
-
+{/*
     <li className="gallerybox"><a title="Krakens Collection" target="_blank" rel="noreferrer noopener" href="https://www.krakenscollection.com/">
         <img alt="Krakens Collection" className="where-image" src="logo_krakens.png"/></a>
     </li>        
-
+*/}
     <li className="gallerybox"><a title="Megamixx Toys" target="_blank" rel="noreferrer noopener" href="http://www.megamixxtoys.com">
         <img alt="Megamixx Toys" className="where-image" src="logo_megamixx.png"/></a>
     </li>

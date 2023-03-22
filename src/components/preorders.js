@@ -21,55 +21,71 @@ function Preorders() {
 
 <div className="home-category">Upcoming</div>
 <br/>
-<div className="videotitle">Star Wars The Clone Wars - 2/8/23</div>
+<div className="videotitle">Star Wars The Mandalorian - 3/23/23</div>
 <ul className="gallery mw-gallery-traditional-left">
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1233">
-    <img className="pinlist-image" alt="1233" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/20/c9/3f/9245/9245.ce68e513.png"/><div className="pinname">Pops and Pins Exclusive</div></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1234">
-    <img className="pinlist-image" alt="1234" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/6f/71/eb/9250/9250.ce68e513.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1235">
-    <img className="pinlist-image" alt="1235" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/83/72/63/9255/9255.ce68e513.png"/></Link></div></li>        
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1236">
-    <img className="pinlist-image" alt="1236" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/63/c4/73/9260/9260.ce68e513.png"/><div className="pinname">eVend Exclusive</div></Link></div></li>     
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1316">
+    <img className="pinlist-image" alt="1316" src="/1316_img_url_med.png"/></Link></div></li>    
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1317">
+    <img className="pinlist-image" alt="1317" src="/1317_img_url_med.png"/></Link></div></li>    
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1319">
+    <img className="pinlist-image" alt="1319" src="/1319_img_url_med.png"/></Link></div></li>    
+  </ul>
+  <br/>
+  <div className="videotitle">Star Wars Celebration - 4/7/23</div>
+  <ul className="gallery mw-gallery-traditional-left">
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1165">
+    <img className="pinlist-image" alt="1165" src="/1165_img_url_med.png"/><div className="pinname">FiGPiN Shared Exclusive</div></Link></div></li>    
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/931">
+    <img className="pinlist-image" alt="931" src="/931_img_url_med.png"/><div className="pinname">FiGPiN Shared Exclusive</div></Link></div></li>        
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/928">
+    <img className="pinlist-image" alt="928" src="/928_img_url_med.png"/><div className="pinname">FiGPiN Shared Exclusive</div></Link></div></li>      
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/SWC1">
+    <img className="pinlist-image" alt="SWC1" src="/SWC1_img_url_med.png"/><div className="pinname">FiGPiN Shared Exclusive</div></Link></div></li>      
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/SWC2">
+    <img className="pinlist-image" alt="SWC2" src="/SWC2_img_url_med.png"/><div className="pinname">FiGPiN Shared Exclusive</div></Link></div></li>      
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/SWC3">
+    <img className="pinlist-image" alt="SWC3" src="/SWC3_img_url_med.png"/><div className="pinname">FiGPiN Shared Exclusive</div></Link></div></li>      
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/SWC4">
+    <img className="pinlist-image" alt="SWC4" src="/SWC4_img_url_med.png"/><div className="pinname">FiGPiN Shared Exclusive</div></Link></div></li>      
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/SWC5">
+    <img className="pinlist-image" alt="SWC5" src="/SWC5_img_url_med.png"/><div className="pinname">FiGPiN Shared Exclusive</div></Link></div></li>      
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1123">
+    <img className="pinlist-image" alt="1123" src="/1123_img_url_med.png"/><div className="pinname">Pins on Fire Exclusive</div></Link></div></li>      
   </ul>
 <br/>
-
+<br/>
 <div className="videotitle">Release Date Unknown</div>
 <ul className="gallery mw-gallery-traditional-left"> 
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1104">
-    <img className="pinlist-image" alt="1104" src="/1104_img_url_med.png"/><div className="pinname">Disney Exclusive</div></Link></div></li>    
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1105">
-    <img className="pinlist-image" alt="1105" src="/1105_img_url_med.png"/><div className="pinname">Disney Exclusive</div></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1125">
-    <img className="pinlist-image" alt="1125" src="/1125_img_url_med.png"/><div className="pinname">Disney Exclusive</div></Link></div></li>        
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1126">
-    <img className="pinlist-image" alt="1126" src="/1126_img_url_med.png"/><div className="pinname">Disney Exclusive</div></Link></div></li>     
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1024">
-    <img className="pinlist-image" alt="1024" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/00/fc/3e/9195/9195.ce68e513.png"/><div className="pinname">Disney Exclusive</div></Link></div></li>    
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1025">
-    <img className="pinlist-image" alt="1025" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/b9/4d/e9/9200/9200.ce68e513.png"/><div className="pinname">Disney Exclusive</div></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1160">
-    <img className="pinlist-image" alt="1160" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/c5/4c/ae/9057/9057.ce68e513.png"/><div className="pinname">Disney Exclusive</div></Link></div></li>        
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1161">
-    <img className="pinlist-image" alt="1161" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/fa/8c/51/9062/9062.ce68e513.png"/><div className="pinname">Disney Exclusive</div></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1083">
-    <img className="pinlist-image" alt="1083" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/c8/7e/cf/8842/8842.ce68e513.png"/><div className="pinname">eVend Exclusive</div></Link></div></li> 
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1182">
+    <img className="pinlist-image" alt="1182" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/ce/67/84/9389/9389.ce68e513.png"/><div className="pinname">Disney Exclusive</div></Link></div></li>    
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1183">
+    <img className="pinlist-image" alt="1183" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/f6/4a/97/9394/9394.ce68e513.png"/><div className="pinname">Disney Exclusive</div></Link></div></li>    
        <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/L78">
     <img className="pinlist-image" alt="L78" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/79/d2/84/8404/8404.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>    
     <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/L48">
     <img className="pinlist-image" alt="L48" src="/L48_img_url_med.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>   
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/830">                
-    <img className="pinlist-image" alt="830" src="/830_img_url_med.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/903">
-    <img className="pinlist-image" alt="903" src="/903_img_url_med.png"/></Link></div></li>    
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1199">                
+    <img className="pinlist-image" alt="1199" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/6a/33/75/9137/9137.ce68e513.png"/><div className="pinname">eVend Exclusive</div></Link></div></li>     
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1200">                
+    <img className="pinlist-image" alt="1200" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/55/db/97/9142/9142.ce68e513.png"/><div className="pinname">eVend Exclusive</div></Link></div></li>     
 </ul>
 <br/><br/>
 
 <div className="home-category">Preorders</div>
 <br/>
-
+<div className="videotitle">Star Wars The Mandalorian</div>
+<ul className="gallery mw-gallery-traditional-left">
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1316">
+    <img className="pinlist-image" alt="1316" src="/1316_img_url_med.png"/></Link></div></li>    
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1317">
+    <img className="pinlist-image" alt="1317" src="/1317_img_url_med.png"/></Link></div></li>    
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1319">
+    <img className="pinlist-image" alt="1319" src="/1319_img_url_med.png"/></Link></div></li>    
+  </ul>
+<br/>
+{/*
 <h4 align="center">There are no FiGPiNs on preorder at this time.</h4>
-
+*/}
         </div>
     );
 }

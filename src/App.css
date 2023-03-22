@@ -41,7 +41,11 @@ li.scoring {
   padding: 0;
   margin: 0;
 }
-
+img.arenas {
+  padding: 4px;
+  margin: 4px;
+  width: 250px;
+}
 img.scoring {
   padding: 0px;
   margin: 0px;
@@ -240,6 +244,7 @@ img {
     font-size:.8em;
     line-height: 60%;
   }
+  
 }
 
 
@@ -976,9 +981,12 @@ img.edition-text-1 {
   background-color: black;
   border-radius: 20px;
 }
+
 p {
   color: white;
   font-family: 'Raleway', sans-serif;
   font-size: 100%
 }
+
+
 }

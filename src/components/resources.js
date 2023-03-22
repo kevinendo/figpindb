@@ -40,19 +40,20 @@ function Resources() {
         <img alt="FiGPiN Alerts Instagram" className="where-image" src="ig_figpinalerts.png"/></a>
         <div className="pinname">FiGPiN Alerts Instagram</div>
     </div></li>
-
+{/*
     <li className="gallerybox"><div className="pinbox">
         <a title="FiGPiN Unlocks Instagram" href="https://www.instagram.com/figpin_unlocks/" target="_blank" rel="noreferrer noopener">
         <img alt="FiGPiN Unlocks Instagram" className="where-image" src="ig_figpinunlocks.png"/></a>
         <div className="pinname">FiGPiN Unlocks Instagram</div>
     </div></li>
-  
+    */}
+    {/*
     <li className="gallerybox"><div className="pinbox">
         <a title="FiGPiN Hunter Instagram" href="https://www.instagram.com/figpinhunter/" target="_blank" rel="noreferrer noopener">
         <img alt="FiGPiN Hunter Instagram" className="where-image" src="ig_figpinhunter.png"/></a>
         <div className="pinname">FiGPiN Hunter Instagram</div>
     </div></li>
-
+*/}
     <li className="gallerybox"><div className="pinbox">
         <a title="im.toofu Instagram" href="https://www.instagram.com/im_toofu/" target="_blank" rel="noreferrer noopener">
         <img alt="im.toofu Instagram" className="where-image" src="ig_imtoofu.jpg"/></a>
@@ -92,6 +93,11 @@ function Resources() {
         <a title="Taggem Discord Group" href="https://discord.gg/DDGnmZH" target="_blank" rel="noreferrer noopener">
         <img alt="Taggem Discord Group" className="where-image" src="logo_taggem.png"/></a>
         <div className="pinname">Taggem Discord Group</div>
+    </div></li>
+    <li className="gallerybox"><div className="pinbox">
+        <a title="Collect Awesome Enthusiasts Discord Group" href="https://discord.gg/gpeqeR3FC6" target="_blank" rel="noreferrer noopener">
+        <img alt="Collect Awesome Enthusiasts Discord Group" className="where-image" src="logo_cae.png"/></a>
+        <div className="pinname">Collect Awesome Enthusiasts Discord Group</div>
     </div></li>
 </ul>
 
@@ -214,13 +220,6 @@ function Resources() {
         <a title="FiGPiN Subreddit" href="https://reddit.com/r/figpin" target="_blank" rel="noreferrer noopener">
         <img alt="FiGPiN Subreddit" className="where-image" src="reddit.png"/></a>
         <div className="pinname">FiGPiN Subreddit</div>
-    </div></li>
-
-    <li className="gallerybox">
-        <div className="pinbox">
-        <a title="FiGPiN Watch Ranking Website" href="https://figpin.watch" target="_blank" rel="noreferrer noopener">
-        <img alt="FiGPiN Watch Ranking Website" className="where-image" src="figpinwatch.png"/></a>
-        <div className="pinname">FiGPiN Watch Ranking Website</div>
     </div></li>
 
     <li className="gallerybox">

@@ -68,7 +68,9 @@ function Resources() {
 </ul>
 <p><img class="scoring" src="/scoring_glitch.png" alt="Glitch"/><b>GLITCH</b>: 20 (Bonus due to incorrect Mandalorian FiGPiNs)</p>
 <p><img class="scoring" src="/scoring_gift_pass.png" alt="Gift Pass"/><b>GIFT PASS</b>: 5 (Awarded by FiGPiN to resolve customer service issues.)</p>
-<p><img class="scoring" src="/scoring_gofig.png" alt="Gofig"/><b>GOFiG</b>: 0-100 (Random bonus from FWAP2)</p>
+<p><img class="scoring" src="/scoring_gofig.png" alt="Gofig"/><b>GOFiG</b>: 15-100 (Random bonus from FWAP2 or ECCC 2023)</p>
+<p><b>ARENAS</b>: 0-100 (Starts with 5 points.)</p>
+<p><b>ARENA Check In</b>: 20 (Checked in at ECCC 2023)</p>
 
 <p><b>ULTRA</b></p>
 <ul>

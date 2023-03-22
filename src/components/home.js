@@ -95,9 +95,17 @@ function Home() {
     <li className="gallerybox">
         <Link title="Harry Potter" to="/property/Hunter x Hunter"><img alt="Hunter x Hunter" className="where-image" src="logo_hunter.png"/></Link>
     </li>       
+
+    <li className="gallerybox">
+        <Link title="Jujutsu Kaisen" to="/property/Jujutsu Kaisen"><img alt="Jujutsu Kaisen" className="where-image" src="logo_jjk.png"/></Link>
+    </li>     
+
     <li className="gallerybox">
         <Link title="KISS" to="/property/KISS"><img alt="KISS" className="where-image" src="logo_kiss.png"/></Link>
     </li>       
+    <li className="gallerybox">
+        <Link title="The Legend of Korra" to="/property/The Legend of Korra"><img alt="The Legend of Korra" className="where-image" src="logo_korra.png"/></Link>
+    </li>    
     <li className="gallerybox">
         <Link title="Looney Tunes" to="/property/Looney Tunes"><img alt="Looney Tunes" className="where-image" src="logo_looneytunes.png"/></Link>
     </li>    
@@ -107,6 +115,9 @@ function Home() {
     <li className="gallerybox">
         <Link title="MotU" to="/property/Masters of the Universe"><img alt="MotU" className="where-image" src="logo_motu.png"/></Link>
     </li>
+    <li className="gallerybox">
+        <Link title="Minecraft" to="/property/Minecraft"><img alt="Minecraft" className="where-image" src="logo_minecraft.png"/></Link>
+    </li> 
     <li className="gallerybox">
         <Link title="MLB" to="/licensor/MLB"><img alt="MLB" className="where-image" src="logo_mlb.png"/></Link>
     </li> 

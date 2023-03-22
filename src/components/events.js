@@ -10,6 +10,9 @@ function Home() {
 <div className="home-category">2023</div>
     <ul className="gallery mw-gallery-traditional">
     <li className="gallerybox">
+        <Link title="SWC" to="/tags/SWC 2023"><img alt="SWC" className="where-image" src="logo_swceu.png"/><br/><div className="pinname"><b>SWC 2023</b><br/>4/7/23</div></Link>
+    </li>  
+    <li className="gallerybox">
         <Link title="ECCC" to="/tags/ECCC%202023"><img alt="ECCC" className="where-image" src="logo_eccc.png"/><br/><div className="pinname"><b>ECCC 2023</b><br/>3/2/23</div></Link>
     </li>   
     </ul>
@@ -47,7 +50,7 @@ function Home() {
         <Link title="FiGPiN Event" to="/tags/FWAP%202022%20Set"><img alt="FiGPiN Event" className="where-image" src="logo_figpin.png"/><br/><div className="pinname"><b>FWAP 2022</b><br/>6/25/22</div></Link>
     </li>    
     <li className="gallerybox">
-        <Link title="SWC" to="/tags/Star Wars Celebration"><img alt="SWC" className="where-image" src="logo_swc.png"/><br/><div className="pinname"><b>SWC 2022</b><br/>5/26/22</div></Link>
+        <Link title="SWC" to="/tags/SWC 2022"><img alt="SWC" className="where-image" src="logo_swc.png"/><br/><div className="pinname"><b>SWC 2022</b><br/>5/26/22</div></Link>
     </li>  
     <li className="gallerybox">
         <Link title="SWC" to="/tags/WonderCon"><img alt="WonderCon" className="where-image" src="logo_wondercon.png"/><br/><div className="pinname"><b>WonderCon 2022</b><br/>4/1/22</div></Link>
