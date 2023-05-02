@@ -21,25 +21,26 @@ function Resources() {
         <img alt="FiGPiN.KiNGPiN Instagram" className="where-image" src="ig_figpinkingpin.png"/></a>
         <div className="pinname">FiGPiN.KiNGPiN Instagram</div>
     </div></li>
-
+{/*
     <li className="gallerybox">
         <div className="pinbox">
         <a title="Levi K Instagram" href="https://www.instagram.com/levithecollector/" target="_blank" rel="noreferrer noopener">
         <img alt="Levi K Instagram" className="where-image" src="ig_levi.png"/></a>
         <div className="pinname">Levi K Instagram</div>
     </div></li>
-
+    */}
     <li className="gallerybox"><div className="pinbox">
         <a title="FiGPiN FAN Instagram" href="https://www.instagram.com/figpinfan/" target="_blank" rel="noreferrer noopener">
         <img alt="FiGPiN FAN Instagram" className="where-image" src="ig_figpinfan.png"/></a>
         <div className="pinname">FiGPiN FAN Instagram</div>
     </div></li>
-
+{/*
     <li className="gallerybox"><div className="pinbox">
         <a title="FiGPiN Alerts Instagram" href="https://www.instagram.com/figpin_alerts/" target="_blank" rel="noreferrer noopener">
         <img alt="FiGPiN Alerts Instagram" className="where-image" src="ig_figpinalerts.png"/></a>
         <div className="pinname">FiGPiN Alerts Instagram</div>
     </div></li>
+*/}
 {/*
     <li className="gallerybox"><div className="pinbox">
         <a title="FiGPiN Unlocks Instagram" href="https://www.instagram.com/figpin_unlocks/" target="_blank" rel="noreferrer noopener">

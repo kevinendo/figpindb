@@ -17,6 +17,11 @@ function Home() {
 <li className="gallerybox">
         <Link title="New Releases" to="/new"><img alt="New Releases" className="where-image" src="logo_new.png"/></Link>
     </li>   
+    {/*
+    <li className="gallerybox">
+        <a title="Giveaway" href="https://www.instagram.com/p/CqtROI_vDwf/" target="_blank"><img alt="Giveaway" className="where-image" src="giveaway-1.png"/></a>
+    </li>   
+    */}
     <li className="gallerybox">
     <a title="FiGPiN Official Instagram" href="https://www.instagram.com/figpindb/" target="_blank" rel="noreferrer noopener"><img alt="figpindb Instagram" className="where-image" src="logo_fdb_ig.png"/></a>
     </li>       
@@ -208,6 +213,9 @@ function Home() {
     <li className="gallerybox">
         <Link title="LACC" to="/tags/LACC"><img alt="LACC" className="where-image" src="logo_lacc.png"/></Link>
     </li>   
+    <li className="gallerybox">
+        <Link title="MomoCon" to="/tags/MomoCon"><img alt="MomoCon" className="where-image" src="logo_momocon.png"/></Link>
+    </li>    
     <li className="gallerybox">
         <Link title="NYCC" to="/tags/NYCC"><img alt="NYCC" className="where-image" src="logo_nycc.png"/></Link>
     </li>        

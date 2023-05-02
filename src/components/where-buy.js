@@ -115,11 +115,11 @@ function WhereToBuy() {
     <li className="gallerybox"><a title="Grotto Treasures" target="_blank" rel="noreferrer noopener" href="https://grottotreasures.com">
         <img alt="Grotto Treasures" className="where-image" src="logo_grotto.png"/></a>
     </li>
-
+{/*
     <li className="gallerybox"><a title="I am Retro" target="_blank" rel="noreferrer noopener" href="http://www.iamretro.com">
         <img alt="I am Retro" className="where-image" src="logo_iamretro.png"/></a>
     </li>
-{/*
+
     <li className="gallerybox"><a title="Krakens Collection" target="_blank" rel="noreferrer noopener" href="https://www.krakenscollection.com/">
         <img alt="Krakens Collection" className="where-image" src="logo_krakens.png"/></a>
     </li>        
@@ -128,10 +128,11 @@ function WhereToBuy() {
         <img alt="Megamixx Toys" className="where-image" src="logo_megamixx.png"/></a>
     </li>
   
+  {/*
     <li className="gallerybox"><a title="Pink a la Mode" target="_blank" rel="noreferrer noopener" href="http://www.pinkalamode.com">
         <img alt="Megamixx Toys" className="where-image" src="logo_pink.png"/></a>
     </li>
-
+*/}
     <li className="gallerybox"><a title="Pins on Fire" target="_blank" rel="noreferrer noopener" href="https://www.pinsonfire.com/">
         <img alt="Pins on Fire" className="where-image" src="logo_pinsonfire.png"/></a>
     </li>        
@@ -157,11 +158,11 @@ function WhereToBuy() {
     <li className="gallerybox"><a title="Red Panda Collect" target="_blank" rel="noreferrer noopener" href="http://www.redpandacollect.com">
         <img alt="Red Panda Collect" className="where-image" src="logo_redpanda.png"/></a>
     </li>
-
+{/*
     <li className="gallerybox"><a title="Shop Pop Online" target="_blank" rel="noreferrer noopener" href="https://www.shoppoponline.com/">
         <img alt="Shop Pop Online" className="where-image" src="logo_shoppop.png"/></a>
     </li>        
-
+*/}
 
     <li className="gallerybox"><a title="Shumi" target="_blank" rel="noreferrer noopener" href="https://www.shumistore.com/">
         <img alt="Shumi" className="where-image" src="logo_shumi.png"/></a>
@@ -191,11 +192,11 @@ function WhereToBuy() {
     <li className="gallerybox"><a title="Toy Drops" target="_blank" rel="noreferrer noopener" href="https://www.toydrops.com/">
         <img alt="Toy Drops" className="where-image" src="logo_toydrops.png"/></a>
     </li>        
-    
+    */}
     <li className="gallerybox"><a title="Toy Temple" target="_blank" rel="noreferrer noopener" href="https://www.thetoytemple.com/">
         <img alt="Toy Temple" className="where-image" src="logo_toytemple.png"/></a>
     </li>        
-*/}
+
     <li className="gallerybox"><a title="Toynk" target="_blank" rel="noreferrer noopener" href="https://www.toynk.com/">
         <img alt="Toynk" className="where-image" src="logo_toynk.png"/></a>
     </li>        
@@ -219,14 +220,20 @@ function WhereToBuy() {
     </li>
 */}
 </ul><br/>
-<h4 align="center">Canada</h4>
+<h4 align="center">International</h4>
 <ul className="gallery mw-gallery-traditional">
 <li className="gallerybox"><a title="Fox & Dragon Hobbies" target="_blank" rel="noreferrer noopener" href="https://www.foxanddragonhobbies.ca/">
-        <img alt="Fox & Dragon Hobbies" className="where-image" src="logo_foxdragon.png"/></a>
+        <img alt="Fox & Dragon Hobbies" className="where-image" src="logo_foxdragon.png"/><br/>Canada</a>
     </li>
+    <li className="gallerybox"><a title="Mega Zone" target="_blank" rel="noreferrer noopener" href="https://www.megazonevideogames.com/">
+        <img alt="Mega Zone" className="where-image" src="logo_megazone.png"/><br/>The Netherlands</a>
+    </li>
+
+    {/*
 <li className="gallerybox"><a title="Nerds That Collect" target="_blank" rel="noreferrer noopener" href="https://nerdsthatcollect.com">
         <img alt="Nerds That Collect" className="where-image" src="logo_nerds.png"/></a>
     </li>
+    */}
 </ul>
 <br/>
 <p align="center" classname="pinname">FigpinDB is user supported. When you purchase through links on our site, we may earn an affiliate commission.</p>

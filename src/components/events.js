@@ -10,6 +10,9 @@ function Home() {
 <div className="home-category">2023</div>
     <ul className="gallery mw-gallery-traditional">
     <li className="gallerybox">
+        <Link title="MomoCon" to="/tags/MomoCon 2023"><img alt="MomoCon" className="where-image" src="logo_momocon.png"/><br/><div className="pinname"><b>MomoCon 2023</b><br/>5/25/23</div></Link>
+    </li>  
+    <li className="gallerybox">
         <Link title="SWC" to="/tags/SWC 2023"><img alt="SWC" className="where-image" src="logo_swceu.png"/><br/><div className="pinname"><b>SWC 2023</b><br/>4/7/23</div></Link>
     </li>  
     <li className="gallerybox">
@@ -47,7 +50,7 @@ function Home() {
         <Link title="Anime Expo" to="/tags/Anime Expo 2022"><img alt="Anime Expo" className="where-image" src="logo_animeexpo.png"/><br/><div className="pinname"><b>Anime Expo 2022</b><br/>7/1/22</div></Link>
     </li>      
     <li className="gallerybox">
-        <Link title="FiGPiN Event" to="/tags/FWAP%202022%20Set"><img alt="FiGPiN Event" className="where-image" src="logo_figpin.png"/><br/><div className="pinname"><b>FWAP 2022</b><br/>6/25/22</div></Link>
+        <Link title="FiGPiN Event" to="/set/FWAP%202022%20Set"><img alt="FiGPiN Event" className="where-image" src="logo_figpin.png"/><br/><div className="pinname"><b>FWAP 2022</b><br/>6/25/22</div></Link>
     </li>    
     <li className="gallerybox">
         <Link title="SWC" to="/tags/SWC 2022"><img alt="SWC" className="where-image" src="logo_swc.png"/><br/><div className="pinname"><b>SWC 2022</b><br/>5/26/22</div></Link>
@@ -81,7 +84,7 @@ function Home() {
         <Link title="ECCC" to="/tags/ECCC%202020"><img alt="ECCC" className="where-image" src="logo_eccc.png"/><br/><div className="pinname"><b>ECCC 2020</b><br/>4/8/20 (Sold Online)</div></Link>
     </li>        
     <li className="gallerybox">
-        <Link title="FiGPiN Event" to="/tags/AwesomeFest%202020%20Set"><img alt="FiGPiN Event" className="where-image" src="logo_figpin.png"/><br/><div className="pinname"><b>AwesomeFest 2020</b><br/>4/2/20 (Sold Online)</div></Link>
+        <Link title="FiGPiN Event" to="/tags/AwesomeFest"><img alt="FiGPiN Event" className="where-image" src="logo_figpin.png"/><br/><div className="pinname"><b>AwesomeFest 2020</b><br/>4/2/20 (Sold Online)</div></Link>
     </li>   
 </ul>
 

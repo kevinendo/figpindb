@@ -339,7 +339,7 @@ function Releases2022() {
     <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1089">
     <img className="pinlist-image" alt="1089" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/67/ba/db/8712/8712.ce68e513.png"/><div className="pinname">FiGPiN Shared Exclusive</div></Link></div></li>    
     <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/L78">
-    <img className="pinlist-image" alt="L78" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/79/d2/84/8404/8404.ce68e513.png"/><div className="pinname">FiGPiN Exclusive (Release Date Unknown)</div></Link></div></li>    
+    <img className="pinlist-image" alt="L78" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/79/d2/84/8404/8404.ce68e513.png"/><div className="pinname">FiGPiN Exclusive (4/17/23 Release Date)</div></Link></div></li>    
     </ul>
 
 <br/>
@@ -943,6 +943,8 @@ function Releases2022() {
     <img className="pinlist-image" alt="913" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/a2/c3/66/7533/7533.ce68e513.png"/></Link></div><div className="pinname">Walmart Exclusive</div></li> 
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/914">
     <img className="pinlist-image" alt="914" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/6e/c5/2e/7538/7538.ce68e513.png"/></Link></div><div className="pinname">Walmart Exclusive</div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/L56">
+    <img className="pinlist-image" alt="L56" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/af/ab/1b/8371/8371.ce68e513.png"/><div className="pinname">FiGPiN Exclusive (4/17/23 Release Date)</div></Link></div></li>
 </ul>
 
 <br/>

@@ -48,7 +48,7 @@ function Resources() {
   <li class="scoring"><img class="scoring" src="/scoring_sequence_first.png" alt="First Off The Line"/>First off the Line: 40 (When your FiGPiN's Sequence Number is the first one of the run.)</li>
   <li class="scoring"><img class="scoring" src="/scoring_sequence_last.png" alt="Last Chopper Out"/>Last Chopper Out: 40 (When your FiGPiN's Sequence Number is the last one in the run.)</li>
   <li class="scoring"><img class="scoring" src="/scoring_sequence_match.png" alt="Super Match"/>Super Match: 100 (When your FiGPiN number matches your FiGPiN's Sequence Number)</li>
-  <li class="scoring"><img class="scoring" src="/scoring_sequence_excess.png" alt="Excess"/>Excess Lot: ? (When your FiGPiN's Sequence Number is over the labeled volume.)</li>
+  <li class="scoring"><img class="scoring" src="/scoring_sequence_excess.png" alt="Excess"/>Excess Lot: 20 (When your FiGPiN's Sequence Number is over the labeled volume.)</li>
 </ul>
 <p><img class="scoring" src="/scoring_boosts.png" alt="Boosts"/><b>BOOSTS</b>: 0-100 (FiGPiNs can only be BOOSTED during the 24 hours time period while they are in the UNLOCKER ROOM.</p>
 <p><img class="scoring" src="/scoring_cohort.png" alt="Cohort"/><b>COHORT</b>: 0-100 (10 points for every 10% of the Serial Numbers claimed for this Edition)</p>
@@ -67,10 +67,11 @@ function Resources() {
   <li class="scoring"><img class="scoring" src="/scoring_set.png" alt="Set"/>Set: 10</li>
 </ul>
 <p><img class="scoring" src="/scoring_glitch.png" alt="Glitch"/><b>GLITCH</b>: 20 (Bonus due to incorrect Mandalorian FiGPiNs)</p>
-<p><img class="scoring" src="/scoring_gift_pass.png" alt="Gift Pass"/><b>GIFT PASS</b>: 5 (Awarded by FiGPiN to resolve customer service issues.)</p>
-<p><img class="scoring" src="/scoring_gofig.png" alt="Gofig"/><b>GOFiG</b>: 15-100 (Random bonus from FWAP2 or ECCC 2023)</p>
-<p><b>ARENAS</b>: 0-100 (Starts with 5 points.)</p>
-<p><b>ARENA Check In</b>: 20 (Checked in at ECCC 2023)</p>
+<p><img class="scoring" src="/scoring_gift_pass.png" alt="Gift Pass"/><b>GIFT PASS</b>: 5 (Awarded by FiGPiN to resolve customer service issues)</p>
+<p><img class="scoring" src="/scoring_gofig.png" alt="Gofig"/><b>GOFiG</b>: 15-100 (Random bonus from FWAP2 or ECCC 202.)</p>
+<p><img class="scoring" src="/scoring_arena.png" alt="Arena"/><b>ARENAS</b>: 0-100 (Starts with 5 points)</p>
+<p><img class="scoring" src="/scoring_arenacheckin.png" alt="Arena Checkin"/><b>ARENA Check In</b>: 20 (Checked in at ECCC 2023)</p>
+<p><img class="scoring" src="/scoring_reward.png" alt="Reward"/><b>REWARD</b>: 20 (Bonus for redeeming in-app logo)</p>
 
 <p><b>ULTRA</b></p>
 <ul>

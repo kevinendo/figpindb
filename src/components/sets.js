@@ -11,9 +11,16 @@ function Sets() {
 <ul className="gallery mw-gallery-traditional">
 <li className="gallerybox">
         <div className="setbox">
+        <a title="Guardians of the Galaxy 3" href="/set/Guardians%20of%20the%20Galaxy%203%20Box%20Set">
+        <img alt="Guardians of the Galaxy 3" className="box-image" src="box_gotg.png"/></a>
+        <div className="pinname"><b>Guardians of the Galaxy 3</b></div>
+    </div></li>
+
+<li className="gallerybox">
+        <div className="setbox">
         <a title="Winnie the Pooh" href="/set/Winnie%20the%20Pooh%20Box%20Set">
         <img alt="Winnie the Pooh" className="box-image" src="box_pooh.png"/></a>
-        <div className="pinname"><b>Winnie the Pooh</b></div>
+        <div className="pinname"><b>Winnie the Pooh</b><br/>Deluxe Box Set Bonus: 20<br/>Deluxe+ Box Set Bonus: 25</div>
     </div></li>
 <li className="gallerybox">
         <div className="setbox">
@@ -110,7 +117,7 @@ function Sets() {
         <div className="setbox">
         <a title="Squid Game" href="/set/Squid%20Game%20Box%20Set">
         <img alt="Squid Game" className="box-image" src="box_squidgame.png"/></a>
-        <div className="pinname"><b>Squid Game</b><br/>Box Set Bonus: 10</div>
+        <div className="pinname"><b>Squid Game</b><br/>Box Set Bonus: 10<br/>In-App Logo: L56</div>
     </div></li>
 <li className="gallerybox">
         <div className="setbox">
@@ -227,9 +234,15 @@ function Sets() {
     */} 
     <li className="gallerybox">
             <div className="setbox">
+            <a title="Bounty Hunter" href="/set/Bounty%20Hunter%20Set">
+            <img alt="Bounty Hunter" className="box-image" src="box_bounty_hunter.png"/></a>
+            <div className="pinname"><b>Bounty Hunter</b><br/>Set Bonus: 10</div>
+        </div></li>  
+    <li className="gallerybox">
+            <div className="setbox">
             <a title="Hello Kitty Halloween" href="/set/Hello%20Kitty%20Halloween%20Set">
             <img alt="Hello Kitty Halloween" className="box-image" src="box_hellokitty_halloween.png"/></a>
-            <div className="pinname"><b>Hello Kitty Halloween</b></div>
+            <div className="pinname"><b>Hello Kitty Halloween</b><br/>In-App Logo: L78</div>
         </div></li>  
     <li className="gallerybox">
             <div className="setbox">
