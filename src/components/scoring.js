@@ -72,6 +72,7 @@ function Resources() {
 <p><img class="scoring" src="/scoring_arena.png" alt="Arena"/><b>ARENAS</b>: 0-100 (Starts with 5 points)</p>
 <p><img class="scoring" src="/scoring_arenacheckin.png" alt="Arena Checkin"/><b>ARENA Check In</b>: 20 (Checked in at ECCC 2023)</p>
 <p><img class="scoring" src="/scoring_reward.png" alt="Reward"/><b>REWARD</b>: 20 (Bonus for redeeming in-app logo)</p>
+<p><img class="scoring" src="/scoring_retired.png" alt="Retired"/><b>RETIRED</b>: 100 (This FiGPiN has officially been retired)</p>
 
 <p><b>ULTRA</b></p>
 <ul>

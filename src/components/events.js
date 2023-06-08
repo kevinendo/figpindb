@@ -8,10 +8,27 @@ function Home() {
         <div className="detail-box">      
 <h3 align="center">Events</h3>
 <div className="home-category">2023</div>
+
     <ul className="gallery mw-gallery-traditional">
+    <li className="gallerybox">
+        <Link title="NYCC" to="/tags/NYCC%202023"><img alt="NYCC" className="where-image" src="logo_nycc.png"/><br/><div className="pinname"><b>NYCC 2023</b><br/>10/12/22</div></Link>
+    </li>      
+    <li className="gallerybox">
+        <Link title="SDCC" to="/tags/Alliance%20Fest%20SDCC%202023"><img alt="SDCC" className="where-image" src="logo_alliance_fest_sdcc.png"/><br/><div className="pinname"><b>Alliance Fest SDCC 2023</b><br/>7/20/23</div></Link>
+    </li>   
+
+    <li className="gallerybox">
+        <Link title="SDCC" to="/tags/SDCC%202023"><img alt="SDCC" className="where-image" src="logo_sdcc.png"/><br/><div className="pinname"><b>SDCC 2023</b><br/>7/19/23</div></Link>
+    </li>    
+    <li className="gallerybox">
+        <Link title="Anime Expo" to="/tags/Anime Expo 2023"><img alt="Anime Expo" className="where-image" src="logo_animeexpo.png"/><br/><div className="pinname"><b>Anime Expo 2023</b><br/>7/1/23</div></Link>
+    </li>      
     <li className="gallerybox">
         <Link title="MomoCon" to="/tags/MomoCon 2023"><img alt="MomoCon" className="where-image" src="logo_momocon.png"/><br/><div className="pinname"><b>MomoCon 2023</b><br/>5/25/23</div></Link>
     </li>  
+    <li className="gallerybox">
+        <Link title="Anime Arizona" to="/tags/Anime Arizona 2023"><img alt="Anime Expo" className="where-image" src="logo_animearizona.png"/><br/><div className="pinname"><b>Anime Arizona 2023</b><br/>5/5/23</div></Link>
+    </li>   
     <li className="gallerybox">
         <Link title="SWC" to="/tags/SWC 2023"><img alt="SWC" className="where-image" src="logo_swceu.png"/><br/><div className="pinname"><b>SWC 2023</b><br/>4/7/23</div></Link>
     </li>  

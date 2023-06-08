@@ -140,6 +140,9 @@ function Home() {
     </li>   
     <li className="gallerybox">
         <Link title="One Piece" to="/property/One Piece"><img alt="One Piece" className="where-image" src="logo_onepiece.png"/></Link>
+    </li>   
+    <li className="gallerybox">
+        <Link title="Power Rangers" to="/property/Power Rangers"><img alt="Power Rangers" className="where-image" src="logo_powerrangers.png"/></Link>
     </li>    
     <li className="gallerybox">
         <Link title="Sailor Moon" to="/property/Sailor Moon"><img alt="Sailor Moon" className="where-image" src="logo_sailormoon.png"/></Link>
@@ -192,6 +195,9 @@ function Home() {
     <li className="gallerybox">
         <Link title="AwesomeFest" to="/tags/FiGPiN%20Event"><img alt="FiGPiN Event" className="where-image" src="logo_figpin.png"/></Link>
     </li>    
+    <li className="gallerybox">
+        <Link title="Anime Arizona" to="/tags/Anime Arizona"><img alt="Anime Expo" className="where-image" src="logo_animearizona.png"/></Link>
+    </li>   
     <li className="gallerybox">
         <Link title="Anime Expo" to="/tags/Anime Expo"><img alt="Anime Expo" className="where-image" src="logo_animeexpo.png"/></Link>
     </li>      
@@ -257,7 +263,10 @@ function Home() {
     </li>       
     <li className="gallerybox">
         <Link title="Chalice Collectibles Exclusive" to="/availability/Chalice Collectibles Exclusive"><img alt="Chalice Collectibles" className="where-image" src="logo_chalice.png"/></Link>
-    </li>
+    </li>    
+    <li className="gallerybox">
+        <Link title="Crunchyroll Exclusive" to="/availability/Crunchyroll Exclusive"><img alt="Crunchyroll" className="where-image" src="logo_crunchyroll.png"/></Link>
+    </li>  
     <li className="gallerybox">
         <Link title="Disney" to="/availability/Disney Exclusive"><img alt="Disney Exclusive" className="where-image" src="logo_disney.png"/></Link>
     </li>             
@@ -275,9 +284,6 @@ function Home() {
     </li>     
     <li className="gallerybox">
         <Link title="Fugitive Toys Exclusive" to="/availability/Fugitive Toys Exclusive"><img alt="Fugitive Toys" className="where-image" src="logo_fugitive.png"/></Link>
-    </li>  
-    <li className="gallerybox">
-        <Link title="Funimation Exclusive" to="/availability/Funimation Exclusive"><img alt="Funimation" className="where-image" src="logo_funimation.png"/></Link>
     </li>  
     <li className="gallerybox">
         <Link title="FYE Exclusive" to="/availability/FYE Exclusive"><img alt="FYE" className="where-image" src="logo_fye.png"/></Link>

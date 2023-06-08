@@ -9,6 +9,14 @@ function Sets() {
 <div className="home-category">Box Sets</div>
 
 <ul className="gallery mw-gallery-traditional">
+
+<li className="gallerybox">
+        <div className="setbox">
+        <a title="Across The Spider-Verse" href="/set/Across%20The%20Spider-Verse%20Box%20Set">
+        <img alt="Across The Spider-Verse" className="box-image" src="box_acrossthespiderverse.png"/></a>
+        <div className="pinname"><b>Across The Spider-Verse</b></div>
+    </div></li>
+
 <li className="gallerybox">
         <div className="setbox">
         <a title="Guardians of the Galaxy 3" href="/set/Guardians%20of%20the%20Galaxy%203%20Box%20Set">
@@ -117,7 +125,7 @@ function Sets() {
         <div className="setbox">
         <a title="Squid Game" href="/set/Squid%20Game%20Box%20Set">
         <img alt="Squid Game" className="box-image" src="box_squidgame.png"/></a>
-        <div className="pinname"><b>Squid Game</b><br/>Box Set Bonus: 10<br/>In-App Logo: L56</div>
+        <div className="pinname"><b>Squid Game</b><br/>Box Set Bonus: 10<br/>Reward Bonus: 20<br/>In-App Logo: L56</div>
     </div></li>
 <li className="gallerybox">
         <div className="setbox">
@@ -232,6 +240,12 @@ function Sets() {
             <div className="pinname"><b>Yami Yugi</b><br/>Set Bonus: 10</div>
         </div></li>  
     */} 
+        <li className="gallerybox">
+            <div className="setbox">
+            <a title="eVend Star Wars" href="/set/eVend%20Star%20Wars%20Set">
+            <img alt="eVend Star Wars" className="box-image" src="box_evend_starwars.png"/></a>
+            <div className="pinname"><b>eVend Star Wars</b><br/>Reward Bonus: 20<br/>In-App Logo: L94</div>
+        </div></li>  
     <li className="gallerybox">
             <div className="setbox">
             <a title="Bounty Hunter" href="/set/Bounty%20Hunter%20Set">
@@ -242,7 +256,7 @@ function Sets() {
             <div className="setbox">
             <a title="Hello Kitty Halloween" href="/set/Hello%20Kitty%20Halloween%20Set">
             <img alt="Hello Kitty Halloween" className="box-image" src="box_hellokitty_halloween.png"/></a>
-            <div className="pinname"><b>Hello Kitty Halloween</b><br/>In-App Logo: L78</div>
+            <div className="pinname"><b>Hello Kitty Halloween</b><br/>Reward Bonus: 20<br/>In-App Logo: L78</div>
         </div></li>  
     <li className="gallerybox">
             <div className="setbox">

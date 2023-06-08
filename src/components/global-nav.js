@@ -137,6 +137,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/property/Disney Villains">Disney Villains</a></li>
               <li><a className="dropdown-item" href="/property/Fantasia">Fantasia</a></li>
               <li><a className="dropdown-item" href="/property/Godzilla">Godzilla</a></li>
+              <li><a className="dropdown-item" href="/property/Guardians of the Galaxy 3">Guardians of the Galaxy 3</a></li>
               <li><a className="dropdown-item" href="/property/Harry Potter">Harry Potter</a></li>
               <li><a className="dropdown-item" href="/property/Incredibles 2">Incredibles 2</a></li>
               <li><a className="dropdown-item" href="/property/IT">IT</a></li>
@@ -149,7 +150,8 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/property/Onward">Onward</a></li>
               <li><a className="dropdown-item" href="/property/Oswald the Lucky Rabbit">Oswald the Lucky Rabbit</a></li>
               <li><a className="dropdown-item" href="/property/Raya and The Last Dragon">Raya and The Last Dragon</a></li>
-              <li><a className="dropdown-item" href="/property/Spider-Man: Into the Spider-Verse">Spider-Man: Into the Spider-Verse</a></li>
+              <li><a className="dropdown-item" href="/property/Spider-Man: Across The Spider-Verse">Spider-Man: Across The Spider-Verse</a></li>
+              <li><a className="dropdown-item" href="/property/Spider-Man: Into the Spider-Verse">Spider-Man: Into The Spider-Verse</a></li>
               <li><a className="dropdown-item" href="/property/Spider-Man: No Way Home">Spider-Man: No Way Home</a></li>
               <li><a className="dropdown-item" href="/property/Star Wars">Star Wars</a></li>
               <li><a className="dropdown-item" href="/property/Star Wars The Force Awakens">Star Wars The Force Awakens</a></li>
@@ -175,6 +177,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/property/Masters of the Universe">Masters of the Universe</a></li>
               <li><a className="dropdown-item" href="/property/MTV">MTV</a></li>
               <li><a className="dropdown-item" href="/property/MTV Beavis and Butt-Head">MTV Beavis & Butt-Head</a></li>
+              <li><a className="dropdown-item" href="/property/Power Rangers">Power Rangers</a></li>
               <li><a className="dropdown-item" href="/property/Scooby-Doo!">Scooby-Doo!</a></li>
               <li><a className="dropdown-item" href="/property/The Simpsons">The Simpsons</a></li>
               <li><a className="dropdown-item" href="/property/South Park">South Park</a></li>

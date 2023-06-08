@@ -23,7 +23,7 @@ import IGLinks from "./components/ig-links";
 import Characters from "./components/characters";
 import Arenas from "./components/arenas";
 import GuideStarwars from "./components/guide-starwars";
-
+import './App.css'
 
 const NoMatchPage = () => {
   return (
