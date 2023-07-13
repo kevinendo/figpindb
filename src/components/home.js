@@ -166,6 +166,9 @@ function Home() {
         <Link title="SpongeBob SquarePants" to="/property/SpongeBob SquarePants"><img alt="SpongeBob SquarePants" className="where-image" src="logo_spongebob.png"/></Link>
     </li>    
     <li className="gallerybox">
+        <Link title="Sppy X Family" to="/property/Spy X Family"><img alt="Spy X Family" className="where-image" src="logo_spyxfamily.png"/></Link>
+    </li>    
+    <li className="gallerybox">
         <Link title="Squid Game" to="/property/Squid Game"><img alt="Squid Game" className="where-image" src="logo_squidgame.png"/></Link>
     </li>    
     <li className="gallerybox">
@@ -217,6 +220,9 @@ function Home() {
         <Link title="ECCC" to="/tags/ECCC"><img alt="ECCC" className="where-image" src="logo_eccc.png"/></Link>
     </li>        
     <li className="gallerybox">
+        <Link title="Florida Superson" to="/tags/Florida Supercon"><img alt="Florida Supercon" className="where-image" src="logo_floridasupercon.png"/></Link>
+    </li>   
+    <li className="gallerybox">
         <Link title="LACC" to="/tags/LACC"><img alt="LACC" className="where-image" src="logo_lacc.png"/></Link>
     </li>   
     <li className="gallerybox">
@@ -240,6 +246,9 @@ function Home() {
     <li className="gallerybox">
         <Link title="FiGPiN Exclusive" to="/availability/FiGPiN Exclusive"><img alt="FiGPiN" className="where-image" src="logo_figpin.png"/></Link>
     </li>          
+    <li className="gallerybox">
+        <Link title="AMC Exclusive" to="/availability/AMC Theatres Exclusive"><img alt="AMC" className="where-image" src="logo_amc.png"/></Link>
+    </li> 
     <li className="gallerybox">
         <Link title="BAIT Exclusive" to="/availability/BAIT Exclusive"><img alt="BAIT" className="where-image" src="logo_bait.png"/></Link>
     </li> 
@@ -354,6 +363,9 @@ function Home() {
     <li className="gallerybox">
         <Link title="XL" to="/type/XL"><img alt="XL" className="where-image" src="logo_xls.png"/></Link>
     </li>     
+    <li className="gallerybox">
+        <Link title="Mystery" to="/tags/Mystery"><img alt="Mystery" className="where-image" src="logo_mystery.png"/></Link>
+    </li>   
     <li className="gallerybox">
         <Link title="Limited Edition" to="/availability/Limited Edition"><img alt="Limited Edition" className="where-image" src="logo_limited.png"/></Link>
     </li>         

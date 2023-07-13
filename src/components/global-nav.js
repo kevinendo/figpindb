@@ -61,6 +61,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/property/One Punch Man">One Punch Man</a></li>
               <li><a className="dropdown-item" href="/property/Sailor Moon">Sailor Moon</a></li>
               <li><a className="dropdown-item" href="/property/The Seven Deadly Sins">The Seven Deadly Sins</a></li>
+              <li><a className="dropdown-item" href="/property/Spy X Family">Spy X Family</a></li>
               <li><a className="dropdown-item" href="/property/Yu-Gi-Oh">Yu-Gi-Oh</a></li>
               </ul>
             </li>     
@@ -136,6 +137,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/property/Disney Princesses">Disney Princesses</a></li>
               <li><a className="dropdown-item" href="/property/Disney Villains">Disney Villains</a></li>
               <li><a className="dropdown-item" href="/property/Fantasia">Fantasia</a></li>
+              <li><a className="dropdown-item" href="/property/The Flash">The Flash</a></li>
               <li><a className="dropdown-item" href="/property/Godzilla">Godzilla</a></li>
               <li><a className="dropdown-item" href="/property/Guardians of the Galaxy 3">Guardians of the Galaxy 3</a></li>
               <li><a className="dropdown-item" href="/property/Harry Potter">Harry Potter</a></li>
@@ -144,6 +146,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/property/Justice League 2017">Justice League 2017</a></li>
               <li><a className="dropdown-item" href="/property/Lilo and Stitch">Lilo & Stitch</a></li>
               <li><a className="dropdown-item" href="/property/The Lion King">The Lion King</a></li>
+              <li><a className="dropdown-item" href="/property/The Little Mermaid">The Little Mermaid</a></li>
               <li><a className="dropdown-item" href="/property/Mickey and Friends">Mickey and Friends</a></li>
               <li><a className="dropdown-item" href="/property/Monsters, Inc.">Monsters, Inc.</a></li>
               <li><a className="dropdown-item" href="/property/Nightmare Before Christmas">Nightmare Before Christmas</a></li>
@@ -205,11 +208,13 @@ function GlobalNav() {
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a className="dropdown-item" href="/property/ACDC High Voltage">AC/DC: High Voltage</a></li>
               <li><a className="dropdown-item" href="/property/Alien Remix">Alien Remix</a></li>
+              <li><a className="dropdown-item" href="/property/AMC Theatres">AMC Theatres</a></li>
               <li><a className="dropdown-item" href="/property/Bruce Lee">Bruce Lee</a></li>                
               <li><a className="dropdown-item" href="/property/Cities">Cities</a></li>
               <li><a className="dropdown-item" href="/property/David Bowie">David Bowie</a></li>    
               <li><a className="dropdown-item" href="/property/DesignerCon">DesignerCon</a></li>
-              <li><a className="dropdown-item" href="/property/Disney Parks">Disney Parks</a></li>     
+              <li><a className="dropdown-item" href="/property/Disney Parks">Disney Parks</a></li>   
+              <li><a className="dropdown-item" href="/property/Disney 100">Disney 100</a></li>     
               <li><a className="dropdown-item" href="/property/Gudetama">Gudetama</a></li>
               <li><a className="dropdown-item" href="/property/Hello Kitty and Friends">Hello Kitty and Friends</a></li>
               <li><a className="dropdown-item" href="/property/KISS">KISS</a></li>              
@@ -259,6 +264,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/availability/Limited%20Edition">Limited Edition</a></li>
               <li><a className="dropdown-item" href="/type/Logo">Logo</a></li>
               <li><a className="dropdown-item" href="/type/Mini">Mini</a></li>
+              <li><a className="dropdown-item" href="/tags/Mystery">Mystery</a></li>
               <li><a className="dropdown-item" href="/tags/NYCC">NYCC</a></li>
               <li><a className="dropdown-item" href="/tags/SDCC">SDCC</a></li>      
               <li><a className="dropdown-item" href="/tags/Very Hard To Find">Very Hard To Find</a></li>

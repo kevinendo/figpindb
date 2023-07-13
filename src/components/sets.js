@@ -12,6 +12,14 @@ function Sets() {
 
 <li className="gallerybox">
         <div className="setbox">
+        <a title="Avengers" href="/set/Avengers%20Box%20Set">
+        <img alt="Avengers" className="box-image" src="box_avengers.png"/></a>
+        <div className="pinname"><b>Avengers</b></div>
+    </div></li>
+
+
+<li className="gallerybox">
+        <div className="setbox">
         <a title="Across The Spider-Verse" href="/set/Across%20The%20Spider-Verse%20Box%20Set">
         <img alt="Across The Spider-Verse" className="box-image" src="box_acrossthespiderverse.png"/></a>
         <div className="pinname"><b>Across The Spider-Verse</b></div>
@@ -240,6 +248,20 @@ function Sets() {
             <div className="pinname"><b>Yami Yugi</b><br/>Set Bonus: 10</div>
         </div></li>  
     */} 
+        <li className="gallerybox">
+            <div className="setbox">
+            <a title="Hello Kitty 1" href="/set/Hello%20Kitty%20Mystery%20Series%201">
+            <img alt="Hello Kitty 1" className="box-image" src="box_hk1.png"/></a>
+            <div className="pinname"><b>Hello Kitty Mystery Series 1</b><br/>In-App Ultra: Y20</div>
+        </div></li>  
+
+        <li className="gallerybox">
+            <div className="setbox">
+            <a title="Spy X Family 1" href="/set/Spy%20X%20Family%20Mystery%20Series%201">
+            <img alt="Spy X Family 1" className="box-image" src="box_sxf1.png"/></a>
+            <div className="pinname"><b>Spy X Family Mystery Series 1</b><br/>In-App Ultra: Y10</div>
+        </div></li>  
+
         <li className="gallerybox">
             <div className="setbox">
             <a title="eVend Star Wars" href="/set/eVend%20Star%20Wars%20Set">

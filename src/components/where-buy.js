@@ -67,7 +67,10 @@ function WhereToBuy() {
     <li className="gallerybox">
         <a title="Walmart" target="_blank" rel="noreferrer noopener" href="https://www.walmart.com/"><img alt="Walmart" className="where-image" src="logo_walmart.png"/></a>
     </li>        
-
+    <li className="gallerybox">
+        <a title="AMC" target="_blank" rel="noreferrer noopener" href="https://www.amctheatresmoviemerchandise.com/"><img alt="AMC" className="where-image" src="logo_amc.png"/></a>
+    </li>        
+        
     <li className="gallerybox">
         <a title="BAIT" target="_blank" rel="noreferrer noopener" href="http://www.baitme.com"><img alt="BAIT" className="where-image" src="logo_bait.png"/></a>
     </li>
@@ -87,7 +90,9 @@ function WhereToBuy() {
     <li className="gallerybox">
         <a title="Chalice Collectibles" target="_blank" rel="noreferrer noopener" href="https://www.chalicecollectibles.com/"><img alt="Chalice Collectibles" className="where-image" src="logo_chalice.png"/></a>
     </li>        
-    
+    <li className="gallerybox"><a title="Funimation" target="_blank" rel="noreferrer noopener" href="https://store.crunchyroll.com/">
+        <img alt="Funimation" className="where-image" src="logo_crunchyroll.png"/></a>
+    </li>    
     <li className="gallerybox">
         <a title="Deep Discount" target="_blank" rel="noreferrer noopener" href="https://www.deepdiscount.com/"><img alt="Deep Discount" className="where-image" src="logo_deepdiscount.png"/></a>
     </li>        
@@ -104,9 +109,7 @@ function WhereToBuy() {
         <img alt="Fugitive Toys" className="where-image" src="logo_fugitive.png"/></a>
     </li>        
 
-    <li className="gallerybox"><a title="Funimation" target="_blank" rel="noreferrer noopener" href="https://store.crunchyroll.com/">
-        <img alt="Funimation" className="where-image" src="logo_funimation.png"/></a>
-    </li>        
+    
 
     <li className="gallerybox"><a title="Gamer Oasis" target="_blank" rel="noreferrer noopener" href="http://www.gameroasis.com">
         <img alt="Gamer Oasis" className="where-image" src="logo_gameroasis.png"/></a>
@@ -208,13 +211,11 @@ function WhereToBuy() {
     <li className="gallerybox"><a title="ToyWiz" target="_blank" rel="noreferrer noopener" href="http://www.toywiz.com">
         <img alt="ToyWiz" className="where-image" src="logo_toywiz.png"/></a>
     </li>
-*/}
+
     <li className="gallerybox">
         <a title="VLTD" target="_blank" rel="noreferrer noopener" href="https://www.vltd.co/"><img alt="VLTD" className="where-image" src="logo_vltd.png"/></a>
     </li>        
 
-
-{/*
     <li className="gallerybox">
         <a title="WY Super Rare" target="_blank" rel="noreferrer noopener" href="http://www.wysuperrare.com"><img alt="WY Super Rare" className="where-image" src="logo_wysuperrare.png"/></a>
     </li>

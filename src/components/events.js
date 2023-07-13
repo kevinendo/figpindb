@@ -24,6 +24,9 @@ function Home() {
         <Link title="Anime Expo" to="/tags/Anime Expo 2023"><img alt="Anime Expo" className="where-image" src="logo_animeexpo.png"/><br/><div className="pinname"><b>Anime Expo 2023</b><br/>7/1/23</div></Link>
     </li>      
     <li className="gallerybox">
+        <Link title="Florida Supercon" to="/tags/Florida Supercon 2023"><img alt="Florida Supercon" className="where-image" src="logo_floridasupercon.png"/><br/><div className="pinname"><b>Florida Supercon 2023</b><br/>6/30/23</div></Link>
+    </li>      
+    <li className="gallerybox">
         <Link title="MomoCon" to="/tags/MomoCon 2023"><img alt="MomoCon" className="where-image" src="logo_momocon.png"/><br/><div className="pinname"><b>MomoCon 2023</b><br/>5/25/23</div></Link>
     </li>  
     <li className="gallerybox">
@@ -126,6 +129,11 @@ function Home() {
     <li className="gallerybox">
         <Link title="Anime Expo" to="/tags/Anime Expo 2019"><img alt="Anime Expo" className="where-image" src="logo_animeexpo.png"/><br/><div className="pinname"><b>Anime Expo 2019</b><br/>7/3/19</div></Link>
     </li>   
+
+    <li className="gallerybox">
+        <Link title="ECCC" to="/tags/Fan%20Expo%20Dallas%202019"><img alt="Fan Expo Dallas" className="where-image" src="logo_fanexpodallas.png"/><br/><div className="pinname"><b>Fan Expo Dallas 2019</b><br/>5/3/19</div></Link>
+    </li>    
+
     <li className="gallerybox">
         <Link title="ECCC" to="/tags/ECCC%202019"><img alt="ECCC" className="where-image" src="logo_eccc.png"/><br/><div className="pinname"><b>ECCC 2019</b><br/>3/14/19</div></Link>
     </li>        
