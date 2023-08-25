@@ -70,6 +70,7 @@ function Characters() {
 <ul className="gallery mw-gallery-traditional">
     <li className="gallerybox"><Link title="Altaïr" to="/tags/Altaïr"><img alt="Altaïr" className="where-image" src="char_altair.png"/><br/><div className="pinname"><b>Altaïr</b></div></Link></li>      
     <li className="gallerybox"><Link title="Master Chief" to="/property/Halo"><img alt="Master Chief" className="where-image" src="char_masterchief.png"/><br/><div className="pinname"><b>Master Chief</b></div></Link></li>      
+    <li className="gallerybox"><Link title="Sonic" to="/tags/Sonic"><img alt="Sonic" className="where-image" src="char_sonic.png"/><br/><div className="pinname"><b>Sonic</b></div></Link></li>      
     <li className="gallerybox"><Link title="Vault Boy" to="/tags/Vault%20Boy"><img alt="Vault Boy" className="where-image" src="char_vaultboy.png"/><br/><div className="pinname"><b>Vault Boy</b></div></Link></li>      
     <li className="gallerybox"><Link title="Bruce Lee" to="/property/Bruce%20Lee"><img alt="Bruce Lee" className="where-image" src="char_brucelee.png"/><br/><div className="pinname"><b>Bruce Lee</b></div></Link></li>      
     <li className="gallerybox"><Link title="Gudetama" to="/property/Gudetama"><img alt="Gudetama" className="where-image" src="char_gudetama.png"/><br/><div className="pinname"><b>Gudetama</b></div></Link></li>      

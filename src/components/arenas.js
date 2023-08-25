@@ -115,6 +115,10 @@ function Arenas() {
     <img className="pinlist-image" alt="97" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/3a/e8/e2/489/489.ce68e513.png"/><div className="pinname">Batman 2A - 84</div></Link></div></li>   
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/98">
     <img className="pinlist-image" alt="98" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/6f/23/61/494/494.ce68e513.png"/><div className="pinname">The Joker 2A - 84</div></Link></div></li>   
+
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/282">
+    <img className="pinlist-image" alt="361" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/99/6e/d2/1724/1724.ce68e513.png"/><div className="pinname">FL4K 2A - 84</div></Link></div></li>  
+
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/68">
     <img className="pinlist-image" alt="68" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/87/63/86/375/375.ce68e513.png"/><div className="pinname">Aguilar - 88</div></Link></div></li>   
 
@@ -137,7 +141,7 @@ function Arenas() {
 <h5 align="center">HIGH COHORT FIGPIN EDITIONS/LOTS</h5>
 <ul className="gallery mw-gallery-traditional-left">
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/399">
-    <img className="pinlist-image" alt="399" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/07/47/3a/4388/4388.ce68e513.png"/><div className="pinname">Black Widow 1B - 100%</div></Link></div></li>    
+    <img className="pinlist-image" alt="399" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/07/47/3a/4388/4388.ce68e513.png"/><div className="pinname">Black Widow 1B - 90%</div></Link></div></li>    
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/113">
     <img className="pinlist-image" alt="113" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/52/24/6e/85/85.ce68e513.png"/><div className="pinname">Thanos 1B - 80%</div></Link></div></li>    
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/303">
@@ -154,6 +158,12 @@ function Arenas() {
     <img className="pinlist-image" alt="L24" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/9d/f7/db/4209/4209.ce68e513.png"/><div className="pinname">MHA Red & Black - 80%</div></Link></div></li>    
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/328">
     <img className="pinlist-image" alt="328" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/59/4c/59/4426/4426.ce68e513.png"/><div className="pinname">Tsuyu Asui 1C - 80%</div></Link></div></li>    
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/U1">
+    <img className="pinlist-image" alt="U1" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/06/5d/fe/7687/7687.ce68e513.png"/><div className="pinname">Darth Vader - 80%</div></Link></div></li>    
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/409">
+    <img className="pinlist-image" alt="409" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/f8/8e/c8/4348/4348.ce68e513.png"/><div className="pinname">Baymax 1C - 80%</div></Link></div></li>   
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/407">
+    <img className="pinlist-image" alt="407" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/60/ba/ba/4338/4338.ce68e513.png"/><div className="pinname">Baymax 1C - 80%</div></Link></div></li>    
 
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/142">
     <img className="pinlist-image" alt="142" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/e5/15/85/958/958.ce68e513.png"/><div className="pinname">Praise the Sun Solaire - 70%</div></Link></div></li>    
@@ -165,17 +175,14 @@ function Arenas() {
     <img className="pinlist-image" alt="271" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/fc/e7/d4/1571/1571.ce68e513.png"/><div className="pinname">Bo Peep - 70%</div></Link></div></li>    
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/272">
     <img className="pinlist-image" alt="272" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/d7/7b/94/1576/1576.ce68e513.png"/><div className="pinname">Duke Caboom - 70%</div></Link></div></li>   
-
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/270">
+    <img className="pinlist-image" alt="270" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/d3/67/bb/1305/1305.ce68e513.png"/><div className="pinname">Forky - 70%</div></Link></div></li>       
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/331">
     <img className="pinlist-image" alt="331" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/4d/0a/94/4440/4440.ce68e513.png"/><div className="pinname">Ochaco Uraraka 1B - 70%</div></Link></div></li>    
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/401">
     <img className="pinlist-image" alt="401" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/c4/17/52/4323/4323.ce68e513.png"/><div className="pinname">Red Guardian 1B - 70%</div></Link></div></li>    
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/402">
     <img className="pinlist-image" alt="402" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/78/cb/b5/4328/4328.ce68e513.png"/><div className="pinname">Taskmaster 1B - 70%</div></Link></div></li>       
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/407">
-    <img className="pinlist-image" alt="407" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/60/ba/ba/4338/4338.ce68e513.png"/><div className="pinname">Baymax 1C - 70%</div></Link></div></li>    
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/409">
-    <img className="pinlist-image" alt="409" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/f8/8e/c8/4348/4348.ce68e513.png"/><div className="pinname">Baymax 1C - 70%</div></Link></div></li>   
 
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/L4">
     <img className="pinlist-image" alt="L4" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/d5/e6/72/1133/1133.ce68e513.png"/><div className="pinname">White on Gold 1A - 70%</div></Link></div></li>    
@@ -183,8 +190,7 @@ function Arenas() {
     <img className="pinlist-image" alt="L11" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/ed/3a/6d/1702/1702.ce68e513.png"/><div className="pinname">Clouds on Silver - 70%</div></Link></div></li>    
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/L23">
     <img className="pinlist-image" alt="L23" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/3e/ff/1a/3896/3896.ce68e513.png"/><div className="pinname">Gingerbread Holiday - 70%</div></Link></div></li>       
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/U1">
-    <img className="pinlist-image" alt="U1" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/06/5d/fe/7687/7687.ce68e513.png"/><div className="pinname">Darth Vader - 70%</div></Link></div></li>    
+
 
 
   </ul>

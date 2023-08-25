@@ -11,7 +11,13 @@ function Home() {
 
     <ul className="gallery mw-gallery-traditional">
     <li className="gallerybox">
-        <Link title="NYCC" to="/tags/NYCC%202023"><img alt="NYCC" className="where-image" src="logo_nycc.png"/><br/><div className="pinname"><b>NYCC 2023</b><br/>10/12/22</div></Link>
+        <Link title="LACC" to="/tags/LACC%202023"><img alt="LACC" className="where-image" src="logo_lacc.png"/><br/><div className="pinname"><b>LACC 2023</b><br/>12/1/23</div></Link>
+    </li>   
+    <li className="gallerybox">
+        <Link title="Power-Con" to="/tags/Power-Con%202023"><img alt="Power-Con" className="where-image" src="logo_powercon.png"/><br/><div className="pinname"><b>Power-Con 2023</b><br/>8/11/23</div></Link>
+    </li>   
+    <li className="gallerybox">
+        <Link title="NYCC" to="/tags/NYCC%202023"><img alt="NYCC" className="where-image" src="logo_nycc.png"/><br/><div className="pinname"><b>NYCC 2023</b><br/>10/12/23</div></Link>
     </li>      
     <li className="gallerybox">
         <Link title="SDCC" to="/tags/Alliance%20Fest%20SDCC%202023"><img alt="SDCC" className="where-image" src="logo_alliance_fest_sdcc.png"/><br/><div className="pinname"><b>Alliance Fest SDCC 2023</b><br/>7/20/23</div></Link>

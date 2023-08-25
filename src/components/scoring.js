@@ -13,8 +13,8 @@ function Resources() {
 	<li>Account Created: 1000 points</li>
 	<li>Username Created: 500 points</li>
 	<li>User Avatar Created: 500 points</li>
-	<li>FiGPiN Ultra Bonus: 1500 points</li>
-	<li>FiGPin Event Card: 500 points (this is from GOFiG at FWAP2)</li>
+	<li>FiGPiN Ultra Bonus: 1500 points (for each different Ultra - U1, U2, or U3, for a total max of 4500)</li>
+	<li>FiGPin Event Card: 500 points (this is from GOFiG at FWAP2, ECCC 2023, Alliance Fest SDCC 2023, or the SDCC 2023 Bait Party.)</li>
 	<li>Questionnaire Answered: varies (this is from responding to verification requests)</li>
   </ul>
 
@@ -31,6 +31,10 @@ function Resources() {
 <p><img class="scoring" src="/scoring_edition.png" alt="Edition"/><b>EDITION</b>: All of the FiGPiNs that are made in one production run belong to an EDITION.</p>
 <p><img class="scoring" src="/scoring_volume.png" alt="Volume"/><b>VOLUME</b>: This score is determined by the number of FiGPiNs that are manufactured in one production run.</p>
 <p><img class="scoring" src="/scoring_sequence.png" alt="Sequence"/><b>SEQUENCE</b>: This score is determined by the order in which your FiGPiN was made during manufacturing. </p>
+<p>Mini FiGPiNs released starting in 2023 use the following <b>FACTORY SCORE</b> system.</p>
+<p><img class="scoring" src="/scoring_type.png" alt="Type"/><b>TYPE</b>: Type is either Mini or Mystery and worth 5 points. </p>
+<p><img class="scoring" src="/scoring_series.png" alt="Series"/><b>SERIES</b>: This is 20 points.</p>
+<p><img class="scoring" src="/scoring_rarity.png" alt="Rarity"/><b>RARITY</b>: Commons are 15 points, Rares are 30 points, Supers are 50 points, Hypers are 70 points and Ultras are 70 points. </p>
 </div> 
 
 <div class="scoring">
@@ -68,10 +72,10 @@ function Resources() {
 </ul>
 <p><img class="scoring" src="/scoring_glitch.png" alt="Glitch"/><b>GLITCH</b>: 20 (Bonus due to incorrect Mandalorian FiGPiNs)</p>
 <p><img class="scoring" src="/scoring_gift_pass.png" alt="Gift Pass"/><b>GIFT PASS</b>: 5 (Awarded by FiGPiN to resolve customer service issues)</p>
-<p><img class="scoring" src="/scoring_gofig.png" alt="Gofig"/><b>GOFiG</b>: 15-100 (Random bonus from FWAP2 or ECCC 202.)</p>
+<p><img class="scoring" src="/scoring_gofig.png" alt="Gofig"/><b>GOFiG</b>: 15-100 (Random bonus from FWAP2, ECCC 2023, Alliance Fest SDCC 2023, or the SDCC 2023 Bait Party.)</p>
 <p><img class="scoring" src="/scoring_arena.png" alt="Arena"/><b>ARENAS</b>: 0-100 (Starts with 5 points)</p>
-<p><img class="scoring" src="/scoring_arenacheckin.png" alt="Arena Checkin"/><b>ARENA Check In</b>: 20 (Checked in at ECCC 2023)</p>
-<p><img class="scoring" src="/scoring_reward.png" alt="Reward"/><b>REWARD</b>: 20 (Bonus for redeeming in-app logo)</p>
+<p><img class="scoring" src="/scoring_arenacheckin.png" alt="Arena Checkin"/><b>ARENA Check In</b>: 20 (Checked in at ECCC 2023, Alliance Fest SDCC 2023, or the SDCC 2023 Bait Party.)</p>
+<p><img class="scoring" src="/scoring_reward.png" alt="Reward"/><b>REWARD</b>: 20 (Bonus for redeeming in-app logo or mystery set Ultra)</p>
 <p><img class="scoring" src="/scoring_retired.png" alt="Retired"/><b>RETIRED</b>: 100 (This FiGPiN has officially been retired)</p>
 
 <p><b>ULTRA</b></p>

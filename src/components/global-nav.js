@@ -38,6 +38,7 @@ function GlobalNav() {
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a className="dropdown-item" href="/property/Astro Boy">Astro Boy</a></li>
               <li><a className="dropdown-item" href="/property/Attack on Titan">Attack on Titan</a></li>
+              <li><a className="dropdown-item" href="/property/Attack on Titan x Hello Kitty">Attack on Titan x Hello Kitty</a></li>
               <li><a className="dropdown-item" href="/property/Cannon Busters">Cannon Busters</a></li>
               <li><a className="dropdown-item" href="/property/Demon Slayer">Demon Slayer</a></li>
               <li><a className="dropdown-item" href="/property/Dr. Stone">Dr. Stone</a></li>
@@ -94,6 +95,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/property/Diablo">Diablo</a></li>
               <li><a className="dropdown-item" href="/property/Dragon Ball FighterZ">Dragon Ball FighterZ</a></li>                
               <li><a className="dropdown-item" href="/property/Fallout">Fallout</a></li> 
+              <li><a className="dropdown-item" href="/property/Five Nights at Freddy's">Five Nights at Freddy's</a></li> 
               <li><a className="dropdown-item" href="/property/Gears of War">Gears of War</a></li>
               <li><a className="dropdown-item" href="/property/God of War">God of War</a></li>                  
               <li><a className="dropdown-item" href="/property/Half Life 2">Half Life 2</a></li>
@@ -187,6 +189,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/property/Spider-Man Animated">Spider-Man Animated</a></li>
               <li><a className="dropdown-item" href="/property/SpongeBob SquarePants">SpongeBob SquarePants</a></li>
               <li><a className="dropdown-item" href="/property/Squid Game">Squid Game</a></li>
+              <li><a className="dropdown-item" href="/property/Star Wars Ahsoka">Star Wars Ahsoka</a></li>
               <li><a className="dropdown-item" href="/property/Star Wars The Bad Batch">Star Wars The Bad Batch</a></li>
               <li><a className="dropdown-item" href="/property/Star Wars The Book of Boba Fett">Star Wars The Book of Boba Fett</a></li>
               <li><a className="dropdown-item" href="/property/Star Wars The Clone Wars">Star Wars The Clone Wars</a></li>

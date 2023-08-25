@@ -15,7 +15,7 @@ function Home() {
 
 <ul className="gallery mw-gallery-traditional">
 <li className="gallerybox">
-        <Link title="New Releases" to="/new"><img alt="New Releases" className="where-image" src="logo_new.png"/></Link>
+        <a title="New Releases" href="/new"><img alt="New Releases" className="where-image" src="logo_new.png"/></a>
     </li>   
     {/*
     <li className="gallerybox">
@@ -84,6 +84,9 @@ function Home() {
     </li>   
     <li className="gallerybox">
         <Link title="Fallout" to="/property/Fallout"><img alt="Fallout" className="where-image" src="logo_fallout.png"/></Link>
+    </li>   
+    <li className="gallerybox">
+        <Link title="Five Nights at Freddy's" to="/property/Five Nights at Freddy's"><img alt="Five Nights at Freddy's" className="where-image" src="logo_fnaf.png"/></Link>
     </li>   
     <li className="gallerybox">
         <Link title="Godzilla" to="/property/Godzilla"><img alt="Godzilla" className="where-image" src="logo_godzilla.png"/></Link>
@@ -160,6 +163,9 @@ function Home() {
         <Link title="The Simpsons" to="/property/The Simpsons"><img alt="The Simpsons" className="where-image" src="logo_simpsons.png"/></Link>
     </li>
     <li className="gallerybox">
+        <Link title="Sonic The Hedgehog" to="/property/Sonic The Hedgehog"><img alt="Sonic The Hedgehog" className="where-image" src="logo_sonic.png"/></Link>
+    </li>
+    <li className="gallerybox">
         <Link title="South Park" to="/property/South Park"><img alt="South Park" className="where-image" src="logo_southpark.png"/></Link>
     </li>
     <li className="gallerybox">
@@ -227,6 +233,9 @@ function Home() {
     </li>   
     <li className="gallerybox">
         <Link title="MomoCon" to="/tags/MomoCon"><img alt="MomoCon" className="where-image" src="logo_momocon.png"/></Link>
+    </li>  
+    <li className="gallerybox">
+        <Link title="Power-Con" to="/tags/Power-Con"><img alt="Power-Con" className="where-image" src="logo_powercon.png"/></Link>
     </li>    
     <li className="gallerybox">
         <Link title="NYCC" to="/tags/NYCC"><img alt="NYCC" className="where-image" src="logo_nycc.png"/></Link>
