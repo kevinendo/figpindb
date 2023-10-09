@@ -40,6 +40,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/property/Attack on Titan">Attack on Titan</a></li>
               <li><a className="dropdown-item" href="/property/Attack on Titan x Hello Kitty">Attack on Titan x Hello Kitty</a></li>
               <li><a className="dropdown-item" href="/property/Cannon Busters">Cannon Busters</a></li>
+              <li><a className="dropdown-item" href="/property/Chainsaw Man">Chainsaw Man</a></li>
               <li><a className="dropdown-item" href="/property/Demon Slayer">Demon Slayer</a></li>
               <li><a className="dropdown-item" href="/property/Dr. Stone">Dr. Stone</a></li>
               <li><a className="dropdown-item" href="/property/Dragon Ball">Dragon Ball</a></li>
@@ -116,6 +117,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/property/Sonic The Hedgehog">Sonic The Hedgehog</a></li>   
               <li><a className="dropdown-item" href="/property/Soul Calibur VI">Soul Calibur VI</a></li>                 
               <li><a className="dropdown-item" href="/property/Spider-Man Game">Spider-Man Game</a></li> 
+              <li><a className="dropdown-item" href="/property/Spider-Man 2">Spider-Man 2</a></li> 
               <li><a className="dropdown-item" href="/property/Spyro the Dragon">Spyro the Dragon</a></li> 
               <li><a className="dropdown-item" href="/property/Starcraft">Starcraft</a></li>
               <li><a className="dropdown-item" href="/property/Tekken 7">Tekken 7</a></li>                                   

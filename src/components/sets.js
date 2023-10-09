@@ -10,6 +10,12 @@ function Sets() {
 <div className="home-category">Box Sets</div>
 <li className="gallerybox">
         <div className="setbox">
+        <a title="X-Men '97" href="/set/X-Men%20Box%20Set">
+        <img alt="X-Men '97" className="box-image" src="box_xmen.png"/></a>
+        <div className="pinname"><b>X-Men '97</b></div>
+    </div></li>
+<li className="gallerybox">
+        <div className="setbox">
         <a title="Yu-Gi-Oh" href="/set/Yu-Gi-Oh%20Box%20Set">
         <img alt="Yu-Gi-Oh" className="box-image" src="box_yugioh.png"/></a>
         <div className="pinname"><b>Yu-Gi-Oh</b></div>
@@ -34,14 +40,14 @@ function Sets() {
         <div className="setbox">
         <a title="Attack on Titan" href="/set/Attack%20on%20Titan%20Box%20Set">
         <img alt="Attack on Titan" className="box-image" src="box_aot.png"/></a>
-        <div className="pinname"><b>Attack on Titan</b></div>
+        <div className="pinname"><b>Attack on Titan</b><br/>Deluxe Box Set Bonus: 20<br/>Deluxe+ Box Set Bonus: 25</div>
     </div></li>
 
 <li className="gallerybox">
         <div className="setbox">
         <a title="Avengers" href="/set/Avengers%20Box%20Set">
         <img alt="Avengers" className="box-image" src="box_avengers.png"/></a>
-        <div className="pinname"><b>Avengers</b></div>
+        <div className="pinname"><b>Avengers</b><br/>Deluxe Box Set Bonus: 20<br/>Deluxe+ Box Set Bonus: 25</div>
     </div></li>
 
 
@@ -196,6 +202,22 @@ function Sets() {
 <div className="home-category">2-Packs</div>
 
 <ul className="gallery mw-gallery-traditional">
+
+<li className="gallerybox">
+        <div className="setbox">
+        <a title="Sonic & Shadow" href="/set/Hawkeye%20and%20Black%20Widow%202-Pack">
+        <img alt="Sonic & Shadow" className="box-image" src="box_hawkeye_black_widow.png"/></a>
+        <div className="pinname"><b>Hawkeye & Black Widow</b></div>
+    </div></li>
+    
+<li className="gallerybox">
+        <div className="setbox">
+        <a title="Sonic & Shadow" href="/set/Sonic%20and%20Shadow%202-Pack">
+        <img alt="Sonic & Shadow" className="box-image" src="box_sonic_shadow.png"/></a>
+        <div className="pinname"><b>Sonic & Shadow</b></div>
+    </div></li>
+
+
 <li className="gallerybox">
         <div className="setbox">
         <a title="Carl & Russell (Box Lunch Exclusive)" href="/set/Carl%20and%20Russell%202-Pack">
@@ -275,6 +297,26 @@ function Sets() {
             <div className="pinname"><b>Yami Yugi</b><br/>Set Bonus: 10</div>
         </div></li>  
     */} 
+<li className="gallerybox">
+            <div className="setbox">
+            <a title="D100 QVC" href="/set/D100%20QVC%20Box%20Set">
+            <img alt="D100 QVC" className="box-image" src="box_d100qvc.png"/></a>
+            <div className="pinname"><b>Disney 100 QVC</b></div>
+        </div></li>  
+
+<li className="gallerybox">
+            <div className="setbox">
+            <a title="Clip Halloween" href="/set/Clip%20Halloween%20Box%20Set">
+            <img alt="Clip Halloween" className="box-image" src="box_cliphalloween.png"/></a>
+            <div className="pinname"><b>Clip Halloween </b></div>
+        </div></li>  
+
+<li className="gallerybox">
+            <div className="setbox">
+            <a title="Hello Kitty 2" href="/set/Hello%20Kitty%20Mystery%20Series%202">
+            <img alt="Hello Kitty 2" className="box-image" src="box_hk2.png"/></a>
+            <div className="pinname"><b>Hello Kitty Mystery Series 2</b><br/>Reward Bonus: 20<br/>In-App Ultra: Y50</div>
+        </div></li>  
 
 <li className="gallerybox">
             <div className="setbox">

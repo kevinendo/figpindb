@@ -53,6 +53,9 @@ function Home() {
         <Link title="Care Bears" to="/property/Care Bears"><img alt="Care Bears" className="where-image" src="logo_carebears.png"/></Link>
     </li>   
     <li className="gallerybox">
+        <Link title="Chainsaw Man" to="/property/Chainsaw Man"><img alt="Chainsaw Man" className="where-image" src="logo_chainsawman.png"/></Link>
+    </li>    
+    <li className="gallerybox">
         <Link title="Dark Souls" to="/property/Dark Souls"><img alt="Dark Souls" className="where-image" src="logo_darksouls.png"/></Link>
     </li>                   
     <li className="gallerybox">
