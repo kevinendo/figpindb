@@ -6,36 +6,21 @@ function Sets() {
 
 <h3 align="center">Sets</h3>
 
+
 <ul className="gallery mw-gallery-traditional">
-<div className="home-category">Box Sets</div>
+<div className="home-category">FiGPiN Exclusive Box Sets</div>
 <li className="gallerybox">
         <div className="setbox">
         <a title="X-Men '97" href="/set/X-Men%20Box%20Set">
         <img alt="X-Men '97" className="box-image" src="box_xmen.png"/></a>
-        <div className="pinname"><b>X-Men '97</b></div>
+        <div className="pinname"><b>X-Men '97</b><br/>Deluxe Box Set Bonus: 20<br/>Deluxe+ Box Set Bonus: 25</div>
     </div></li>
 <li className="gallerybox">
         <div className="setbox">
         <a title="Yu-Gi-Oh" href="/set/Yu-Gi-Oh%20Box%20Set">
         <img alt="Yu-Gi-Oh" className="box-image" src="box_yugioh.png"/></a>
-        <div className="pinname"><b>Yu-Gi-Oh</b></div>
+        <div className="pinname"><b>Yu-Gi-Oh</b><br/>Deluxe Box Set Bonus: 20<br/>Deluxe+ Box Set Bonus: 25</div>
     </div></li>
-    
-    <li className="gallerybox">
-        <div className="setbox">
-        <a title="WB 100 Looney Tunes" href="/set/WB%20100%20Looney%20Tunes%20Box%20Set">
-        <img alt="WB 100 Looney Tunes" className="box-image" src="box_wb100.png"/></a>
-        <div className="pinname"><b>WB 100 Looney Tunes</b></div>
-    </div></li>
-
-    <li className="gallerybox">
-        <div className="setbox">
-        <a title="D100" href="/set/D100%20Box%20Set">
-        <img alt="D100" className="box-image" src="box_d100.png"/></a>
-        <div className="pinname"><b>Disney 100</b></div>
-    </div></li>
-
-
 <li className="gallerybox">
         <div className="setbox">
         <a title="Attack on Titan" href="/set/Attack%20on%20Titan%20Box%20Set">
@@ -49,22 +34,6 @@ function Sets() {
         <img alt="Avengers" className="box-image" src="box_avengers.png"/></a>
         <div className="pinname"><b>Avengers</b><br/>Deluxe Box Set Bonus: 20<br/>Deluxe+ Box Set Bonus: 25</div>
     </div></li>
-
-
-<li className="gallerybox">
-        <div className="setbox">
-        <a title="Across The Spider-Verse" href="/set/Across%20The%20Spider-Verse%20Box%20Set">
-        <img alt="Across The Spider-Verse" className="box-image" src="box_acrossthespiderverse.png"/></a>
-        <div className="pinname"><b>Across The Spider-Verse</b></div>
-    </div></li>
-
-<li className="gallerybox">
-        <div className="setbox">
-        <a title="Guardians of the Galaxy 3" href="/set/Guardians%20of%20the%20Galaxy%203%20Box%20Set">
-        <img alt="Guardians of the Galaxy 3" className="box-image" src="box_gotg.png"/></a>
-        <div className="pinname"><b>Guardians of the Galaxy 3</b></div>
-    </div></li>
-
 <li className="gallerybox">
         <div className="setbox">
         <a title="Winnie the Pooh" href="/set/Winnie%20the%20Pooh%20Box%20Set">
@@ -88,12 +57,6 @@ function Sets() {
         <a title="One Piece" href="/set/One%20Piece%20Box%20Set">
         <img alt="One Piece" className="box-image" src="box_onepiece.png"/></a>
         <div className="pinname"><b>One Piece</b><br/>Deluxe Box Set Bonus: 20<br/>Deluxe+ Box Set Bonus: 25</div>
-    </div></li>
-<li className="gallerybox">
-        <div className="setbox">
-        <a title="Stranger Things (Greyscale)" href="/set/Stranger Things Greyscale Box Set">
-        <img alt="Stranger Things (Greyscale)" className="box-image" src="box_strangerthings_greyscale.png"/></a>
-        <div className="pinname"><b>Stranger Things (Greyscale)</b><br/>Box Set Bonus: 15</div>
     </div></li>
 <li className="gallerybox">
         <div className="setbox">
@@ -159,9 +122,51 @@ function Sets() {
 
 </ul>
 
-<div className="home-category">4-Packs</div>
+<div className="home-category">Retailer Exclusive Box Sets</div>
 
 <ul className="gallery mw-gallery-traditional">
+<li className="gallerybox">
+            <div className="setbox">
+            <a title="D100 QVC" href="/set/D100%20QVC%20Box%20Set">
+            <img alt="D100 QVC" className="box-image" src="box_d100qvc.png"/></a>
+            <div className="pinname"><b>Disney 100 QVC</b></div>
+        </div></li>  
+<li className="gallerybox">
+            <div className="setbox">
+            <a title="Clip Halloween" href="/set/Clip%20Halloween%20Box%20Set">
+            <img alt="Clip Halloween" className="box-image" src="box_cliphalloween.png"/></a>
+            <div className="pinname"><b>Clip Halloween </b></div>
+        </div></li>  
+<li className="gallerybox">
+        <div className="setbox">
+        <a title="WB 100 Looney Tunes" href="/set/WB%20100%20Looney%20Tunes%20Box%20Set">
+        <img alt="WB 100 Looney Tunes" className="box-image" src="box_wb100.png"/></a>
+        <div className="pinname"><b>WB 100 Looney Tunes</b></div>
+    </div></li>
+    <li className="gallerybox">
+        <div className="setbox">
+        <a title="D100" href="/set/D100%20Box%20Set">
+        <img alt="D100" className="box-image" src="box_d100.png"/></a>
+        <div className="pinname"><b>Disney 100</b></div>
+    </div></li>
+    <li className="gallerybox">
+        <div className="setbox">
+        <a title="Across The Spider-Verse" href="/set/Across%20The%20Spider-Verse%20Box%20Set">
+        <img alt="Across The Spider-Verse" className="box-image" src="box_acrossthespiderverse.png"/></a>
+        <div className="pinname"><b>Across The Spider-Verse</b></div>
+    </div></li>
+<li className="gallerybox">
+        <div className="setbox">
+        <a title="Guardians of the Galaxy 3" href="/set/Guardians%20of%20the%20Galaxy%203%20Box%20Set">
+        <img alt="Guardians of the Galaxy 3" className="box-image" src="box_gotg.png"/></a>
+        <div className="pinname"><b>Guardians of the Galaxy 3</b></div>
+    </div></li>
+    <li className="gallerybox">
+        <div className="setbox">
+        <a title="Stranger Things (Greyscale)" href="/set/Stranger Things Greyscale Box Set">
+        <img alt="Stranger Things (Greyscale)" className="box-image" src="box_strangerthings_greyscale.png"/></a>
+        <div className="pinname"><b>Stranger Things (Greyscale)</b><br/>Box Set Bonus: 15</div>
+    </div></li>
 <li className="gallerybox">
         <div className="setbox">
         <a title="Squid Game" href="/set/Squid%20Game%20Box%20Set">
@@ -192,13 +197,9 @@ function Sets() {
         <img alt="Dragon Ball Z" className="box-image" src="box_dbz.png"/></a>
         <div className="pinname"><b>Dragon Ball Z</b><br/>Deluxe Box Set Bonus: 20<br/>Deluxe+ Box Set Bonus: 25</div>
     </div></li>  
-    <li className="gallerybox">
-        <div className="setbox">
-        <a title="Call of Duty" href="/set/Call%20of%20Duty%204-Pack">
-        <img alt="Call of Duty" className="box-image" src="box_callofduty.png"/></a>
-        <div className="pinname"><b>Call of Duty</b></div>
-    </div></li>
+
 </ul>
+
 <div className="home-category">2-Packs</div>
 
 <ul className="gallery mw-gallery-traditional">
@@ -297,19 +298,7 @@ function Sets() {
             <div className="pinname"><b>Yami Yugi</b><br/>Set Bonus: 10</div>
         </div></li>  
     */} 
-<li className="gallerybox">
-            <div className="setbox">
-            <a title="D100 QVC" href="/set/D100%20QVC%20Box%20Set">
-            <img alt="D100 QVC" className="box-image" src="box_d100qvc.png"/></a>
-            <div className="pinname"><b>Disney 100 QVC</b></div>
-        </div></li>  
 
-<li className="gallerybox">
-            <div className="setbox">
-            <a title="Clip Halloween" href="/set/Clip%20Halloween%20Box%20Set">
-            <img alt="Clip Halloween" className="box-image" src="box_cliphalloween.png"/></a>
-            <div className="pinname"><b>Clip Halloween </b></div>
-        </div></li>  
 
 <li className="gallerybox">
             <div className="setbox">
@@ -410,6 +399,12 @@ function Sets() {
             <img alt="Incredibles 2 Set" className="box-image" src="box_incredibles.png"/></a>
             <div className="pinname"><b>Incredibles 2</b><br/>Set Bonus: 10</div>
         </div></li>          
+        <li className="gallerybox">
+        <div className="setbox">
+        <a title="Call of Duty" href="/set/Call%20of%20Duty%204-Pack">
+        <img alt="Call of Duty" className="box-image" src="box_callofduty.png"/></a>
+        <div className="pinname"><b>Call of Duty</b></div>
+    </div></li>
     </ul>
         </div>
     );
