@@ -155,13 +155,13 @@ function NewReleases() {
   <div className="videotitle">Disney 100 - 10/10/23</div>
 <ul className="gallery mw-gallery-traditional-left">
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1528">
-    <img className="pinlist-image" alt="1528" src="/temp/1528_med.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>    
+    <img className="pinlist-image" alt="1528" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/6c/b5/cd/11282/11282.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>    
     <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1529">
-    <img className="pinlist-image" alt="1529" src="/temp/1529_med.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>    
+    <img className="pinlist-image" alt="1529" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/84/5b/ae/11287/11287.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>    
     <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1530">
-    <img className="pinlist-image" alt="1530" src="/temp/1530_med.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>    
+    <img className="pinlist-image" alt="1530" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/db/88/69/11292/11292.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>    
     <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1531">
-    <img className="pinlist-image" alt="1531" src="/temp/1531_med.png"/><div className="pinname">Pops and Pins Exclusive</div></Link></div></li>    
+    <img className="pinlist-image" alt="1531" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/29/d3/16/11297/11297.ce68e513.png"/><div className="pinname">Pops and Pins Exclusive</div></Link></div></li>    
 
   </ul>
   <br/>

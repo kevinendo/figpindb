@@ -25,9 +25,9 @@ function Preorders() {
 <div className="videotitle">Yu-Gi-Oh - 10/27/23</div>
 <ul className="gallery mw-gallery-traditional-left">
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1505">
-    <img className="pinlist-image" alt="1505" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/de/56/1a/11327/11327.ce68e513.png"/><div className="pinname">Poptopia Exclusive (10/27/23 Release Date)</div></Link></div></li>    
+    <img className="pinlist-image" alt="1505" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/de/56/1a/11327/11327.ce68e513.png"/><div className="pinname">Poptopia Exclusive</div></Link></div></li>    
     <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1521">
-    <img className="pinlist-image" alt="1521" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/84/c5/7c/11342/11342.ce68e513.png"/><div className="pinname">Poptopia Exclusive (10/27/23 Release Date)</div></Link></div></li>    
+    <img className="pinlist-image" alt="1521" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/84/c5/7c/11342/11342.ce68e513.png"/><div className="pinname">Poptopia Exclusive</div></Link></div></li>    
   </ul>
 <br/>
 
