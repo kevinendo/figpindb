@@ -54,6 +54,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/property/Hunter x Hunter">Hunter x Hunter</a></li>
               <li><a className="dropdown-item" href="/property/Mob Psycho">Mob Psycho</a></li>
               <li><a className="dropdown-item" href="/property/Jujutsu Kaisen">Jujutsu Kaisen</a></li>
+              <li><a className="dropdown-item" href="/property/Jujutsu Kaisen x Hello Kitty">Jujutsu Kaisen x Hello Kitty</a></li>
               <li><a className="dropdown-item" href="/property/My Hero Academia">My Hero Academia</a></li>
               <li><a className="dropdown-item" href="/property/My Hero Academia x Hello Kitty">My Hero Academia x Hello Kitty</a></li>   
               <li><a className="dropdown-item" href="/property/Naruto">Naruto</a></li>
@@ -151,6 +152,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/property/Lilo and Stitch">Lilo & Stitch</a></li>
               <li><a className="dropdown-item" href="/property/The Lion King">The Lion King</a></li>
               <li><a className="dropdown-item" href="/property/The Little Mermaid">The Little Mermaid</a></li>
+              <li><a className="dropdown-item" href="/property/The Marvels">The Marvels</a></li>
               <li><a className="dropdown-item" href="/property/Mickey and Friends">Mickey and Friends</a></li>
               <li><a className="dropdown-item" href="/property/Monsters, Inc.">Monsters, Inc.</a></li>
               <li><a className="dropdown-item" href="/property/Nightmare Before Christmas">Nightmare Before Christmas</a></li>
@@ -270,6 +272,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/type/Logo">Logo</a></li>
               <li><a className="dropdown-item" href="/type/Mini">Mini</a></li>
               <li><a className="dropdown-item" href="/tags/Mystery">Mystery</a></li>
+              <li><a className="dropdown-item" href="/tags/Non-app%20chase%20chance">Non-app Chase Chance</a></li>
               <li><a className="dropdown-item" href="/tags/NYCC">NYCC</a></li>
               <li><a className="dropdown-item" href="/tags/SDCC">SDCC</a></li>      
               <li><a className="dropdown-item" href="/tags/Very Hard To Find">Very Hard To Find</a></li>

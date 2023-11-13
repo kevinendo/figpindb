@@ -9,6 +9,13 @@ function Sets() {
 
 <ul className="gallery mw-gallery-traditional">
 <div className="home-category">FiGPiN Exclusive Box Sets</div>
+
+<li className="gallerybox">
+        <div className="setbox">
+        <a title="Power Rangers" href="/set/Power%20Rangers%20Box%20Set">
+        <img alt="Power Rangers" className="box-image" src="box_pr.png"/></a>
+        <div className="pinname"><b>Power Rangers</b></div>
+    </div></li>
 <li className="gallerybox">
         <div className="setbox">
         <a title="X-Men '97" href="/set/X-Men%20Box%20Set">
@@ -132,12 +139,6 @@ function Sets() {
             <div className="pinname"><b>Disney 100 QVC</b></div>
         </div></li>  
 <li className="gallerybox">
-            <div className="setbox">
-            <a title="Clip Halloween" href="/set/Clip%20Halloween%20Box%20Set">
-            <img alt="Clip Halloween" className="box-image" src="box_cliphalloween.png"/></a>
-            <div className="pinname"><b>Clip Halloween </b></div>
-        </div></li>  
-<li className="gallerybox">
         <div className="setbox">
         <a title="WB 100 Looney Tunes" href="/set/WB%20100%20Looney%20Tunes%20Box%20Set">
         <img alt="WB 100 Looney Tunes" className="box-image" src="box_wb100.png"/></a>
@@ -203,7 +204,30 @@ function Sets() {
 <div className="home-category">2-Packs</div>
 
 <ul className="gallery mw-gallery-traditional">
-
+<li className="gallerybox">
+        <div className="setbox">
+        <a title="My Melody & Nobara Kugisaki" href="/set/My%20Melody%20and%20Nobara%20Kugisaki%202-Pack">
+        <img alt="My Melody & Nobara Kugisaki" className="box-image" src="box_mymelody_nobara.png"/></a>
+        <div className="pinname"><b>My Melody & Nobara Kugisaki</b></div>
+    </div></li>
+<li className="gallerybox">
+        <div className="setbox">
+        <a title="Steve & Creeper" href="/set/Steve%20and%20Creeper%202-Pack">
+        <img alt="Steve & Creeper" className="box-image" src="box_steve_creeper.png"/></a>
+        <div className="pinname"><b>Steve & Creeper</b></div>
+    </div></li>
+<li className="gallerybox">
+        <div className="setbox">
+        <a title="Hello Kitty & Ryomen Sukuna" href="/set/Hello%20Kitty%20and%20Ryomen%20Sukuna%202-Pack">
+        <img alt="Hello Kitty & Ryomen Sukuna" className="box-image" src="box_hk_ryomen.png"/></a>
+        <div className="pinname"><b>Hello Kitty & Ryomen Sukuna</b></div>
+    </div></li>
+<li className="gallerybox">
+        <div className="setbox">
+        <a title="Pochacco & Yuji Itadori" href="/set/Pochacco%20and%20Yuji%20Itadori%202-Pack">
+        <img alt="Pochacco & Yuji Itadori" className="box-image" src="box_pochacco_yuji.png"/></a>
+        <div className="pinname"><b>Pochacco & Yuji Itadori</b></div>
+    </div></li>
 <li className="gallerybox">
         <div className="setbox">
         <a title="Sonic & Shadow" href="/set/Hawkeye%20and%20Black%20Widow%202-Pack">
@@ -298,8 +322,18 @@ function Sets() {
             <div className="pinname"><b>Yami Yugi</b><br/>Set Bonus: 10</div>
         </div></li>  
     */} 
-
-
+<li className="gallerybox">
+            <div className="setbox">
+            <a title="Hello Kitty 4" href="/set/Hello%20Kitty%20Mystery%20Series%204">
+            <img alt="Hello Kitty 4" className="box-image" src="box_hk4.png"/></a>
+            <div className="pinname"><b>Hello Kitty Mystery Series 4</b><br/>Reward Bonus: 20<br/>In-App Ultra: Y90</div>
+        </div></li>  
+<li className="gallerybox">
+            <div className="setbox">
+            <a title="Clip Halloween" href="/set/Clip%20Halloween%20Set">
+            <img alt="Clip Halloween" className="box-image" src="box_cliphalloween.png"/></a>
+            <div className="pinname"><b>Clip Halloween </b></div>
+        </div></li>  
 <li className="gallerybox">
             <div className="setbox">
             <a title="Hello Kitty 2" href="/set/Hello%20Kitty%20Mystery%20Series%202">

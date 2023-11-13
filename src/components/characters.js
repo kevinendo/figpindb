@@ -55,29 +55,42 @@ function Characters() {
     <li className="gallerybox"><Link title="The Mandalorian" to="/tags/The%20Mandalorian"><img alt="The Mandalorian" className="where-image" src="char_mando.png"/><br/><div className="pinname"><b>The Mandalorian</b></div></Link></li>      
     <li className="gallerybox"><Link title="Grogu" to="/tags/Grogu"><img alt="Grogu" className="where-image" src="char_grogu.png"/><br/><div className="pinname"><b>Grogu</b></div></Link></li>      
     <li className="gallerybox"><Link title="Ahsoka Tano" to="/tags/Ahsoka%20Tano"><img alt="Ahsoka Tano" className="where-image" src="char_ahsoka.png"/><br/><div className="pinname"><b>Ahsoka Tano</b></div></Link></li>      
+    <li className="gallerybox"><Link title="Alien" to="/property/Alien%20Remix"><img alt="Alien" className="where-image" src="char_alien.png"/><br/><div className="pinname"><b>Alien</b></div></Link></li>      
     <li className="gallerybox"><Link title="Buzz Lightyear" to="/tags/Buzz%20Lightyear"><img alt="Buzz Lightyear" className="where-image" src="char_buzz.png"/><br/><div className="pinname"><b>Buzz Lightyear</b></div></Link></li>      
     <li className="gallerybox"><Link title="Woody" to="/tags/Woody"><img alt="Woody" className="where-image" src="char_woody.png"/><br/><div className="pinname"><b>Woody</b></div></Link></li>      
     <li className="gallerybox"><Link title="Mickey Mouse" to="/tags/Mickey%20Mouse"><img alt="Mickey Mouse" className="where-image" src="char_mickey.png"/><br/><div className="pinname"><b>Mickey Mouse</b></div></Link></li>      
     <li className="gallerybox"><Link title="Minnie Mouse" to="/tags/Minnie%20Mouse"><img alt="Minnie Mouse" className="where-image" src="char_minnie.png"/><br/><div className="pinname"><b>Minnie Mouse</b></div></Link></li>      
     <li className="gallerybox"><Link title="Goofy" to="/tags/Goofy"><img alt="Goofy" className="where-image" src="char_goofy.png"/><br/><div className="pinname"><b>Goofy</b></div></Link></li>      
+    <li className="gallerybox"><Link title="Pluto" to="/tags/Pluto"><img alt="Pluto" className="where-image" src="char_pluto.png"/><br/><div className="pinname"><b>Pluto</b></div></Link></li>      
     <li className="gallerybox"><Link title="Donald Duck" to="/tags/Donald%20Duck"><img alt="Donald Duck" className="where-image" src="char_donaldduck.png"/><br/><div className="pinname"><b>Donald Duck</b></div></Link></li>      
     <li className="gallerybox"><Link title="Stitch" to="/tags/Stitch"><img alt="Stitch" className="where-image" src="char_stitch.png"/><br/><div className="pinname"><b>Stitch</b></div></Link></li>      
     <li className="gallerybox"><Link title="Ariel" to="/tags/Ariel"><img alt="Ariel" className="where-image" src="char_ariel.png"/><br/><div className="pinname"><b>Ariel</b></div></Link></li>      
     <li className="gallerybox"><Link title="Jasmine" to="/tags/Jasmine"><img alt="Jasmine" className="where-image" src="char_jasmine.png"/><br/><div className="pinname"><b>Jasmine</b></div></Link></li>      
 </ul>
 
-<div className="home-category">Misc</div>
+<div className="home-category">Games</div>
 <ul className="gallery mw-gallery-traditional">
     <li className="gallerybox"><Link title="Altaïr" to="/tags/Altaïr"><img alt="Altaïr" className="where-image" src="char_altair.png"/><br/><div className="pinname"><b>Altaïr</b></div></Link></li>      
     <li className="gallerybox"><Link title="Master Chief" to="/property/Halo"><img alt="Master Chief" className="where-image" src="char_masterchief.png"/><br/><div className="pinname"><b>Master Chief</b></div></Link></li>      
+    <li className="gallerybox"><Link title="Steve" to="/tags/Steve"><img alt="Steve" className="where-image" src="char_steve.png"/><br/><div className="pinname"><b>Steve</b></div></Link></li>      
+    <li className="gallerybox"><Link title="Alex" to="/tags/Alex"><img alt="Alex" className="where-image" src="char_alex.png"/><br/><div className="pinname"><b>Alex</b></div></Link></li>      
     <li className="gallerybox"><Link title="Sonic" to="/tags/Sonic"><img alt="Sonic" className="where-image" src="char_sonic.png"/><br/><div className="pinname"><b>Sonic</b></div></Link></li>      
     <li className="gallerybox"><Link title="Vault Boy" to="/tags/Vault%20Boy"><img alt="Vault Boy" className="where-image" src="char_vaultboy.png"/><br/><div className="pinname"><b>Vault Boy</b></div></Link></li>      
+</ul>
+
+<div className="home-category">Misc</div>
+<ul className="gallery mw-gallery-traditional">
+<li className="gallerybox"><Link title="Clip" to="/tags/Clip"><img alt="Clip" className="where-image" src="char_clip.png"/><br/><div className="pinname"><b>Clip</b></div></Link></li>      
     <li className="gallerybox"><Link title="Bruce Lee" to="/property/Bruce%20Lee"><img alt="Bruce Lee" className="where-image" src="char_brucelee.png"/><br/><div className="pinname"><b>Bruce Lee</b></div></Link></li>      
     <li className="gallerybox"><Link title="Gudetama" to="/property/Gudetama"><img alt="Gudetama" className="where-image" src="char_gudetama.png"/><br/><div className="pinname"><b>Gudetama</b></div></Link></li>      
     <li className="gallerybox"><Link title="Hello Kitty" to="/tags/Hello%20Kitty"><img alt="Hello Kitty" className="where-image" src="char_hellokitty.png"/><br/><div className="pinname"><b>Hello Kitty</b></div></Link></li>      
     <li className="gallerybox"><Link title="My Melody" to="/tags/My%20Melody"><img alt="My Melody" className="where-image" src="char_mymelody.png"/><br/><div className="pinname"><b>My Melody</b></div></Link></li>  
+    <li className="gallerybox"><Link title="Pochacco" to="/tags/Pochacco"><img alt="Tuxedosam" className="where-image" src="char_pochacco.png"/><br/><div className="pinname"><b>Pochacco</b></div></Link></li>      
     <li className="gallerybox"><Link title="Tuxedosam" to="/tags/Tuxedosam"><img alt="Tuxedosam" className="where-image" src="char_tuxedosam.png"/><br/><div className="pinname"><b>Tuxedosam</b></div></Link></li>      
-    <li className="gallerybox"><Link title="Alien" to="/property/Alien%20Remix"><img alt="Alien" className="where-image" src="char_alien.png"/><br/><div className="pinname"><b>Alien</b></div></Link></li>      
+    <li className="gallerybox"><Link title="Badtz-Maru" to="/tags/Badtz-Maru"><img alt="Badtz-Maru" className="where-image" src="char_badtzmaru.png"/><br/><div className="pinname"><b>Madtz-Maru</b></div></Link></li>      
+    <li className="gallerybox"><Link title="Kuromi" to="/tags/Kuromi"><img alt="Kuromi" className="where-image" src="char_kuromi.png"/><br/><div className="pinname"><b>Kuromi</b></div></Link></li>      
+    <li className="gallerybox"><Link title="LittleTwinStars" to="/tags/LittleTwinStars"><img alt="LittleTwinStars" className="where-image" src="char_littletwinstars.png"/><br/><div className="pinname"><b>LittleTwinStars</b></div></Link></li>      
+
 </ul>
 
         </div>
