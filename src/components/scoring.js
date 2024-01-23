@@ -72,9 +72,9 @@ function Resources() {
 </ul>
 <p><img class="scoring" src="/scoring_glitch.png" alt="Glitch"/><b>GLITCH</b>: 20 (Bonus due to incorrect Mandalorian FiGPiNs)</p>
 <p><img class="scoring" src="/scoring_gift_pass.png" alt="Gift Pass"/><b>GIFT PASS</b>: 5 (Awarded by FiGPiN to resolve customer service issues)</p>
-<p><img class="scoring" src="/scoring_gofig.png" alt="Gofig"/><b>GOFiG</b>: 15-100 (Random bonus from FWAP2, ECCC 2023, Alliance Fest SDCC 2023, or the SDCC 2023 Bait Party.)</p>
+<p><img class="scoring" src="/scoring_gofig.png" alt="Gofig"/><b>GOFiG</b>: 15-100 (Random bonus from FWAP2, ECCC 2023, Alliance Fest SDCC 2023, SDCC 2023 Bait Party, or Alliance Fest NYCC 2023.)</p>
 <p><img class="scoring" src="/scoring_arena.png" alt="Arena"/><b>ARENAS</b>: 0-100 (Starts with 5 points)</p>
-<p><img class="scoring" src="/scoring_arenacheckin.png" alt="Arena Checkin"/><b>ARENA Check In</b>: 20 (Checked in at ECCC 2023, Alliance Fest SDCC 2023, or the SDCC 2023 Bait Party.)</p>
+<p><img class="scoring" src="/scoring_arenacheckin.png" alt="Arena Checkin"/><b>ARENA Check In</b>: 20 (Checked in at ECCC 2023)</p>
 <p><img class="scoring" src="/scoring_reward.png" alt="Reward"/><b>REWARD</b>: 20 (Bonus for redeeming in-app logo or mystery set Ultra)</p>
 <p><img class="scoring" src="/scoring_retired.png" alt="Retired"/><b>RETIRED</b>: 100 (This FiGPiN has officially been retired)</p>
 

@@ -7,6 +7,29 @@ function Home() {
     return (
         <div className="detail-box">      
 <h3 align="center">Events</h3>
+<div className="home-category">2024</div>
+<ul className="gallery mw-gallery-traditional">
+<li className="gallerybox">
+        <Link title="NYCC" to="/tags/NYCC%202024"><img alt="NYCC" className="where-image" src="logo_nycc.png"/><br/><div className="pinname"><b>NYCC 2024</b><br/>10/17/24</div></Link>
+    </li>    
+    <li className="gallerybox">
+        <Link title="D23 Expo" to="/tags/D23%20Expo%202024"><img alt="D23 Expo" className="where-image" src="logo_d23.png"/><br/><div className="pinname"><b>D23 Expo 2024</b><br/>8/9/24</div></Link>
+    </li>   
+    <li className="gallerybox">
+        <Link title="SDCC" to="/tags/SDCC%202024"><img alt="SDCC" className="where-image" src="logo_sdcc.png"/><br/><div className="pinname"><b>SDCC 2024</b><br/>7/25/24</div></Link>
+    </li>    
+    <li className="gallerybox">
+        <Link title="Anime Expo" to="/tags/Anime Expo 2024"><img alt="Anime Expo" className="where-image" src="logo_animeexpo.png"/><br/><div className="pinname"><b>Anime Expo 2024</b><br/>7/4/24</div></Link>
+    </li>      
+    <li className="gallerybox">
+        <Link title="WonderCon" to="/tags/WonderCon 2024"><img alt="WonderCon" className="where-image" src="logo_wondercon.png"/><br/><div className="pinname"><b>WonderCon 2024</b><br/>3/29/24</div></Link>
+    </li>       
+    <li className="gallerybox">
+        <Link title="MegaCon Orlando" to="/tags/MegaCon Orlando 2024"><img alt="WonderCon" className="where-image" src="logo_megacon.png"/><br/><div className="pinname"><b>MegaCon Orlando 2024</b><br/>2/1/24</div></Link>
+    </li> 
+</ul>
+
+
 <div className="home-category">2023</div>
 
     <ul className="gallery mw-gallery-traditional">

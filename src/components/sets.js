@@ -6,9 +6,28 @@ function Sets() {
 
 <h3 align="center">Sets</h3>
 
-
-<ul className="gallery mw-gallery-traditional">
 <div className="home-category">FiGPiN Exclusive Box Sets</div>
+<ul className="gallery mw-gallery-traditional">
+
+<li className="gallerybox">
+        <div className="setbox">
+        <a title="Naruto Shippuden" href="/set/Naruto%20Shippuden%20Box%20Set">
+        <img alt="Naruto Shippuden" className="box-image" src="box_naruto24.png"/></a>
+        <div className="pinname"><b>Naruto Shippuden</b></div>
+    </div></li>
+<li className="gallerybox">
+        <div className="setbox">
+        <a title="Hall of Armor Blueprint" href="/set/Hall%20of%20Armor%20Blueprint%20Box%20Set">
+        <img alt="Hall of Armor Blueprint" className="box-image" src="box_armor_blueprint.png"/></a>
+        <div className="pinname"><b>Hall of Armor Blueprint</b></div>
+    </div></li>
+
+<li className="gallerybox">
+        <div className="setbox">
+        <a title="Hall of Armor" href="/set/Hall%20of%20Armor%20Box%20Set">
+        <img alt="Hall of Armor" className="box-image" src="box_armor.png"/></a>
+        <div className="pinname"><b>Hall of Armor</b></div>
+    </div></li>
 
 <li className="gallerybox">
         <div className="setbox">
@@ -134,6 +153,18 @@ function Sets() {
 <ul className="gallery mw-gallery-traditional">
 <li className="gallerybox">
             <div className="setbox">
+            <a title="Cowboy Bebop" href="/set/Cowboy%20Bebop%20Box%20Set">
+            <img alt="Cowboy Bebop" className="box-image" src="box_cowboy_bebop.png"/></a>
+            <div className="pinname"><b>Cowboy Bebop</b></div>
+        </div></li>  
+        <li className="gallerybox">
+            <div className="setbox">
+            <a title="AMC Clip" href="/set/AMC%20Clip%20Box%20Set">
+            <img alt="AMC Clip" className="box-image" src="box_amc.png"/></a>
+            <div className="pinname"><b>AMC Clip</b></div>
+        </div></li>  
+<li className="gallerybox">
+            <div className="setbox">
             <a title="D100 QVC" href="/set/D100%20QVC%20Box%20Set">
             <img alt="D100 QVC" className="box-image" src="box_d100qvc.png"/></a>
             <div className="pinname"><b>Disney 100 QVC</b></div>
@@ -204,6 +235,37 @@ function Sets() {
 <div className="home-category">2-Packs</div>
 
 <ul className="gallery mw-gallery-traditional">
+<li className="gallerybox">
+        <div className="setbox">
+        <a title="Badtz-Maru and Megumi Fushiguro" href="/set/Badtz-Maru%20and%20Megumi%20Fushiguro%202-Pack">
+        <img alt="Badtz-Maru and Megumi Fushiguro" className="box-image" src="box_badtzmaru_megumi.png"/></a>
+        <div className="pinname"><b>Badtz-Maru and Megumi Fushiguro</b></div>
+    </div></li>
+
+<li className="gallerybox">
+        <div className="setbox">
+        <a title="Luna & Artemis" href="/set/Luna%20and%20Artemis%202-Pack">
+        <img alt="Luna & Artemis" className="box-image" src="box_luna_artemis.png"/></a>
+        <div className="pinname"><b>Luna & Artemis</b></div>
+    </div></li>
+<li className="gallerybox">
+        <div className="setbox">
+        <a title="Badtz-Maru & Levi" href="/set/Badtz-Maru%20and%20Levi%202-Pack">
+        <img alt="Badtz-Maru & Levi" className="box-image" src="box_badtzmaru_levi.png"/></a>
+        <div className="pinname"><b>Badtz-Maru & Levi</b></div>
+    </div></li>
+<li className="gallerybox">
+        <div className="setbox">
+        <a title="Lilo & Stitch" href="/set/Lilo%20and%20Stitch%202-Pack">
+        <img alt="Lilo & Stitch" className="box-image" src="box_lilo_stitch.png"/></a>
+        <div className="pinname"><b>Lilo & Stitch</b></div>
+    </div></li>
+<li className="gallerybox">
+        <div className="setbox">
+        <a title="Cinnamoroll & Satoru Gojo" href="/set/Cinnamoroll%20and%20Satoru%20Gojo%202-Pack">
+        <img alt="Cinnamoroll & Satoru Gojo" className="box-image" src="box_cinnamoroll_satoru.png"/></a>
+        <div className="pinname"><b>Cinnamoroll & Satoru Gojo</b></div>
+    </div></li>
 <li className="gallerybox">
         <div className="setbox">
         <a title="My Melody & Nobara Kugisaki" href="/set/My%20Melody%20and%20Nobara%20Kugisaki%202-Pack">
@@ -312,6 +374,111 @@ function Sets() {
 
       </ul>
 
+      <div className="home-category">Mystery Mini Sets</div>
+    <ul className="gallery mw-gallery-traditional">
+    <li className="gallerybox">
+            <div className="setbox">
+            <a title="Yu-Gi-Oh 1" href="/set/Yu-Gi-Oh%20Mystery%20Series%201">
+            <img alt="Yu-Gi-Oh 1" className="box-image" src="box_yugioh1.png"/></a>
+            <div className="pinname"><b>Yu-Gi-Oh Series 1</b><br/>Reward Bonus: 20<br/>In-App Ultra: Y159</div>
+        </div></li>  
+
+        <li className="gallerybox">
+            <div className="setbox">
+            <a title="Powerpuff Girls Series 1" href="/set/Powerpuff%20Girls%20Series%201">
+            <img alt="Powerpuff Girls Series 1" className="box-image" src="box_ppg1.png"/></a>
+            <div className="pinname"><b>Powerpuff Girls Series 1</b><br/>Reward Bonus: 20<br/>In-App Ultra: Y201</div>
+        </div></li>  
+
+        <li className="gallerybox">
+            <div className="setbox">
+            <a title="Hello Kitty 3" href="/set/Hello%20Kitty%20Mystery%20Series%203">
+            <img alt="Hello Kitty 3" className="box-image" src="box_hk3.png"/></a>
+            <div className="pinname"><b>Hello Kitty Series 3</b><br/>Reward Bonus: 20<br/>In-App Ultra: Y70</div>
+        </div></li>  
+
+        <li className="gallerybox">
+            <div className="setbox">
+            <a title="Webtoon 1" href="/set/Webtoon%20Mystery%20Series%201">
+            <img alt="Webtoon 1" className="box-image" src="box_webtoon1.png"/></a>
+            <div className="pinname"><b>Webtoon Series 1</b><br/>Reward Bonus: 20<br/>In-App Ultra: Y145</div>
+        </div></li>  
+<li className="gallerybox">
+            <div className="setbox">
+            <a title="Hello Kitty 5" href="/set/Hello%20Kitty%20Mystery%20Series%205">
+            <img alt="Hello Kitty 5" className="box-image" src="box_hk5.png"/></a>
+            <div className="pinname"><b>Hello Kitty Series 5</b><br/>Reward Bonus: 20<br/>In-App Ultra: Y173</div>
+        </div></li>  
+
+        <li className="gallerybox">
+            <div className="setbox">
+            <a title="Lilo & Stitch 1" href="/set/Lilo%20and%20Stitch%20Mystery%20Series%201">
+            <img alt="Lilo & Stitch 1" className="box-image" src="box_stitch1.png"/></a>
+            <div className="pinname"><b>Lilo & Stitch Series 1</b><br/>Reward Bonus: 20<br/>In-App Ultra: Y110</div>
+        </div></li>  
+
+        <li className="gallerybox">
+            <div className="setbox">
+            <a title="Five Nights at Freddy's" href="/set/Five%20Nights%20at%20Freddy's%20Mystery%20Series%202">
+            <img alt="Five Nights at Freddy's" className="box-image" src="box_fnaf2.png"/></a>
+            <div className="pinname"><b>Five Nights at Freddy's Series 2</b><br/>Reward Bonus: 20<br/>In-App Ultra: Y130</div>
+        </div></li>  
+
+<li className="gallerybox">
+            <div className="setbox">
+            <a title="Hello Kitty 4" href="/set/Hello%20Kitty%20Mystery%20Series%204">
+            <img alt="Hello Kitty 4" className="box-image" src="box_hk4.png"/></a>
+            <div className="pinname"><b>Hello Kitty Series 4</b><br/>Reward Bonus: 20<br/>In-App Ultra: Y90</div>
+        </div></li>  
+
+        <li className="gallerybox">
+            <div className="setbox">
+            <a title="Five Nights at Freddy's" href="/set/Five%20Nights%20at%20Freddy's%20Mystery%20Series%201">
+            <img alt="Five Nights at Freddy's" className="box-image" src="box_fnaf1.png"/></a>
+            <div className="pinname"><b>Five Nights at Freddy's Series 1</b><br/>Reward Bonus: 20<br/>In-App Ultra: Y120</div>
+        </div></li>  
+
+        <li className="gallerybox">
+            <div className="setbox">
+            <a title="Minecraft" href="/set/Minecraft%20Mystery%20Series%202">
+            <img alt="Minecraft" className="box-image" src="box_mc2.png"/></a>
+            <div className="pinname"><b>Minecraft Series 2</b><br/>Reward Bonus: 20<br/>In-App Ultra: Y60</div>
+        </div></li>  
+        <li className="gallerybox">
+            <div className="setbox">
+            <a title="Hello Kitty 2" href="/set/Hello%20Kitty%20Mystery%20Series%202">
+            <img alt="Hello Kitty 2" className="box-image" src="box_hk2.png"/></a>
+            <div className="pinname"><b>Hello Kitty Series 2</b><br/>Reward Bonus: 20<br/>In-App Ultra: Y50</div>
+        </div></li>  
+        <li className="gallerybox">
+            <div className="setbox">
+            <a title="Minecraft" href="/set/Minecraft%20Mystery%20Series%201">
+            <img alt="Minecraft" className="box-image" src="box_mc1.png"/></a>
+            <div className="pinname"><b>Minecraft Series 1</b><br/>Reward Bonus: 20<br/>In-App Ultra: Y40</div>
+        </div></li>  
+        <li className="gallerybox">
+            <div className="setbox">
+            <a title="Sonic The Hedgehog" href="/set/Sonic%20The%20Hedgehog%20Mystery%20Series%201">
+            <img alt="Sonic The Hedgehog" className="box-image" src="box_sh1.png"/></a>
+            <div className="pinname"><b>Sonic The Hedgehog Series 1</b><br/>Reward Bonus: 20<br/>In-App Ultra: Y30</div>
+        </div></li>  
+        <li className="gallerybox">
+            <div className="setbox">
+            <a title="Hello Kitty 1" href="/set/Hello%20Kitty%20Mystery%20Series%201">
+            <img alt="Hello Kitty 1" className="box-image" src="box_hk1.png"/></a>
+            <div className="pinname"><b>Hello Kitty Series 1</b><br/>Reward Bonus: 20<br/>In-App Ultra: Y20</div>
+        </div></li>  
+
+        <li className="gallerybox">
+            <div className="setbox">
+            <a title="Spy X Family 1" href="/set/Spy%20X%20Family%20Mystery%20Series%201">
+            <img alt="Spy X Family 1" className="box-image" src="box_sxf1.png"/></a>
+            <div className="pinname"><b>Spy X Family Series 1</b><br/>Reward Bonus: 20<br/>In-App Ultra: Y10</div>
+        </div></li>  
+        </ul>
+
+
+
 <div className="home-category">Special Sets</div>
     <ul className="gallery mw-gallery-traditional">
         {/*
@@ -321,57 +488,33 @@ function Sets() {
             <img alt="Yami Yugi" className="box-image" src="box_yamiyugi.png"/></a>
             <div className="pinname"><b>Yami Yugi</b><br/>Set Bonus: 10</div>
         </div></li>  
-    */} 
+
+*/} 
+
+
+
 <li className="gallerybox">
             <div className="setbox">
-            <a title="Hello Kitty 4" href="/set/Hello%20Kitty%20Mystery%20Series%204">
-            <img alt="Hello Kitty 4" className="box-image" src="box_hk4.png"/></a>
-            <div className="pinname"><b>Hello Kitty Mystery Series 4</b><br/>Reward Bonus: 20<br/>In-App Ultra: Y90</div>
+            <a title="FiGPiN Quest - Naruto" href="/set/FiGPiN%20Quest%20-%20Naruto">
+            <img alt="FiGPiN Quest - Naruto" className="box-image" src="box_quest_naruto.png"/></a>
+            <div className="pinname"><b>FiGPiN Quest - Naruto</b></div>
         </div></li>  
+
 <li className="gallerybox">
             <div className="setbox">
             <a title="Clip Halloween" href="/set/Clip%20Halloween%20Set">
             <img alt="Clip Halloween" className="box-image" src="box_cliphalloween.png"/></a>
             <div className="pinname"><b>Clip Halloween </b></div>
         </div></li>  
-<li className="gallerybox">
-            <div className="setbox">
-            <a title="Hello Kitty 2" href="/set/Hello%20Kitty%20Mystery%20Series%202">
-            <img alt="Hello Kitty 2" className="box-image" src="box_hk2.png"/></a>
-            <div className="pinname"><b>Hello Kitty Mystery Series 2</b><br/>Reward Bonus: 20<br/>In-App Ultra: Y50</div>
-        </div></li>  
+
 
 <li className="gallerybox">
             <div className="setbox">
             <a title="eVend SDCC 2023" href="/set/eVend%20SDCC%202023%20Set">
             <img alt="eVend SDCC 2023" className="box-image" src="box_evend_sdcc_2023.png"/></a>
-            <div className="pinname"><b>eVend SDCC 2023</b><br/>In-App Logo</div>
-        </div></li>  
-        <li className="gallerybox">
-            <div className="setbox">
-            <a title="Minecraft" href="/set/Minecraft%20Mystery%20Series%201">
-            <img alt="Minecraft" className="box-image" src="box_mc1.png"/></a>
-            <div className="pinname"><b>Minecraft Mystery Series 1</b><br/>Reward Bonus: 20<br/>In-App Ultra: Y40</div>
-        </div></li>  
-        <li className="gallerybox">
-            <div className="setbox">
-            <a title="Sonic The Hedgehog" href="/set/Sonic%20The%20Hedgehog%20Mystery%20Series%201">
-            <img alt="Sonic The Hedgehog" className="box-image" src="box_sh1.png"/></a>
-            <div className="pinname"><b>Sonic The Hedgehog Mystery Series 1</b><br/>Reward Bonus: 20<br/>In-App Ultra: Y30</div>
-        </div></li>  
-        <li className="gallerybox">
-            <div className="setbox">
-            <a title="Hello Kitty 1" href="/set/Hello%20Kitty%20Mystery%20Series%201">
-            <img alt="Hello Kitty 1" className="box-image" src="box_hk1.png"/></a>
-            <div className="pinname"><b>Hello Kitty Mystery Series 1</b><br/>Reward Bonus: 20<br/>In-App Ultra: Y20</div>
+            <div className="pinname"><b>eVend SDCC 2023</b><br/>Reward Bonus: 20<br/>In-App Logo</div>
         </div></li>  
 
-        <li className="gallerybox">
-            <div className="setbox">
-            <a title="Spy X Family 1" href="/set/Spy%20X%20Family%20Mystery%20Series%201">
-            <img alt="Spy X Family 1" className="box-image" src="box_sxf1.png"/></a>
-            <div className="pinname"><b>Spy X Family Mystery Series 1</b><br/>Reward Bonus: 20<br/>In-App Ultra: Y10</div>
-        </div></li>  
 
         <li className="gallerybox">
             <div className="setbox">

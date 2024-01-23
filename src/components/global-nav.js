@@ -32,15 +32,17 @@ function GlobalNav() {
         
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
           <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="/tags/West" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Anime
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a className="dropdown-item" href="/property_type/anime">See All Anime</a></li>
               <li><a className="dropdown-item" href="/property/Astro Boy">Astro Boy</a></li>
               <li><a className="dropdown-item" href="/property/Attack on Titan">Attack on Titan</a></li>
               <li><a className="dropdown-item" href="/property/Attack on Titan x Hello Kitty">Attack on Titan x Hello Kitty</a></li>
               <li><a className="dropdown-item" href="/property/Cannon Busters">Cannon Busters</a></li>
               <li><a className="dropdown-item" href="/property/Chainsaw Man">Chainsaw Man</a></li>
+              <li><a className="dropdown-item" href="/property/Cowboy Bebop">Cowboy Bebop</a></li>
               <li><a className="dropdown-item" href="/property/Demon Slayer">Demon Slayer</a></li>
               <li><a className="dropdown-item" href="/property/Dr. Stone">Dr. Stone</a></li>
               <li><a className="dropdown-item" href="/property/Dragon Ball">Dragon Ball</a></li>
@@ -74,6 +76,7 @@ function GlobalNav() {
                 Comics
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a className="dropdown-item" href="/property_type/comics">See All Comics</a></li>
               <li><a className="dropdown-item" href="/property/DC Comics: Classic Batman">DC Comics: Classic Batman</a></li>
               <li><a className="dropdown-item" href="/property/DC Comics: Justice League">DC Comics: Justice League</a></li>
               <li><a className="dropdown-item" href="/property/DC Comics: Rebirth">DC Comics: Rebirth</a></li>
@@ -87,6 +90,7 @@ function GlobalNav() {
                 Games
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a className="dropdown-item" href="/property_type/games">See All Games</a></li>
               <li><a className="dropdown-item" href="/property/Assassin's Creed">Assassin's Creed</a></li>
               <li><a className="dropdown-item" href="/property/Avengers">Avengers</a></li>              
               <li><a className="dropdown-item" href="/property/Borderlands3">Borderlands3</a></li>
@@ -130,7 +134,9 @@ function GlobalNav() {
                 Movies
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a className="dropdown-item" href="/property_type/movies">See All Movies</a></li>
               <li><a className="dropdown-item" href="/property/Alice In Wonderland">Alice In Wonderland</a></li>
+              <li><a className="dropdown-item" href="/property/Aquaman and the Lost Kingdom">Aquaman and the Lost Kingdom</a></li>
               <li><a className="dropdown-item" href="/property/Avengers Endgame">Avengers Endgame</a></li>
               <li><a className="dropdown-item" href="/property/Avengers Infinity War">Avengers Infinity War</a></li>
               <li><a className="dropdown-item" href="/property/Big Hero 6">Big Hero 6</a></li>
@@ -163,6 +169,9 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/property/Spider-Man: Into the Spider-Verse">Spider-Man: Into The Spider-Verse</a></li>
               <li><a className="dropdown-item" href="/property/Spider-Man: No Way Home">Spider-Man: No Way Home</a></li>
               <li><a className="dropdown-item" href="/property/Star Wars">Star Wars</a></li>
+              <li><a className="dropdown-item" href="/property/Star Wars A New Hope">Star Wars A New Hope</a></li>
+              <li><a className="dropdown-item" href="/property/Star Wars The Empire Strikes Back">Star Wars The Empire Strikes Back</a></li>
+              <li><a className="dropdown-item" href="/property/Star Wars Return of the Jedi">Star Wars Return of the Jedi</a></li>
               <li><a className="dropdown-item" href="/property/Star Wars The Force Awakens">Star Wars The Force Awakens</a></li>
               <li><a className="dropdown-item" href="/property/Thor Love and Thunder">Thor Love & Thunder</a></li>
               <li><a className="dropdown-item" href="/property/Toy Story">Toy Story</a></li>
@@ -176,6 +185,7 @@ function GlobalNav() {
                 TV
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a className="dropdown-item" href="/property_type/tv">See All TV</a></li>
               <li><a className="dropdown-item" href="/property/Aggretsuko">Aggretsuko</a></li>
               <li><a className="dropdown-item" href="/property/Avatar The Last Airbender">Avatar The Last Airbender</a></li>
               <li><a className="dropdown-item" href="/property/Batman The Animated Series">Batman The Animated Series</a></li>
@@ -187,6 +197,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/property/MTV">MTV</a></li>
               <li><a className="dropdown-item" href="/property/MTV Beavis and Butt-Head">MTV Beavis & Butt-Head</a></li>
               <li><a className="dropdown-item" href="/property/Power Rangers">Power Rangers</a></li>
+              <li><a className="dropdown-item" href="/property/Powerpuff Girls">Powerpuff Girls</a></li>
               <li><a className="dropdown-item" href="/property/Scooby-Doo!">Scooby-Doo!</a></li>
               <li><a className="dropdown-item" href="/property/The Simpsons">The Simpsons</a></li>
               <li><a className="dropdown-item" href="/property/South Park">South Park</a></li>
@@ -213,6 +224,7 @@ function GlobalNav() {
                 Misc
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a className="dropdown-item" href="/property_type/misc">See All Misc</a></li>
               <li><a className="dropdown-item" href="/property/ACDC High Voltage">AC/DC: High Voltage</a></li>
               <li><a className="dropdown-item" href="/property/Alien Remix">Alien Remix</a></li>
               <li><a className="dropdown-item" href="/property/AMC Theatres">AMC Theatres</a></li>
@@ -227,6 +239,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/property/KISS">KISS</a></li>              
               <li><a className="dropdown-item" href="/licensor/MLB">MLB</a></li>
               <li><a className="dropdown-item" href="/licensor/NBA">NBA</a></li>
+              <li><a className="dropdown-item" href="/licensor/Webtoon">Webtoon</a></li>
               <li><a className="dropdown-item" href="/licensor/WWE">WWE</a></li>
               </ul>
             </li>   
@@ -270,6 +283,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/tags/Holiday">Holiday</a></li>
               <li><a className="dropdown-item" href="/availability/Limited%20Edition">Limited Edition</a></li>
               <li><a className="dropdown-item" href="/type/Logo">Logo</a></li>
+              <li><a className="dropdown-item" href="/type/Logo%20Series">Logo Series</a></li>
               <li><a className="dropdown-item" href="/type/Mini">Mini</a></li>
               <li><a className="dropdown-item" href="/tags/Mystery">Mystery</a></li>
               <li><a className="dropdown-item" href="/tags/Non-app%20chase%20chance">Non-app Chase Chance</a></li>
@@ -285,6 +299,7 @@ function GlobalNav() {
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a className="dropdown-item" href="/new">New Releases</a></li>
+              <li><a className="dropdown-item" href="/2023">2023 Releases</a></li>
               <li><a className="dropdown-item" href="/2022">2022 Releases</a></li>
               <li><a className="dropdown-item" href="/2021">2021 Releases</a></li>
               <li><a className="dropdown-item" href="/2020">2020 Releases</a></li>

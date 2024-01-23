@@ -54,7 +54,7 @@ return (
                 <div className="pinbox">
                   <Link title={pinInfo.name}  to={"/pinDetail/"+pinInfo.number}>
                     <div className="thumb"><img alt={pinInfo.name} className="pinlist-image" src={pinInfo.img_url_med.replace(/^http:\/\//i, 'https://')}/></div>
-                    <div className="pinname">{pinInfo.availability}<br/>{ (pinInfo.limited_edition != null) ? <div className="pin-text">LE{pinInfo.limited_edition.$numberInt.toString()}</div> : <div></div>}</div>
+                    <div className="pinname">{pinInfo.name}<br/>{pinInfo.availability}<br/>{ (pinInfo.limited_edition != null) ? <div className="pin-text">LE{pinInfo.limited_edition.$numberInt.toString()}</div> : <div></div>}</div>
                     </Link>
                 </div>
      </>

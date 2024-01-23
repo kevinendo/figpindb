@@ -21,6 +21,26 @@ function Resources() {
         <img alt="FiGPiN.KiNGPiN Instagram" className="where-image" src="ig_figpinkingpin.png"/></a>
         <div className="pinname">FiGPiN.KiNGPiN Instagram</div>
     </div></li>
+    <li className="gallerybox">
+        <div className="pinbox">
+        <a title="figpin_mania Instagram" href="https://www.instagram.com/figpin_mania/" target="_blank" rel="noreferrer noopener">
+        <img alt="figpin_mania Instagram" className="where-image" src="ig_figpinmania.png"/></a>
+        <div className="pinname">figpin_mania Instagram</div>
+    </div></li>
+
+    <li className="gallerybox">
+        <div className="pinbox">
+        <a title="professor_figpin Instagram" href="https://www.instagram.com/professor_figpin/" target="_blank" rel="noreferrer noopener">
+        <img alt="professor_figpin Instagram" className="where-image" src="ig_professorfigpin.png"/></a>
+        <div className="pinname">professor_figpin Instagram</div>
+    </div></li>
+
+    <li className="gallerybox">
+        <div className="pinbox">
+        <a title="figpinupdates Instagram" href="https://www.instagram.com/figpinupdates/" target="_blank" rel="noreferrer noopener">
+        <img alt="figpinupdates Instagram" className="where-image" src="ig_figpinupdates.png"/></a>
+        <div className="pinname">figpinupdates Instagram</div>
+    </div></li>
 {/*
     <li className="gallerybox">
         <div className="pinbox">
@@ -28,13 +48,11 @@ function Resources() {
         <img alt="Levi K Instagram" className="where-image" src="ig_levi.png"/></a>
         <div className="pinname">Levi K Instagram</div>
     </div></li>
-    */}
     <li className="gallerybox"><div className="pinbox">
         <a title="FiGPiN FAN Instagram" href="https://www.instagram.com/figpinfan/" target="_blank" rel="noreferrer noopener">
         <img alt="FiGPiN FAN Instagram" className="where-image" src="ig_figpinfan.png"/></a>
         <div className="pinname">FiGPiN FAN Instagram</div>
     </div></li>
-{/*
     <li className="gallerybox"><div className="pinbox">
         <a title="FiGPiN Alerts Instagram" href="https://www.instagram.com/figpin_alerts/" target="_blank" rel="noreferrer noopener">
         <img alt="FiGPiN Alerts Instagram" className="where-image" src="ig_figpinalerts.png"/></a>
@@ -54,7 +72,7 @@ function Resources() {
         <img alt="FiGPiN Hunter Instagram" className="where-image" src="ig_figpinhunter.png"/></a>
         <div className="pinname">FiGPiN Hunter Instagram</div>
     </div></li>
-*/}
+
     <li className="gallerybox"><div className="pinbox">
         <a title="im.toofu Instagram" href="https://www.instagram.com/im_toofu/" target="_blank" rel="noreferrer noopener">
         <img alt="im.toofu Instagram" className="where-image" src="ig_imtoofu.jpg"/></a>
@@ -78,6 +96,7 @@ function Resources() {
         <img alt="nerds_that_collect Instagram" className="where-image" src="logo_nerds.png"/></a>
         <div className="pinname">nerds_that_collect Instagram</div>
     </div></li>  
+    */}
 </ul>
 
 <div className="home-category">Discord</div>
@@ -150,12 +169,14 @@ function Resources() {
 <div className="home-category">YouTube</div>
 
 <ul className="gallery mw-gallery-traditional">
+    {/*
 <li className="gallerybox">
         <div className="pinbox">
         <a title="FiGPiN University YouTube Channel" href="https://www.youtube.com/channel/UC9yG2FTgbySIdOSWXBLRM7A/videos" target="_blank" rel="noreferrer noopener">
         <img alt="FiGPiN University YouTube Channel" className="where-image" src="figpinu.png"/></a>
         <div className="pinname">FiGPiN University YouTube Channel</div>
     </div></li>
+*/}
     <li className="gallerybox">
         <div className="pinbox">
         <a title="Curated Awesome YouTube Channel" href="https://www.youtube.com/channel/UCQWurWCZ_S9iatKrcpNfsOA" target="_blank" rel="noreferrer noopener">
@@ -199,12 +220,13 @@ function Resources() {
         <img alt="FiGPiN Official TikTok" className="where-image" src="logo_figpin.png"/></a>
         <div className="pinname">FiGPiN Official TikTok</div>
     </div></li>
-   
+   {/*
 <li className="gallerybox"><div className="pinbox">
         <a title="FiGPiN FAN TikTok" href="https://www.tiktok.com/@figpinfan" target="_blank" rel="noreferrer noopener">
         <img alt="FiGPiN FAN TikTok" className="where-image" src="ig_figpinfan.png"/></a>
         <div className="pinname">FiGPiN FAN TikTok</div>
     </div></li>
+*/}
 </ul>
 
 <div className="home-category">Other</div>
@@ -222,7 +244,7 @@ function Resources() {
         <img alt="FiGPiN Subreddit" className="where-image" src="reddit.png"/></a>
         <div className="pinname">FiGPiN Subreddit</div>
     </div></li>
-
+{/*
     <li className="gallerybox">
         <div className="pinbox">
         <a title="Pin Hobby FiGPiN Fan Website" href="https://pinhobby.com/" target="_blank" rel="noreferrer noopener">
@@ -236,7 +258,7 @@ function Resources() {
         <img alt="Hero Complex (Displays)" className="where-image" src="logo_herocomplex.png"/></a>
         <div className="pinname">Hero Complex (Displays)</div>
     </div></li>
-
+*/}
     <li className="gallerybox">
         <div className="pinbox">
         <a title="Display Geek (Displays)" href="https://displaygeek.com/products/figbox-black-display-case-for-figpin-wall-mountable-stackable-enamel-pin-shelf-corrugated-cardboard" target="_blank" rel="noreferrer noopener">

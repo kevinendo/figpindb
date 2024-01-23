@@ -1,274 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function NewReleases() {
+function Releases2023() {
     return (
         <div className="detail-box">
-<h3 align="center">New Releases</h3>
-
-<div className="videotitle">Naruto - 1/18/24</div>
-<ul className="gallery mw-gallery-traditional-left">
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1427">
-    <img className="pinlist-image" alt="1427" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/d2/52/18/12228/12228.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1428">
-    <img className="pinlist-image" alt="1428" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/4c/dd/ca/12233/12233.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1429">
-    <img className="pinlist-image" alt="1429" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/79/c8/b1/12238/12238.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1430">
-    <img className="pinlist-image" alt="1430" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/86/e8/ee/12243/12243.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1431">
-    <img className="pinlist-image" alt="1431" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/06/0e/a3/12248/12248.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/L86">
-    <img className="pinlist-image" alt="L86" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/b5/fe/f0/12223/12223.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
-</ul><br/>
-
-<div className="videotitle">Powerpuff Girls - 1/17/24</div>
-<ul className="gallery mw-gallery-traditional-left">
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y188">
-    <img className="pinlist-image" alt="Y188" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/d1/64/bf/12462/12462.ce68e513.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y189">
-    <img className="pinlist-image" alt="Y189" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/0f/cd/81/12466/12466.ce68e513.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y190">
-    <img className="pinlist-image" alt="Y190" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/0a/7a/8b/12470/12470.ce68e513.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y191">
-    <img className="pinlist-image" alt="Y191" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/be/04/7a/12474/12474.ce68e513.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y192">
-    <img className="pinlist-image" alt="Y192" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/d3/f0/b9/12478/12478.ce68e513.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y193">
-    <img className="pinlist-image" alt="Y193" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/f5/02/cc/12482/12482.ce68e513.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y194">
-    <img className="pinlist-image" alt="Y194" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/f7/29/81/12486/12486.ce68e513.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y195">
-    <img className="pinlist-image" alt="Y195" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/f8/90/35/12490/12490.ce68e513.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y196">
-    <img className="pinlist-image" alt="Y196" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/e9/a4/9e/12499/12499.ce68e513.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y197">
-    <img className="pinlist-image" alt="Y197" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/42/ee/a4/12503/12503.ce68e513.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y198">
-    <img className="pinlist-image" alt="Y198" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/f9/50/ef/12507/12507.ce68e513.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y199">
-    <img className="pinlist-image" alt="Y199" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/c8/70/9a/12511/12511.ce68e513.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y200">
-    <img className="pinlist-image" alt="Y200" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/58/b8/8e/12515/12515.ce68e513.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y201">
-    <img className="pinlist-image" alt="Y201" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/cf/10/bf/12519/12519.ce68e513.png"/></Link></div></li>  
-  </ul>
-<br/>
-
-<div className="videotitle">MegaCon Orlando - 2/1/24</div>
-<ul className="gallery mw-gallery-traditional-left"> 
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1539">
-    <img className="pinlist-image" alt="1539" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/62/a7/25/11848/11848.ce68e513.png"/><div className="pinname">Plastic Empire Excl.</div></Link></div></li>   
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1540">
-    <img className="pinlist-image" alt="1540" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/91/be/4d/11856/11856.ce68e513.png"/><div className="pinname">Plastic Empire Excl.</div></Link></div></li>   
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1597">
-    <img className="pinlist-image" alt="1597" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/20/64/5d/12011/12011.ce68e513.png"/><div className="pinname">Plastic Empire Excl.</div></Link></div></li>   
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1598">
-    <img className="pinlist-image" alt="1598" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/27/9e/70/12016/12016.ce68e513.png"/><div className="pinname">Plastic Empire Excl.</div></Link></div></li>         
-</ul><br/>
-
-<div className="videotitle">Scooby-Doo! - 1/17/24</div>
-<ul className="gallery mw-gallery-traditional-left">  
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1574">
-    <img className="pinlist-image" alt="1574" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/45/8b/b2/12494/12494.ce68e513.png"/><div className="pinname">Poptopia Exclusive</div></Link></div></li>       
-</ul><br/>
-
-<div className="videotitle">Star Wars Ahsoka - 1/15/24</div>
-<ul className="gallery mw-gallery-traditional-left">
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1471">
-    <img className="pinlist-image" alt="1471" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/37/7c/f3/10772/10772.ce68e513.png"/><div className="pinname">eVend Exclusive</div></Link></div></li>
-</ul><br/>
-
-<div className="videotitle">eVend - 1/14/24</div>
-<ul className="gallery mw-gallery-traditional-left">
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1269">
-    <img className="pinlist-image" alt="1269" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/9e/a9/bf/10852/10852.ce68e513.png"/><div className="pinname">eVend/WTFiGPiN Exclusive</div></Link></div></li>   
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1541">
-    <img className="pinlist-image" alt="1541" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/06/fd/24/11861/11861.ce68e513.png"/><div className="pinname">eVend Exclusive</div></Link></div></li>   
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1159">
-    <img className="pinlist-image" alt="1159" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/eb/19/5b/10997/10997.ce68e513.png"/><div className="pinname">eVend Exclusive</div></Link></div></li>   
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1382">
-    <img className="pinlist-image" alt="1382" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/a2/11/1f/12639/12639.ce68e513.png"/><div className="pinname">eVend Exclusive</div></Link></div></li>   
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1520">
-    <img className="pinlist-image" alt="1520" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/79/21/69/11337/11337.ce68e513.png"/><div className="pinname">eVend Exclusive</div></Link></div></li>   
-</ul><br/>
-
-<div className="videotitle">Minecraft - 1/14/24</div>
-<ul className="gallery mw-gallery-traditional-left">
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1533">
-    <img className="pinlist-image" alt="1533" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/08/8a/ed/11563/11563.ce68e513.png"/><div className="pinname">Target Exclusive</div></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1534">
-    <img className="pinlist-image" alt="1534" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/54/7e/07/11568/11568.ce68e513.png"/><div className="pinname">Target Exclusive</div></Link></div></li>    
-</ul>
-<br/>
-
-<div className="videotitle">Hello Kitty - 1/12/24</div>
-<ul className="gallery mw-gallery-traditional-left">
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y61">
-    <img className="pinlist-image" alt="Y61" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/28/c9/c6/12418/12418.ce68e513.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y62">
-    <img className="pinlist-image" alt="Y62" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/e4/58/c1/12430/12430.ce68e513.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y63">
-    <img className="pinlist-image" alt="Y63" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/63/f8/5f/12426/12426.ce68e513.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y64">
-    <img className="pinlist-image" alt="Y64" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/fc/77/56/12434/12434.ce68e513.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y65">
-    <img className="pinlist-image" alt="Y65" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/26/6a/ac/12438/12438.ce68e513.png"/></Link></div></li>   
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y66">
-    <img className="pinlist-image" alt="Y66" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/57/21/43/12442/12442.ce68e513.png"/></Link></div></li>         
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y67">
-    <img className="pinlist-image" alt="Y67" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/76/45/6e/12446/12446.ce68e513.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y68">
-    <img className="pinlist-image" alt="Y68" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/e9/50/fe/12450/12450.ce68e513.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y69">
-    <img className="pinlist-image" alt="Y69" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/a6/49/a3/12454/12454.ce68e513.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y70">
-    <img className="pinlist-image" alt="Y70" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/7d/4e/02/12458/12458.ce68e513.png"/></Link></div></li>    
-  </ul>
-<br/>
-
-<div className="videotitle">Star Wars Return of the Jedi - 1/11/24</div>
-<ul className="gallery mw-gallery-traditional-left">
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1566">
-    <img className="pinlist-image" alt="1566" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/0d/bf/34/12299/12299.ce68e513.png"/></Link></div></li>   
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1565">
-    <img className="pinlist-image" alt="1565" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/62/c3/65/12304/12304.ce68e513.png"/></Link></div></li>   
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1563">
-    <img className="pinlist-image" alt="1563" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/e0/c9/cd/12284/12284.ce68e513.png"/></Link></div></li>   
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1564">
-    <img className="pinlist-image" alt="1564" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/45/29/78/12289/12289.ce68e513.png"/><div className="pinname">Retailer Exclusive (Release Date Unknown)</div></Link></div></li>   
-</ul><br/>
-
-<div className="videotitle">Webtoon - 1/10/24</div>
-<ul className="gallery mw-gallery-traditional-left">
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y131">
-    <img className="pinlist-image" alt="Y131" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/3c/b4/1c/12523/12523.ce68e513.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y132">
-    <img className="pinlist-image" alt="Y132" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/af/5e/0b/12527/12527.ce68e513.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y133">
-    <img className="pinlist-image" alt="Y133" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/d9/9a/c7/12531/12531.ce68e513.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y134">
-    <img className="pinlist-image" alt="Y134" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/37/c6/ac/12535/12535.ce68e513.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y135">
-    <img className="pinlist-image" alt="Y135" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/8b/cb/99/12539/12539.ce68e513.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y136">
-    <img className="pinlist-image" alt="Y136" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/58/6e/09/12543/12543.ce68e513.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y137">
-    <img className="pinlist-image" alt="Y137" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/98/7d/e3/12547/12547.ce68e513.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y138">
-    <img className="pinlist-image" alt="Y138" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/34/64/f3/12551/12551.ce68e513.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y139">
-    <img className="pinlist-image" alt="Y139" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/fe/91/c5/12555/12555.ce68e513.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y140">
-    <img className="pinlist-image" alt="Y140" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/c3/0a/a4/12559/12559.ce68e513.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y141">
-    <img className="pinlist-image" alt="Y141" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/eb/29/f7/12563/12563.ce68e513.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y142">
-    <img className="pinlist-image" alt="Y142" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/e9/30/2c/12567/12567.ce68e513.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y143">
-    <img className="pinlist-image" alt="Y143" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/f1/e2/1b/12571/12571.ce68e513.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y144">
-    <img className="pinlist-image" alt="Y144" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/2f/3a/7b/12575/12575.ce68e513.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y145">
-    <img className="pinlist-image" alt="Y145" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/90/7c/7e/12579/12579.ce68e513.png"/></Link></div></li>      
-  </ul>
-<br/>
-
-<div className="videotitle">Sonic the Hedgehog - 1/8/24</div>
-<ul className="gallery mw-gallery-traditional-left">
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1356">
-    <img className="pinlist-image" alt="1356" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/73/d0/52/11442/11442.ce68e513.png"/><div className="pinname">eVend Exclusive</div></Link></div></li>   
-</ul><br/>
-
-<div className="videotitle">Hello Kitty - 1/8/24</div>
-<ul className="gallery mw-gallery-traditional-left">
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y160">
-    <img className="pinlist-image" alt="Y160" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/49/6a/46/12361/12361.ce68e513.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y161">
-    <img className="pinlist-image" alt="Y161" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/92/48/4a/12366/12366.ce68e513.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y162">
-    <img className="pinlist-image" alt="Y162" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/fe/b1/35/12370/12370.ce68e513.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y163">
-    <img className="pinlist-image" alt="Y163" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/d8/a1/fc/12374/12374.ce68e513.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y164">
-    <img className="pinlist-image" alt="Y164" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/fb/37/03/12378/12378.ce68e513.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y165">
-    <img className="pinlist-image" alt="Y165" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/86/c3/c4/12382/12382.ce68e513.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y166">
-    <img className="pinlist-image" alt="Y166" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/b7/72/0f/12386/12386.ce68e513.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y167">
-    <img className="pinlist-image" alt="Y167" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/e0/79/4f/12390/12390.ce68e513.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y168">
-    <img className="pinlist-image" alt="Y168" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/a0/5e/73/12394/12394.ce68e513.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y169">
-    <img className="pinlist-image" alt="Y169" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/a2/a5/04/12398/12398.ce68e513.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y170">
-    <img className="pinlist-image" alt="Y170" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/ad/f8/50/12402/12402.ce68e513.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y171">
-    <img className="pinlist-image" alt="Y171" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/40/df/bb/12406/12406.ce68e513.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y172">
-    <img className="pinlist-image" alt="Y172" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/91/29/77/12410/12410.ce68e513.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y173">
-    <img className="pinlist-image" alt="Y173" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/16/ee/46/12414/12414.ce68e513.png"/></Link></div></li>    
-  </ul>
-<br/>
-
-
-<div className="videotitle">My Hero Academia - 1/7/24</div>
-<ul className="gallery mw-gallery-traditional-left">
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1457">
-    <img className="pinlist-image" alt="1457" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/b8/c4/da/10757/10757.ce68e513.png"/><div className="pinname">eVend Exclusive</div></Link></div></li>   
-</ul><br/>
-
-<div className="videotitle">One Piece - 1/6/24</div>
-<ul className="gallery mw-gallery-traditional-left">
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1290">
-    <img className="pinlist-image" alt="1290" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/29/7d/29/11022/11022.ce68e513.png"/><div className="pinname">eVend Exclusive</div></Link></div></li>   
-</ul><br/>
-
-
-<div className="videotitle">Yu-Gi-Oh - 1/5/24</div>
-<ul className="gallery mw-gallery-traditional-left">
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1504">
-    <img className="pinlist-image" alt="1504" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/8b/89/76/11322/11322.ce68e513.png"/><div className="pinname">eVend Exclusive</div></Link></div></li>   
-</ul><br/>
-
-<div className="videotitle">Disney 100 - 1/2/24</div>
-<ul className="gallery mw-gallery-traditional-left">
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1484">
-    <img className="pinlist-image" alt="1484" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/e5/8d/46/11813/11813.ce68e513.png"/><div className="pinname">Fry Guy Pins Exclusive</div></Link></div></li>   
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1482">
-    <img className="pinlist-image" alt="1482" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/34/87/70/11803/11803.ce68e513.png"/><div className="pinname">Fry Guy Pins Exclusive</div></Link></div></li>   
-</ul><br/>
-
-<div className="videotitle">The Infinity Saga - 1/1/24</div>
-<ul className="gallery mw-gallery-traditional-left">
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1543">
-    <img className="pinlist-image" alt="1543" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/b4/29/9f/11871/11871.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>   
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1544">
-    <img className="pinlist-image" alt="1544" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/be/14/eb/11876/11876.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>   
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1545">
-    <img className="pinlist-image" alt="1545" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/26/59/34/11881/11881.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>   
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1546">
-    <img className="pinlist-image" alt="1546" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/b2/5d/5e/11886/11886.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>   
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1547">
-    <img className="pinlist-image" alt="1547" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/c7/2f/60/11891/11891.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>   
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/L96">
-    <img className="pinlist-image" alt="L96" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/db/8f/88/12036/12036.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>   
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1592">
-    <img className="pinlist-image" alt="1592" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/fb/a5/04/11986/11986.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>   
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1593">
-    <img className="pinlist-image" alt="1593" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/5a/15/c3/11991/11991.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>   
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1594">
-    <img className="pinlist-image" alt="1594" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/1e/41/3d/11996/11996.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>   
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1595">
-    <img className="pinlist-image" alt="1595" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/cd/93/e4/12001/12001.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>   
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1596">
-    <img className="pinlist-image" alt="1596" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/a7/9f/55/12006/12006.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>   
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/L101">
-    <img className="pinlist-image" alt="101" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/10/15/5d/12031/12031.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>   
-</ul><br/>
-{/*
+<h3 align="center">2023 Releases</h3>
 
 <div className="videotitle">Scooby-Doo! - 12/21/23</div>
 <ul className="gallery mw-gallery-traditional-left">
@@ -279,7 +15,9 @@ function NewReleases() {
     <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1573">
     <img className="pinlist-image" alt="1573" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/5a/ad/9a/12311/12311.ce68e513.png"/></Link></div></li>   
     <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1575">
-    <img className="pinlist-image" alt="1575" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/c9/70/20/12077/12077.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>       
+    <img className="pinlist-image" alt="1575" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/c9/70/20/12077/12077.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>   
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1574">
+    <img className="pinlist-image" alt="1574" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/45/8b/b2/12494/12494.ce68e513.png"/><div className="pinname">Poptopia Exclusive (1/17/24 Release Date)</div></Link></div></li>       
 </ul><br/>
 
 <div className="videotitle">Disney 100 - 12/20/23</div>
@@ -300,6 +38,7 @@ function NewReleases() {
     <img className="pinlist-image" alt="1559" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/c3/d1/07/11926/11926.ce68e513.png"/><div className="pinname">Poptopia Exclusive (Release Date Unknown)</div></Link></div></li>   
     <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1560">
     <img className="pinlist-image" alt="1560" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/80/a2/be/11931/11931.ce68e513.png"/><div className="pinname">Retailer Exclusive (Release Date Unknown)</div></Link></div></li>   
+
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1445">
     <img className="pinlist-image" alt="1445" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/15/d5/55/12134/12134.ce68e513.png"/><div className="pinname">eVend Exclusive</div></Link></div></li>   
     <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1446">
@@ -454,15 +193,15 @@ function NewReleases() {
     <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1537">
     <img className="pinlist-image" alt="1537" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/43/e1/ae/11838/11838.ce68e513.png"/></Link></div></li>   
     <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1539">
-    <img className="pinlist-image" alt="1539" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/62/a7/25/11848/11848.ce68e513.png"/><div className="pinname">Plastic Empire Excl. (Release Date Unknown)</div></Link></div></li>   
+    <img className="pinlist-image" alt="1539" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/62/a7/25/11848/11848.ce68e513.png"/><div className="pinname">Plastic Empire Excl. (2/1/24 Release Date)</div></Link></div></li>   
     <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1540">
-    <img className="pinlist-image" alt="1540" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/91/be/4d/11856/11856.ce68e513.png"/><div className="pinname">Plastic Empire Excl. (Release Date Unknown)</div></Link></div></li>   
+    <img className="pinlist-image" alt="1540" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/91/be/4d/11856/11856.ce68e513.png"/><div className="pinname">Plastic Empire Excl. (2/1/24 Release Date)</div></Link></div></li>   
     <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1597">
-    <img className="pinlist-image" alt="1597" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/20/64/5d/12011/12011.ce68e513.png"/><div className="pinname">Plastic Empire Excl. (Release Date Unknown)</div></Link></div></li>   
+    <img className="pinlist-image" alt="1597" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/20/64/5d/12011/12011.ce68e513.png"/><div className="pinname">Plastic Empire Excl. (2/1/24 Release Date)</div></Link></div></li>   
     <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1598">
-    <img className="pinlist-image" alt="1598" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/27/9e/70/12016/12016.ce68e513.png"/><div className="pinname">Plastic Empire Excl. (Release Date Unknown)</div></Link></div></li>   
+    <img className="pinlist-image" alt="1598" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/27/9e/70/12016/12016.ce68e513.png"/><div className="pinname">Plastic Empire Excl. (2/1/24 Release Date)</div></Link></div></li>   
     <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1541">
-    <img className="pinlist-image" alt="1541" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/06/fd/24/11861/11861.ce68e513.png"/><div className="pinname">Retailer Excl. (Release Date Unknown)</div></Link></div></li>   
+    <img className="pinlist-image" alt="1541" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/06/fd/24/11861/11861.ce68e513.png"/><div className="pinname">eVend Exclusive (1/14/24 Release Date)</div></Link></div></li>   
 </ul>
 <br/>
 
@@ -642,9 +381,9 @@ function NewReleases() {
     <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1532">
     <img className="pinlist-image" alt="1532" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/a0/a3/f9/11558/11558.ce68e513.png"/></Link></div></li>    
     <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1533">
-    <img className="pinlist-image" alt="1533" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/08/8a/ed/11563/11563.ce68e513.png"/><div className="pinname">Target Exclusive (Release Date Unknown)</div></Link></div></li>    
+    <img className="pinlist-image" alt="1533" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/08/8a/ed/11563/11563.ce68e513.png"/><div className="pinname">Target Exclusive (1/14/24 Release Date)</div></Link></div></li>    
     <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1534">
-    <img className="pinlist-image" alt="1534" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/54/7e/07/11568/11568.ce68e513.png"/><div className="pinname">Target Exclusive (Release Date Unknown)</div></Link></div></li>    
+    <img className="pinlist-image" alt="1534" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/54/7e/07/11568/11568.ce68e513.png"/><div className="pinname">Target Exclusive (1/14/24 Release Date)</div></Link></div></li>    
 </ul>
 <br/>
 
@@ -711,7 +450,12 @@ function NewReleases() {
 
   </ul>
 <br/>
-
+<div className="videotitle">Transformers - 10/20/23</div>
+<ul className="gallery mw-gallery-traditional-left">
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1181">
+    <img className="pinlist-image" alt="1181" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/c7/08/df/9584/9584.ce68e513.png"/><div className="pinname">Pins on Fire Exclusive</div></Link></div></li>    
+  </ul>
+<br/>
 <div className="videotitle">Alliance Fest NYCC 2023 - 10/12/23</div>
 <ul className="gallery mw-gallery-traditional-left">
     <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1364">
@@ -836,6 +580,14 @@ function NewReleases() {
   </ul>
   <br/>
 
+<div className="videotitle">Disney - 10/10/23</div>
+<ul className="gallery mw-gallery-traditional-left">
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1476">
+    <img className="pinlist-image" alt="1476" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/77/0a/8f/10977/10977.ce68e513.png"/><div className="pinname">Disney Exclusive</div></Link></div></li>    
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1477">
+    <img className="pinlist-image" alt="1477" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/18/6d/7e/10982/10982.ce68e513.png"/><div className="pinname">Disney Exclusive</div></Link></div></li>    
+  </ul>
+<br/>
   <div className="videotitle">Disney 100 - 10/10/23</div>
 <ul className="gallery mw-gallery-traditional-left">
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1528">
@@ -930,20 +682,7 @@ function NewReleases() {
   </ul>
 <br/>
 
-<div className="videotitle">Transformers - 10/20/23</div>
-<ul className="gallery mw-gallery-traditional-left">
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1181">
-    <img className="pinlist-image" alt="1181" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/c7/08/df/9584/9584.ce68e513.png"/><div className="pinname">Pins on Fire Exclusive (TFCon 2023)</div></Link></div></li>    
-  </ul>
-<br/>
-<div className="videotitle">Disney - 10/10/23</div>
-<ul className="gallery mw-gallery-traditional-left">
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1476">
-    <img className="pinlist-image" alt="1476" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/77/0a/8f/10977/10977.ce68e513.png"/><div className="pinname">Disney Exclusive</div></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1477">
-    <img className="pinlist-image" alt="1477" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/18/6d/7e/10982/10982.ce68e513.png"/><div className="pinname">Disney Exclusive</div></Link></div></li>    
-  </ul>
-<br/>
+
 <div className="videotitle">The Avengers - 9/21/23</div>
 <ul className="gallery mw-gallery-traditional-left">
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1486">
@@ -1086,7 +825,7 @@ function NewReleases() {
     <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1473">
     <img className="pinlist-image" alt="1473" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/40/72/de/10722/10722.ce68e513.png"/></Link></div></li>      
     <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1471">
-    <img className="pinlist-image" alt="1471" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/37/7c/f3/10772/10772.ce68e513.png"/><div className="pinname">(Release Date Unknown)</div></Link></div></li>      
+    <img className="pinlist-image" alt="1471" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/37/7c/f3/10772/10772.ce68e513.png"/><div className="pinname">(1/15/24 Release Date)</div></Link></div></li>      
     <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1474">
     <img className="pinlist-image" alt="1474" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/36/c1/ea/10777/10777.ce68e513.png"/><div className="pinname">Pops and Pin Exclusive<br/>(9/7/23 Release Date)</div></Link></div></li>      
   </ul>
@@ -1104,8 +843,6 @@ function NewReleases() {
     <img className="pinlist-image" alt="1455" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/cf/ab/01/10677/10677.ce68e513.png"/></Link></div></li>    
     <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1456">
     <img className="pinlist-image" alt="1456" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/90/6f/bd/10682/10682.ce68e513.png"/><div className="pinname">FiGPiN Chase</div></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1457">
-    <img className="pinlist-image" alt="1457" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/b8/c4/da/10757/10757.ce68e513.png"/><div className="pinname">Retailer Exclusive (Release Date Unknown)</div></Link></div></li>    
     <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1453">
     <img className="pinlist-image" alt="1453" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/69/1d/e6/10672/10672.ce68e513.png"/><div className="pinname">Pins on Fire Exclusive (9/7/23 Release Date)</div></Link></div></li>    
 
@@ -1157,34 +894,34 @@ function NewReleases() {
 
 <div className="videotitle">Yu-Gi-Oh - 8/11/23</div>
 <ul className="gallery mw-gallery-traditional-left">
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y156">
-    <img className="pinlist-image" alt="Y156" src="/temp/Y156_med.png"/></Link></div></li>    
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y146">
+    <img className="pinlist-image" alt="Y156" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/59/f9/5f/12583/12583.ce68e513.png"/></Link></div></li>    
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y147">
+    <img className="pinlist-image" alt="Y157" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/9e/63/6b/12587/12587.ce68e513.png"/></Link></div></li>    
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y148">
+    <img className="pinlist-image" alt="Y158" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/c7/98/66/12591/12591.ce68e513.png"/></Link></div></li>    
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y149">
+    <img className="pinlist-image" alt="Y159" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/ba/de/82/12595/12595.ce68e513.png"/></Link></div></li>    
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y150">
+    <img className="pinlist-image" alt="Y160" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/01/a3/02/12599/12599.ce68e513.png"/></Link></div></li>    
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y151">
+    <img className="pinlist-image" alt="Y161" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/20/52/3e/12603/12603.ce68e513.png"/></Link></div></li>    
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y152">
+    <img className="pinlist-image" alt="Y162" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/31/5e/79/12607/12607.ce68e513.png"/></Link></div></li>    
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y153">
+    <img className="pinlist-image" alt="Y163" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/c1/5c/27/12611/12611.ce68e513.png"/></Link></div></li>    
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y154">
+    <img className="pinlist-image" alt="Y164" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/87/20/b3/12615/12615.ce68e513.png"/></Link></div></li>    
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y155">
+    <img className="pinlist-image" alt="Y165" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/5f/8d/fa/12619/12619.ce68e513.png"/></Link></div></li>    
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y156">
+    <img className="pinlist-image" alt="Y166" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/80/41/6c/12623/12623.ce68e513.png"/></Link></div></li>    
     <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y157">
-    <img className="pinlist-image" alt="Y157" src="/temp/Y157_med.png"/></Link></div></li>    
+    <img className="pinlist-image" alt="Y167" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/92/4e/41/12627/12627.ce68e513.png"/></Link></div></li>    
     <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y158">
-    <img className="pinlist-image" alt="Y158" src="/temp/Y158_med.png"/></Link></div></li>    
+    <img className="pinlist-image" alt="Y168" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/7c/4f/a8/12631/12631.ce68e513.png"/></Link></div></li>    
     <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y159">
-    <img className="pinlist-image" alt="Y159" src="/temp/Y159_med.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y160">
-    <img className="pinlist-image" alt="Y160" src="/temp/Y160_med.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y161">
-    <img className="pinlist-image" alt="Y161" src="/temp/Y161_med.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y162">
-    <img className="pinlist-image" alt="Y162" src="/temp/Y162_med.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y163">
-    <img className="pinlist-image" alt="Y163" src="/temp/Y163_med.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y164">
-    <img className="pinlist-image" alt="Y164" src="/temp/Y164_med.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y165">
-    <img className="pinlist-image" alt="Y165" src="/temp/Y165_med.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y166">
-    <img className="pinlist-image" alt="Y166" src="/temp/Y166_med.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y167">
-    <img className="pinlist-image" alt="Y167" src="/temp/Y167_med.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y168">
-    <img className="pinlist-image" alt="Y168" src="/temp/Y168_med.png"/></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y169">
-    <img className="pinlist-image" alt="Y169" src="/temp/Y169_med.png"/></Link></div></li>    
+    <img className="pinlist-image" alt="Y169" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/cc/44/36/12635/12635.ce68e513.png"/></Link></div></li>    
   </ul>
 <br/>
 
@@ -2005,7 +1742,18 @@ function NewReleases() {
     <img className="pinlist-image" alt="L76" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/fa/26/e3/9399/9399.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>    
   </ul>
 <br/>
-
+<div className="videotitle">Disney - 3/13/23</div>
+<ul className="gallery mw-gallery-traditional-left">
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1024">
+    <img className="pinlist-image" alt="1024" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/00/fc/3e/9195/9195.ce68e513.png"/><div className="pinname">Disney Exclusive</div></Link></div></li>    
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1025">
+    <img className="pinlist-image" alt="1025" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/b9/4d/e9/9200/9200.ce68e513.png"/><div className="pinname">Disney Exclusive</div></Link></div></li>    
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1160">
+    <img className="pinlist-image" alt="1160" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/c5/4c/ae/9057/9057.ce68e513.png"/><div className="pinname">Disney Exclusive</div></Link></div></li>        
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1161">
+    <img className="pinlist-image" alt="1161" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/fa/8c/51/9062/9062.ce68e513.png"/><div className="pinname">Disney Exclusive</div></Link></div></li>     
+  </ul>
+<br/>
 <div className="videotitle">Minecraft - 3/8/23</div>
 <ul className="gallery mw-gallery-traditional-left">
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1196">                
@@ -2136,25 +1884,13 @@ function NewReleases() {
     <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1235">
     <img className="pinlist-image" alt="1235" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/83/72/63/9255/9255.ce68e513.png"/></Link></div></li>        
     <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1236">
-    <img className="pinlist-image" alt="1236" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/63/c4/73/9260/9260.ce68e513.png"/><div className="pinname">eVend Exclusive (3/3 Release Date)</div></Link></div></li>     
+    <img className="pinlist-image" alt="1236" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/63/c4/73/9260/9260.ce68e513.png"/><div className="pinname">eVend Exclusive (3/3/23 Release Date)</div></Link></div></li>     
   </ul>
 <br/>
 <div className="videotitle">FiGPiN Logo - 2/6/23</div>
 <ul className="gallery mw-gallery-traditional-left">
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/L84">
     <img className="pinlist-image" alt="L84" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/fb/20/3e/9317/9317.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>    
-  </ul>
-<br/>
-<div className="videotitle">Disney - 3/13/23</div>
-<ul className="gallery mw-gallery-traditional-left">
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1024">
-    <img className="pinlist-image" alt="1024" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/00/fc/3e/9195/9195.ce68e513.png"/><div className="pinname">Disney Exclusive</div></Link></div></li>    
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1025">
-    <img className="pinlist-image" alt="1025" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/b9/4d/e9/9200/9200.ce68e513.png"/><div className="pinname">Disney Exclusive</div></Link></div></li>    
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1160">
-    <img className="pinlist-image" alt="1160" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/c5/4c/ae/9057/9057.ce68e513.png"/><div className="pinname">Disney Exclusive</div></Link></div></li>        
-    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1161">
-    <img className="pinlist-image" alt="1161" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/fa/8c/51/9062/9062.ce68e513.png"/><div className="pinname">Disney Exclusive</div></Link></div></li>     
   </ul>
 <br/>
 
@@ -2248,11 +1984,11 @@ function NewReleases() {
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1140">
     <img className="pinlist-image" alt="1140" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/9c/cc/be/9042/9042.ce68e513.png"/><div className="pinname">Disney Exclusive</div></Link></div></li>    
   </ul>
-    */}
+
         </div>
     );
 }
 
-export default NewReleases;
+export default Releases2023;
 
 

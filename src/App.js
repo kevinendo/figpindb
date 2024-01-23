@@ -14,6 +14,7 @@ import Preorders from "./components/preorders";
 import Releases2020 from "./components/releases-2020";
 import Releases2021 from "./components/releases-2021";
 import Releases2022 from "./components/releases-2022";
+import Releases2023 from "./components/releases-2023";
 import Resources from "./components/resources";
 import Sets from "./components/sets";
 import AppBasics from "./components/app-breakdown";
@@ -23,6 +24,7 @@ import IGLinks from "./components/ig-links";
 import Characters from "./components/characters";
 import Arenas from "./components/arenas";
 import GuideStarwars from "./components/guide-starwars";
+import GuideOnepiece from "./components/guide-onepiece";
 import './App.css'
 
 const NoMatchPage = () => {
@@ -46,7 +48,8 @@ function App() {
           <Route exact path={["/preorders"]} component={Preorders} />    
           <Route exact path={["/2020"]} component={Releases2020} />   
           <Route exact path={["/2021"]} component={Releases2021} />      
-          <Route exact path={["/2022"]} component={Releases2022} />      
+          <Route exact path={["/2022"]} component={Releases2022} />    
+          <Route exact path={["/2023"]} component={Releases2023} />      
           <Route exact path={["/resources"]} component={Resources} />      
           <Route exact path={["/sets"]} component={Sets} />      
           <Route exact path={["/app-breakdown"]} component={AppBasics} />     
@@ -56,6 +59,7 @@ function App() {
           <Route exact path={["/characters"]} component={Characters} />      
           <Route exact path={["/arenas"]} component={Arenas} />      
           <Route exact path={["/guide/starwars"]} component={GuideStarwars} />      
+          <Route exact path={["/guide/onepiece"]} component={GuideOnepiece} />      
           <Route 
             path="/pinDetail/:number"
             render={(props) => (

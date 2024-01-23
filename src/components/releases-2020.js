@@ -16,6 +16,20 @@ function Releases2020() {
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/738">
     <img className="pinlist-image" alt="" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/17/dc/b5/6146/6146.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
 </ul>
+<br/>
+
+<div className="videotitle">Star Wars The Clone Wars - 12/13/20</div>
+<ul className="gallery mw-gallery-traditional-left">
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/521">
+    <img className="pinlist-image" alt="521" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/ca/cd/7c/5422/5422.ce68e513.png"/><div className="pinname">Box Lunch Exclusive</div></Link></div></li>
+</ul>
+<br/>
+
+<div className="videotitle">Star Wars The Mandalorian - 12/11/20</div>
+<ul className="gallery mw-gallery-traditional-left">
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/577">
+    <img className="pinlist-image" alt="577" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/b1/63/18/5472/5472.ce68e513.png"/><div className="pinname">Target Exclusive</div></Link></div></li>
+</ul>
 
 <br/>
 <div className="videotitle">Harry Potter - 12/9/20</div>
@@ -150,8 +164,17 @@ function Releases2020() {
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/594">
     <img className="pinlist-image" alt="" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/03/77/ab/5788/5788.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
 </ul>
+<br/>
+<div className="videotitle">Star Wars The Mandalorian - 10/27/20</div>
+<ul className="gallery mw-gallery-traditional-left">
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/599">
+    <img className="pinlist-image" alt="599" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/ed/fe/05/5595/5595.ce68e513.png"/><div className="pinname">Walmart Exclusive</div></Link></div></li>
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/600">
+    <img className="pinlist-image" alt="600" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/90/f8/2f/5600/5600.ce68e513.png"/><div className="pinname">Walmart Exclusive</div></Link></div></li>
+</ul>
 
 <br/>
+
 <div className="videotitle">Star Wars The Mandalorian - 10/26/20</div>
 <ul className="gallery mw-gallery-traditional-left">
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/511">

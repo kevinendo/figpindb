@@ -38,7 +38,9 @@ useEffect(() => {
       }
       </ul>
       <br/>
+      {/*
      <p align="center" classname="pinname">FigpinDB is user supported. When you purchase through links on our site, we may earn an affiliate commission.</p>
+    */}
       </div>
 );
 }
