@@ -35,7 +35,7 @@ function Releases2023() {
     <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1562">
     <img className="pinlist-image" alt="1562" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/48/04/98/12121/12121.ce68e513.png"/></Link></div></li>   
     <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1559">
-    <img className="pinlist-image" alt="1559" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/c3/d1/07/11926/11926.ce68e513.png"/><div className="pinname">Poptopia Exclusive (Release Date Unknown)</div></Link></div></li>   
+    <img className="pinlist-image" alt="1559" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/c3/d1/07/11926/11926.ce68e513.png"/><div className="pinname">Poptopia Exclusive (2/16/24 Release Date)</div></Link></div></li>   
     <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1560">
     <img className="pinlist-image" alt="1560" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/80/a2/be/11931/11931.ce68e513.png"/><div className="pinname">Retailer Exclusive (Release Date Unknown)</div></Link></div></li>   
 

@@ -334,10 +334,16 @@ function Home() {
         <Link title="GameStop Exclusive" to="/availability/GameStop Exclusive"><img alt="GameStop" className="where-image" src="logo_gamestop.png"/></Link>
     </li>  
     <li className="gallerybox">
+        <Link title="Grail Game Exclusive" to="/availability/Grail Game Exclusive"><img alt="Grail Game" className="where-image" src="logo_grailgame.png"/></Link>
+    </li>  
+    <li className="gallerybox">
         <Link title="Hot Topic Exclusive" to="/availability/Hot Topic Exclusive"><img alt="Hot Topic" className="where-image" src="logo_hottopic.png"/></Link>
     </li>  
     <li className="gallerybox">
         <Link title="Krakens Collection Exclusive" to="/availability/Krakens Collection Exclusive"><img alt="Krakens Collection" className="where-image" src="logo_krakens.png"/></Link>
+    </li>  
+    <li className="gallerybox">
+        <Link title="Pink A La Mode Exclusive" to="/availability/Pink A La Mode Exclusive"><img alt="Pink A La Mode" className="where-image" src="logo_pinkalamode.png"/></Link>
     </li>  
     <li className="gallerybox">
         <Link title="Pins on Fire Exclusive" to="/availability/Pins on Fire Exclusive"><img alt="Pins on Fire" className="where-image" src="logo_pinsonfire.png"/></Link>

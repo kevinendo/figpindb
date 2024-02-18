@@ -237,9 +237,23 @@ function Sets() {
 <ul className="gallery mw-gallery-traditional">
 <li className="gallerybox">
         <div className="setbox">
-        <a title="Badtz-Maru and Megumi Fushiguro" href="/set/Badtz-Maru%20and%20Megumi%20Fushiguro%202-Pack">
-        <img alt="Badtz-Maru and Megumi Fushiguro" className="box-image" src="box_badtzmaru_megumi.png"/></a>
-        <div className="pinname"><b>Badtz-Maru and Megumi Fushiguro</b></div>
+        <a title="Stitch & Angel" href="/set/Stitch%20and%20Angel%202-Pack">
+        <img alt="Stitch & Angel" className="box-image" src="box_stitch_angel.png"/></a>
+        <div className="pinname"><b>Stitch & Angel</b></div>
+    </div></li>
+
+<li className="gallerybox">
+        <div className="setbox">
+        <a title="Ellie & Carl" href="/set/Ellie%20and%20Carl%202-Pack">
+        <img alt="Ellie & Carl" className="box-image" src="box_ellie_carl.png"/></a>
+        <div className="pinname"><b>Ellie & Carl</b></div>
+    </div></li>
+
+<li className="gallerybox">
+        <div className="setbox">
+        <a title="Badtz-Maru & Megumi Fushiguro" href="/set/Badtz-Maru%20and%20Megumi%20Fushiguro%202-Pack">
+        <img alt="Badtz-Maru & Megumi Fushiguro" className="box-image" src="box_badtzmaru_megumi.png"/></a>
+        <div className="pinname"><b>Badtz-Maru & Megumi Fushiguro</b></div>
     </div></li>
 
 <li className="gallerybox">

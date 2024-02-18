@@ -147,6 +147,7 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/property/Disney Classics">Disney Classics</a></li>
               <li><a className="dropdown-item" href="/property/Disney Princesses">Disney Princesses</a></li>
               <li><a className="dropdown-item" href="/property/Disney Villains">Disney Villains</a></li>
+              <li><a className="dropdown-item" href="/property/Encanto">Encanto</a></li>
               <li><a className="dropdown-item" href="/property/Fantasia">Fantasia</a></li>
               <li><a className="dropdown-item" href="/property/The Flash">The Flash</a></li>
               <li><a className="dropdown-item" href="/property/Godzilla">Godzilla</a></li>

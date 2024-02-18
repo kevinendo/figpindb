@@ -234,7 +234,7 @@ function Resources() {
 <ul className="gallery mw-gallery-traditional">
 <li className="gallerybox">
         <div className="pinbox">
-        <a title="FiGPiN Official Blog" href="https://figpin.com/blogs/news" target="_blank" rel="noreferrer noopener">
+        <a title="FiGPiN Official Blog" href="https://www.figpin.com/blog/news" target="_blank" rel="noreferrer noopener">
         <img alt="FiGPiN Official Blog" className="where-image" src="logo_figpin.png"/></a>
         <div className="pinname">FiGPiN Official Blog</div>
     </div></li>

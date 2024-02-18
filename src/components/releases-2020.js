@@ -655,7 +655,7 @@ function Releases2020() {
     <img className="pinlist-image" alt="" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/a4/16/dc/4159/4159.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
  <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/X41">
     <img className="pinlist-image" alt="" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/e7/37/6d/4149/4149.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>
- <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/F1">
+ <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/G1">
     <img className="pinlist-image" alt="" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/06/b9/bf/4703/4703.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>   
 </ul>
 
