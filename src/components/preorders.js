@@ -21,12 +21,7 @@ function Preorders() {
 
 <div className="home-category">Upcoming</div>
 <br/>
-<div className="videotitle">Naruto - 2/16/24</div>
-<ul className="gallery mw-gallery-traditional-left">  
-<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1559">
-    <img className="pinlist-image" alt="1559" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/c3/d1/07/11926/11926.ce68e513.png"/><div className="pinname">Poptopia Exclusive</div></Link></div></li>   
-</ul>
-<br/>
+
 
 <div className="videotitle">Release Date Unknown</div>
 <ul className="gallery mw-gallery-traditional-left"> 
@@ -40,8 +35,8 @@ function Preorders() {
 <br/>
 
 <div className="home-category">Preorders</div>
-<br/>
 
+<br/>
 <div className="videotitle">Webtoon - Q2 2024</div>
 <ul className="gallery mw-gallery-traditional-left">
     <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/Y131">

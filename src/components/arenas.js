@@ -73,6 +73,8 @@ function Arenas() {
     <img className="pinlist-image" alt="399" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/07/47/3a/4388/4388.ce68e513.png"/><div className="pinname">Black Widow 1B - 18</div></Link></div></li>    
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/361">
     <img className="pinlist-image" alt="361" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/c2/f8/f6/4234/4234.ce68e513.png"/><div className="pinname">Hello Kitty 1B - 18</div></Link></div></li>    
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1600">
+    <img className="pinlist-image" alt="1600108" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/4b/7e/cd/12116/12116.ce68e513.png"/><div className="pinname">Naruto - 25</div></Link></div></li>       
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/108">
     <img className="pinlist-image" alt="108" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/e2/8a/51/54/54.ce68e513.png"/><div className="pinname">John Cena - 28</div></Link></div></li>       
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/407">
@@ -183,6 +185,11 @@ function Arenas() {
     <img className="pinlist-image" alt="401" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/c4/17/52/4323/4323.ce68e513.png"/><div className="pinname">Red Guardian 1B - 70%</div></Link></div></li>    
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/402">
     <img className="pinlist-image" alt="402" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/78/cb/b5/4328/4328.ce68e513.png"/><div className="pinname">Taskmaster 1B - 70%</div></Link></div></li>       
+
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1576">
+    <img className="pinlist-image" alt="1576" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/47/cc/f7/12316/12316.ce68e513.png"/><div className="pinname">Izuku Midoriya - 70%</div></Link></div></li>    
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/S46">
+    <img className="pinlist-image" alt="S46" src="http://s3.amazonaws.com/figpin-vault-images/FigpinImage/26/c7/2d/10393/10393.ce68e513.png"/><div className="pinname">Julio Rodriguez - 70%</div></Link></div></li>    
 
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/L4">
     <img className="pinlist-image" alt="L4" src="http://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/d5/e6/72/1133/1133.ce68e513.png"/><div className="pinname">White on Gold 1A - 70%</div></Link></div></li>    

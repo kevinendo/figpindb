@@ -6,6 +6,53 @@ function NewReleases() {
         <div className="detail-box">
 <h3 align="center">New Releases</h3>
 
+<div className="videotitle">Powerpuff Girls - 3/7/24</div>
+<ul className="gallery mw-gallery-traditional-left">
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1650">
+    <img className="pinlist-image" alt="1650" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/a2/de/aa/12884/12884.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>   
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1651">
+    <img className="pinlist-image" alt="1651" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/68/c2/cf/12889/12889.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>   
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1652">
+    <img className="pinlist-image" alt="1652" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/ab/70/19/12894/12894.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>   
+
+</ul><br/>
+
+<div className="videotitle">Demon Slayer - 3/4/24</div>
+<ul className="gallery mw-gallery-traditional-left">
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1363">
+    <img className="pinlist-image" alt="1363" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/ab/85/7f/11768/11768.ce68e513.png"/><div className="pinname">Chalice Collectibles Exclusive</div></Link></div></li>   
+</ul><br/>
+
+<div className="videotitle">FiGPiN Logo - 3/4/24</div>
+<ul className="gallery mw-gallery-traditional-left">
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/L60">
+    <img className="pinlist-image" alt="L60" src="https://s3.us-east-2.amazonaws.com/figpinimages/FigpinImage/e0/31/22/8386/8386.ce68e513.png"/><div className="pinname">FiGPiN Exclusive</div></Link></div></li>   
+</ul><br/>
+
+<div className="videotitle">Up - 2/29/24</div>
+<ul className="gallery mw-gallery-traditional-left">  
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1640">
+    <img className="pinlist-image" alt="1640" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/62/f4/c4/12749/12749.ce68e513.png"/></Link></div></li>   
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1641">
+    <img className="pinlist-image" alt="1641" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/63/35/6b/12754/12754.ce68e513.png"/></Link></div></li>   
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1642">
+    <img className="pinlist-image" alt="1642" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/29/3f/17/12759/12759.ce68e513.png"/><div className="pinname">Fry Guy Pins Exclusive</div></Link></div></li>   
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1643">
+    <img className="pinlist-image" alt="1643" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/3e/b0/cd/12764/12764.ce68e513.png"/><div className="pinname">Fry Guy Pins Exclusive</div></Link></div></li>   
+    <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1644">
+    <img className="pinlist-image" alt="1644" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/48/d4/88/12769/12769.ce68e513.png"/><div className="pinname">Fry Guy Pins Exclusive</div></Link></div></li>   
+</ul>
+<br/>
+
+<div className="videotitle">Star Wars Rebels - 2/22/24</div>
+<ul className="gallery mw-gallery-traditional-left">  
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1632">
+    <img className="pinlist-image" alt="1632" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/bd/08/c8/12784/12784.ce68e513.png"/></Link></div></li>   
+<li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1633">
+    <img className="pinlist-image" alt="1633" src="https://s3.amazonaws.com/figpin-vault-images/FigpinImage/a3/10/0c/12789/12789.ce68e513.png"/></Link></div></li>   
+</ul>
+<br/>
+
 <div className="videotitle">Naruto - 2/16/24</div>
 <ul className="gallery mw-gallery-traditional-left">  
 <li className="gallerybox"><div className="pinbox"><Link to="/pinDetail/1559">

@@ -135,37 +135,20 @@ function GlobalNav() {
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a className="dropdown-item" href="/property_type/movies">See All Movies</a></li>
-              <li><a className="dropdown-item" href="/property/Alice In Wonderland">Alice In Wonderland</a></li>
               <li><a className="dropdown-item" href="/property/Aquaman and the Lost Kingdom">Aquaman and the Lost Kingdom</a></li>
               <li><a className="dropdown-item" href="/property/Avengers Endgame">Avengers Endgame</a></li>
               <li><a className="dropdown-item" href="/property/Avengers Infinity War">Avengers Infinity War</a></li>
-              <li><a className="dropdown-item" href="/property/Big Hero 6">Big Hero 6</a></li>
               <li><a className="dropdown-item" href="/property/Black Panther Wakanda Forever">Black Panther Wakanda Forever</a></li>
               <li><a className="dropdown-item" href="/property/Black Widow">Black Widow</a></li>
               <li><a className="dropdown-item" href="/property/The Blues Brothers">The Blues Brothers</a></li>
               <li><a className="dropdown-item" href="/property/Captain Marvel">Captain Marvel</a></li>
-              <li><a className="dropdown-item" href="/property/Disney Classics">Disney Classics</a></li>
-              <li><a className="dropdown-item" href="/property/Disney Princesses">Disney Princesses</a></li>
-              <li><a className="dropdown-item" href="/property/Disney Villains">Disney Villains</a></li>
-              <li><a className="dropdown-item" href="/property/Encanto">Encanto</a></li>
-              <li><a className="dropdown-item" href="/property/Fantasia">Fantasia</a></li>
               <li><a className="dropdown-item" href="/property/The Flash">The Flash</a></li>
               <li><a className="dropdown-item" href="/property/Godzilla">Godzilla</a></li>
               <li><a className="dropdown-item" href="/property/Guardians of the Galaxy 3">Guardians of the Galaxy 3</a></li>
               <li><a className="dropdown-item" href="/property/Harry Potter">Harry Potter</a></li>
-              <li><a className="dropdown-item" href="/property/Incredibles 2">Incredibles 2</a></li>
               <li><a className="dropdown-item" href="/property/IT">IT</a></li>
               <li><a className="dropdown-item" href="/property/Justice League 2017">Justice League 2017</a></li>
-              <li><a className="dropdown-item" href="/property/Lilo and Stitch">Lilo & Stitch</a></li>
-              <li><a className="dropdown-item" href="/property/The Lion King">The Lion King</a></li>
-              <li><a className="dropdown-item" href="/property/The Little Mermaid">The Little Mermaid</a></li>
               <li><a className="dropdown-item" href="/property/The Marvels">The Marvels</a></li>
-              <li><a className="dropdown-item" href="/property/Mickey and Friends">Mickey and Friends</a></li>
-              <li><a className="dropdown-item" href="/property/Monsters, Inc.">Monsters, Inc.</a></li>
-              <li><a className="dropdown-item" href="/property/Nightmare Before Christmas">Nightmare Before Christmas</a></li>
-              <li><a className="dropdown-item" href="/property/Onward">Onward</a></li>
-              <li><a className="dropdown-item" href="/property/Oswald the Lucky Rabbit">Oswald the Lucky Rabbit</a></li>
-              <li><a className="dropdown-item" href="/property/Raya and The Last Dragon">Raya and The Last Dragon</a></li>
               <li><a className="dropdown-item" href="/property/Spider-Man: Across The Spider-Verse">Spider-Man: Across The Spider-Verse</a></li>
               <li><a className="dropdown-item" href="/property/Spider-Man: Into the Spider-Verse">Spider-Man: Into The Spider-Verse</a></li>
               <li><a className="dropdown-item" href="/property/Spider-Man: No Way Home">Spider-Man: No Way Home</a></li>
@@ -175,7 +158,56 @@ function GlobalNav() {
               <li><a className="dropdown-item" href="/property/Star Wars Return of the Jedi">Star Wars Return of the Jedi</a></li>
               <li><a className="dropdown-item" href="/property/Star Wars The Force Awakens">Star Wars The Force Awakens</a></li>
               <li><a className="dropdown-item" href="/property/Thor Love and Thunder">Thor Love & Thunder</a></li>
+              </ul>
+            </li>        
+
+            <li className="nav-item dropdown">
+              <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Disney
+              </a>
+              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a className="dropdown-item" href="/licensor/Disney">See All Disney</a></li>
+              <li><a className="dropdown-item" href="/tags/Disney 100">Disney 100</a></li>     
+              <li><a className="dropdown-item" href="/property/Disney Parks">Disney Parks</a></li>   
+              <li><a className="dropdown-item" href="/tags/Disney Princess">Disney Princess</a></li>
+              <li><a className="dropdown-item" href="/tags/Disney Villains">Disney Villains</a></li>
+              <li><a className="dropdown-item" href="/property/Aladdin">Aladdin</a></li>
+              <li><a className="dropdown-item" href="/property/Alice In Wonderland">Alice In Wonderland</a></li>
+              <li><a className="dropdown-item" href="/tags/Alien Remix">Alien Remix</a></li>
+              <li><a className="dropdown-item" href="/property/Beauty and the Beast">Beauty and the Beast</a></li>
+              <li><a className="dropdown-item" href="/property/Big Hero 6">Big Hero 6</a></li>
+              <li><a className="dropdown-item" href="/property/Brave">Brave</a></li>
+              <li><a className="dropdown-item" href="/property/Cinderella">Cinderella</a></li>
+              <li><a className="dropdown-item" href="/property/Coco">Coco</a></li>
+              <li><a className="dropdown-item" href="/property/Dumbo">Dumbo</a></li>
+              <li><a className="dropdown-item" href="/property/Encanto">Encanto</a></li>
+              <li><a className="dropdown-item" href="/property/Fantasia">Fantasia</a></li>
+              <li><a className="dropdown-item" href="/property/Frozen">Frozen</a></li>
+              <li><a className="dropdown-item" href="/property/Hercules">Hercules</a></li>
+              <li><a className="dropdown-item" href="/property/Incredibles 2">Incredibles 2</a></li>
+              <li><a className="dropdown-item" href="/property/Inside Out">Inside Out</a></li>
+              <li><a className="dropdown-item" href="/property/Lilo and Stitch">Lilo & Stitch</a></li>
+              <li><a className="dropdown-item" href="/property/The Lion King">The Lion King</a></li>
+              <li><a className="dropdown-item" href="/property/The Little Mermaid">The Little Mermaid</a></li>
+              <li><a className="dropdown-item" href="/property/Mickey and Friends">Mickey and Friends</a></li>
+              <li><a className="dropdown-item" href="/property/Moana">Moana</a></li>
+              <li><a className="dropdown-item" href="/property/Monsters, Inc.">Monsters, Inc.</a></li>
+              <li><a className="dropdown-item" href="/property/Mulan">Mulan</a></li>
+              <li><a className="dropdown-item" href="/property/Nightmare Before Christmas">Nightmare Before Christmas</a></li>
+              <li><a className="dropdown-item" href="/property/101 Dalmations">101 Dalmations</a></li>
+              <li><a className="dropdown-item" href="/property/Onward">Onward</a></li>
+              <li><a className="dropdown-item" href="/property/Oswald the Lucky Rabbit">Oswald the Lucky Rabbit</a></li>
+              <li><a className="dropdown-item" href="/property/Peter Pan">Peter Pan</a></li>
+              <li><a className="dropdown-item" href="/property/Pinocchio">Pinocchio</a></li>
+              <li><a className="dropdown-item" href="/property/Pocahontas">Pocahontas</a></li>
+              <li><a className="dropdown-item" href="/property/The Princess and the Frog">The Princess and the Frog</a></li>
+              <li><a className="dropdown-item" href="/property/Ratatouille">Ratatouille</a></li>
+              <li><a className="dropdown-item" href="/property/Raya and The Last Dragon">Raya and The Last Dragon</a></li>
+              <li><a className="dropdown-item" href="/property/Sleeping Beauty">Sleeping Beauty</a></li>
+              <li><a className="dropdown-item" href="/property/Snow White">Snow White</a></li>
+              <li><a className="dropdown-item" href="/property/Tangled">Tangled</a></li>
               <li><a className="dropdown-item" href="/property/Toy Story">Toy Story</a></li>
+              <li><a className="dropdown-item" href="/property/Up">Up</a></li>
               <li><a className="dropdown-item" href="/property/WALL-E">WALL-E</a></li>
               <li><a className="dropdown-item" href="/property/Winnie the Pooh">Winnie the Pooh</a></li>
               </ul>
@@ -227,14 +259,11 @@ function GlobalNav() {
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a className="dropdown-item" href="/property_type/misc">See All Misc</a></li>
               <li><a className="dropdown-item" href="/property/ACDC High Voltage">AC/DC: High Voltage</a></li>
-              <li><a className="dropdown-item" href="/property/Alien Remix">Alien Remix</a></li>
               <li><a className="dropdown-item" href="/property/AMC Theatres">AMC Theatres</a></li>
               <li><a className="dropdown-item" href="/property/Bruce Lee">Bruce Lee</a></li>                
               <li><a className="dropdown-item" href="/property/Cities">Cities</a></li>
               <li><a className="dropdown-item" href="/property/David Bowie">David Bowie</a></li>    
               <li><a className="dropdown-item" href="/property/DesignerCon">DesignerCon</a></li>
-              <li><a className="dropdown-item" href="/property/Disney Parks">Disney Parks</a></li>   
-              <li><a className="dropdown-item" href="/property/Disney 100">Disney 100</a></li>     
               <li><a className="dropdown-item" href="/property/Gudetama">Gudetama</a></li>
               <li><a className="dropdown-item" href="/property/Hello Kitty and Friends">Hello Kitty and Friends</a></li>
               <li><a className="dropdown-item" href="/property/KISS">KISS</a></li>              
